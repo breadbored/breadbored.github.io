@@ -204,7 +204,7 @@ function Modals() {
         </div>
       </div>
 
-      <div id="project-2-modal" class="modal" tabindex="-1">
+      <div id="project-2-modal" className="modal">
         <div className="modal-background"></div>
         <div className="modal-card">
           <header className="modal-card-head">
@@ -326,11 +326,11 @@ function Modals() {
       <div id="project-6-modal" class="modal" tabindex="-1">
         <div className="modal-background"></div>
         <div className="modal-card">
-          <header className="modal-head">
+          <header className="modal-card-head">
             <p className="modal-card-title">This Portfolio</p>
             <button className="delete" aria-label="close" data-toggle="modal" data-target="#project-6-modal"></button>
           </header>
-          <section className="modal-body">
+          <section className="modal-card-body">
 
             <div className="content">
               <p>I wanted to learn a little more about React and how it can help my front-end projects, so I made my portfolio in React!</p>
@@ -345,7 +345,7 @@ function Modals() {
             </div>
 
           </section>
-          <footer className="modal-footer">
+          <footer className="modal-card-foot">
             <button className="button is-success" data-toggle="modal" data-target="#project-6-modal">Close</button>
           </footer>
         </div>
