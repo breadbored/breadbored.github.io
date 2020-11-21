@@ -42,7 +42,7 @@ function Header() {
             <div className="col-12 text-center">
               <img src="/img/me-big.jpg" className="rounded-circle pb-3" alt="Picture of Jason"/>
               <h1 className="font-weight-light">Jason Bradley Carpenter</h1>
-              <a className="lead btn btn-dark" target="_blank" href="https://bread.codes/files/2020resume.pdf"><i className="far fa-file-pdf"></i> See My Resume</a>
+              <a className="lead btn btn-dark" target="_blank" href="https://bread.codes/2020resume.pdf"><i className="far fa-file-pdf"></i> See My Resume</a>
             </div>
           </div>
         </div>
