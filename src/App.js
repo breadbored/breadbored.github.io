@@ -133,9 +133,9 @@ function Footer() {
           <div className="level-item has-text-centered">
             <div>
               <a href="https://bread.codes/2020resume.pdf" className="icon is-large">
-                <i className="fab fa-2x fa-dev"></i>
+                <i className="fas fa-2x fa-file-pdf"></i>
               </a>
-              <p className="heading"><a href="https://bread.codes/2020resume.pdf">bread.codes</a></p>
+              <p className="heading"><a href="https://bread.codes/2020resume.pdf">resume</a></p>
             </div>
           </div>
           <div className="level-item has-text-centered">
