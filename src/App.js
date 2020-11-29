@@ -124,7 +124,7 @@ function Footer() {
         <nav className="level">
           <div className="level-item has-text-centered">
             <div>
-              <a href="https://github.com/mmacneil" className="icon is-large">
+              <a href="https://github.com/breadbored" className="icon is-large">
                 <i className="fab fa-2x fa-github"></i>
               </a>
               <p className="heading"><a href="https://github.com/breadbored">github.com/breadbored</a></p>
@@ -132,15 +132,15 @@ function Footer() {
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <a href="https://fullstackmark.com" className="icon is-large">
-                <i className="fas fa-2x fa-globe"></i>
+              <a href="https://bread.codes/2020resume.pdf" className="icon is-large">
+                <i className="fab fa-2x fa-dev"></i>
               </a>
-              <p className="heading"><a href="https://bread.codes/">bread.codes</a></p>
+              <p className="heading"><a href="https://bread.codes/2020resume.pdf">bread.codes</a></p>
             </div>
           </div>
           <div className="level-item has-text-centered">
             <div>
-              <a href="mailto:markmacneil@gmail.com" className="icon is-large">
+              <a href="mailto:brad@identex.co" className="icon is-large">
                 <i className="fas fa-2x fa-envelope"></i>
               </a>
               <p className="heading"><a href="mailto:brad@identex.co">brad@identex.co</a></p>
