@@ -11,7 +11,7 @@ This is meant to be a reference article for non-scientific projects. This articl
 
 ## Interpolation
 
-If you're here reading this, you probably know that _interpolation_ is used when you have a series of data, either through time or space, and you want to estimate the data between your data points. If X<sub>0</sub>=0, Y<sub>0</sub>=0 and X<sub>2</sub>=2, Y<sub>2</sub>=4, then X<sub>1</sub>=1 means Y<sub>1</sub> probably equals 2. We can guess this because we can see the 2 values make up a line similar to Y=2X, or maybe it's Y=X^2. Who's to say? What's important is using the data we have around us to best-guess this.
+If you're here reading this, you probably know that _interpolation_ is used when you have a series of data, either through time or space, and you want to estimate the data between your data points. If X₀=0, Y₀=0 and X₂=2, Y₂=4, then X₁=1 means Y₁ probably equals 2. We can guess this because we can see the 2 values make up a line similar to Y=2X, or maybe it's Y=X^2. Who's to say? What's important is using the data we have around us to best-guess this.
 
 ## Problem & Requirements before Interpolation
 
@@ -21,7 +21,7 @@ Map Distortion and Scaling were unique to our project, however they may interest
 
 Our data was given to us in a 2D space with an XY coordinate system, however it was not processed for distortion. To do that, I found these scary looking equations:
 
-x = R (λ - λ<sub>0</sub>)
+x = R (λ - λ₀)
 
 y = R ln(tan(π/4 + θ/2))
 
@@ -29,7 +29,7 @@ Key points that hopefully help:
 
 - R is the radius of the given sphere (6378137.0 meters, according to the WGS 1984 semimajor axis. I don't know what this means, it's just important)
 
-- λ<sub>0</sub> is the central meridian (for the Mercator projection as we're using, this is 0.0˚ longitude)
+- λ₀ is the central meridian (for the Mercator projection as we're using, this is 0.0˚ longitude)
 
 - λ is the longitude in degrees (for example: -79.876884˚)
 
