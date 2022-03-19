@@ -76,6 +76,8 @@ Maps are scaled on an often used zoom level of 0 to ~23. 0 means the map is zoom
 
 That's it! Now for code examples.
 
+#### Metal
+
 ```c++
 float getMapScale(float zoomLevel) {
     return pow(2.0, zoomLevel);
@@ -88,6 +90,8 @@ float zoomLevel = 4.6;
 
 float2 screenScaledWidthHeight = screenWidthHeight * getMapScale(zoomLevel);
 ```
+
+#### Python 3
 
 ```python
 def getMapScale(zoom_level: float):
@@ -116,6 +120,8 @@ The first thing you need to do is have an angle in degrees (example: 270˚). Rad
 
 Once you have your angle in degrees and a number value for your speed (miles per hour, kilometers per hour, meters per second, nautical miles per quarter-century, it doesn't matter, just get a number), we're going to break up our angle and speed into U/V values. U and V values are a way to flatten our circular angle into 2 sin/cosine lines that can be interpolated independently and rejoined. For that I have this code that might explain better:
 
+#### Metal
+
 ```c++
 float2 velocityToUVComponents(int degrees, float speed) {
     float pi_approx = 3.1415926;
@@ -127,6 +133,8 @@ float2 velocityToUVComponents(int degrees, float speed) {
     return float2(u,v);
 }
 ```
+
+#### Python 3
 
 ```python
 from math import sin, cos, pi
@@ -142,6 +150,8 @@ def velocityToUVComponents(degrees: float, speed: float):
 
 and to go from UV values to degrees:
 
+#### Metal
+
 ```c++
 float uvComponentstoVelocity(float2 uv) {
     float pi_approx = 3.1415926;
@@ -150,6 +160,8 @@ float uvComponentstoVelocity(float2 uv) {
     return (atan2(uvs.y, uvs.x) * 360 / 2 / pi_approx) + 180;
 }
 ```
+
+#### Python 3
 
 ```python
 from math import pi, atan2
@@ -164,6 +176,8 @@ As I said, the purpose of this is to interpolate these U and V values independen
 
 Before continuing, please note that in Metal I'm passing around a pointer to a 1D array (representing a flat 2D array for Swift<->Metal compatibility) array of `WindGridPoint` values called `WindGridPoint *windGrid`. `WindGridPoint` is described below:
 
+#### Objective-C
+
 ```objective-c
 // This is in an Objective-C header (.h) file so that I can use the struct in both Swift and Metal.
 // You will need to add a simple Bridging-Header file to do this.
@@ -175,6 +189,8 @@ struct WindGridPoint {
 ```
 
 That is all the data I have for every point on the grid. Before I continue, I first want to mention that if you are following my example of passing around a 1D array representing a 2D array (not recommended but its easier), you need to know the size of the grid ahead of time or pass in another object like above called `WindGridInfo`:
+
+#### Objective-C
 
 ```objective-c
 // This is in an Objective-C header (.h) file so that I can use the struct in both Swift and Metal.
@@ -189,6 +205,8 @@ struct WindGridInfo {
 
 Now we can use this object to map over a 1D array as if it were a 2D array:
 
+#### Swift
+
 ```swift
 // Renderer.swift
 let info: WindGridInfo = WindGridInfo(
@@ -199,6 +217,8 @@ let info: WindGridInfo = WindGridInfo(
 )
 // Now pass this into your Metal pipeline
 ```
+
+#### Metal
 
 ```c++
 // Shaders.metal
@@ -234,6 +254,8 @@ The next step is described by the `getUVsOfRelativePosition` function below. Wha
 One more note: I now use a float3 for UV values to include the speed as a z value. The "degrees to UV code" above has changed.
 
 The full code for the bilinear interpolation functions for Metal, including the UV components, are below
+
+#### Metal
 
 ```c++
 # define pi_approx 3.1415926
@@ -341,6 +363,8 @@ float3 interpolateVelocity(float2 position, const device WindGridPoint *windGrid
 
 Now we can just call `interpolateVelocity` with an arbitrary point within our grid and we have our rotation in degrees as our X and our speed as our Y.
 
+#### Metal
+
 ```c++
 // Get these from the buffer:
 WindGridPoint* windGridPointArr = windGridPoints
@@ -355,4 +379,4 @@ float directionInDegrees = directionAndSpeed.x;
 float speed = directionAndSpeed.y;
 ```
 
-That's it! Leave a comment if you have any questions or want to raise concerns about the efficacy of my work.
+That's it! Email me at [brad@identex.co](mailto://brad@identex.co) if you have any questions or want to raise concerns about the efficacy of my work.
