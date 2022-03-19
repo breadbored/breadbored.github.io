@@ -37,6 +37,8 @@ Key points that hopefully help:
 
 The following example is given in Metal and Python:
 
+#### Metal
+
 ```c++
 // We use LongLat. We all know it as LatLong, but it is standard in math and mapping to use LongLat.
 // This is important for GIS, GeoJSON, MapBox, Google Maps, etc.
@@ -50,6 +52,8 @@ float2 longLatToXY(float2 coords) {
     return float2(x, y);
 }
 ```
+
+#### Python 3
 
 ```python
 from numpy import log as ln
