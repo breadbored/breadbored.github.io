@@ -1,19 +1,17 @@
 ---
 layout: post
 title: How to interpolate wind data
-date: 2021-11-04
+date: 2022-03-07
 categories: ["data", "algorithms"]
 ---
 
-I was put on a project at work recently that gave me way more experience than I ever thought a single project would. One of the things I learned was Metal Shading Language, Apple's GPU enabled language for graphics and GPU computing. I learned how powerful the GPU can be with math compared to a CPU, an obvious revelation until I did it for myself and experienced it first hand. Learning to use a C++ like language - without `new` & `delete` operators, `memalloc`, `memset`, `free`, inheritance/derived classes, the foundational **_stdlib_** for crying out loud - was an excellent experience that I could brag about in the first paragraph. It was interesting using a C++ language made primarily for linear algebra and vector calculus in 2D and 3D spaces.
-
-However, I was most proud of my teammate and I doing complex math when neither of us are particularly educated in math. After weeks of research, the client sending several research papers and obfuscated source code for math libraries that were irrelevant to our project, and many stress migraines, we finally did a simple task in math. It was easy in retrospect, we just didn't know what we were looking for or what was relevant to the data that we had.
+This article is a work in progress and will be revised several times. This is a loose series of words and code blocks to put my thoughts into words to help myself better understand the work I am doing. Please note that Metal is a c++-**_like_** language and is missing many core features of C++11 such as `new` & `delete` operators, `memalloc`, `memset`, `free`, inheritance/derived classes, the foundational `stdlib` (though it comes with it's own stripped down `metal_stdlib` with apple branded alternatives such as `vec<T, n>` instead of `std::vector<T>`), etc.
 
 This is meant to be a reference article for non-scientific projects. This article has been heavily simplified for performance and "close enough" approximations.
 
 ## Interpolation
 
-If you're here reading this, you probably know that _interpolation_ is used when you have a series of data, either through time or space, and you want to estimate the data between your data points. If X<sub>0</sub>=0, Y<sub>0</sub>=0 and X<sub>2</sub>=2, Y<sub>2</sub>=4, then X<sub>1</sub>=1 means Y<sub>1</sub> probably equals 2. We can guess this because we can see the 2 values make up a line similar to Y=2X, or maybe it's Y=X^2. Who's to say? What's important is using the data we have around us to best-guess this.
+If you're here reading this, you probably know that _interpolation_ is used when you have a series of data, either through time or space, and you want to estimate the data between your data points. If X₀=0, Y₀=0 and X₂=2, Y₂=4, then X₁=1 means Y₁ probably equals 2. We can guess this because we can see the 2 values make up a line similar to Y=2X, or maybe it's Y=X^2. Who's to say? What's important is using the data we have around us to best-guess this.
 
 ## Problem & Requirements before Interpolation
 
@@ -23,7 +21,7 @@ Map Distortion and Scaling were unique to our project, however they may interest
 
 Our data was given to us in a 2D space with an XY coordinate system, however it was not processed for distortion. To do that, I found these scary looking equations:
 
-x = R (λ - λ<sub>0</sub>)
+x = R (λ - λ₀)
 
 y = R ln(tan(π/4 + θ/2))
 
@@ -31,7 +29,7 @@ Key points that hopefully help:
 
 - R is the radius of the given sphere (6378137.0 meters, according to the WGS 1984 semimajor axis. I don't know what this means, it's just important)
 
-- λ<sub>0</sub> is the central meridian (for the Mercator projection as we're using, this is 0.0˚ longitude)
+- λ₀ is the central meridian (for the Mercator projection as we're using, this is 0.0˚ longitude)
 
 - λ is the longitude in degrees (for example: -79.876884˚)
 
@@ -162,11 +160,84 @@ def uvComponentsToVelocity(u: float, v: float):
     return (atan2(v, u) * 360 / 2 / pi) + 180
 ```
 
-As I said, the purpose of this is to interpolate these values independently of each other. Also, as an added bonus, the returning angles when we're finally done with this will always be between 0-360 and wrap around appropriately. What's so special about that? Have you tried averaging 1˚ and 359˚? It comes out to 180˚ instead of 0/360˚, which is wrong. U and V values are also good if you want to find just the simple average between two angles, which is the first step of interpolation!
+As I said, the purpose of this is to interpolate these U and V values independently of each other. As an added bonus, the returning angles when we're finally done with this will always be between 0-360 and wrap around appropriately. What's so special about that? Have you tried averaging 1˚ and 359˚? It comes out to 180˚ instead of 0˚ or 360˚, which is wrong. U and V values are also good if you want to find just the simple average between two angles, which is the first step of interpolation!
+
+Before continuing, please note that in Metal I'm passing around a pointer to a 1D array (representing a flat 2D array for Swift<->Metal compatibility) array of `WindGridPoint` values called `WindGridPoint *windGrid`. `WindGridPoint` is described below:
+
+```objective-c
+// This is in an Objective-C header (.h) file so that I can use the struct in both Swift and Metal.
+// You will need to add a simple Bridging-Header file to do this.
+struct WindGridPoint {
+    vector_float2 position;
+    float speed;
+    uint angle;
+};
+```
+
+That is all the data I have for every point on the grid. Before I continue, I first want to mention that if you are following my example of passing around a 1D array representing a 2D array (not recommended but its easier), you need to know the size of the grid ahead of time or pass in another object like above called `WindGridInfo`:
+
+```objective-c
+// This is in an Objective-C header (.h) file so that I can use the struct in both Swift and Metal.
+// You will need to add a simple Bridging-Header file to do this.
+struct WindGridInfo {
+    uint width;
+    uint height;
+    uint screenWidth;
+    uint screenHeight;
+};
+```
+
+Now we can use this object to map over a 1D array as if it were a 2D array:
+
+```swift
+// Renderer.swift
+let info: WindGridInfo = WindGridInfo(
+    width: 300,     // number of data points on the X axis
+    height: 100,    // number of data points on the Y axis
+    screenWidth: self.view.currentDrawable.width,
+    screenHeight: self.view.currentDrawable.height
+)
+// Now pass this into your Metal pipeline
+```
+
+```c++
+// Shaders.metal
+
+uint arr2DtoArr1D (uint x, uint y, WindGridInfo *info) {
+    return x + (y * info.width);
+}
+
+// A Vertex Pipeline that takes and executes our data from Swift. Can also be a Compute or any other pipeline type.
+vertex VertexOut vertexShader(
+  device Particle *particleArray [[buffer(0)]],
+  const device WindGridPoint *windGridPoints [[buffer(1)]],
+  const device WindGridInfo *windGridInfo [[buffer(2)]],
+  unsigned int vid [[vertex_id]]
+) {
+    // particleArray is our array of particles on the screen
+    // windGridPoints is the data for the grid
+    // * windGridInfo is what we just created that stores our grid information *
+    // vid is the index of the particleArray
+
+    WindGridInfo* info = windGridInfo;
+    uint dataPointX = 32;
+    uint dataPointY = 61;
+    uint dataPointIndex = arr2DtoArr1D(dataPointX, dataPointY, info);
+    WindGridPoint neededPoint = windGridPoints[dataPointIndex];
+}
+```
+
+That's how I look up a data point from a properly ordered array!
+
+The next step is described by the `getUVsOfRelativePosition` function below. What we are doing is making a square around the arbitrary point and getting the data from the 4 nearest points that create a square. For each of those points, we would use the `getUVsOfAbsolutePosition` function to get the data for that point. `getUVsOfAbsolutePosition` is using the method described above in regards to indexing a flattened 2D array.
+
+One more note: I now use a float3 for UV values to include the speed as a z value. The "degrees to UV code" above has changed.
 
 The full code for the bilinear interpolation functions for Metal, including the UV components, are below
 
 ```c++
+# define pi_approx 3.1415926
+
 float2 velocityToUVComponents(int degrees, float speed) {
     // To receive interpolatable rotational degrees, we must seperate the
     // angle into it's U and V values. U and V are the values that would
@@ -202,7 +273,7 @@ float4x3 getUVsOfRelativePosition(float4 positions, const device WindGridPoint *
     return float4x3(tl_uvs, tr_uvs, bl_uvs, br_uvs);
 }
 
-float3 interpolateVelocityToHeadingVector(float2 position, const device WindGridPoint *windGrid) {
+float3 interpolateVelocity(float2 position, const device WindGridPoint *windGrid) {
     // position is the adjusted position to fit the grid. X is 0-127, Y is 0-68
 
     float lowX = floor(position.x);
@@ -264,7 +335,24 @@ float3 interpolateVelocityToHeadingVector(float2 position, const device WindGrid
 
     float3 resUVS = float3(yU, yV, yS);
     float resultDirection = uvComponentstoVelocity(resUVS);
-    float2 resultHeadingVector = angleToHeadingVector(uint(resultDirection));
-    return float3(resultHeadingVector.x, resultHeadingVector.y, resUVS.z);
+    return float2(resultDirection, resUVS.z);
 }
 ```
+
+Now we can just call `interpolateVelocity` with an arbitrary point within our grid and we have our rotation in degrees as our X and our speed as our Y.
+
+```c++
+// Get these from the buffer:
+WindGridPoint* windGridPointArr = windGridPoints
+WindGridInfo* info = windGridInfo;
+
+// Separated for clarity
+float arbitraryX = 38.382921;
+float arbitraryY = 71.881391;
+float2 arbitraryPosition = float2(arbitraryX, arbitraryY);
+float2 directionAndSpeed = interpolateVelocity(arbitraryPosition, windGridPointArr);
+float directionInDegrees = directionAndSpeed.x;
+float speed = directionAndSpeed.y;
+```
+
+That's it! Leave a comment if you have any questions or want to raise concerns about the efficacy of my work.
