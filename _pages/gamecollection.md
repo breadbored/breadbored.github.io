@@ -204,8 +204,8 @@ See [Switch in the console section](#switch)
 
 ##### Wii - HM
 
-- [ ] (Wii) Harvest Moon: Tree of Tranquility - 2007
-- [ ] (Wii) Harvest moon: Magical Melody - 2008
+- [x] (Wii) Harvest Moon: Tree of Tranquility - 2007
+- [x] (Wii) Harvest moon: Magical Melody - 2008
 - [ ] (Wii) Harvest Moon: Animal Parade - 2008
 
 ##### Switch - SS
