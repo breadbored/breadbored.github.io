@@ -25,7 +25,7 @@ permalink: /collection/
     - [Wii U](#wii-u)
     - [Switch](#switch)
   - [Handheld](#handheld)
-    - [Game & Watch](#game--watch)
+    - [Game & Watch / LCD](#lcd)
     - [Gameboy and GBC](#gameboy--gameboy-color)
     - [Gameboy Advance](#gameboy-advance)
     - [DS through the 3DS](#ds-dsi-3ds-new-3ds)
@@ -62,7 +62,11 @@ permalink: /collection/
 #### NES
 
 - [-] The Legend of Zelda – 1986
+  - [ ] Standard Cartridge
+  - [-] Gold Cartridge
 - [-] Zelda II: The Adventure of Link – 1987
+  - [ ] Standard Cartridge
+  - [-] Gold Cartridge
 
 #### SNES
 
@@ -133,16 +137,18 @@ permalink: /collection/
 
 ### Handheld
 
-#### Game & Watch
+#### LCD
 
-- TODO
+- [ ] Zelda Game & Watch (1989)
+- [ ] Zelda no Densetsu: Kamigami no Triforce (1992)
+- [x] Zelda Game & Watch - Special Edition (2021)
 
 #### Gameboy & Gameboy Color
 
 - [-] The Legend of Zelda: Link’s Awakening – 1993
 - [ ] The Legend of Zelda: Link’s Awakening DX – 1993
 - [ ] The Legend of Zelda: Oracle of Ages – 2001
-- [ ] The Legend of Zelda: Oracle of Seasons – 2001
+- [-] The Legend of Zelda: Oracle of Seasons – 2001
 
 #### Gameboy Advance
 
@@ -151,10 +157,11 @@ permalink: /collection/
 #### DS, DSi, 3DS, New 3DS
 
 - [x] The Legend of Zelda: Phantom Hourglass – 2007
-- [ ] The Legend of Zelda: Spirit Tracks – 2009
+- [x] The Legend of Zelda: Spirit Tracks – 2009
 - [x] The Legend of Zelda: A Link Between Worlds – 2013
   - NOTE: Complete without manual
-- [ ] The Legend of Zelda: Ocarina of Time 3D – 2011
+- [x] The Legend of Zelda: Ocarina of Time 3D – 2011
+  - NOTE: Complete without manual
 - [x] The Legend of Zelda: Majora's Mask 3D – 2015
   - NOTE: Complete without manual
 
@@ -191,8 +198,8 @@ See [Switch in the console section](#switch)
 
 ##### Gamecube - HM
 
-- [ ] (GC) Harvest Moon: A Wonderful Life – 2003
-- [ ] (GC) Harvest Moon: Another Wonderful Life – 2005
+- [-] (GC) Harvest Moon: A Wonderful Life – 2003
+- [-] (GC) Harvest Moon: Another Wonderful Life – 2005
 - [ ] (GC) Bokujō Monogatari: Shiawase no Uta (JP Magical Melody) - 2005
 - [ ] (GC) Harvest moon: Magical Melody - 2005
 
@@ -248,7 +255,7 @@ See [Switch in the console section](#switch)
 
 - [ ] (NDS) Harvest Moon DS – 2005
 - [x] (NDS) Harvest moon DS Cute - 2008
-- [ ] (NDS) Harvest Moon: Island Of Happiness - 2008
+- [-] (NDS) Harvest Moon: Island Of Happiness - 2008
 - [x] (NDS) Harvest Moon: Sunshine Islands - 2008
 - [ ] (NDS) Harvest Moon: Grand Bazaar - 2008
 - [-] (NDS) Harvest Moon: Tale Of Two Towns - 2010
