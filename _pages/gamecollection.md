@@ -57,20 +57,22 @@ permalink: /collection/
 
 ## The Legend of Zelda
 
+Total Worth $1,427.40
+
 ### Console
 
 #### NES
 
 - The Legend of Zelda – 1986
   - ☐ Standard Cartridge [?]
-  - ☒ Gold Cartridge [[$]](https://www.pricecharting.com/game/nes/legend-of-zelda)
+  - ☒ Gold Cartridge [[$30]](https://www.pricecharting.com/game/nes/legend-of-zelda)
 - Zelda II: The Adventure of Link – 1987
   - ☐ Standard Cartridge [[$]](https://www.pricecharting.com/game/nes/zelda-ii-the-adventure-of-link-gray-cart)
-  - ☒ Gold Cartridge [[$]](https://www.pricecharting.com/game/nes/zelda-ii-the-adventure-of-link)
+  - ☒ Gold Cartridge [[$22.45]](https://www.pricecharting.com/game/nes/zelda-ii-the-adventure-of-link)
 
 #### SNES
 
-- ☒ The Legend of Zelda: A Link to the Past – 1991 [[$]](https://www.pricecharting.com/game/super-nintendo/zelda-link-to-the-past)
+- ☒ The Legend of Zelda: A Link to the Past – 1991 [[$34.95]](https://www.pricecharting.com/game/super-nintendo/zelda-link-to-the-past)
 
 ##### Satellaview
 
@@ -81,45 +83,45 @@ permalink: /collection/
 #### Philips CDi
 
 - ☐ Zelda CDI: LINK THE FACES OF EVIL - 1993 [[$]](https://www.pricecharting.com/game/cd-i/link-the-faces-of-evil?q=link+the+faces+of+evil)
-- ☑ Zelda CDI: ZELDA THE WAND OF GAMELON - 1993 [[$]](https://www.pricecharting.com/game/cd-i/zelda-the-wand-of-gamelon?q=zelda+the+wand+of+gamelon)
+- ☑ Zelda CDI: ZELDA THE WAND OF GAMELON - 1993 [[$300]](https://www.pricecharting.com/game/cd-i/zelda-the-wand-of-gamelon?q=zelda+the+wand+of+gamelon)
 - ☐ Zelda CDI: ZELDA'S ADVENTURE - 1994 [[$]](https://www.pricecharting.com/game/cd-i/zelda%27s-adventure?q=zelda%26%2339%3Bs+adventure)
 
 #### N64
 
 - ☒ The Legend of Zelda: Ocarina of Time – 1998
-  - ☒ Original Cartridge [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time)
+  - ☒ Original Cartridge [[$50]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time)
   - ☐ Gold Cartridge [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time-collector%27s-edition)
 - ☒ The Legend of Zelda: Majora’s Mask – 2000
   - ☐ Original Cartridge [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask)
-  - ☒ Collectors Edition without holographic sticker [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask-collector%27s-edition)
+  - ☒ Collectors Edition without holographic sticker [[$70]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask-collector%27s-edition)
   - ☐ Pre-ordered Collectors Edition with holographic sticker [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask-collector%27s-edition)
 
 #### Gamecube
 
-- ☑ The Legend of Zelda: The Wind Waker – 2002 [[$]](https://www.pricecharting.com/game/gamecube/zelda-wind-waker)
+- ☑ The Legend of Zelda: The Wind Waker – 2002 [[$65]](https://www.pricecharting.com/game/gamecube/zelda-wind-waker)
   - NOTE: Complete without manual
-- ☒ The Legend of Zelda: Ocarina of Time + Master Quest - 2002 [[$]](https://www.pricecharting.com/game/gamecube/zelda-ocarina-of-time-master-quest?q=zelda+ocarina+of+time+master+quest)
-- ☑ The Legend of Zelda: Collectors Edition - 2003 [[$]](https://www.pricecharting.com/game/gamecube/zelda-collector%27s-edition)
+- ☒ The Legend of Zelda: Ocarina of Time + Master Quest - 2002 [[$50]](https://www.pricecharting.com/game/gamecube/zelda-ocarina-of-time-master-quest?q=zelda+ocarina+of+time+master+quest)
+- ☑ The Legend of Zelda: Collectors Edition - 2003 [[$80]](https://www.pricecharting.com/game/gamecube/zelda-collector%27s-edition)
   - NOTE: Complete without manual
 - ☐ The Legend of Zelda: Four Swords Adventures – 2004 [[$]](https://www.pricecharting.com/game/gamecube/zelda-four-swords-adventures)
 - ☐ The Legend of Zelda: Twilight Princess (GameCube Version) – 2006 [[$]](https://www.pricecharting.com/game/gamecube/zelda-twilight-princess)
 
 #### Wii
 
-- ☑ The Legend of Zelda: Twilight Princess (Wii Version) – 2006 [[$]](https://www.pricecharting.com/game/wii/zelda-twilight-princess)
-- ☑ The Legend of Zelda: Skyward Sword – 2011 [[$]](https://www.pricecharting.com/game/wii/zelda-skyward-sword)
+- ☑ The Legend of Zelda: Twilight Princess (Wii Version) – 2006 [[$25]](https://www.pricecharting.com/game/wii/zelda-twilight-princess)
+- ☑ The Legend of Zelda: Skyward Sword – 2011 [[$25]](https://www.pricecharting.com/game/wii/zelda-skyward-sword)
 
 ##### Wii Spinoffs
 
-- ☒ LINK'S CROSSBOW TRAINING - 2007 [[$]](https://www.pricecharting.com/game/wii/link%27s-crossbow-training)
+- ☒ LINK'S CROSSBOW TRAINING - 2007 [[$5]](https://www.pricecharting.com/game/wii/link%27s-crossbow-training)
 
 #### Wii U
 
-- ☑ The Legend of Zelda: The Wind Waker HD - 2013 [[$]](https://www.pricecharting.com/game/wii-u/zelda-wind-waker-hd)
+- ☑ The Legend of Zelda: The Wind Waker HD - 2013 [[$70]](https://www.pricecharting.com/game/wii-u/zelda-wind-waker-hd)
   - NOTE: Complete but damaged label and without manual
-- ☑ The Legend of Zelda: Twilight Princess HD - 2016 [[$]](https://www.pricecharting.com/game/wii-u/zelda-twilight-princess-hd)
+- ☑ The Legend of Zelda: Twilight Princess HD - 2016 [[$105]](https://www.pricecharting.com/game/wii-u/zelda-twilight-princess-hd)
   - NOTE: Complete without manual
-- ☑ The Legend Of Zelda: Breath of the Wild - 2017 [[$]](https://www.pricecharting.com/game/wii-u/zelda-breath-of-the-wild)
+- ☐ The Legend Of Zelda: Breath of the Wild - 2017 [[$]](https://www.pricecharting.com/game/wii-u/zelda-breath-of-the-wild)
 
 ##### Wii U Spinoffs
 
@@ -127,7 +129,7 @@ permalink: /collection/
 
 #### Switch
 
-- ☑ The Legend Of Zelda: Breath of the Wild - 2017 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-breath-of-the-wild)
+- ☑ The Legend Of Zelda: Breath of the Wild - 2017 [[$60]](https://www.pricecharting.com/game/nintendo-switch/zelda-breath-of-the-wild)
   - NOTE: Box missing in our house!
 - ☐ The Legend of Zelda: Link's Awakening - 2019 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-link%27s-awakening)
 - ☐ The Legend of Zelda: Skyward Sword HD - 2021 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-skyward-sword-hd)
@@ -145,29 +147,29 @@ permalink: /collection/
 
 - ☐ Zelda Game & Watch (1989) [[$]](https://www.pricecharting.com/game/game-&-watch/zelda-zl-65)
 - ☐ Zelda no Densetsu: Kamigami no Triforce (1992) [?]
-- ☑ Zelda Game & Watch - Special Edition (2021) [[$]](https://www.pricecharting.com/game/game-&-watch/legend-of-zelda)
+- ☑ Zelda Game & Watch - Special Edition (2021) [[$40]](https://www.pricecharting.com/game/game-&-watch/legend-of-zelda)
 
 #### Gameboy & Gameboy Color
 
-- ☒ The Legend of Zelda: Link’s Awakening – 1993 [[$]](https://www.pricecharting.com/game/gameboy/zelda-link%27s-awakening)
+- ☒ The Legend of Zelda: Link’s Awakening – 1993 [[$35]](https://www.pricecharting.com/game/gameboy/zelda-link%27s-awakening)
 - ☐ The Legend of Zelda: Link’s Awakening DX – 1993 [[$]](https://www.pricecharting.com/game/gameboy-color/zelda-link%27s-awakening-dx)
 - ☐ The Legend of Zelda: Oracle of Ages – 2001 [[$]](https://www.pricecharting.com/game/gameboy-color/zelda-oracle-of-ages)
-- ☒ The Legend of Zelda: Oracle of Seasons – 2001 [[$]](https://www.pricecharting.com/game/gameboy-color/zelda-oracle-of-seasons)
+- ☒ The Legend of Zelda: Oracle of Seasons – 2001 [[$55]](https://www.pricecharting.com/game/gameboy-color/zelda-oracle-of-seasons)
   - NOTE: Sun damaged label
 
 #### Gameboy Advance
 
-- ☒ The Legend of Zelda: The Minish Cap – 2004 [[$]](https://www.pricecharting.com/game/gameboy-advance/zelda-minish-cap)
+- ☒ The Legend of Zelda: The Minish Cap – 2004 [[$75]](https://www.pricecharting.com/game/gameboy-advance/zelda-minish-cap)
 
 #### DS, DSi, 3DS, New 3DS
 
-- ☑ The Legend of Zelda: Phantom Hourglass – 2007 [[$]](https://www.pricecharting.com/game/nintendo-ds/zelda-phantom-hourglass)
-- ☑ The Legend of Zelda: Spirit Tracks – 2009 [[$]](https://www.pricecharting.com/game/nintendo-ds/zelda-spirit-tracks)
-- ☑ The Legend of Zelda: A Link Between Worlds – 2013 [[$]](https://www.pricecharting.com/game/nintendo-3ds/zelda-a-link-between-worlds)
+- ☑ The Legend of Zelda: Phantom Hourglass – 2007 [[$50]](https://www.pricecharting.com/game/nintendo-ds/zelda-phantom-hourglass)
+- ☑ The Legend of Zelda: Spirit Tracks – 2009 [[$95]](https://www.pricecharting.com/game/nintendo-ds/zelda-spirit-tracks)
+- ☑ The Legend of Zelda: A Link Between Worlds – 2013 [[$25]](https://www.pricecharting.com/game/nintendo-3ds/zelda-a-link-between-worlds)
   - NOTE: Complete without manual
-- ☑ The Legend of Zelda: Ocarina of Time 3D – 2011 [[$]](https://www.pricecharting.com/game/nintendo-3ds/zelda-ocarina-of-time-3d)
+- ☑ The Legend of Zelda: Ocarina of Time 3D – 2011 [[$30]](https://www.pricecharting.com/game/nintendo-3ds/zelda-ocarina-of-time-3d)
   - NOTE: Complete without manual
-- ☑ The Legend of Zelda: Majora's Mask 3D – 2015 [[$]](https://www.pricecharting.com/game/nintendo-3ds/zelda-majora%27s-mask-3d)
+- ☑ The Legend of Zelda: Majora's Mask 3D – 2015 [[$30]](https://www.pricecharting.com/game/nintendo-3ds/zelda-majora%27s-mask-3d)
   - NOTE: Complete without manual
 
 ##### DS, DSi, 3DS, New 3DS Spinoffs
