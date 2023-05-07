@@ -70,7 +70,7 @@ permalink: /collection/
 
 #### SNES
 
-- ☒ The Legend of Zelda: A Link to the Past – 1991
+- ☒ The Legend of Zelda: A Link to the Past – 1991 [[$]](https://www.pricecharting.com/game/super-nintendo/zelda-link-to-the-past)
 
 ##### Satellaview
 
