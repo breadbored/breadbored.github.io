@@ -76,7 +76,7 @@ permalink: /collection/
 
 - ☐ BS ZELDA NO DENSETSU -1995 [[$]](https://www.pricecharting.com/game/famicom/zelda-no-densetsu-1)
 - ☐ BS ZELDA NO DENSETSU KAMIGAMI NO TRIFORCE -1997 [[$]](https://www.pricecharting.com/game/super-famicom/zelda-no-densetsu-kamigami-no-triforce)
-- ☐ BS ZELDA NO DENSETSU INISHIE NO SEKIBAN -1997 [[$]](#unknown)
+- ☐ BS ZELDA NO DENSETSU INISHIE NO SEKIBAN -1997 [?]
 
 #### Philips CDi
 
@@ -144,7 +144,7 @@ permalink: /collection/
 #### LCD
 
 - ☐ Zelda Game & Watch (1989) [[$]](https://www.pricecharting.com/game/game-&-watch/zelda-zl-65)
-- ☐ Zelda no Densetsu: Kamigami no Triforce (1992) [[$]](#unknown)
+- ☐ Zelda no Densetsu: Kamigami no Triforce (1992) [?]
 - ☑ Zelda Game & Watch - Special Edition (2021) [[$]](https://www.pricecharting.com/game/game-&-watch/legend-of-zelda)
 
 #### Gameboy & Gameboy Color
