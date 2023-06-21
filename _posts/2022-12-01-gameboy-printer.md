@@ -15,6 +15,8 @@ categories: ["retro-computing", "microcontrollers"]
 3. [The Gameboy Printer](#the-gameboy-printer)
 4. [Important Notes](#important-notes)
 
+<a href="https://www.patreon.com/bePatron?u=34519148" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+
 ## The Project
 
 The objective is to document the Gameboy Printer, it's protocol, and the image format in a single source, and use that information to create a printer driver using a Raspberry Pi Pico.
