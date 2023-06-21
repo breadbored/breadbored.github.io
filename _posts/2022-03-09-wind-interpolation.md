@@ -383,4 +383,4 @@ float directionInDegrees = directionAndSpeed.x;
 float speed = directionAndSpeed.y;
 ```
 
-That's it! Email me at [brad@identex.co](mailto://brad@identex.co) if you have any questions or want to raise concerns about the efficacy of my work.
+That's it! Email me at [brad@bread.codes](mailto://brad@bread.codes) if you have any questions or want to raise concerns about the efficacy of my work.
