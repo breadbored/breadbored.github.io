@@ -90,7 +90,7 @@ Total Worth $1,763.40
 
 - ☒ The Legend of Zelda: Ocarina of Time – 1998
   - ☒ Original Cartridge [[$50]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time)
-  - ☒ Gold Cartridge [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time-collector%27s-edition)
+  - ☒ Gold Cartridge [[$76]](https://www.pricecharting.com/game/nintendo-64/zelda-ocarina-of-time-collector%27s-edition)
 - ☒ The Legend of Zelda: Majora’s Mask – 2000
   - ☐ Original Cartridge [[$]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask)
   - ☒ Collectors Edition without holographic sticker [[$70]](https://www.pricecharting.com/game/nintendo-64/zelda-majora%27s-mask-collector%27s-edition)
@@ -103,8 +103,8 @@ Total Worth $1,763.40
 - ☒ The Legend of Zelda: Ocarina of Time + Master Quest - 2002 [[$50]](https://www.pricecharting.com/game/gamecube/zelda-ocarina-of-time-master-quest?q=zelda+ocarina+of+time+master+quest)
 - ☑ The Legend of Zelda: Collectors Edition - 2003 [[$80]](https://www.pricecharting.com/game/gamecube/zelda-collector%27s-edition)
   - NOTE: Complete without manual
-- ☑ The Legend of Zelda: Four Swords Adventures – 2004 [[$]](https://www.pricecharting.com/game/gamecube/zelda-four-swords-adventures)
-- ☑ The Legend of Zelda: Twilight Princess (GameCube Version) – 2006 [[$]](https://www.pricecharting.com/game/gamecube/zelda-twilight-princess)
+- ☑ The Legend of Zelda: Four Swords Adventures – 2004 [[$90]](https://www.pricecharting.com/game/gamecube/zelda-four-swords-adventures)
+- ☑ The Legend of Zelda: Twilight Princess (GameCube Version) – 2006 [[$120]](https://www.pricecharting.com/game/gamecube/zelda-twilight-princess)
 
 #### Wii
 
@@ -133,7 +133,7 @@ Total Worth $1,763.40
   - NOTE: Box missing in our house!
 - ☐ The Legend of Zelda: Link's Awakening - 2019 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-link%27s-awakening)
 - ☐ The Legend of Zelda: Skyward Sword HD - 2021 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-skyward-sword-hd)
-- ☑ The Legend of Zelda: Tears of the Kingdom - 2023 [[$]](https://www.pricecharting.com/game/nintendo-switch/zelda-tears-of-the-kingdom)
+- ☑ The Legend of Zelda: Tears of the Kingdom - 2023 [[$50]](https://www.pricecharting.com/game/nintendo-switch/zelda-tears-of-the-kingdom)
 
 ##### Switch Spinoffs
 
