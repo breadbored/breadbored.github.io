@@ -57,8 +57,6 @@ permalink: /collection/
 
 ## The Legend of Zelda
 
-Total Worth $1,763.40
-
 ### Console
 
 #### NES
