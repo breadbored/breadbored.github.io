@@ -11,11 +11,11 @@ All of those apply to me, and aparently to David McCandless, Dr Stephanie Starli
 
 I felt inspired by their work, and I had an idea: What if we could see fact checking information while watching a movie?... Maybe a bit boring and intrusive to some, but I think this would be a fun feature for those who are interested in the truth behind the stories.
 
-Below are the SRT files for the movies that have been fact checked by the great people I meantioned, which I compiled into subtitles to be used while watching a movie. You can use these files with your favourite media player that supports SRT files, such as Plex, VLC, Kodi, etc.
+Below are the SRT files for the movies that have been fact checked by the great people I meantioned. I wrote a script to compile into subtitles to be used while watching a movie, and while this post isn't what I have this site for, I thought I'd share the result of a short project instead of the whole process. 
 
 ## Download the subtitles:
 
-These subtitles are listed in alphabetical order.
+These subtitles are listed in alphabetical order. You can use these files with your favourite media player that supports SRT files, such as Plex, VLC, Kodi, etc.
 
 - [12 Years a Slave](/assets/factchecksrt/12_years_a_slave.srt)
 - [American Sniper](/assets/factchecksrt/american_sniper.srt)
