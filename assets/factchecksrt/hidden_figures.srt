@@ -1,467 +1,696 @@
 1
 00:00:00,000 --> 00:00:05,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes
 
 2
-00:00:00,000 --> 00:00:42,000
+00:00:32,000 --> 00:00:42,000
 -
 
 3
-00:00:42,000 --> 00:01:02,000
+00:00:52,000 --> 00:01:02,000
 TRUE
-Katherine was fascinated by maths from an early age. 
+Katherine was fascinated by maths from an early age.
+History vs. Hollywood
+
 4
-00:01:02,000 --> 00:01:31,000
+00:01:21,000 --> 00:01:31,000
 TRUE
 Katherine's parents were super supportive. She skipped a couple of grades & joined West Virginia Institute.
+History vs. Hollywood
+
 5
-00:01:31,000 --> 00:02:34,000
+00:02:24,000 --> 00:02:34,000
 TRUE
-Katherine was among the youngest in her class, having skipped several grades by this point. She graduated at 14. 
+Katherine was among the youngest in her class, having skipped several grades by this point. She graduated at 14.
+History vs. Hollywood
+
 6
-00:02:34,000 --> 00:02:57,000
+00:02:47,000 --> 00:02:57,000
 TRUE
-Katherine's father moved the family 120 miles each school year so that the girls could attend the West Virginia Institute, since in their hometown of White Sulphur Springs blacks couldn't continue their education beyond 8th grade. Both parents were fully supportive & always there for her. 
+Katherine's father moved the family 120 miles each school year so that the girls could attend the West Virginia Institute, since in their hometown of White Sulphur Springs blacks couldn't continue their education beyond 8th grade. Both parents were fully supportive & always there for her.
+History vs. Hollywood
+
 7
-00:02:57,000 --> 00:04:01,000
+00:03:51,000 --> 00:04:01,000
 FALSE
 Katherine didn't commute with Mary & Dorothy, & the broken-down-car incident isn't in the book. Also Dorothy never learnt to drive & wasn't an engineer, so it's unlikely she could have fixed a car anyway.
+Hidden Figures (2016) by Margot Lee Shetterly, epilogue
+
 8
-00:04:01,000 --> 00:06:24,000
+00:06:14,000 --> 00:06:24,000
 FALSE
 This incident isn't in the book, but it demonstrates the reality that black people drew unwarranted suspicion from the police, & his turnaround on seeing the NASA badges shows just how invested people were in the space race.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 9
-00:06:24,000 --> 00:07:11,000
+00:07:01,000 --> 00:07:11,000
 FALSE
 This incident isn't in the book, but it demonstrates the reality that black people drew unwarranted suspicion from the police, & his turnaround on seeing the NASA badges shows just how invested people were in the space race.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 10
-00:07:11,000 --> 00:08:03,000
+00:07:53,000 --> 00:08:03,000
 TRUE
-Sputnik launched in 1957 (earlier than the movie shows), successfully completing several orbits in space. It was a kick in the gut for NASA & America. Everyone feared Russian missiles would be next. Harrison is a composite, representing 3 NASA directors. 
+Sputnik launched in 1957 (earlier than the movie shows), successfully completing several orbits in space. It was a kick in the gut for NASA & America. Everyone feared Russian missiles would be next. Harrison is a composite, representing 3 NASA directors.
+History vs. Hollywood
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 11
-00:08:03,000 --> 00:08:16,000
+00:08:06,000 --> 00:08:16,000
 TRUE
-Sputnik launched in 1957 (earlier than the movie shows), successfully completing several orbits in space. It was a kick in the gut for NASA & America. Everyone feared Russian missiles would be next. 
+Sputnik launched in 1957 (earlier than the movie shows), successfully completing several orbits in space. It was a kick in the gut for NASA & America. Everyone feared Russian missiles would be next.
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 12
-00:08:16,000 --> 00:09:25,000
+00:09:15,000 --> 00:09:25,000
 TRUE
-We don't have the details of this particular meeting, & some of these characters were composites. We do know there was enormous pressure on NASA from the administration to catch up with Russia. 
+We don't have the details of this particular meeting, & some of these characters were composites. We do know there was enormous pressure on NASA from the administration to catch up with Russia.
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 13
-00:09:25,000 --> 00:10:19,000
+00:10:09,000 --> 00:10:19,000
 TRUE
-Langley got its first IBM machines in the mid-1950s, with several upgrades in the years following. Big hopes were pinned on those machines, but human computers were still vital.  
+Langley got its first IBM machines in the mid-1950s, with several upgrades in the years following. Big hopes were pinned on those machines, but human computers were still vital.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 14
-00:10:19,000 --> 00:12:03,000
+00:11:53,000 --> 00:12:03,000
 TRUE
 Dorothy handed out assignments to the West computer room 'girls', where Katherine started out, although the department was dissolved in 1958. Katherine had left to join the Flight Research Division much earlier. Vivian was a representative character.
+Hidden Figures (2016) by Margot Lee Shetterly, ch6, 9
+
 15
-00:12:03,000 --> 00:12:55,000
+00:12:45,000 --> 00:12:55,000
 TRUE
 This happened earlier on. West room supervisor Blanche Sponsler suffered a breakdown & was admitted to a sanitorium. Dorothy was appointed acting supervisor where she was kept in limbo for 2yrs, pushing for the title she wanted, until she was finally made supervisor in 1951.
+Hidden Figures (2016) by Margot Lee Shetterly, ch9
+
 16
-00:12:55,000 --> 00:13:19,000
+00:13:09,000 --> 00:13:19,000
 TRUE
-Mary was offered a job alongside the male engineers, where she worked in the test tunnels. 
+Mary was offered a job alongside the male engineers, where she worked in the test tunnels.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11
+
 17
-00:13:19,000 --> 00:13:47,000
+00:13:37,000 --> 00:13:47,000
 FALSE-ISH
-The shoe thing didn't happen, but she did work in the test tunnels. 
+The shoe thing didn't happen, but she did work in the test tunnels.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 18
-00:13:47,000 --> 00:15:49,000
+00:15:39,000 --> 00:15:49,000
 TRUE-ISH
-Czarnecki suggested Mary enroll in the engineer training program. He was a white Catholic yankee, not Jewish, but still, he didn't care for gender or race segregation & didn't see why it should hinder brainpower like Mary's. 
+Czarnecki suggested Mary enroll in the engineer training program. He was a white Catholic yankee, not Jewish, but still, he didn't care for gender or race segregation & didn't see why it should hinder brainpower like Mary's.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11
+
 19
-00:15:49,000 --> 00:16:39,000
+00:16:29,000 --> 00:16:39,000
 TRUE
-Katherine was selected from the West computers to assist the Flight Research Division, which later morphed into the Space Task Group. She was the first black woman to join the team. 
+Katherine was selected from the West computers to assist the Flight Research Division, which later morphed into the Space Task Group. She was the first black woman to join the team.
+Hidden Figures (2016) by Margot Lee Shetterly, ch12
+
 20
-00:16:39,000 --> 00:17:44,000
+00:17:34,000 --> 00:17:44,000
 TRUE-ISH
-It wasn't all men like the movie shows, some women worked in the Flight Research Division (later the Space Task Group). Katherine was the only black woman, though, so she might have drawn a few looks. 
+It wasn't all men like the movie shows, some women worked in the Flight Research Division (later the Space Task Group). Katherine was the only black woman, though, so she might have drawn a few looks.
+Hidden Figures (2016) by Margot Lee Shetterly, ch12
+
 21
-00:17:44,000 --> 00:19:14,000
+00:19:04,000 --> 00:19:14,000
 FALSE-ISH
-Katherine worked through hundreds of pages of calcs daily. Stafford is a composite character, created to represent racist & sexist attitudes that were very real within parts of NASA at the time, although Katherine says she never experienced racism personally at NASA. 
+Katherine worked through hundreds of pages of calcs daily. Stafford is a composite character, created to represent racist & sexist attitudes that were very real within parts of NASA at the time, although Katherine says she never experienced racism personally at NASA.
+History vs. Hollywood
+
 22
-00:19:14,000 --> 00:20:19,000
+00:20:09,000 --> 00:20:19,000
 TRUE
-NASA directors certainly wanted things done right. The Mercury 7 did set up for training at NASA HQ. 
+NASA directors certainly wanted things done right. The Mercury 7 did set up for training at NASA HQ.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 23
-00:20:19,000 --> 00:21:04,000
+00:20:54,000 --> 00:21:04,000
 We couldn't find sources for this. 
-We don't know what Katherine had clearance for, or whether parts of the information she had to work from were redacted. 
+We don't know what Katherine had clearance for, or whether parts of the information she had to work from were redacted.
+
+
 24
-00:21:04,000 --> 00:21:42,000
+00:21:32,000 --> 00:21:42,000
 TRUE-ISH
-The book relates an incident where white women can't tell Mary where the black bathrooms are (they don't know), so she has to walk miles to find one by herself. Katherine refused to use black bathrooms from her first day on. 
+The book relates an incident where white women can't tell Mary where the black bathrooms are (they don't know), so she has to walk miles to find one by herself. Katherine refused to use black bathrooms from her first day on.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11
+
 25
-00:21:42,000 --> 00:23:33,000
+00:23:23,000 --> 00:23:33,000
 TRUE-ISH
-This scene illustrates a common issue but not one that Katherine experienced. The book relates an incident where Mary has to walk miles to use the black bathrooms. 
+This scene illustrates a common issue but not one that Katherine experienced. The book relates an incident where Mary has to walk miles to use the black bathrooms.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 13
+
 26
-00:23:33,000 --> 00:23:50,000
+00:23:40,000 --> 00:23:50,000
 FALSE
 Katherine ignored bathroom segregation from day one, just using whichever was closest.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 13
+
 27
-00:23:50,000 --> 00:24:47,000
+00:24:37,000 --> 00:24:47,000
 FALSE-ISH
-The coffee incident isn't in the book & Katherine is on record saying she never personally experienced racism at Langley. However, catering facilities, bathrooms etc were segregated at Langley until NACA became NASA in 1958, so the scene is demonstrative. 
+The coffee incident isn't in the book & Katherine is on record saying she never personally experienced racism at Langley. However, catering facilities, bathrooms etc were segregated at Langley until NACA became NASA in 1958, so the scene is demonstrative.
+Hidden Figures (2016) by Margot Lee Shetterly, ch12
+
 28
-00:24:47,000 --> 00:26:43,000
+00:26:33,000 --> 00:26:43,000
 FALSE-ISH
-Harrison wasn't a real person, but he's typical of perfectionist NASA directors. Katherine didn't work that closely with any of the directors, though. 
+Harrison wasn't a real person, but he's typical of perfectionist NASA directors. Katherine didn't work that closely with any of the directors, though.
+Hidden Figures (2016) by Margot Lee Shetterly
+History vs. Hollywood
+
 29
-00:26:43,000 --> 00:28:36,000
+00:28:26,000 --> 00:28:36,000
 FALSE-ISH
-Mary, Dorothy & Katherine didn't commute together, although Katherine did commute with another black woman, Eunice Smith. Dorothy was supervisor already by this point, but it had taken her 2yrs to get the gig, so she likely complained at some point. 
+Mary, Dorothy & Katherine didn't commute together, although Katherine did commute with another black woman, Eunice Smith. Dorothy was supervisor already by this point, but it had taken her 2yrs to get the gig, so she likely complained at some point.
+Hidden Figures (2016) by Margot Lee Shetterly, ch8, 20
+
 30
-00:28:36,000 --> 00:29:44,000
+00:29:34,000 --> 00:29:44,000
 TRUE
 Katherine did live with her mother at some point, whom she was close to, although it's unclear exactly when. She had three daughters with Jimmy Goble.
+Hidden Figures (2016) by Margot Lee Shetterly, ch8
+
 31
-00:29:44,000 --> 00:32:20,000
+00:32:10,000 --> 00:32:20,000
 TRUE
-Katherine's first husband Jimmy Goble died around Christmas 1956. She raised her children alone until she remarried in 1959. Everybody was worried about the Russians by this point, it's likely the girls were concerned too. 
+Katherine's first husband Jimmy Goble died around Christmas 1956. She raised her children alone until she remarried in 1959. Everybody was worried about the Russians by this point, it's likely the girls were concerned too.
+Hidden Figures (2016) by Margot Lee Shetterly, ch13
+
 32
-00:32:20,000 --> 00:33:31,000
+00:33:21,000 --> 00:33:31,000
 TRUE
-Katherine did meet her future second husband in church, where he was introduced to the congregation by the pastor. He was an army captain, & she noticed him straight away. 
+Katherine did meet her future second husband in church, where he was introduced to the congregation by the pastor. He was an army captain, & she noticed him straight away.
+Hidden Figures (2016) by Margot Lee Shetterly, ch18
+
 33
-00:33:31,000 --> 00:34:51,000
+00:34:41,000 --> 00:34:51,000
 We couldn't find sources for this. 
-We don't know much about Mary's relationship with her husband. 
+We don't know much about Mary's relationship with her husband.
+
+
 34
-00:34:51,000 --> 00:36:15,000
+00:36:05,000 --> 00:36:15,000
 TRUE-ISH
-The details of Katherine & Johnson's early courtship are kept to a minimum in the book. We know they attended church & lunches etc together, & they did meet at a church thing & began dating right away. Mary & Dorothy weren't involved, though. 
+The details of Katherine & Johnson's early courtship are kept to a minimum in the book. We know they attended church & lunches etc together, & they did meet at a church thing & began dating right away. Mary & Dorothy weren't involved, though.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11
+
 35
-00:36:15,000 --> 00:37:39,000
+00:37:29,000 --> 00:37:39,000
 She was private about her private life. 
-We don't know what was said between the two during their early courtship. 
+We don't know what was said between the two during their early courtship.
+
+
 36
-00:37:39,000 --> 00:39:23,000
+00:39:13,000 --> 00:39:23,000
 We couldn't find sources for this. 
-NASA introduced the Mercury 7 in Washington in 1959, & they become overnight heroes. It's likely many NASA staff were super keen to greet them on arrival at Langley. We don't know whether or not Glenn insisted on meeting everyone, but it seems he was comfortable working with Katherine over the years. 
+NASA introduced the Mercury 7 in Washington in 1959, & they become overnight heroes. It's likely many NASA staff were super keen to greet them on arrival at Langley. We don't know whether or not Glenn insisted on meeting everyone, but it seems he was comfortable working with Katherine over the years.
+
+
 37
-00:39:23,000 --> 00:39:50,000
+00:39:40,000 --> 00:39:50,000
 FALSE-ISH
-The coffee incident isn't in the book. However, catering facilities, bathrooms etc were segregated at Langley until NACA became NASA in 1958, so the scene is demonstrative. 
+The coffee incident isn't in the book. However, catering facilities, bathrooms etc were segregated at Langley until NACA became NASA in 1958, so the scene is demonstrative.
+Hidden Figures (2016) by Margot Lee Shetterly, ch12
+
 38
-00:39:50,000 --> 00:40:48,000
+00:40:38,000 --> 00:40:48,000
 FALSE
-This incident isn't in the book. She would have done many of her calcs on chalkboards, though. 
+This incident isn't in the book. She would have done many of her calcs on chalkboards, though.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 39
-00:40:48,000 --> 00:41:20,000
+00:41:10,000 --> 00:41:20,000
 FALSE
-There's no record of walls being smashed to fit an IBM in. 
+There's no record of walls being smashed to fit an IBM in.
+History vs. Hollywood
+
 40
-00:41:20,000 --> 00:42:48,000
+00:42:38,000 --> 00:42:48,000
 TRUE
-Dorothy was very interested in the IBM & took pains to find out as much about it as she could, eventually learning the Fortan programming needed to work it. 
+Dorothy was very interested in the IBM & took pains to find out as much about it as she could, eventually learning the Fortan programming needed to work it.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 41
-00:42:48,000 --> 00:43:58,000
+00:43:48,000 --> 00:43:58,000
 TRUE
-Katherine did play a huge part in Shepard's flight, calculating the trajectories for the capsule. Christened Freedom 7, the mission was a big success. 
+Katherine did play a huge part in Shepard's flight, calculating the trajectories for the capsule. Christened Freedom 7, the mission was a big success.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 42
-00:43:58,000 --> 00:46:10,000
+00:46:00,000 --> 00:46:10,000
 FALSE
-We don't know for sure if the stuff Katherine worked on had redacted sections, but it's not mentioned in the book. 
+We don't know for sure if the stuff Katherine worked on had redacted sections, but it's not mentioned in the book.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 43
-00:46:10,000 --> 00:46:40,000
+00:46:30,000 --> 00:46:40,000
 TRUE-ISH
-The canteens were segregated, but only until 1958, and Katherine usually took lunch alone at her desk anyway. 
+The canteens were segregated, but only until 1958, and Katherine usually took lunch alone at her desk anyway.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 44
-00:46:40,000 --> 00:47:29,000
+00:47:19,000 --> 00:47:29,000
 TRUE
-Mary did need to take an extension course to be able to apply for the engineer training program at NASA. The course was only available at Hampton High, a segregated school. 
+Mary did need to take an extension course to be able to apply for the engineer training program at NASA. The course was only available at Hampton High, a segregated school.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 45
-00:47:29,000 --> 00:48:05,000
+00:47:55,000 --> 00:48:05,000
 TRUE-ISH
-Mary was hugely frustrated by segregation & probably did rant about it to her friends, but she didn't spend much time with Katherine & Dorothy outside of work. She decides to petition the court for access to classes at Hampton. 
+Mary was hugely frustrated by segregation & probably did rant about it to her friends, but she didn't spend much time with Katherine & Dorothy outside of work. She decides to petition the court for access to classes at Hampton.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 46
-00:48:05,000 --> 00:49:04,000
+00:48:54,000 --> 00:49:04,000
 FALSE-ISH
-Although friendly, the three women weren't especially close. We're assuming they probably all baked & partied with their friends at some point. 
+Although friendly, the three women weren't especially close. We're assuming they probably all baked & partied with their friends at some point.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 47
-00:49:04,000 --> 00:49:32,000
+00:49:22,000 --> 00:49:32,000
 TRUE-ISH
-This moment isn't in the book, but the civil rights movement was in full swing at this stage – it's likely Dorothy & her family encountered protests in highly segregated Virginia in the 1960s. 
+This moment isn't in the book, but the civil rights movement was in full swing at this stage – it's likely Dorothy & her family encountered protests in highly segregated Virginia in the 1960s.
+
+
 48
-00:49:32,000 --> 00:50:16,000
+00:50:06,000 --> 00:50:16,000
 FALSE-ISH
 This particular incident isn't on record, but libraries were indeed segregated, with the black sections having the poorest selection of texts.
+DPLA
+
 49
-00:50:16,000 --> 00:51:06,000
+00:50:56,000 --> 00:51:06,000
 FALSE-ISH
-She didn't steal a library book, but she was actively against segregation & it's likely she shared her views with her children. 
+She didn't steal a library book, but she was actively against segregation & it's likely she shared her views with her children.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 50
-00:51:06,000 --> 00:51:40,000
+00:51:30,000 --> 00:51:40,000
 FALSE-ISH
-The black women of NASA were friendly & they might have attended each other's family events. The book doesn't mention Mary & Dorothy having a part to play in bringing Katherine & Johnson together, though. 
+The black women of NASA were friendly & they might have attended each other's family events. The book doesn't mention Mary & Dorothy having a part to play in bringing Katherine & Johnson together, though.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 51
-00:51:40,000 --> 00:53:34,000
+00:53:24,000 --> 00:53:34,000
 She was private about her private life. 
-We don't know much about the intimate details of Katherine & Johnson's courtship. 
+We don't know much about the intimate details of Katherine & Johnson's courtship.
+
+
 52
-00:53:34,000 --> 00:53:57,000
+00:53:47,000 --> 00:53:57,000
 TRUE
-Yuri Gagarin became the first man in space in 1961, when his spacecraft completed an orbit of the earth. 
+Yuri Gagarin became the first man in space in 1961, when his spacecraft completed an orbit of the earth.
+BBC
+
 53
-00:53:57,000 --> 00:54:27,000
+00:54:17,000 --> 00:54:27,000
 TRUE
-NASA directors & their teams would have been watching every second of Russia's success. 
+NASA directors & their teams would have been watching every second of Russia's success.
+History vs. Hollywood
+
 54
-00:54:27,000 --> 00:56:21,000
+00:56:11,000 --> 00:56:21,000
 TRUE
 It was definitely game-on from 1961, when JFK told the world the US would put a man on the moon by the end of the decade. Harrison was a composite character, but we're assuming the real NASA directors took a similar stance.
+History.com
+
 55
-00:56:21,000 --> 00:56:49,000
+00:56:39,000 --> 00:56:49,000
 TRUE
-Katherine worked intensely throughout her time at NASA, as did her teammates. Late nights were standard, her husband understood that. 
+Katherine worked intensely throughout her time at NASA, as did her teammates. Late nights were standard, her husband understood that.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 56
 00:56:49,000 --> 00:56:58,000
 TRUE
-According to the book, it took 1.2million tests, calculations, experiments etc to get the first US man into space. Redstone was part of that. Press conferences were frequent. The IBM was temperamental. 
+According to the book, it took 1.2million tests, calculations, experiments etc to get the first US man into space. Redstone was part of that. Press conferences were frequent. The IBM was temperamental.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 57
-00:56:58,000 --> 00:58:19,000
+00:58:09,000 --> 00:58:19,000
 TRUE
-Mary filed her petition with the City of Hampton.  
+Mary filed her petition with the City of Hampton.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 58
-00:58:19,000 --> 00:59:06,000
+00:58:56,000 --> 00:59:06,000
 TRUE-ISH
-Dorothy worked at mastering Fortran, but she didn't have to sneak around. It took 1.2million tests, calculations, experiments etc to get the first US man into space. Redstone was part of that. Press conferences were frequent. The IBM was indeed temperamental. 
+Dorothy worked at mastering Fortran, but she didn't have to sneak around. It took 1.2million tests, calculations, experiments etc to get the first US man into space. Redstone was part of that. Press conferences were frequent. The IBM was indeed temperamental.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 59
-00:59:06,000 --> 00:59:28,000
+00:59:18,000 --> 00:59:28,000
 TRUE-ISH
-The West Computing Room had been dissolved by this stage, but Dorothy did work with the IBM machine, training others in the programming. 
+The West Computing Room had been dissolved by this stage, but Dorothy did work with the IBM machine, training others in the programming.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 60
-00:59:28,000 --> 00:59:41,000
+00:59:31,000 --> 00:59:41,000
 TRUE
-We don't know if the team applauded her, but since it was her boss Czarnecki who wanted her to join the training program that required court permission for her to get the relevant qualifications, we're assuming he was probably pleased about her success. 
+We don't know if the team applauded her, but since it was her boss Czarnecki who wanted her to join the training program that required court permission for her to get the relevant qualifications, we're assuming he was probably pleased about her success.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 61
-00:59:41,000 --> 01:00:04,000
+00:59:54,000 --> 01:00:04,000
 FALSE-ISH
-Dorothy mastered the IBM. She wasn't the first to get it up & running, though. NASA had been working with various versions of the IBM for years by this point. 
+Dorothy mastered the IBM. She wasn't the first to get it up & running, though. NASA had been working with various versions of the IBM for years by this point.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 62
-01:00:04,000 --> 01:01:13,000
+01:01:03,000 --> 01:01:13,000
 TRUE-ISH
-This happened to Mary at Langley, as well as most of the other black staff. Katherine refused to use the 'coloured' bathrooms from her first day & nothing was ever said about it. 
+This happened to Mary at Langley, as well as most of the other black staff. Katherine refused to use the 'coloured' bathrooms from her first day & nothing was ever said about it.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 16
+
 63
-01:01:13,000 --> 01:03:09,000
+01:02:59,000 --> 01:03:09,000
 FALSE-ISH
 The segregated bathrooms were an issue earlier on, when Mary had problems finding her bathrooms & raged about it to white colleague Kazimierz Czarnecki. The scene illustrates issues some black NASA employees really faced, but Katherine herself didn't.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 16
+
 64
-01:03:09,000 --> 01:03:29,000
+01:03:19,000 --> 01:03:29,000
 FALSE-ISH
-Segregation did end at Langley in 1958. The directors Harrison's character represents might have had something to do with the decision, we don't know. But they didn't personally remove labels and/or bathroom signs. 
+Segregation did end at Langley in 1958. The directors Harrison's character represents might have had something to do with the decision, we don't know. But they didn't personally remove labels and/or bathroom signs.
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 65
-01:03:29,000 --> 01:04:35,000
+01:04:25,000 --> 01:04:35,000
 FALSE
-Segregation did end at Langley in 1958. The directors Harrison's character represents might have had something to do with the decision, we don't know. But they didn't personally remove labels and/or bathroom signs. 
+Segregation did end at Langley in 1958. The directors Harrison's character represents might have had something to do with the decision, we don't know. But they didn't personally remove labels and/or bathroom signs.
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 66
-01:04:35,000 --> 01:05:33,000
+01:05:23,000 --> 01:05:33,000
 She was private about her private life. 
-We don't know much about the intimate details of Katherine & Johnson's courtship. 
+We don't know much about the intimate details of Katherine & Johnson's courtship.
+
+
 67
-01:05:33,000 --> 01:05:58,000
+01:05:48,000 --> 01:05:58,000
 TRUE
-Alan Shepard's flight lasted 15m22s & covered 303 miles. Millions tuned in to watch on live TV. 
+Alan Shepard's flight lasted 15m22s & covered 303 miles. Millions tuned in to watch on live TV.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 68
-01:05:58,000 --> 01:08:12,000
+01:08:02,000 --> 01:08:12,000
 TRUE
-The mission was a success. JFK made a big speech, everybody celebrated. 
+The mission was a success. JFK made a big speech, everybody celebrated.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 69
-01:08:12,000 --> 01:08:45,000
+01:08:35,000 --> 01:08:45,000
 TRUE
-We're assuming NASA bigwigs congratulated their teams. 
+We're assuming NASA bigwigs congratulated their teams.
+Hidden Figures (2016) by Margot Lee Shetterly, ch20
+
 70
-01:08:45,000 --> 01:10:02,000
+01:09:52,000 --> 01:10:02,000
 TRUE-ISH
-They were already married by this point, but the movie has to squish several years into just two. We're assuming they had a first kiss at some point. 
+They were already married by this point, but the movie has to squish several years into just two. We're assuming they had a first kiss at some point.
+
+
 71
-01:10:02,000 --> 01:10:41,000
+01:10:31,000 --> 01:10:41,000
 TRUE
 In May 1961 whites bombed a bus carrying Freedom Riders - blacks who rode buses in the deep south to fight segregation on public transport, which had recently been declared unconstitutional.
+NPR
+
 72
-01:10:41,000 --> 01:13:26,000
+01:13:16,000 --> 01:13:26,000
 TRUE
-Mary went 'hat-in-hand' to the school board & asked permission to attend classes. The city granted her special access. 
+Mary went 'hat-in-hand' to the school board & asked permission to attend classes. The city granted her special access.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 73
-01:13:26,000 --> 01:13:50,000
+01:13:40,000 --> 01:13:50,000
 TRUE
-The names of the women computers who worked with male engineers were usually left off of the final reports, but Katherine was allowed to add her name - her massive contribution was recognised by Ted Skopinski who acknowledged that 'she's done most of the work anyway'. 
+The names of the women computers who worked with male engineers were usually left off of the final reports, but Katherine was allowed to add her name - her massive contribution was recognised by Ted Skopinski who acknowledged that 'she's done most of the work anyway'.
+Smithsonian
+Hidden Figures (2016) by Margot Lee Shetterly, ch18
+
 74
-01:13:50,000 --> 01:14:55,000
+01:14:45,000 --> 01:14:55,000
 TRUE
-Tell me where you want him to land, & I'll tell you where to send him up' Katherine said to Skopinski. It didn't take much persuasion to let her do the calcs. Stafford wasn't real, but he represented the attitudes of many at the time. 
+Tell me where you want him to land, & I'll tell you where to send him up' Katherine said to Skopinski. It didn't take much persuasion to let her do the calcs. Stafford wasn't real, but he represented the attitudes of many at the time.
+History vs. Hollywood
+Hidden Figures (2016) by Margot Lee Shetterly, ch16
+
 75
 01:14:55,000 --> 01:15:05,000
 TRUE-ISH
-The names of the women computers who worked with male engineers were usually left off of the final reports, & Katherine was the first woman to have her name on a paper (albeit earlier on), but Stafford was a composite character & this particular event isn't on record. 
+The names of the women computers who worked with male engineers were usually left off of the final reports, & Katherine was the first woman to have her name on a paper (albeit earlier on), but Stafford was a composite character & this particular event isn't on record.
+Smithsonian
+NASA
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 76
-01:15:05,000 --> 01:15:48,000
+01:15:38,000 --> 01:15:48,000
 TRUE
-Liberty Bell 7 launched July 21st 1961. On splashdown an issue with the hatch caused the capsule to sink, & it wasn't salvaged until 1999. 
+Liberty Bell 7 launched July 21st 1961. On splashdown an issue with the hatch caused the capsule to sink, & it wasn't salvaged until 1999.
+NASA
+
 77
-01:15:48,000 --> 01:16:36,000
+01:16:26,000 --> 01:16:36,000
 TRUE
-NASA's budget in the 1960s was 4% of federal spending. There was a perception that it was worth the money to counter the Soviet threat.  
+NASA's budget in the 1960s was 4% of federal spending. There was a perception that it was worth the money to counter the Soviet threat.
+Wikipedia: Budget of NASA
+
 78
-01:16:36,000 --> 01:18:39,000
+01:18:29,000 --> 01:18:39,000
 TRUE
-Glenn's mission involved a new level of complexity, since the calculations had to account for the gravitational pull of stars, planets etc. 
+Glenn's mission involved a new level of complexity, since the calculations had to account for the gravitational pull of stars, planets etc.
+Biography.com
+
 79
-01:18:39,000 --> 01:19:08,000
+01:18:58,000 --> 01:19:08,000
 TRUE
-Stafford was a composite character, representing the team of engineers Katherine worked with. She did pester them to be allowed into meetings, & was initially told no. 
+Stafford was a composite character, representing the team of engineers Katherine worked with. She did pester them to be allowed into meetings, & was initially told no.
+Hidden Figures (2016) by Margot Lee Shetterly, ch17
+
 80
-01:19:08,000 --> 01:20:00,000
+01:19:50,000 --> 01:20:00,000
 FALSE
-Dorothy did important work with the IBM & understood it thoroughly, but she was part of a large & competent team. She didn't have to sneak around to figure it out, either. 
+Dorothy did important work with the IBM & understood it thoroughly, but she was part of a large & competent team. She didn't have to sneak around to figure it out, either.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 81
-01:20:00,000 --> 01:20:34,000
+01:20:24,000 --> 01:20:34,000
 TRUE
-Katherine knew she needed to be in those meetings to keep up to date. She asked & asked & kept getting rejected - 'no women' was an unwritten rule. 
+Katherine knew she needed to be in those meetings to keep up to date. She asked & asked & kept getting rejected - 'no women' was an unwritten rule.
+Hidden Figures (2016) by Margot Lee Shetterly, ch17
+
 82
-01:20:34,000 --> 01:20:49,000
+01:20:39,000 --> 01:20:49,000
 TRUE
-Katherine worked on those projections, & her name appeared on several reports, unusual for the time, when the names of the 'computers' were left out. 
+Katherine worked on those projections, & her name appeared on several reports, unusual for the time, when the names of the 'computers' were left out.
+Hidden Figures (2016) by Margot Lee Shetterly, ch17
+
 83
-01:20:49,000 --> 01:21:12,000
+01:21:02,000 --> 01:21:12,000
 TRUE-ISH
-Generally women didn't author reports, yet Katherine's name ended up on important publications. We don't know if there was a battle over the issue. 
+Generally women didn't author reports, yet Katherine's name ended up on important publications. We don't know if there was a battle over the issue.
+Hidden Figures (2016) by Margot Lee Shetterly, ch17
+
 84
-01:21:12,000 --> 01:22:19,000
+01:22:09,000 --> 01:22:19,000
 TRUE
 The engineers did eventually cave under her constant pestering to be allowed into meetings & let her join them in 1958.
+Hidden Figures (2016) by Margot Lee Shetterly, ch17
+
 85
-01:22:19,000 --> 01:26:21,000
+01:26:11,000 --> 01:26:21,000
 FALSE
-No record of this in the book. She was a vital & brilliant member of a team, but wasn't singled out in the quite the way it suggests in the movie. 
+No record of this in the book. She was a vital & brilliant member of a team, but wasn't singled out in the quite the way it suggests in the movie.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 86
-01:26:21,000 --> 01:26:52,000
+01:26:42,000 --> 01:26:52,000
 TRUE
-The IBM needed a huge team of programmers to keep it ticking over. 
+The IBM needed a huge team of programmers to keep it ticking over.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 87
-01:26:52,000 --> 01:27:52,000
+01:27:42,000 --> 01:27:52,000
 TRUE-ISH
-Dorothy did end up working on the IBM following the closure of the West Room Computing section, & she was a supervisor who looked out for her 'girls'. The process was longer & far less dramatic than the movie shows, though. 
+Dorothy did end up working on the IBM following the closure of the West Room Computing section, & she was a supervisor who looked out for her 'girls'. The process was longer & far less dramatic than the movie shows, though.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 88
-01:27:52,000 --> 01:28:51,000
+01:28:41,000 --> 01:28:51,000
 FALSE
-There wasn't a single movement of women from one place to another, but the scene was included to mimic a similar scene from 'The Right Stuff', when it's the all-male Mercury 7 who march down the hall. 
+There wasn't a single movement of women from one place to another, but the scene was included to mimic a similar scene from 'The Right Stuff', when it's the all-male Mercury 7 who march down the hall.
+Space.com
+
 89
-01:28:51,000 --> 01:29:42,000
+01:29:32,000 --> 01:29:42,000
 TRUE-ISH
 NASA was a place that nurtured genius, with brainpower prioritised over race & gender. Stafford & Harrison were both composite characters, though.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 90
-01:29:42,000 --> 01:30:56,000
+01:30:46,000 --> 01:30:56,000
 We don't know much about Mary's relationship with her husband. 
-We don't know much about Mary's relationship with her husband. 
+We don't know much about Mary's relationship with her husband.
+
+
 91
-01:30:56,000 --> 01:31:47,000
+01:31:37,000 --> 01:31:47,000
 TRUE-ISH
 Mary was the only black person & the only woman in those classes. We don't know how her classmates reacted, but they were mostly her colleagues so probably weren't super shocked, especially since segregation had long been over at Langley.
+Hidden Figures (2016) by Margot Lee Shetterly, ch14
+
 92
-01:31:47,000 --> 01:33:30,000
+01:33:20,000 --> 01:33:30,000
 TRUE
-Katherine did use Euler's method to calculate the trajectory they needed. 
+Katherine did use Euler's method to calculate the trajectory they needed.
+Autostraddle.com
+
 93
-01:33:30,000 --> 01:33:41,000
+01:33:31,000 --> 01:33:41,000
 TRUE
-Women computers' names were usually left off reports. Katherine's name made it onto some of her work, but not all of it. 
+Women computers' names were usually left off reports. Katherine's name made it onto some of her work, but not all of it.
+Smithsonian
+Hidden Figures (2016) by Margot Lee Shetterly, ch18
+
 94
-01:33:41,000 --> 01:36:11,000
+01:36:01,000 --> 01:36:11,000
 TRUE-ISH
-There's no record of any such conversation, although we're assuming that there might have been uncomfortable moments like this following desegregation at Langley. It was a big change, especially considering segregation was still in force outside the gates. 
+There's no record of any such conversation, although we're assuming that there might have been uncomfortable moments like this following desegregation at Langley. It was a big change, especially considering segregation was still in force outside the gates.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 95
-01:36:11,000 --> 01:37:44,000
+01:37:34,000 --> 01:37:44,000
 TRUE-ISH
-Katherine accepted Johnson's marriage proposal, but we don't know much beyond that. It was years earlier, too. 
+Katherine accepted Johnson's marriage proposal, but we don't know much beyond that. It was years earlier, too.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 96
-01:37:44,000 --> 01:38:07,000
+01:37:57,000 --> 01:38:07,000
 TRUE
-Glenn went through days of preparations for his launch. The shuttle was named Friendship 7. 
+Glenn went through days of preparations for his launch. The shuttle was named Friendship 7.
+NASA
+
 97
-01:38:07,000 --> 01:39:39,000
+01:39:29,000 --> 01:39:39,000
 FALSE-ISH
-It wasn't that simple. While the computers did replace the need for some human computing, the human computers continued to work alongside the computing machines, it wasn't one or the other. 
+It wasn't that simple. While the computers did replace the need for some human computing, the human computers continued to work alongside the computing machines, it wasn't one or the other.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 98
-01:39:39,000 --> 01:40:43,000
+01:40:33,000 --> 01:40:43,000
 FALSE-ISH
-Katherine wore pearls for her cover photo on the Pittsburgh Courier that year. We don't know who bought them, though, & her engagement was well before then. 
+Katherine wore pearls for her cover photo on the Pittsburgh Courier that year. We don't know who bought them, though, & her engagement was well before then.
+Hidden Figures (2016) by Margot Lee Shetterly, ch16, 21
+
 99
-01:40:43,000 --> 01:41:11,000
+01:41:01,000 --> 01:41:11,000
 TRUE-ISH
 Katherine was married for the second time slightly earlier, in 1959. She wasn't especially close to Mary or Dorothy, although she was inseparable from Eunice Smith, who also worked at NASA but didn't feature in the film, & who likely attended the wedding.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 16
+
 100
-01:41:11,000 --> 01:41:36,000
+01:41:26,000 --> 01:41:36,000
 TRUE-ISH
-The West computer room was dissolved in 1958, but they watched it from elsewhere, & unprecendented numbers tuned in to watch it live on TV. 
+The West computer room was dissolved in 1958, but they watched it from elsewhere, & unprecendented numbers tuned in to watch it live on TV.
+Hidden Figures (2016) by Margot Lee Shetterly, ch11, 21
+
 101
-01:41:36,000 --> 01:42:42,000
+01:42:32,000 --> 01:42:42,000
 TRUE-ISH
 The IBM numbers were fine, but Glenn trusted Katherine more than the machine, requested she checked them. It wasn't the last-minute rush shown in the movie though, it happened well before launch & Katherine spent a couple of days on the figures.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 102
-01:42:42,000 --> 01:44:48,000
+01:44:38,000 --> 01:44:48,000
 TRUE-ISH
-Katherine checked the numbers while Glenn prepared for his mission, but it was within the week before his launch, not minutes before. 
+Katherine checked the numbers while Glenn prepared for his mission, but it was within the week before his launch, not minutes before.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 103
-01:44:48,000 --> 01:46:02,000
+01:45:52,000 --> 01:46:02,000
 TRUE-ISH
-It was Katherine who confirmed the numbers that would get Glenn back down from space, but it wasn't a last minute thing by any means. She spent a couple of days on it. 
+It was Katherine who confirmed the numbers that would get Glenn back down from space, but it wasn't a last minute thing by any means. She spent a couple of days on it.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 104
-01:46:02,000 --> 01:46:36,000
+01:46:26,000 --> 01:46:36,000
 FALSE
-None of our sources say Katherine was in the control room for launch. 
+None of our sources say Katherine was in the control room for launch.
+Hidden Figures (2016) by Margot Lee Shetterly
+
 105
-01:46:36,000 --> 01:47:36,000
+01:47:26,000 --> 01:47:36,000
 TRUE
 Glenn was happy to launch once Katherine had confirmed the coordinates.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 106
-01:47:36,000 --> 01:49:19,000
+01:49:09,000 --> 01:49:19,000
 TRUE
-Glenn launched at 9.47am on Feb 20th 1962 & made it into orbit. 
+Glenn launched at 9.47am on Feb 20th 1962 & made it into orbit.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 107
-01:49:19,000 --> 01:50:44,000
+01:50:34,000 --> 01:50:44,000
 TRUE-ISH
-Dorothy was made supervisor much earlier. Dorothy was highly respected by everybody she worked with. She did work on the IBMs with her team after reinventing herself as a programmer at the age of 50. 
+Dorothy was made supervisor much earlier. Dorothy was highly respected by everybody she worked with. She did work on the IBMs with her team after reinventing herself as a programmer at the age of 50.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 108
-01:50:44,000 --> 01:51:32,000
+01:51:22,000 --> 01:51:32,000
 TRUE
-A heat shield warning did appear. Glenn kept the rocket pack attached to keep the loose shield in place, but it didn't stick. 
+A heat shield warning did appear. Glenn kept the rocket pack attached to keep the loose shield in place, but it didn't stick.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 109
-01:51:32,000 --> 01:54:39,000
+01:54:29,000 --> 01:54:39,000
 TRUE
-Glenn prepared himself for death as the capsule was consumed in flames. As he pulled out of orbit there were several minutes of communication blackout. 
+Glenn prepared himself for death as the capsule was consumed in flames. As he pulled out of orbit there were several minutes of communication blackout.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 110
-01:54:39,000 --> 01:56:38,000
+01:56:28,000 --> 01:56:38,000
 TRUE
-14 minutes after losing the rocket pack, Glenn's voice came back on the comms. He was fine. He landed safely in the sea where the Navy was ready to pick him up. 
+14 minutes after losing the rocket pack, Glenn's voice came back on the comms. He was fine. He landed safely in the sea where the Navy was ready to pick him up.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 111
-01:56:38,000 --> 01:57:15,000
+01:57:05,000 --> 01:57:15,000
 TRUE-ISH
-Katherine wasn't in the room as far as we know. Her involvement in the success of the mission was recognised at NASA, though, & it was hoped & assumed that she'd be on board to work on the moon mission. 
+Katherine wasn't in the room as far as we know. Her involvement in the success of the mission was recognised at NASA, though, & it was hoped & assumed that she'd be on board to work on the moon mission.
+Hidden Figures (2016) by Margot Lee Shetterly, ch21
+
 112
-01:57:15,000 --> 01:58:05,000
+01:57:55,000 --> 01:58:05,000
 TRUE
-Mary & Dorothy represented huge advancements for black women through their contributions to the space program. Mary continued that work through the Langley women's program, which she managed. Dorothy was NASA's first black supervisor. 
+Mary & Dorothy represented huge advancements for black women through their contributions to the space program. Mary continued that work through the Langley women's program, which she managed. Dorothy was NASA's first black supervisor.
+Hidden Figures (2016) by Margot Lee Shetterly, epilogue
+
 113
-01:58:05,000 --> 01:59:13,000
+01:59:03,000 --> 01:59:13,000
 TRUE
 Katherine's calculations helped get the US to the moon, & she was responsible for the plan that saved Apollo 13 astronauts when the computers went out, among a long list of other achievements. She was awarded the country's highest honour in 2015.
+Hidden Figures (2016) by Margot Lee Shetterly, epilogue
+
 114
-01:59:13,000 --> 02:06:41,000
+02:06:31,000 --> 02:06:41,000
 -
 
 115
-02:06:42,000 --> 02:06:43,000
+02:06:42,000 --> 02:06:46,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes

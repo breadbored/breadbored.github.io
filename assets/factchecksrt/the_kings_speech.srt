@@ -1,383 +1,576 @@
 1
 00:00:00,000 --> 00:00:05,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes
 
 2
-00:00:00,000 --> 00:00:25,000
+00:00:15,000 --> 00:00:25,000
 -
 
 3
-00:00:25,000 --> 00:00:37,000
+00:00:27,000 --> 00:00:37,000
 TRUE
 Bertie gave a speech as president of the Empire Exhibition, after taking over the role from his older brother in 1925.
+The King's Speech (2010) by M. Logue & P. Conradi, p61
+
 4
-00:00:37,000 --> 00:01:07,000
+00:00:57,000 --> 00:01:07,000
 -
 
 5
-00:01:07,000 --> 00:01:23,000
+00:01:13,000 --> 00:01:23,000
 TRUE
 Bertie was a terribly nervous speaker. His family & entourage were always tense before speeches in case they went badly, & reflected poorly on the monarchy.
+The King's Speech (2010) by M. Logue & P. Conradi, p62
+
 6
-00:01:23,000 --> 00:01:55,000
+00:01:45,000 --> 00:01:55,000
 TRUE
 BBC presenters have voice coaches & all kinds of activities to warm up for the job.
+BBC News
+
 7
 00:01:55,000 --> 00:02:04,000
 TRUE
 Public speeches were episodes of terror for Bertie, who suffered from a debilitating stammer.
+The King's Speech (2010) by M. Logue & P. Conradi, p52
+
 8
-00:02:04,000 --> 00:03:23,000
+00:03:13,000 --> 00:03:23,000
 TRUE
 The broadcast was put out by the BBC, then the British Broadcasting Company.
+The King's Speech (2010) by M. Logue & P. Conradi, p61
+
 9
-00:03:23,000 --> 00:05:19,000
+00:05:09,000 --> 00:05:19,000
 TRUE
-The speech was marred by moments when Bertie's jaw moved rapidly but no sound came out. 
+The speech was marred by moments when Bertie's jaw moved rapidly but no sound came out.
+The King's Speech (2010) by M. Logue & P. Conradi, p5
+
 10
 00:05:19,000 --> 00:05:24,000
 TRUE
-Bertie saw numerous doctors in an attempt to get his speech under control. 
+Bertie saw numerous doctors in an attempt to get his speech under control.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 11
-00:05:24,000 --> 00:06:57,000
+00:06:47,000 --> 00:06:57,000
 No record of a Blandine-Bentham.
-No Dr. Blandine-Bentham is mentioned in the records. Bertie did see several specialists to no avail, but it's unclear what methods they used on him. 
+No Dr. Blandine-Bentham is mentioned in the records. Bertie did see several specialists to no avail, but it's unclear what methods they used on him.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 12
 00:06:57,000 --> 00:07:04,000
 No record of a Blandine-Bentham.
-No Dr. Blandine-Bentham is mentioned in the records. Elizabeth was always by Bertie's side, though, & supportive through his treatment. 
+No Dr. Blandine-Bentham is mentioned in the records. Elizabeth was always by Bertie's side, though, & supportive through his treatment.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 13
-00:07:04,000 --> 00:07:40,000
+00:07:30,000 --> 00:07:40,000
 TRUE
-Bertie had seen several experts to no avail, & he wanted to give up. Elizabeth had a calming influence on the king, & was always with him during his speeches, offering support & encouragement. For Elizabeth's sake, he agreed to try again. 
+Bertie had seen several experts to no avail, & he wanted to give up. Elizabeth had a calming influence on the king, & was always with him during his speeches, offering support & encouragement. For Elizabeth's sake, he agreed to try again.
+The King's Speech (2010) by M. Logue & P. Conradi, p7, 64
+
 14
-00:07:40,000 --> 00:08:18,000
+00:08:08,000 --> 00:08:18,000
 FALSE
-Elizabeth didn't go to Harley Street in person. 
+Elizabeth didn't go to Harley Street in person.
+The King's Speech (2010) by M. Logue & P. Conradi, p62-63
+
 15
-00:08:18,000 --> 00:09:22,000
+00:09:12,000 --> 00:09:22,000
 FALSE
 Elizabeth didn't go to Harley Street in person. There are conflicting accounts of how Lionel ended up with Bertie as a client. One involves a royal equerry looking for a specialist, the other, a musical comedy starlett & client of Lionel's.
+The King's Speech (2010) by M. Logue & P. Conradi, p62-63
+
 16
-00:09:22,000 --> 00:10:55,000
+00:10:45,000 --> 00:10:55,000
 FALSE-ISH
 While Elizabeth did not visit Lionel to arrange an appointment for Bertie, Lionel did insist to whoever it was that Bertie be brought to him. The idea was that journeying to his office would take effort, providing an additional reason to take the treatment seriously.
+The King's Speech (2010) by M. Logue & P. Conradi, p62-63
+
 17
-00:10:55,000 --> 00:12:17,000
+00:12:07,000 --> 00:12:17,000
 FALSE-ISH
 Although there are various explanations for how Lionel came to be Bertie's speech therapist, in all of them he would have known who Bertie was from the start. He did insist that Bertie visit him in Harley St, until he became King & it was no longer plausible.
+The King's Speech (2010) by M. Logue & P. Conradi, p62-63
+
 18
-00:12:17,000 --> 00:13:24,000
+00:13:14,000 --> 00:13:24,000
 TRUE
 Lionel was living in a small house in London with his wife, Myrtle, & three boys, when he met Bertie. After a while they was able to move somewhere posher - to Sydenham Hill in Beechgrove.
+The Sydenham Society
+
 19
-00:13:24,000 --> 00:15:52,000
+00:15:42,000 --> 00:15:52,000
 TRUE-ISH
 Bertie adored his children & was happy in the presence of his family. It's unclear if his speech suffered when around them.
+The King's Speech (2010) by M. Logue & P. Conradi, p93
+
 20
-00:15:52,000 --> 00:16:24,000
+00:16:14,000 --> 00:16:24,000
 TRUE
-Elizabeth was keen for Bertie to persevere with treatment. He was reluctant following many humiliating failures. 
+Elizabeth was keen for Bertie to persevere with treatment. He was reluctant following many humiliating failures.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 21
-00:16:24,000 --> 00:17:53,000
+00:17:43,000 --> 00:17:53,000
 FALSE-ISH
 Lionel was a trained actor, but the memoir doesn't suggest he continued down the acting path once he had set up as a speech therapist.
+The Daily Telegraph
+
 22
-00:17:53,000 --> 00:18:24,000
+00:18:14,000 --> 00:18:24,000
 TRUE
-Elizabeth did encourage Bertie to try one more doctor, & they did visit Harley Street together. The practice had stairs, though, not an elevator. 
+Elizabeth did encourage Bertie to try one more doctor, & they did visit Harley Street together. The practice had stairs, though, not an elevator.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 23
-00:18:24,000 --> 00:19:26,000
+00:19:16,000 --> 00:19:26,000
 Not in the memoir. 
 Lionel had many patients, but there's no record of any of his young patients interacting with Bertie in the memoir
+The King's Speech (2010) by M. Logue & P. Conradi
+
 24
-00:19:26,000 --> 00:26:24,000
+00:26:14,000 --> 00:26:24,000
 FALSE-ISH
-Lionel's notes from the first meeting don't suggest any anger on Bertie's part, although we know Bertie suffered enormous frustration over his speaking in general. 
+Lionel's notes from the first meeting don't suggest any anger on Bertie's part, although we know Bertie suffered enormous frustration over his speaking in general.
+The King's Speech (2010) by M. Logue & P. Conradi, p67
+
 25
-00:26:24,000 --> 00:28:51,000
+00:28:41,000 --> 00:28:51,000
 TRUE-ISH
 Lionel did record his patients' voices on the gramophone, enabling them to hear themselves, often for the first time. Whether or not this incident with Bertie happened is unknown.
+The King's Speech (2010) by M. Logue & P. Conradi, p99
+
 26
-00:28:51,000 --> 00:29:17,000
+00:29:07,000 --> 00:29:17,000
 TRUE
-They arrived together & presumably left together. 
+They arrived together & presumably left together.
+The King's Speech (2010) by M. Logue & P. Conradi, p64
+
 27
-00:29:17,000 --> 00:30:00,000
+00:29:50,000 --> 00:30:00,000
 TRUE
 In 1932 King George V began the tradition of Christmas broadcasts.
+The Official British Monarchy website
+
 28
-00:30:00,000 --> 00:32:14,000
+00:32:04,000 --> 00:32:14,000
 TRUE
 George famously said that he hoped nothing would come between Bertie & Lilibet (young Elizabeth) & the throne, especially not David. He thought Bertie to be the more mature & capable son.
+
+
 29
-00:32:14,000 --> 00:32:53,000
+00:32:43,000 --> 00:32:53,000
 TRUE
-George was impatient with his son's stammering, taking a simple 'get it out!' approach. It has been suggested that George's harsh behaviour worsened or even caused the stammer in the first place. 
+George was impatient with his son's stammering, taking a simple 'get it out!' approach. It has been suggested that George's harsh behaviour worsened or even caused the stammer in the first place.
+The King's Speech (2010) by M. Logue & P. Conradi, p51
+
 30
-00:32:53,000 --> 00:34:25,000
+00:34:15,000 --> 00:34:25,000
 Not in the memoir.
 We don't know if Lionel made a recording of Bertie, although recording patients is a very common speech therapy method.
+BraveKids.org
+
 31
-00:34:25,000 --> 00:36:21,000
+00:36:11,000 --> 00:36:21,000
 FALSE
-In Bertie's very first session with Lionel they discussed his upbringing, his father's attitude, problems with his tutor etc. 
+In Bertie's very first session with Lionel they discussed his upbringing, his father's attitude, problems with his tutor etc.
+The King's Speech (2010) by M. Logue & P. Conradi, p67
+
 32
-00:36:21,000 --> 00:38:44,000
+00:38:34,000 --> 00:38:44,000
 TRUE
-Lionel recorded 82 appointments with Bertie over the years (following the initial interview), they got a lot of practise in. Bertie was known as the 'industrial prince' & gave numerous minor speeches at factories & such. 
+Lionel recorded 82 appointments with Bertie over the years (following the initial interview), they got a lot of practise in. Bertie was known as the 'industrial prince' & gave numerous minor speeches at factories & such.
+The King's Speech (2010) by M. Logue & P. Conradi, p68
+
 33
-00:38:44,000 --> 00:39:18,000
+00:39:08,000 --> 00:39:18,000
 Not in the memoir.
-The memoir doesn't mention Bertie meeting his brother David, known publically as Edward (and briefly, King Edward VIII), on the estate like this. 
+The memoir doesn't mention Bertie meeting his brother David, known publically as Edward (and briefly, King Edward VIII), on the estate like this.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 34
-00:39:18,000 --> 00:39:50,000
+00:39:40,000 --> 00:39:50,000
 TRUE
-The king had been ill on & off for years, & was bedridden in the year of his 70th birthday. David had been away on a tour in East Africa, & hurried back to see his father. 
+The king had been ill on & off for years, & was bedridden in the year of his 70th birthday. David had been away on a tour in East Africa, & hurried back to see his father.
+The King's Speech (2010) by M. Logue & P. Conradi, p89, 103
+
 35
-00:39:50,000 --> 00:40:13,000
+00:40:03,000 --> 00:40:13,000
 Not in the memoir.
-This conversation isn't in the memoir. Certainly David was concerned about his relationship with Wallis should he become King. 
+This conversation isn't in the memoir. Certainly David was concerned about his relationship with Wallis should he become King.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 36
-00:40:13,000 --> 00:41:36,000
+00:41:26,000 --> 00:41:36,000
 TRUE
-The king became ill after a bad fall from a horse in 1915, & suffered breathing problems in following years. He was in & out of consciousness for 5 days before his doctor sped things up with a lethal shot. 
+The king became ill after a bad fall from a horse in 1915, & suffered breathing problems in following years. He was in & out of consciousness for 5 days before his doctor sped things up with a lethal shot.
+Biography.com
+
 37
-00:41:36,000 --> 00:42:38,000
+00:42:28,000 --> 00:42:38,000
 TRUE-ISH
-Edward VII utilised his own form of 'daylight saving', in which he set all the clocks at Sandringham half an hour early (rather than putting them forward as in the film) to allow for more hunting time in the evenings. This was known as 'S.T.', or 'Sandringham Time'. 
+Edward VII utilised his own form of 'daylight saving', in which he set all the clocks at Sandringham half an hour early (rather than putting them forward as in the film) to allow for more hunting time in the evenings. This was known as 'S.T.', or 'Sandringham Time'.
+The King's Speech (2010) by M. Logue & P. Conradi, p47
+
 38
-00:42:38,000 --> 00:43:38,000
+00:43:28,000 --> 00:43:38,000
 TRUE-ISH
-Lang was a bit of a problem for the royal family, making post-abdication speeches about David's poor conduct, & announcing Bertie's speech impediment. Whether or not he was a suck up isn't clear, but as in the film, it seems he wasn't much liked. 
+Lang was a bit of a problem for the royal family, making post-abdication speeches about David's poor conduct, & announcing Bertie's speech impediment. Whether or not he was a suck up isn't clear, but as in the film, it seems he wasn't much liked.
+The King's Speech (2010) by M. Logue & P. Conradi, p116-117
+
 39
-00:43:38,000 --> 00:43:56,000
+00:43:46,000 --> 00:43:56,000
 TRUE
-The king died on Jan 15th 1936, at 11.55pm, when Lord Dawson administered a lethal injection of cocaine & morphine. His actions were in part to end the king's suffering, & in part to make sure the death met the morning papers & not the less-suitable evening papers.  
+The king died on Jan 15th 1936, at 11.55pm, when Lord Dawson administered a lethal injection of cocaine & morphine. His actions were in part to end the king's suffering, & in part to make sure the death met the morning papers & not the less-suitable evening papers.
+The King's Speech (2010) by M. Logue & P. Conradi, p103-104
+
 40
-00:43:56,000 --> 00:45:13,000
+00:45:03,000 --> 00:45:13,000
 FALSE
-There is no record of David crying like this on his father's death, although it is known that Bertie cried on his mother's shoulder when David abdicated, making him king - possibly a ref. to that moment? Family & important others were around when King George V died. 
+There is no record of David crying like this on his father's death, although it is known that Bertie cried on his mother's shoulder when David abdicated, making him king - possibly a ref. to that moment? Family & important others were around when King George V died.
+The Daily Telegraph
+
 41
-00:45:13,000 --> 00:45:43,000
+00:45:33,000 --> 00:45:43,000
 TRUE-ISH
-David was concerned about the impact of his position on his relationship with Wallis. Bertie tried to contact David during the crisis but was barely able to speak with him.  
+David was concerned about the impact of his position on his relationship with Wallis. Bertie tried to contact David during the crisis but was barely able to speak with him.
+The King's Speech (2010) by M. Logue & P. Conradi, p114
+
 42
-00:45:43,000 --> 00:47:15,000
+00:47:05,000 --> 00:47:15,000
 Not in the memoir.
-Lionel was a trained actor, but the memoir doesn't detail little performances like this. 
+Lionel was a trained actor, but the memoir doesn't detail little performances like this.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 43
-00:47:15,000 --> 00:50:00,000
+00:49:50,000 --> 00:50:00,000
 TRUE
-When the king became ill Bertie had to take on extra duties, & had no time for his appointments with Lionel. He did stay in contact with Lionel though & returned eventually. 
+When the king became ill Bertie had to take on extra duties, & had no time for his appointments with Lionel. He did stay in contact with Lionel though & returned eventually.
+The King's Speech (2010) by M. Logue & P. Conradi, p45, 50, 90, 96
+Reddit
+LA Times
+
 44
-00:50:00,000 --> 00:56:07,000
+00:55:57,000 --> 00:56:07,000
 We don't know.
-While there are rumours that Bertie's nanny abused him, we couldn't verify this anywhere. 
+While there are rumours that Bertie's nanny abused him, we couldn't verify this anywhere.
+
+
 45
-00:56:07,000 --> 00:56:58,000
+00:56:48,000 --> 00:56:58,000
 TRUE-ISH
-In an incident at Bertie & Elizabeth's home at the Royal Lodge at Windsor, Wallis took David to one side & pointed out potential landscaping improvements, slighting Elizabeth. 
+In an incident at Bertie & Elizabeth's home at the Royal Lodge at Windsor, Wallis took David to one side & pointed out potential landscaping improvements, slighting Elizabeth.
+The Scotsman
+
 46
-00:56:58,000 --> 00:57:55,000
+00:57:45,000 --> 00:57:55,000
 TRUE
-Wallis broke protocol during a party thrown at Balmoral, greeting Bertie & Elizabeth as if she, not David, were the host, offending Elizabeth. 
+Wallis broke protocol during a party thrown at Balmoral, greeting Bertie & Elizabeth as if she, not David, were the host, offending Elizabeth.
+The Scotsman
+
 47
-00:57:55,000 --> 00:58:24,000
+00:58:14,000 --> 00:58:24,000
 FALSE
-Churchill actually encouraged David to resist pressure to abdicate. 
+Churchill actually encouraged David to resist pressure to abdicate.
+Wikipedia: The King's Speech
+
 48
-00:58:24,000 --> 00:58:39,000
+00:58:29,000 --> 00:58:39,000
 TRUE-ISH
-It was rumoured that Wallis had David wrapped around her little finger. He showered her with luxury goods. 
+It was rumoured that Wallis had David wrapped around her little finger. He showered her with luxury goods.
+The King's Speech (2010) by M. Logue & P. Conradi, p109
+
 49
-00:58:39,000 --> 01:00:59,000
+01:00:49,000 --> 01:00:59,000
 FALSE-ISH
-We don't know what conversations happened between the brothers, or whether things got nasty between them. Bertie was certainly shocked by the prospect of becoming king, & hoped it wouldn't come to that. 
+We don't know what conversations happened between the brothers, or whether things got nasty between them. Bertie was certainly shocked by the prospect of becoming king, & hoped it wouldn't come to that.
+The King's Speech (2010) by M. Logue & P. Conradi, p114
+
 50
-01:00:59,000 --> 01:02:33,000
+01:02:23,000 --> 01:02:33,000
 Not in the memoir. No mention of fuckety-fuck.
-The memoir suggests that Bertie improved continually, & no major relapses are noted. Bertie was frustrated & anxious about becoming king, but there is no mention of a swearing rant. 
+The memoir suggests that Bertie improved continually, & no major relapses are noted. Bertie was frustrated & anxious about becoming king, but there is no mention of a swearing rant.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 51
-01:02:33,000 --> 01:04:58,000
+01:04:48,000 --> 01:04:58,000
 FALSE
-The memoir suggests Bertie took a step back from his treatment while all this family drama was going on, & so Lionel was not involved. He was probably too deferent to suggest such things anyway. However, he was a supportive ear for Bertie when needed. 
+The memoir suggests Bertie took a step back from his treatment while all this family drama was going on, & so Lionel was not involved. He was probably too deferent to suggest such things anyway. However, he was a supportive ear for Bertie when needed.
+The King's Speech (2010) by M. Logue & P. Conradi, p112
+Wall St Journal
+
 52
-01:04:58,000 --> 01:06:26,000
+01:06:16,000 --> 01:06:26,000
 TRUE
-David was intent on marrying Wallis & told Baldwin that if he couldn't marry her & remain king he would step down. It would have been acceptable for him to have Wallis as a mistress, but given she was a divorced woman & not aristocracy, marriage was not cool. 
+David was intent on marrying Wallis & told Baldwin that if he couldn't marry her & remain king he would step down. It would have been acceptable for him to have Wallis as a mistress, but given she was a divorced woman & not aristocracy, marriage was not cool.
+The King's Speech (2010) by M. Logue & P. Conradi, p112
+Wall St Journal
+
 53
-01:06:26,000 --> 01:07:20,000
+01:07:10,000 --> 01:07:20,000
 TRUE-ISH
-Lionel was concerned about Bertie's. Lionel was generally quiet about his work with Bertie, but his wife knew about him & they met several times. His wife was supportive & they had a close marriage, Lionel likely spoke with her about his patients. 
+Lionel was concerned about Bertie's. Lionel was generally quiet about his work with Bertie, but his wife knew about him & they met several times. His wife was supportive & they had a close marriage, Lionel likely spoke with her about his patients.
+The King's Speech (2010) by M. Logue & P. Conradi, p209
+
 54
-01:07:20,000 --> 01:08:03,000
+01:07:53,000 --> 01:08:03,000
 Not in the memoir.
 There isn't any record of Lionel & Bertie falling out like this in the memoir
+The King's Speech (2010) by M. Logue & P. Conradi
+
 55
-01:08:03,000 --> 01:09:24,000
+01:09:14,000 --> 01:09:24,000
 FALSE
-Churchill actually supported David & encouraged him to remain king. Albert Frederick Arthur George chose to become King George VI as a tribute to his father & a symbol of continuity, not as a result of Churchill suggesting it sounded too German. 
+Churchill actually supported David & encouraged him to remain king. Albert Frederick Arthur George chose to become King George VI as a tribute to his father & a symbol of continuity, not as a result of Churchill suggesting it sounded too German.
+The King's Speech (2010) by M. Logue & P. Conradi, p3
+LA Times
+Wikipedia: The King's Speech
+
 56
-01:09:24,000 --> 01:10:10,000
+01:10:00,000 --> 01:10:10,000
 TRUE
-Bertie had tried repeatedly to talk to his brother throughout the days of crisis surrounding Wallis, but he had refused to see him. Eventually they met, & David told him he would be stepping down as king. 
+Bertie had tried repeatedly to talk to his brother throughout the days of crisis surrounding Wallis, but he had refused to see him. Eventually they met, & David told him he would be stepping down as king.
+The King's Speech (2010) by M. Logue & P. Conradi, p114
+
 57
-01:10:10,000 --> 01:11:50,000
+01:11:40,000 --> 01:11:50,000
 TRUE
 David adbicated the throne on 10th December 1936. Bertie was a witness to the signing of the document.
+The King's Speech (2010) by M. Logue & P. Conradi, p115
+
 58
-01:11:50,000 --> 01:13:33,000
+01:13:23,000 --> 01:13:33,000
 TRUE-ISH
-Bertie's declaration to the accession council wasn't disastrous, but was hesistant. 
+Bertie's declaration to the accession council wasn't disastrous, but was hesistant.
+The King's Speech (2010) by M. Logue & P. Conradi, p115
+
 59
-01:13:33,000 --> 01:13:54,000
+01:13:44,000 --> 01:13:54,000
 TRUE
 Elizabeth is famous for her love of horses. She & Margaret owned rocking horses as children, that are occasionally placed on public display.
+The Royal Collection Trust
+
 60
-01:13:54,000 --> 01:14:33,000
+01:14:23,000 --> 01:14:33,000
 TRUE
 Bertie was a family man & very fond of his daughters.
+The King's Speech (2010) by M. Logue & P. Conradi, p93
+
 61
-01:14:33,000 --> 01:16:36,000
+01:16:26,000 --> 01:16:36,000
 TRUE
 Bertie did not want to be king. He cried on his mother's shoulder when he found out he had no choice.
+The Daily Telegraph
+
 62
 01:16:36,000 --> 01:16:46,000
 TRUE
-The abidicated king had a lot of support from his followers, who launched rumours about the new king's health, designed to undermine public confidence in him. Many refused to accept the new king. 
+The abidicated king had a lot of support from his followers, who launched rumours about the new king's health, designed to undermine public confidence in him. Many refused to accept the new king.
+The King's Speech (2010) by M. Logue & P. Conradi, p5, 117-118
+
 63
-01:16:46,000 --> 01:17:42,000
+01:17:32,000 --> 01:17:42,000
 Not in the memoir.
-The memoir doesn't show that Bertie went to Lionel's house, rather, they would meet in his office or Lionel would be called to him. They were close, though, so it's plausible. 
+The memoir doesn't show that Bertie went to Lionel's house, rather, they would meet in his office or Lionel would be called to him. They were close, though, so it's plausible.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 64
-01:17:42,000 --> 01:19:45,000
+01:19:35,000 --> 01:19:45,000
 FALSE-ISH
-There is no mention of Bertie turning up to apologise to Lionel. Bertie did, however, talk to Lionel at length about his life, & they continued to write to each other until Bertie's death. 
+There is no mention of Bertie turning up to apologise to Lionel. Bertie did, however, talk to Lionel at length about his life, & they continued to write to each other until Bertie's death.
+The King's Speech (2010) by M. Logue & P. Conradi, p224
+
 65
-01:19:45,000 --> 01:20:47,000
+01:20:37,000 --> 01:20:47,000
 FALSE
-No such event was recorded in the memoir. Lionel's family did meet Bertie's on numerous occasions, though. 
+No such event was recorded in the memoir. Lionel's family did meet Bertie's on numerous occasions, though.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 66
-01:20:47,000 --> 01:21:25,000
+01:21:15,000 --> 01:21:25,000
 FALSE
-No such event was recorded in the memoir. Lionel's family did meet Bertie's on numerous occasions, though. 
+No such event was recorded in the memoir. Lionel's family did meet Bertie's on numerous occasions, though.
+The King's Speech (2010) by M. Logue & P. Conradi
+
 67
-01:21:25,000 --> 01:22:24,000
+01:22:14,000 --> 01:22:24,000
 TRUE
-Lionel attended all of Bertie's major speeches at this point, & they practised for the coronation in the abbey. 
+Lionel attended all of Bertie's major speeches at this point, & they practised for the coronation in the abbey.
+The King's Speech (2010) by M. Logue & P. Conradi, p125
+
 68
-01:22:24,000 --> 01:23:03,000
+01:22:53,000 --> 01:23:03,000
 TRUE-ISH
 Lionel & Myrtle were seated in the royal box for the coronation. We don't know how Lang felt about that.
+CNN
+
 69
-01:23:35,000 --> 01:24:16,000
+01:24:06,000 --> 01:24:16,000
 TRUE
-Lionel helped Bertie with rehearsals at Westminster Abbey. He noted in his journal that everybody seemed to know their jobs except for the bishops. 
+Lionel helped Bertie with rehearsals at Westminster Abbey. He noted in his journal that everybody seemed to know their jobs except for the bishops.
+The King's Speech (2010) by M. Logue & P. Conradi, p125
+
 70
-01:24:16,000 --> 01:27:27,000
+01:27:17,000 --> 01:27:27,000
 FALSE-ISH
 Lionel was self-taught. In Australia there had been no formal training available. He developed his techniques while helping soldiers during & after his military service. However, he never misrepresented himself & there's no record of Bertie challenging Lionel's qualifications.
+The King's Speech (2010) by M. Logue & P. Conradi, p38
+LA Times
+
 71
-01:23:03,000 --> 01:23:35,000
+01:23:25,000 --> 01:23:35,000
 FALSE-ISH
-Although Lang doesn't seem to have taken up a vendetta against Lionel as he does in the film, he certainly would have preferred a known & officially qualified doctor in Lionel's place. Bertie insisted on Lionel, though. 
+Although Lang doesn't seem to have taken up a vendetta against Lionel as he does in the film, he certainly would have preferred a known & officially qualified doctor in Lionel's place. Bertie insisted on Lionel, though.
+The King's Speech (2010) by M. Logue & P. Conradi, p123
+
 72
-01:27:27,000 --> 01:28:31,000
+01:28:21,000 --> 01:28:31,000
 FALSE
 There is no record of this event. Lionel's grandson has said Lionel would have been more deferent than shown & wouldn't have called the duke/king Bertie. In his diaries & letters he refers to Bertie as HM. Bertie signed his letters to Lionel 'Albert' & later 'George'.
+The King's Speech (2010) by M. Logue & P. Conradi
+Wall St Journal
+LA Times
+
 73
-01:28:31,000 --> 01:29:31,000
+01:29:21,000 --> 01:29:31,000
 TRUE
-Lang did suggest an alternative speech therapist, but Bertie & his doctor, Lord Dawson, insisted on Lionel. 
+Lang did suggest an alternative speech therapist, but Bertie & his doctor, Lord Dawson, insisted on Lionel.
+The King's Speech (2010) by M. Logue & P. Conradi, p123
+
 74
-01:29:31,000 --> 01:31:04,000
+01:30:54,000 --> 01:31:04,000
 TRUE
-Lionel rehearsed with Bertie for several days, piecing together a record from various successful stanzas, to be used in case of failure on the day. Bertie was nervous but continued to improve & was reported as being well in himself. 
+Lionel rehearsed with Bertie for several days, piecing together a record from various successful stanzas, to be used in case of failure on the day. Bertie was nervous but continued to improve & was reported as being well in himself.
+The King's Speech (2010) by M. Logue & P. Conradi, p125
+
 75
-01:31:52,000 --> 01:32:40,000
+01:32:30,000 --> 01:32:40,000
 TRUE
 Nuremberg was declared 'City of the Nazi Party Rallies' by the National Socialists in 1933. Hitler spoke there leading up to the war.
+Nuremberg Museum
+
 76
-01:31:04,000 --> 01:31:52,000
+01:31:42,000 --> 01:31:52,000
 TRUE
 The coronation & following address to the empire went smoothly, & the press praised Bertie for his speaking, insisting there were no remaining signs of impediment. No mention of Lang watching the film with the family, though.
+The King's Speech (2010) by M. Logue & P. Conradi, p131
+
 77
-01:32:40,000 --> 01:33:47,000
+01:33:37,000 --> 01:33:47,000
 TRUE-ISH
 Baldwin resigned in 1937 due to exhaustion following three separate periods of office. He was held in high esteem initially, but opinions turned when he admitted that he didn't stand up to Hitler soon enough. He was blamed for leaving Britain poorly defended.
+BBC News
+Wikipedia: The King's Speech
+
 78
-01:33:47,000 --> 01:34:37,000
+01:34:27,000 --> 01:34:37,000
 TRUE
 Chamberlain announced war on Sept 3rd 1939. Lionel & his family had earlier prepared their home with blackout paper etc., & wrote of a sense of dread.
+The King's Speech (2010) by M. Logue & P. Conradi, p161-162
+
 79
-01:34:37,000 --> 01:35:11,000
+01:35:01,000 --> 01:35:11,000
 TRUE
-As Bertie prepared for his speech, Lionel was summoned by Eric Meiville, assistant private secretary to the king. 
+As Bertie prepared for his speech, Lionel was summoned by Eric Meiville, assistant private secretary to the king.
+The King's Speech (2010) by M. Logue & P. Conradi, p163
+
 80
-01:35:11,000 --> 01:38:05,000
+01:37:55,000 --> 01:38:05,000
 TRUE
 Lionel's son Laurie drove him through London to the palace. Sirens had been going off repeatedly.
+The King's Speech (2010) by M. Logue & P. Conradi, p163
+
 81
-01:38:05,000 --> 01:38:19,000
+01:38:09,000 --> 01:38:19,000
 TRUE
 The live broadcast was due to begin at 6pm. Lionel arrived at 5.20pm.
+The King's Speech (2010) by M. Logue & P. Conradi, p164
+
 82
-01:38:19,000 --> 01:38:37,000
+01:38:27,000 --> 01:38:37,000
 TRUE-ISH
-Bertie got a few minutes of practise in before the speech. Lionel's methods aren't available on public record, but we do know Bertie practised his exercises vigorously. Lionel was known for being respectful, it's unlikely he encouraged swearing. 
+Bertie got a few minutes of practise in before the speech. Lionel's methods aren't available on public record, but we do know Bertie practised his exercises vigorously. Lionel was known for being respectful, it's unlikely he encouraged swearing.
+The King's Speech (2010) by M. Logue & P. Conradi, p164
+Wall St Journal
+
 83
-01:38:37,000 --> 01:40:18,000
+01:40:08,000 --> 01:40:18,000
 FALSE-ISH
-Churchill wasn't involved in the speech at all. He did have a lisp though, & when he needed dentures, had them designed to preserve his lisp, to keep his voice recognisable. 
+Churchill wasn't involved in the speech at all. He did have a lisp though, & when he needed dentures, had them designed to preserve his lisp, to keep his voice recognisable.
+BBC News
+Wikipedia: The King's Speech
+
 84
-01:40:18,000 --> 01:41:48,000
+01:41:38,000 --> 01:41:48,000
 TRUE-ISH
 The broadcast room was redecorated to make it more comfortable for Bertie, although it isn't clear whether Lionel arranged this. He had, however, had other rooms arranged for such purposes in the past.
+The King's Speech (2010) by M. Logue & P. Conradi, p126, 164
+
 85
-01:41:48,000 --> 01:42:35,000
+01:42:25,000 --> 01:42:35,000
 TRUE
-Lionel remained with Bertie in the broadcasting room for the speech. Bertie & his family often thanked Lionel for his work. 
+Lionel remained with Bertie in the broadcasting room for the speech. Bertie & his family often thanked Lionel for his work.
+The King's Speech (2010) by M. Logue & P. Conradi, p166
+
 86
-01:42:35,000 --> 01:47:43,000
+01:47:33,000 --> 01:47:43,000
 TRUE
 The speech did go well. By 1939 9 million people had radio licenses, & millions more were listeners. His speech was heard all over the country.
+The King's Speech (2010) by M. Logue & P. Conradi, p166
+Science Museum
+
 87
-01:47:43,000 --> 01:48:17,000
+01:48:07,000 --> 01:48:17,000
 TRUE
-Lionel congratulated Bertie on his speech, & the queen told him, 'that was good, Bertie'. 
+Lionel congratulated Bertie on his speech, & the queen told him, 'that was good, Bertie'.
+The King's Speech (2010) by M. Logue & P. Conradi, p166
+
 88
-01:48:17,000 --> 01:48:50,000
+01:48:40,000 --> 01:48:50,000
 TRUE-ISH
 Bertie was always photographed sitting down at the microphone for the official images to accompany his broadcasts, however, he always stood to make his speeches. The government officials applauding him afterwards would not have been there.
+The King's Speech (2010) by M. Logue & P. Conradi, p166
+Wikipedia: The King's Speech
+
 89
-01:48:50,000 --> 01:49:29,000
+01:49:19,000 --> 01:49:29,000
 TRUE
-The king had to give a radio broadcast the evening of his coronation as part of the day's events. This was a big deal, & he & Lionel had been practising for weeks. Following the successful broadcast, the king thanked Lionel, leaving him teary-eyed. 
+The king had to give a radio broadcast the evening of his coronation as part of the day's events. This was a big deal, & he & Lionel had been practising for weeks. Following the successful broadcast, the king thanked Lionel, leaving him teary-eyed.
+The King's Speech (2010) by M. Logue & P. Conradi, p10
+
 90
-01:49:29,000 --> 01:49:58,000
+01:49:48,000 --> 01:49:58,000
 TRUE
-The king had to give a radio broadcast the evening of his coronation as part of the day's events. This was a big deal & he & Lionel had been practising for weeks. Following the broadcast Elizabeth thanked Lionel sincerely. She was known for her pride in Bertie. 
+The king had to give a radio broadcast the evening of his coronation as part of the day's events. This was a big deal & he & Lionel had been practising for weeks. Following the broadcast Elizabeth thanked Lionel sincerely. She was known for her pride in Bertie.
+The King's Speech (2010) by M. Logue & P. Conradi, p10
+
 91
-01:49:58,000 --> 01:51:34,000
+01:51:24,000 --> 01:51:34,000
 FALSE
-High-ranking officials such as Churchill would not have been present during the king's speeches. 
+High-ranking officials such as Churchill would not have been present during the king's speeches.
+Wikipedia: The King's Speech
+
 92
-01:51:34,000 --> 01:52:05,000
+01:51:55,000 --> 01:52:05,000
 TRUE
-Lionel was elevated from MVO to CVO in 1944. He helped the king with every wartime speech, & they remained close friends until the king's death. 
+Lionel was elevated from MVO to CVO in 1944. He helped the king with every wartime speech, & they remained close friends until the king's death.
+The King's Speech (2010) by M. Logue & P. Conradi, p225
+ANU
+
 93
-01:52:05,000 --> 01:58:28,000
+01:58:18,000 --> 01:58:28,000
 -
 
 94
-01:58:29,000 --> 01:58:30,000
+01:58:29,000 --> 01:58:33,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes

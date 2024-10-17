@@ -5,7 +5,7 @@ date: 2024-10-16
 categories: ["miniproject", "media"]
 ---
 
-Have you ever watched a "Based on a True Story" movie and wondered how much of it was true? Have you ever paused a movie to see if that actually happened? Have you heard that American Sniper is less than 50% true and wanted to know what parts were fabricated?
+Have you ever watched a "Based on a True Story" movie and wondered how much of it was true? Have you ever paused a movie to see how much of it actually happened? Have you heard that American Sniper was mostly fabricated and wanted to know which parts?
 
 All of those apply to me, and aparently to David McCandless, Dr Stephanie Starling, Omid Kashan, Karl Webster & DM. They created a [Visualisation of the accuracy of movies "based on a true story"](https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/). 
 

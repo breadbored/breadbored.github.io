@@ -1,471 +1,718 @@
 1
 00:00:00,000 --> 00:00:05,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes
 
 2
-00:00:00,000 --> 00:00:30,000
+00:00:20,000 --> 00:00:30,000
 -
 
 3
-00:00:30,000 --> 00:01:12,000
+00:01:02,000 --> 00:01:12,000
 TRUE
-Kyle watched from a rooftop as ten young marines rolled up in a vehicle convoy in Fallujah. 
+Kyle watched from a rooftop as ten young marines rolled up in a vehicle convoy in Fallujah.
+American Sniper (2012) by C. Kyle, prologue
+
 4
-00:01:12,000 --> 00:02:37,000
+00:02:27,000 --> 00:02:37,000
 FALSE-ISH
-Kyle did watch over the marines from a rooftop & he did radio the chief for clearance on certain shots, but he didn't report seeing anyone but a woman & a few children at this point. Still, he had his crosshairs on a lot of men over the course of his career. 
+Kyle did watch over the marines from a rooftop & he did radio the chief for clearance on certain shots, but he didn't report seeing anyone but a woman & a few children at this point. Still, he had his crosshairs on a lot of men over the course of his career.
+American Sniper (2012) by C. Kyle, prologue
+
 5
-00:02:37,000 --> 00:03:34,000
+00:03:24,000 --> 00:03:34,000
 FALSE-ISH
-Kyle's first kill was a woman with a grenade. She did have a child with her initally, but was alone when she approached the convoy. Kyle never killed a child. 
+Kyle's first kill was a woman with a grenade. She did have a child with her initally, but was alone when she approached the convoy. Kyle never killed a child.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch7
+Telegraph
+
 6
-00:03:34,000 --> 00:04:18,000
+00:04:08,000 --> 00:04:18,000
 TRUE
-Kyle's father, a church deacon, gave him his first real gun when he was 8 years old. He often took him out hunting. 
+Kyle's father, a church deacon, gave him his first real gun when he was 8 years old. He often took him out hunting.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch4
+
 7
-00:04:18,000 --> 00:04:52,000
+00:04:42,000 --> 00:04:52,000
 FALSE-ISH
 Kyle's family were religious & went to church every week. He doesn't mention anything about stealing a little blue bible in his bio, though.
+American Sniper (2012) by C. Kyle, prologue
+
 8
-00:04:52,000 --> 00:06:12,000
+00:06:02,000 --> 00:06:12,000
 TRUE
-Kyle's father always encouraged him & his brother to protect their own. Even as a kid Kyle was always fighting, usually to protect somebody else, often Jeff. 
+Kyle's father always encouraged him & his brother to protect their own. Even as a kid Kyle was always fighting, usually to protect somebody else, often Jeff.
+American Sniper (2012) by C. Kyle, prologue
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch4
+Telegraph
+
 9
-00:06:12,000 --> 00:07:14,000
+00:07:04,000 --> 00:07:14,000
 TRUE
-Kyle did compete in rodeos, his brother Jeff did too. They were inseparable, Jeff followed Kyle everywhere. He gave up broncos after an injury that left him with pins in his wrists. 
+Kyle did compete in rodeos, his brother Jeff did too. They were inseparable, Jeff followed Kyle everywhere. He gave up broncos after an injury that left him with pins in his wrists.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch4
+Telegraph
+
 10
-00:07:14,000 --> 00:07:34,000
+00:07:24,000 --> 00:07:34,000
 FALSE
-Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated. 
+Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated.
+Time
+
 11
-00:07:34,000 --> 00:08:28,000
+00:08:18,000 --> 00:08:28,000
 FALSE
-Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated. 
+Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated.
+Time
+
 12
-00:08:28,000 --> 00:09:16,000
+00:09:06,000 --> 00:09:16,000
 FALSE
-Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated. 
+Kyle did injure his hand badly in a rodeo fall, but the whole girlfriend scene was fabricated.
+Time
+
 13
-00:09:16,000 --> 00:10:15,000
+00:10:05,000 --> 00:10:15,000
 FALSE
 Kyle signed up to the military because he had always intended to. Following a bad set of rodeo injuries he decided the time was right.
+Slate
+
 14
-00:10:15,000 --> 00:10:47,000
+00:10:37,000 --> 00:10:47,000
 TRUE
-Originally Kyle wanted to be a marine, but when he turned up to the recruiting offices the marine guy was out for lunch. He spoke to the army guy but it didn't appeal much, then he spoke to the SEAL guy & was hooked instantly. 
+Originally Kyle wanted to be a marine, but when he turned up to the recruiting offices the marine guy was out for lunch. He spoke to the army guy but it didn't appeal much, then he spoke to the SEAL guy & was hooked instantly.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch5
+
 15
-00:10:47,000 --> 00:13:43,000
+00:13:33,000 --> 00:13:43,000
 TRUE-ISH
-The training was intense. They had to sit in freezing water for hours on end. Kyle suffered but he was determined. He didn't meet any of his future teammates during training, though. He got close with a guy called Marcus Luttrell but never fought together. 
+The training was intense. They had to sit in freezing water for hours on end. Kyle suffered but he was determined. He didn't meet any of his future teammates during training, though. He got close with a guy called Marcus Luttrell but never fought together.
+American Sniper (2012) by C. Kyle, ch2
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch5
+
 16
-00:13:43,000 --> 00:17:16,000
+00:17:06,000 --> 00:17:16,000
 TRUE
-They did meet in a bar. Taya was suspicious of Kyle at first - she thought military men were arrogant, & after her sister had been through a rough divorce with a SEAL hopeful she vowed to stay away. But they clicked & talked for hours. 
+They did meet in a bar. Taya was suspicious of Kyle at first - she thought military men were arrogant, & after her sister had been through a rough divorce with a SEAL hopeful she vowed to stay away. But they clicked & talked for hours.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch6
+
 17
-00:17:16,000 --> 00:17:41,000
+00:17:31,000 --> 00:17:41,000
 TRUE
 Taya did puke as they walked out to the carpark. They'd had a lot of scotch between them.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch6
+
 18
-00:17:41,000 --> 00:18:17,000
+00:18:07,000 --> 00:18:17,000
 TRUE-ISH
 Kyle was a pretty decent shooter at training, not the best, not the worst. He graduated middle of his class. His hunting experience had taught him how to get a bullet from A to B. His sniper training came much later, though.
+American Sniper (2012) by C. Kyle, ch5
+
 19
-00:18:17,000 --> 00:18:57,000
+00:18:47,000 --> 00:18:57,000
 TRUE
-Kyle called Taya a lot. She rarely answered, so he left a lot of messages. She rarely called back. Eventually, though, she came around. 
+Kyle called Taya a lot. She rarely answered, so he left a lot of messages. She rarely called back. Eventually, though, she came around.
+American Sniper (2012) by C. Kyle, ch2
+
 20
-00:18:57,000 --> 00:19:22,000
+00:19:12,000 --> 00:19:22,000
 TRUE-ISH
-He had a bit of trouble with his sniper training at first. But his difficulties weren't because he was lovestruck. His sniper training was long after Taya & Kyle were married, & Kyle had been out on tours a few times already before he even begun sniper training. 
+He had a bit of trouble with his sniper training at first. But his difficulties weren't because he was lovestruck. His sniper training was long after Taya & Kyle were married, & Kyle had been out on tours a few times already before he even begun sniper training.
+American Sniper (2012) by C. Kyle, ch5
+
 21
-00:19:22,000 --> 00:20:35,000
+00:20:25,000 --> 00:20:35,000
 We couldn't find a source for this. 
-Kyle doesn't mention this in his bio, but he was relatively private about his personal life. 
+Kyle doesn't mention this in his bio, but he was relatively private about his personal life.
+The Life & Legend of Chris Kyle (2015) by M. Mooney
+
 22
-00:20:35,000 --> 00:20:52,000
+00:20:42,000 --> 00:20:52,000
 TRUE-ISH
-He had a bit of trouble with his sniper training at first. But his difficulties weren't because he was lovestruck. His sniper training was long after Taya & Kyle were married, & Kyle had been out on tours a few times already before he even begun sniper training. 
+He had a bit of trouble with his sniper training at first. But his difficulties weren't because he was lovestruck. His sniper training was long after Taya & Kyle were married, & Kyle had been out on tours a few times already before he even begun sniper training.
+American Sniper (2012) by C. Kyle, ch5
+
 23
-00:20:52,000 --> 00:21:33,000
+00:21:23,000 --> 00:21:33,000
 We couldn't find a source for this. 
 Kyle doesn't mention this in his bio, but he was relatively private about his personal life. Presumably they had sex at some point...
+The Life & Legend of Chris Kyle (2015) by M. Mooney
+
 24
-00:21:33,000 --> 00:22:03,000
+00:21:53,000 --> 00:22:03,000
 TRUE-ISH
-There was a rattlesnake incident - Kyle encountered one in a field while on a mission & changed his course to avoid it. Kyle did practise his observation every chance he got, looking out into the woods for slight movements etc. This scene works as a composite. 
+There was a rattlesnake incident - Kyle encountered one in a field while on a mission & changed his course to avoid it. Kyle did practise his observation every chance he got, looking out into the woods for slight movements etc. This scene works as a composite.
+American Sniper (2012) by C. Kyle, ch5
+
 25
-00:22:03,000 --> 00:22:43,000
+00:22:33,000 --> 00:22:43,000
 TRUE
 Kyle was at Taya's place when the news hit. Taya did yell for Kyle, & they watched it all unravel on the TV. He was furious.
+American Sniper (2012) by C. Kyle, ch2
+
 26
 00:22:43,000 --> 00:22:49,000
 TRUE
-Kyle did learn to hone his focus absolutely. 
+Kyle did learn to hone his focus absolutely.
+American Sniper (2012) by C. Kyle, ch5
+
 27
-00:22:49,000 --> 00:23:38,000
+00:23:28,000 --> 00:23:38,000
 TRUE-ISH
-Just like in the movie there was no big proposal or anything, they were just talking & ended up getting engaged. But the conversation was in a car, not a bed, & Kyle wasn't 100% convinced of the idea like he's shown to be in the scene. 
+Just like in the movie there was no big proposal or anything, they were just talking & ended up getting engaged. But the conversation was in a car, not a bed, & Kyle wasn't 100% convinced of the idea like he's shown to be in the scene.
+American Sniper (2012) by C. Kyle, ch2
+
 28
-00:23:38,000 --> 00:25:03,000
+00:24:53,000 --> 00:25:03,000
 FALSE-ISH
 Kyle & Taya married quickly because Kyle was due to head out on his first tour. They didn't find out America was going to war with Iraq during the wedding. His brother Jeff had joined the marines by then though, & was deployed soon after.
+The Life & Legend of Chris Kyle (2015) by M. Mooney
+Slate
+
 29
-00:25:03,000 --> 00:25:50,000
+00:25:40,000 --> 00:25:50,000
 TRUE-ISH
-Marine & SEAL teams rolled into Fallujah. The marines were there to clear buildings while the snipers watched out for them from rooftops. Kyle did keep a bible with him the whole time, although not one stolen from church as a kid. 
+Marine & SEAL teams rolled into Fallujah. The marines were there to clear buildings while the snipers watched out for them from rooftops. Kyle did keep a bible with him the whole time, although not one stolen from church as a kid.
+American Sniper (2012) by C. Kyle, ch6, 11
+
 30
-00:25:50,000 --> 00:26:30,000
+00:26:20,000 --> 00:26:30,000
 TRUE-ISH
-They all headed out to their positions right away. Kyle mentions the guy he was paired with, says they got along fine. He doesn't use names for all the people involved since some of them are still in active duty. 
+They all headed out to their positions right away. Kyle mentions the guy he was paired with, says they got along fine. He doesn't use names for all the people involved since some of them are still in active duty.
+American Sniper (2012) by C. Kyle, ch6
+
 31
-00:26:30,000 --> 00:28:28,000
+00:28:18,000 --> 00:28:28,000
 FALSE-ISH
-Kyle's first sniper kill was a woman with a grenade. She did have a child with her initally, but was alone when she approached the convoy. Kyle never killed a child. 
+Kyle's first sniper kill was a woman with a grenade. She did have a child with her initally, but was alone when she approached the convoy. Kyle never killed a child.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch7
+Telegraph
+
 32
-00:28:28,000 --> 00:29:36,000
+00:29:26,000 --> 00:29:36,000
 FALSE
-Kyle never felt uneasy about any kill, & has said killing that woman was no different to killing any other enemy. He doesn't mention talking to Biggles about it, either. 
+Kyle never felt uneasy about any kill, & has said killing that woman was no different to killing any other enemy. He doesn't mention talking to Biggles about it, either.
+American Sniper (2012) by C. Kyle, prologue
+
 33
-00:29:36,000 --> 00:30:07,000
+00:29:57,000 --> 00:30:07,000
 TRUE-ISH
-Kyle protected the marines from the rooftops. He killed a lot of insurgents on those days. He shot a guy right behind a patrol of marines, who had no idea who fired the shot & thought they were under attack. The dead guy didn't fall from the sky, though. 
+Kyle protected the marines from the rooftops. He killed a lot of insurgents on those days. He shot a guy right behind a patrol of marines, who had no idea who fired the shot & thought they were under attack. The dead guy didn't fall from the sky, though.
+American Sniper (2012) by C. Kyle, ch6, 7
+
 34
-00:30:07,000 --> 00:30:52,000
+00:30:42,000 --> 00:30:52,000
 TRUE
-Kyle shot the driver of an enemy truck. It crashed into a wall & exploded. 
+Kyle shot the driver of an enemy truck. It crashed into a wall & exploded.
+American Sniper (2012) by C. Kyle, ch9
+
 35
-00:30:52,000 --> 00:32:08,000
+00:31:58,000 --> 00:32:08,000
 TRUE
-Kyle shot a few insurgents most days. It was hot as hell. 
+Kyle shot a few insurgents most days. It was hot as hell.
+American Sniper (2012) by C. Kyle
+
 36
-00:32:08,000 --> 00:33:01,000
+00:32:51,000 --> 00:33:01,000
 FALSE-ISH
 Mustafa was a known sniper, active in Fallujah, but Kyle didn't come across him.
+American Sniper (2012) by C. Kyle, ch6
+
 37
-00:33:01,000 --> 00:33:44,000
+00:33:34,000 --> 00:33:44,000
 FALSE-ISH
-In his bio Kyle says, 'let's just say there are no bathroom breaks'. He spent hours & hours at a time in position. He didn't encounter Mustafa, though. 
+In his bio Kyle says, 'let's just say there are no bathroom breaks'. He spent hours & hours at a time in position. He didn't encounter Mustafa, though.
+American Sniper (2012) by C. Kyle, ch5
+
 38
-00:33:44,000 --> 00:34:03,000
+00:33:53,000 --> 00:34:03,000
 TRUE
-While Kyle was assisting an army unit he shot a guy carrying an AK47. Although there were witnesses, the guy's wife said he had been carrying a Quran. There was an investigation, & Kyle was confined to base while they sorted it. He was cleared in the end. 
+While Kyle was assisting an army unit he shot a guy carrying an AK47. Although there were witnesses, the guy's wife said he had been carrying a Quran. There was an investigation, & Kyle was confined to base while they sorted it. He was cleared in the end.
+American Sniper (2012) by C. Kyle, ch7
+
 39
-00:34:03,000 --> 00:34:45,000
+00:34:35,000 --> 00:34:45,000
 TRUE
-Biggles & Kyle's other buddies all teased him about his legendary status. Dauber changed 'The Legend' to 'The Myth' to knock him down a few pegs. 
+Biggles & Kyle's other buddies all teased him about his legendary status. Dauber changed 'The Legend' to 'The Myth' to knock him down a few pegs.
+American Sniper (2012) by C. Kyle, ch7
+
 40
-00:34:45,000 --> 00:37:12,000
+00:37:02,000 --> 00:37:12,000
 We couldn't find a source for this. 
 Jeff did join the military, but we don't know how Kyle felt about his deployment, & we don't know much about his conversations with Taya either. He was private about his feelings.
+American Sniper (2012) by C. Kyle
+
 41
-00:37:12,000 --> 00:38:22,000
+00:38:12,000 --> 00:38:22,000
 Kyle didn't mention any specific enemy.
 According to the bio they weren't looking for any one particular enemy, just trying to kill as many insurgents as they could find. Although there was a lot of classified stuff he wasn't allowed to include.
+American Sniper (2012) by C. Kyle
+
 42
-00:38:22,000 --> 00:39:05,000
+00:38:55,000 --> 00:39:05,000
 TRUE-ISH
 Kyle did want to join the marines on the ground, but it wasn't a problem.
+American Sniper (2012) by C. Kyle, ch6
+
 43
-00:39:05,000 --> 00:40:29,000
+00:40:19,000 --> 00:40:29,000
 TRUE-ISH
-A composite scene. Kyle didn't like cowards. One marine he was paired with ran away instead of covering him & really pissed him off. In a separate event, Kyle handed his sniper rifle over to the marine he was paired with & left him to join the marines on the ground. 
+A composite scene. Kyle didn't like cowards. One marine he was paired with ran away instead of covering him & really pissed him off. In a separate event, Kyle handed his sniper rifle over to the marine he was paired with & left him to join the marines on the ground.
+American Sniper (2012) by C. Kyle, ch6, 7
+
 44
-00:40:29,000 --> 00:42:13,000
+00:42:03,000 --> 00:42:13,000
 FALSE-ISH
 Kyle did join the marines on the ground, helping to clear insurgents in Fallujah. Kyle doesn't mention anything about an Al-Obedi & he had nothing to do with The Butcher.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch7
+American Sniper (2012) by C. Kyle, ch7
+
 45
-00:42:13,000 --> 00:43:59,000
+00:43:49,000 --> 00:43:59,000
 FALSE
-Kyle doesn't mention interrogating anybody. Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated. 
+Kyle doesn't mention interrogating anybody. Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated.
+Telegraph
+
 46
-00:43:59,000 --> 00:44:54,000
+00:44:44,000 --> 00:44:54,000
 FALSE
-Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated. Kyle doesn't mention anything about an Al-Obedi. 
+Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated. Kyle doesn't mention anything about an Al-Obedi.
+Telegraph
+
 47
-00:44:54,000 --> 00:45:28,000
+00:45:18,000 --> 00:45:28,000
 TRUE-ISH
-Lee did train as a minister before deciding to go military instead. He acted as a kind of minister in the field, talking to the troops if they needed it. Kyle doesn't mention anything about an Al-Obedi. 
+Lee did train as a minister before deciding to go military instead. He acted as a kind of minister in the field, talking to the troops if they needed it. Kyle doesn't mention anything about an Al-Obedi.
+American Sniper (2012) by C. Kyle, ch8
+
 48
-00:45:28,000 --> 00:45:41,000
+00:45:31,000 --> 00:45:41,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 49
-00:45:41,000 --> 00:46:04,000
+00:45:54,000 --> 00:46:04,000
 We couldn't find a source for this. 
-Kyle was always really private about his personal life. 
+Kyle was always really private about his personal life.
+American Sniper (2012) by C. Kyle
+
 50
 00:46:04,000 --> 00:46:10,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 51
-00:46:10,000 --> 00:46:38,000
+00:46:28,000 --> 00:46:38,000
 TRUE-ISH
-Taya did have to hear a gunfight over the phone once, although it wasn't when she was calling to tell Kyle the sex of the baby as in the film. 
+Taya did have to hear a gunfight over the phone once, although it wasn't when she was calling to tell Kyle the sex of the baby as in the film.
+Slate
+
 52
-00:46:38,000 --> 00:47:58,000
+00:47:48,000 --> 00:47:58,000
 FALSE-ISH
-Kyle had no dealings with The Butcher & doesn't mention anything about an Al-Obedi. Taya did once hear a gunfight over the phone, when Kyle didn't realise he was still connected. Taya didn't hear from Kyle for 5 days after the incident, & thought he was dead. 
+Kyle had no dealings with The Butcher & doesn't mention anything about an Al-Obedi. Taya did once hear a gunfight over the phone, when Kyle didn't realise he was still connected. Taya didn't hear from Kyle for 5 days after the incident, & thought he was dead.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch8
+Time
+
 53
-00:47:58,000 --> 00:49:48,000
+00:49:38,000 --> 00:49:48,000
 FALSE-ISH
 Abu Deraa, an Iraqi warlord also known as The Butcher, did use a drill to kill & torture his victims. A drill through the skull was his trademark. Kyle had no interaction with either The Butcher or Mustafa, though.
+Telegraph
+
 54
-00:49:48,000 --> 00:50:35,000
+00:50:25,000 --> 00:50:35,000
 FALSE-ISH
 Kyle was confined to base following an investigation into one of his kills. It wasn't anything to do with The Butcher, though. He spent the time, he says, working out, playing video games & watching porn.
+American Sniper (2012) by C. Kyle, ch7
+
 55
-00:50:35,000 --> 00:50:54,000
+00:50:44,000 --> 00:50:54,000
 TRUE-ISH
 Kyle was confined to base following an investigation into one of his kills. It wasn't anything to do with The Butcher, though. He spent the time, he says, working out, playing video games & watching porn.
+American Sniper (2012) by C. Kyle, ch7
+
 56
-00:50:54,000 --> 00:51:46,000
+00:51:36,000 --> 00:51:46,000
 TRUE
-Taya was always there waiting on the tarmac when she knew he was coming home. 
+Taya was always there waiting on the tarmac when she knew he was coming home.
+American Sniper (2012) by C. Kyle
+
 57
-00:51:46,000 --> 00:53:03,000
+00:52:53,000 --> 00:53:03,000
 TRUE
-Taya did feel nervous about getting physical with Kyle each time he came home. She writes that there was a distance between them they couldn't bridge. 
+Taya did feel nervous about getting physical with Kyle each time he came home. She writes that there was a distance between them they couldn't bridge.
+American Sniper (2012) by C. Kyle, ch7
+
 58
-00:53:03,000 --> 00:53:60,000
+00:53:50,000 --> 00:54:00,000
 TRUE
 Kyle was always frustrated & uneasy when on leave. He was jumpy & sensitive to noise. The first week of any time off he didn't want to leave the house.
+American Sniper (2012) by C. Kyle, ch5
+
 59
-00:53:60,000 --> 00:54:55,000
+00:54:45,000 --> 00:54:55,000
 TRUE-ISH
 They stuck two unrelated bits of story together here. Kyle did start suffering with extreme high blood pressure, & sought medical attention while on deployment, but Taya had long since given birth to both children by the time Kyle starting having health problems.
+American Sniper (2012) by C. Kyle, ch12
+
 60
-00:54:55,000 --> 00:55:45,000
+00:55:35,000 --> 00:55:45,000
 FALSE-ISH
-Kyle was always pissed off that whenever he came home nobody was talking about the war anymore. His blood pressure problems came much later though, & Taya didn't go into labour in the car. 
+Kyle was always pissed off that whenever he came home nobody was talking about the war anymore. His blood pressure problems came much later though, & Taya didn't go into labour in the car.
+American Sniper (2012) by C. Kyle, ch2, 12
+
 61
-00:55:45,000 --> 00:56:12,000
+00:56:02,000 --> 00:56:12,000
 TRUE-ISH
-Taya gave birth to a boy, Kyle was with her. The film glossed over how traumatic it was. Taya she kept passing out & the baby got stuck. Kyle just wanted the kid out to save his wife. He admits it took him a long time to bond with his son. 
+Taya gave birth to a boy, Kyle was with her. The film glossed over how traumatic it was. Taya she kept passing out & the baby got stuck. Kyle just wanted the kid out to save his wife. He admits it took him a long time to bond with his son.
+American Sniper (2012) by C. Kyle, ch5
+
 62
-00:56:12,000 --> 00:57:16,000
+00:57:06,000 --> 00:57:16,000
 FALSE-ISH
 Kyle was distant when he was home, which Taya hated. He didn't have a vendetta against Mustafa specifically though, he was just some sniper he'd heard of.
+American Sniper (2012) by C. Kyle, ch6
+
 63
-00:57:16,000 --> 00:58:57,000
+00:58:47,000 --> 00:58:57,000
 FALSE-ISH
 Jeff was a marine, he enlisted before 9/11. Kyle doesn't write about meeting his brother on the tarmac, though, or him cursing the war.
+History vs. Hollywood
+
 64
-00:58:57,000 --> 00:59:52,000
+00:59:42,000 --> 00:59:52,000
 FALSE-ISH
-Legend has it that there was initally a $20k bounty on Kyle's head in Iraq, later increasing to $80k. He laughed it off at the time, joking that his wife might turn him in. There was no Kill-The-Butcher action squad involving Kyle. 
+Legend has it that there was initally a $20k bounty on Kyle's head in Iraq, later increasing to $80k. He laughed it off at the time, joking that his wife might turn him in. There was no Kill-The-Butcher action squad involving Kyle.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch8
+Telegraph
+American Sniper (2012) by C. Kyle
+
 65
-00:59:52,000 --> 01:01:13,000
+01:01:03,000 --> 01:01:13,000
 We couldn't find a source for this. 
 Kyle was convinced that their job was to protect America. He wrote that he couldn't care less about the Iraqis. We don't know about Lee, though.
+American Sniper (2012) by C. Kyle, ch7
+
 66
-01:01:13,000 --> 01:02:18,000
+01:02:08,000 --> 01:02:18,000
 TRUE
-Although they weren't hunting The Butcher, they did bust into a few apartments & find families still living there. 
+Although they weren't hunting The Butcher, they did bust into a few apartments & find families still living there.
+American Sniper (2012) by C. Kyle, ch11
+
 67
-01:02:18,000 --> 01:02:55,000
+01:02:45,000 --> 01:02:55,000
 FALSE
 Although teams did use occupied homes as watchposts, this particular incident was fabricated.
+Slate
+
 68
-01:02:55,000 --> 01:04:12,000
+01:04:02,000 --> 01:04:12,000
 FALSE
 The whole scene with Kyle outing the secret-insurgent father was invented.
+Slate
+
 69
-01:04:12,000 --> 01:05:22,000
+01:05:12,000 --> 01:05:22,000
 FALSE
 The whole scene with Kyle outing the secret-insurgent father was invented.
+Slate
+
 70
-01:05:22,000 --> 01:06:31,000
+01:06:21,000 --> 01:06:31,000
 FALSE-ISH
 The whole scene with Kyle outing the secret-insurgent father was invented. However, Kyle does recall that a group of marines found a huge stash of weapons in a home, just like those in the movie. He wasn't involved in it, though, & the occupants weren't present.
+Slate
+American Sniper (2012) by C. Kyle, ch6
+
 71
-01:06:31,000 --> 01:07:13,000
+01:07:03,000 --> 01:07:13,000
 FALSE
 The whole scene with Kyle outing the secret-insurgent father was invented.
+Slate
+
 72
-01:07:13,000 --> 01:08:47,000
+01:08:37,000 --> 01:08:47,000
 FALSE
 The whole scene with Kyle outing the secret-insurgent father was invented.
+Slate
+
 73
-01:08:47,000 --> 01:09:26,000
+01:09:16,000 --> 01:09:26,000
 TRUE-ISH
 Kyle & his team found two men hanging in chains in a basement. Turns out they had been tortured by insurgents to make sure they didn't talk. One was dead, the other died while the marine corpsman worked on him. It wasn't anything to do with The Butcher, though.
+American Sniper (2012) by C. Kyle, ch7
+
 74
-01:09:26,000 --> 01:10:44,000
+01:10:34,000 --> 01:10:44,000
 FALSE
-Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated. 
+Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated.
+Telegraph
+
 75
-01:10:44,000 --> 01:11:23,000
+01:11:13,000 --> 01:11:23,000
 FALSE
-Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated. 
+Although The Butcher might have been a real person, Kyle had nothing to do with him. His role in Kyle's story was fabricated.
+Telegraph
+
 76
-01:11:23,000 --> 01:12:22,000
+01:12:12,000 --> 01:12:22,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie. The father scene was invented. 
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie. The father scene was invented.
+American Sniper (2012) by C. Kyle, ch6
+
 77
-01:12:22,000 --> 01:14:58,000
+01:14:48,000 --> 01:14:58,000
 TRUE-ISH
-Kyle was thanked in a garage back home by a guy whose life he saved in Fallujah. Taya claims he got all embarassed & humble. In the movie he was just with Colton, but in reality Taya was there. 
+Kyle was thanked in a garage back home by a guy whose life he saved in Fallujah. Taya claims he got all embarassed & humble. In the movie he was just with Colton, but in reality Taya was there.
+American Sniper (2012) by C. Kyle, ch6
+
 78
-01:14:58,000 --> 01:15:58,000
+01:15:48,000 --> 01:15:58,000
 TRUE-ISH
-Kyle's daughter had to go into hospital with suspected leukaemia. They performed all kinds of painful tests on her which got Kyle really angry. The nurses weren't ignoring her. They used this scene to show his protectiveness since they left out the leukaemia part. 
+Kyle's daughter had to go into hospital with suspected leukaemia. They performed all kinds of painful tests on her which got Kyle really angry. The nurses weren't ignoring her. They used this scene to show his protectiveness since they left out the leukaemia part.
+American Sniper (2012) by C. Kyle, ch12
+
 79
-01:15:58,000 --> 01:17:48,000
+01:17:38,000 --> 01:17:48,000
 TRUE
-Kyle & Taya had serious problems as a result of his continued redeployment - she had had enough & wanted him home. She was upset that she would be making memories by herself. She recalls just holding McKenna & crying for days on end. 
+Kyle & Taya had serious problems as a result of his continued redeployment - she had had enough & wanted him home. She was upset that she would be making memories by herself. She recalls just holding McKenna & crying for days on end.
+American Sniper (2012) by C. Kyle, ch5, 7, 9
+Slate
+
 80
-01:17:48,000 --> 01:19:05,000
+01:18:55,000 --> 01:19:05,000
 We couldn't find a source for this. 
-We don't know if Biggles bought an engagement ring in Iraq, but he did have a girlfriend who he got engaged to soon after he went home. 
+We don't know if Biggles bought an engagement ring in Iraq, but he did have a girlfriend who he got engaged to soon after he went home.
+American Sniper (2012) by C. Kyle, ch14
+
 81
-01:19:05,000 --> 01:20:40,000
+01:20:30,000 --> 01:20:40,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 82
-01:20:40,000 --> 01:22:07,000
+01:21:57,000 --> 01:22:07,000
 TRUE-ISH
 Ryan 'Biggles' Job was blinded by Mustafa's shot, but Kyle wasn't present at the time. Kyle never encountered Mustafa.
+Telegraph
+
 83
-01:22:07,000 --> 01:23:19,000
+01:23:09,000 --> 01:23:19,000
 TRUE
-Kyle carried Biggles to safety where the corpsmen went to work on him. 
+Kyle carried Biggles to safety where the corpsmen went to work on him.
+American Sniper (2012) by C. Kyle, ch11
+
 84
-01:23:19,000 --> 01:24:19,000
+01:24:09,000 --> 01:24:19,000
 TRUE-ISH
-The team's CO did suggest they step down for a few days to regroup, but this was after Lee's death, not Biggles' injury. When Biggles was injured, their chief asked Kyle if he wanted to go out & get payback. He didn't need to consider it for long. 
+The team's CO did suggest they step down for a few days to regroup, but this was after Lee's death, not Biggles' injury. When Biggles was injured, their chief asked Kyle if he wanted to go out & get payback. He didn't need to consider it for long.
+American Sniper (2012) by C. Kyle, ch11
+
 85
-01:24:19,000 --> 01:26:47,000
+01:26:37,000 --> 01:26:47,000
 TRUE-ISH
-Marc Lee was killed in August 2006 while on a Team 3 mission. He was shot straight through the mouth just like in the film. He didn't die right away, though. 
+Marc Lee was killed in August 2006 while on a Team 3 mission. He was shot straight through the mouth just like in the film. He didn't die right away, though.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch8
+American Sniper (2012) by C. Kyle, ch11
+
 86
-01:26:47,000 --> 01:27:06,000
+01:26:56,000 --> 01:27:06,000
 FALSE-ISH
-Lee's body was escorted home by four of the team. Kyle wasn't one of them though. 
+Lee's body was escorted home by four of the team. Kyle wasn't one of them though.
+American Sniper (2012) by C. Kyle, ch11
+
 87
-01:27:06,000 --> 01:28:40,000
+01:28:30,000 --> 01:28:40,000
 FALSE-ISH
-Kyle was still in Iraq when Lee's funeral took place, but he attended a memorial at base camp, & visited the grave at a later date. Taya attended the funeral on his behalf. 
+Kyle was still in Iraq when Lee's funeral took place, but he attended a memorial at base camp, & visited the grave at a later date. Taya attended the funeral on his behalf.
+Slate
+American Sniper (2012) by C. Kyle, ch11
+
 88
-01:28:40,000 --> 01:29:32,000
+01:29:22,000 --> 01:29:32,000
 FALSE
-Kyle spoke highly of Lee's letter, it didn't anger him or cause any problems between him & Taya. 
+Kyle spoke highly of Lee's letter, it didn't anger him or cause any problems between him & Taya.
+Telegraph
+
 89
-01:29:32,000 --> 01:31:30,000
+01:31:20,000 --> 01:31:30,000
 FALSE-ISH
-Kyle tried to arrange a visit to Biggles in hospital in Germany but by the time everything was set up he was being moved to the States. Kyle did want revenge for Biggles, though. He adored him.  
+Kyle tried to arrange a visit to Biggles in hospital in Germany but by the time everything was set up he was being moved to the States. Kyle did want revenge for Biggles, though. He adored him.
+American Sniper (2012) by C. Kyle, ch5, 7, 9
+Slate
+
 90
-01:31:30,000 --> 01:33:07,000
+01:32:57,000 --> 01:33:07,000
 TRUE
-Kyle & Taya had serious problems as a result of his continued redeployment - she had had enough & wanted him home. Taya told Kyle that if he went back it would change their family for good. 
+Kyle & Taya had serious problems as a result of his continued redeployment - she had had enough & wanted him home. Taya told Kyle that if he went back it would change their family for good.
+American Sniper (2012) by C. Kyle, ch7
+Slate
+
 91
-01:33:07,000 --> 01:34:03,000
+01:33:53,000 --> 01:34:03,000
 TRUE-ISH
-Kyle returned for a 4th tour. Biggles survived getting shot in the face. He did die in surgery years later. Kyle found out in a similar way to that depicted in the film though. His friend Luttrell told him he had died, Kyle had just spoken to him the day before. 
+Kyle returned for a 4th tour. Biggles survived getting shot in the face. He did die in surgery years later. Kyle found out in a similar way to that depicted in the film though. His friend Luttrell told him he had died, Kyle had just spoken to him the day before.
+Telegraph
+American Sniper (2012) by C. Kyle, ch14
+
 92
-01:34:03,000 --> 01:34:57,000
+01:34:47,000 --> 01:34:57,000
 TRUE-ISH
-We don't know if there was a voicemail for Taya, but we do know Kyle started to struggle physically & mentally during his 4th tour & decided to come home. 
+We don't know if there was a voicemail for Taya, but we do know Kyle started to struggle physically & mentally during his 4th tour & decided to come home.
+American Sniper (2012) by C. Kyle, ch12
+
 93
-01:34:57,000 --> 01:36:27,000
+01:36:17,000 --> 01:36:27,000
 FALSE-ISH
-Kyle did encounter a child picking up a rocket launcher in the street, but he has said that he would never kill a child. Rather, he waited for the guy who sent the kid to turn up. 
+Kyle did encounter a child picking up a rocket launcher in the street, but he has said that he would never kill a child. Rather, he waited for the guy who sent the kid to turn up.
+Telegraph
+
 94
-01:36:27,000 --> 01:37:07,000
+01:36:57,000 --> 01:37:07,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 95
-01:37:07,000 --> 01:40:36,000
+01:40:26,000 --> 01:40:36,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 96
-01:40:36,000 --> 01:41:28,000
+01:41:18,000 --> 01:41:28,000
 FALSE
-Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.  
+Mustafa was a known sniper, active in Fallujah, but he wasn't part of Kyle's experience out there like he is in the movie.
+American Sniper (2012) by C. Kyle, ch6
+
 97
-01:41:28,000 --> 01:44:07,000
+01:43:57,000 --> 01:44:07,000
 TRUE-ISH
 Kyle did make a 2100 shot. He says it was really, really lucky. It probably wasn't Mustafa, though. Kyle thought it might have been at the time, but there was no way of knowing from that distance, & he later heard that Mustafa was still alive.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch7
+Telegraph
+Time
+
 98
-01:44:07,000 --> 01:47:56,000
+01:47:46,000 --> 01:47:56,000
 TRUE-ISH
-Kyle's long-distance shot didn't alert insurgents to their position & they weren't swarmed in the midst of a sandstorm. Another team did get caught in a building full of insurgents, & had to call in air support like in the movie. 
+Kyle's long-distance shot didn't alert insurgents to their position & they weren't swarmed in the midst of a sandstorm. Another team did get caught in a building full of insurgents, & had to call in air support like in the movie.
+American Sniper (2012) by C. Kyle, ch7
+Slate
+
 99
-01:47:56,000 --> 01:48:58,000
+01:48:48,000 --> 01:48:58,000
 TRUE-ISH
-He wasn't on the phone to Taya while under attack, but he was falling apart by this point. His blood pressure was through the roof, he was jumpy, scared. He'd had enough & decided to go home. 
+He wasn't on the phone to Taya while under attack, but he was falling apart by this point. His blood pressure was through the roof, he was jumpy, scared. He'd had enough & decided to go home.
+American Sniper (2012) by C. Kyle, ch12
+
 100
-01:48:58,000 --> 01:51:56,000
+01:51:46,000 --> 01:51:56,000
 TRUE-ISH
 Kyle & his outfit got caught in a building overrun by insurgents. Kyle got shot in the back. They had to radio for help & were rescues by the army in Strykers. He didn't get left behind, though.
+American Sniper (2012) by C. Kyle, ch12
+
 101
-01:51:56,000 --> 01:54:05,000
+01:53:55,000 --> 01:54:05,000
 We couldn't find a source for this. 
 Kyle didn't go into details about that day in his memoir, he was a private person when it came to feelings & stuff.
+American Sniper (2012) by C. Kyle, ch14
+
 102
-01:54:05,000 --> 01:54:45,000
+01:54:35,000 --> 01:54:45,000
 We couldn't find a source for this. 
 Kyle suffered from depression when he first returned. His mind was still in the war & he resented Taya for pulling him back home. Still, he didn't mention the TV incident.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch3, 9
+
 103
-01:54:45,000 --> 01:55:59,000
+01:55:49,000 --> 01:55:59,000
 FALSE-ISH
-Kyle felt alienated from his wife & family when he went home. In his final 3yrs of service he spent only 6months at home. He was sensitive to noises & always alert. His friends threw a BBQ for him to welcome him home each time. But the dog incident didn't happen. 
+Kyle felt alienated from his wife & family when he went home. In his final 3yrs of service he spent only 6months at home. He was sensitive to noises & always alert. His friends threw a BBQ for him to welcome him home each time. But the dog incident didn't happen.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch3
+American Sniper (2012) by C. Kyle, ch7
+
 104
-01:55:59,000 --> 01:57:45,000
+01:57:35,000 --> 01:57:45,000
 We couldn't find a source for this. 
-Kyle was often asked whether he regretted any of his kills. He always responded no, that he only regretted the ones he couldn't kill before they got to his 'boys'. However, we don't know if he saw a psychiatrist - he did go for marriage counselling for a while. 
+Kyle was often asked whether he regretted any of his kills. He always responded no, that he only regretted the ones he couldn't kill before they got to his 'boys'. However, we don't know if he saw a psychiatrist - he did go for marriage counselling for a while.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch3, 9
+
 105
-01:57:45,000 --> 01:58:21,000
+01:58:11,000 --> 01:58:21,000
 TRUE
-Kyle dedicated his life to helping veterans once he got back. 
+Kyle dedicated his life to helping veterans once he got back.
+American Sniper (2012) by C. Kyle, ch14
+
 106
-01:58:21,000 --> 01:59:34,000
+01:59:24,000 --> 01:59:34,000
 TRUE
-Kyle did a lot of volunteering with veterans after his return, taking them out to shooting ranges etc. He said it was like group therapy, being with their own helped them all relax. Rough Creek Lodge was a luxury spot he frequented with his injured vet buddies. 
+Kyle did a lot of volunteering with veterans after his return, taking them out to shooting ranges etc. He said it was like group therapy, being with their own helped them all relax. Rough Creek Lodge was a luxury spot he frequented with his injured vet buddies.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch3, 10
+
 107
-01:59:34,000 --> 02:00:12,000
+02:00:02,000 --> 02:00:12,000
 TRUE
-The family did move from California to Texas after Kyle came home. Kyle was Texas born & bred. 
+The family did move from California to Texas after Kyle came home. Kyle was Texas born & bred.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch2, 3
+
 108
-02:00:12,000 --> 02:00:33,000
+02:00:23,000 --> 02:00:33,000
 TRUE
 Kyle did eventually get back to himself once they'd moved back out to Texas, & the family were happy. It took his daughter a while to accept him but they grew close eventually.
+American Sniper (2012) by C. Kyle, ch14
+
 109
-02:00:33,000 --> 02:00:58,000
+02:00:48,000 --> 02:00:58,000
 TRUE
-Although it took a while to get their marriage back on track, they were in a good place a few years after Kyle returned home. 
+Although it took a while to get their marriage back on track, they were in a good place a few years after Kyle returned home.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch3
+Slate
+
 110
-02:00:58,000 --> 02:01:23,000
+02:01:13,000 --> 02:01:23,000
 TRUE
 Kyle taught Colton how to shoot, says he was a decent shot & very keen.
+American Sniper (2012) by C. Kyle, ch14
+
 111
-02:01:23,000 --> 02:03:47,000
+02:03:37,000 --> 02:03:47,000
 TRUE
-Taya & Kyle fixed their marriage & were happy again. They did have the conversation where Taya tells Kyle how proud she is of him, how glad she was that he came home, although it was a month before his death, not the day he died. 
+Taya & Kyle fixed their marriage & were happy again. They did have the conversation where Taya tells Kyle how proud she is of him, how glad she was that he came home, although it was a month before his death, not the day he died.
+Slate
+
 112
-02:03:47,000 --> 02:04:11,000
+02:04:01,000 --> 02:04:11,000
 FALSE
-Kyle & his friend Chad Littlefield picked the former marine up at his place that day, so Taya didn't see the guy. 
+Kyle & his friend Chad Littlefield picked the former marine up at his place that day, so Taya didn't see the guy.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch12
+
 113
-02:04:11,000 --> 02:04:22,000
+02:04:12,000 --> 02:04:22,000
 TRUE
-Eddie Ray Routh killed Kyle & Littlefield with his pistol at the shooting range. He stole Kyle's truck & drove to his sister's place, where he confessed to murder & raged with paranoia. 
+Eddie Ray Routh killed Kyle & Littlefield with his pistol at the shooting range. He stole Kyle's truck & drove to his sister's place, where he confessed to murder & raged with paranoia.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch12
+
 114
-02:04:22,000 --> 02:07:14,000
+02:07:04,000 --> 02:07:14,000
 TRUE
-The funeral & memorial service were big affairs. Thousands of people attended. 
+The funeral & memorial service were big affairs. Thousands of people attended.
+The Life & Legend of Chris Kyle (2015) by M. Mooney, ch1
+
 115
-02:07:14,000 --> 02:12:40,000
+02:12:30,000 --> 02:12:40,000
 -
 
 116
-02:12:41,000 --> 02:12:42,000
+02:12:41,000 --> 02:12:45,000
 Original Data Provided By: 
-Dr Stephanie Starling, David McCandless, DM
-Omid Kashan, Karl Webster
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
 Subtitles Compiled By: 
 BreadCodes
