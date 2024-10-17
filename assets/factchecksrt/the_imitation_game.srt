@@ -1,10 +1,8 @@
 1
 00:00:00,000 --> 00:00:05,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes
 
@@ -15,633 +13,631 @@ BreadCodes
 3
 00:00:48,000 --> 00:01:21,000
 TRUE
-
+Turing was interviewed over the burglary & his admission of gross indencency (homosexual acts)
 4
 00:01:21,000 --> 00:02:00,000
 TRUE
-
+Turing was burgled. The police came to take finger prints.
 5
 00:02:00,000 --> 00:02:42,000
 We don't know if MI6 monitored Turing. 
-
+We don't know if the British secret service MI6 monitored Turing after the war. Seems unlikely.
 6
 00:02:42,000 --> 00:03:28,000
 TRUE-ISH
-
+Nock didn't exist & Turing lived in Cheshire, not Manchester. So the crimes would've been investigated by the Cheshire constabulary. He did work at Max Newman's Computing Laboratory at the University of Manchester.
 7
 00:03:28,000 --> 00:04:45,000
 FALSE-ISH
-
+The police did interview Turing about the burglary. Turing certainly didn't suffer fools & was a little eccentric, but was considered sociable, friendly, witty & gentle.
 8
 00:04:45,000 --> 00:05:11,000
 TRUE-ISH
-
+It's likely the investigating officers talked about Turing.
 9
 00:05:11,000 --> 00:07:39,000
 TRUE
-
+Turing did travel on a day when the trains were swollen with evacuating kids.
 10
 00:07:39,000 --> 00:07:53,000
 FALSE
-
+How Turing came to be recommended to Denniston is not clear. It's suspected that a don at Cambridge, Professor Adcock, recommended him. He began his posting there with a course, not an interview with Denniston.
 11
 00:07:53,000 --> 00:08:05,000
 FALSE
-
+Turing was known for his wit & tomfoolery.
 12
 00:08:05,000 --> 00:08:28,000
 FALSE
-
+Denniston had decades of experience in cryptography - his grandkids state that the film takes an "unwarranted sideswipe" at his memory. In reality, Denniston supported Turing's work. There's no record of the depicted interactions between Turing & Denniston.
 13
 00:08:28,000 --> 00:08:54,000
 TRUE
-
+Turing was exceptionally bright. His maths teacher described him as a "genius"
 14
 00:08:54,000 --> 00:09:30,000
 FALSE-ISH
-
+Turing didn't have much time for Denniston, but there's no evidence of a hateful dislike between the two men.
 15
 00:09:30,000 --> 00:10:31,000
 FALSE
-
+Turing never had an interview with Denniston & was not turned down.
 16
 00:10:31,000 --> 00:10:32,000
 FALSE-ISH
-
+Turing did learn German at school, although his teacher said he had no "aptitude for languages".
 17
 00:10:32,000 --> 00:11:24,000
 FALSE-ISH
-
+Turing was already working for the government's Code and Cypher School before he started at Bletchley - so, it's not entirely impossible that he heard something. But Bletchley Park work was top secret, so it seems unlikely. 
 18
 00:11:24,000 --> 00:11:40,000
 FALSE-ISH
-
+British intelligence did initially believe Enigma was uncrackable. As did the Germans. But outstanding work by Polish & French intelligence had already led to some deciphering of Enimga messages & a well developed methodology for doing so.
 19
 00:11:40,000 --> 00:11:45,000
 TRUE-ISH
-
+We'd expect that the team working on the machine would look over it regularly. 
 20
 00:11:45,000 --> 00:11:47,000
 FALSE
-
+Cairncross never worked on Enigma (he worked on 'Tunny', a completely different code). He wasn't even a high level codebreaker. It's doubtful Turing even knew him.
 21
 00:11:47,000 --> 00:12:18,000
 TRUE
-
+Denniston had over two decades of experience in cryptography & led the cryptography unit so it's likely he knew & could explain how an Enigma machine worked.
 22
 00:12:18,000 --> 00:12:34,000
 FALSE-ISH
-
+It's highly likely Bletchley Park was in possession of an Enigma machine at some point. But Polish intelligence did not steal one. They were in fact the first to break early Enigma code & built the first "bombe" cryptological machine in 1939.
 23
 00:12:34,000 --> 00:12:58,000
 More complicated than that. 
-
+It was more complicated than that. There were several different Enigma machines of varying complexity. Some used a combination of electromagnetic cyphering (which the team could technically reverse engineer) & codebooks (which they needed to capture somehow).
 24
 00:12:58,000 --> 00:13:33,000
 TRUE-ISH
-
+The Enigma machine had many billions of possible combinations.
 25
 00:13:33,000 --> 00:13:48,000
 TRUE-ISH
-
+There was just initially a small group of four who struggled with Enigma - though none of the people in the film, bar Alan, were in it. 
 26
 00:13:48,000 --> 00:14:44,000
 FALSE
-
+There are no records showing that they interacted at all during their time at Bletchley Park. The Government Code & Cypher School was under the control of the head of the secret service.
 27
 00:14:44,000 --> 00:16:51,000
 TRUE-ISH
-
+People have questioned the calculations. Plus it's unclear whether Turing means 10 men each checking one setting per min, or 10 men together checking one setting per min.  Either way, it would have taken a very long time.
 28
 00:16:51,000 --> 00:17:55,000
 FALSE-ISH
-
+Turing was shy, eccentric, impatient & judgemental of those of lesser intelligence, but not socially inept & narcissistic, as the film implies. 
 29
 00:17:55,000 --> 00:18:16,000
 FALSE
-
+The earlier attempts to crack the code didn't use frequency analysis, everyone knew that was worthless.
 30
 00:18:16,000 --> 00:19:09,000
 TRUE-ISH
-
+Turing did work on the design of a machine with Donald MacPhail. But it was not a new invention. Rather an adaptation of an existing design made by Polish secret service.
 31
 00:19:09,000 --> 00:19:31,000
 TRUE
-
+Turing was indeed a runner (& a very good one - he finished fifth in the 1948 British Olympic marathon Trials).
 32
 00:19:31,000 --> 00:20:21,000
 TRUE
-
+Polish intelligence built the first "Bombe" decryption machines in 1938. The Germans quickly increased the complexity of the Enigma machine & put the decryption beyond the reach of these early machines. Only the resource-rich English could develop the research.
 33
 00:20:21,000 --> 00:20:57,000
 FALSE
-
+There was no Nock. The investigating officers did not dig into Turing's war records. Tippex was not invented until 1956.
 34
 00:20:57,000 --> 00:21:12,000
 FALSE
-
+A lowly police inspector could not have - would not have - illegally accessed Turing war records with a fake letter.
 35
 00:21:12,000 --> 00:21:54,000
 FALSE
-
+Turing did make a request for additional resources. But not to Denniston. No one made formal complaints about Turing. He did not have an altercation with Denniston or any other authority figure.
 36
 00:21:54,000 --> 00:22:39,000
 TRUE-ISH
-
+This was a true statement, but Turing wasn't the the first to articulate it. Polish intelligence had already built a decryption machine.
 37
 00:22:39,000 --> 00:23:09,000
 FALSE-ISH
-
+Turing did not have such a confrontation with Denniston. However there was some reported tension at Bletchley between the discplined service chiefs & the "unorthodox' & "undiscplined" cypher teams. Turing in particular thrived on a lack of uniformity & rank. 
 38
 00:23:09,000 --> 00:23:23,000
 TRUE-ISH
-
+Turing (and three others) did write directly to Churchill in an appeal for more resources.
 39
 00:23:23,000 --> 00:24:13,000
 FALSE-ISH
-
+Churchill did not put Turing in charge of the unit but did respond immediately to Turing's request. He had a keen interest in cryptograph & even visited Bletchley in the summer of 1941.
 40
 00:24:13,000 --> 00:24:19,000
 TRUE-ISH
-
+Turing was not particularly popular at school.
 41
 00:24:19,000 --> 00:24:26,000
 TRUE
-
+Turing attended Sherborne school.
 42
 00:24:26,000 --> 00:24:40,000
 FALSE
-
+There's no evidence that Turing suffered from OCD.
 43
 00:24:40,000 --> 00:24:50,000
 TRUE-ISH
-
+Physical & emotional bullying was commonplace at Sherbourne. Turing definitely experienced it but was not singled out.
 44
 00:24:50,000 --> 00:25:50,000
 TRUE
-
+On at least one occasional at school boys trapped him under the floorboards
 45
 00:25:50,000 --> 00:26:26,000
 FALSE-ISH
-
+Christopher Morcom did not free him from the floorboards. But they were friends.
 46
 00:26:26,000 --> 00:26:54,000
 TRUE-ISH
-
+Turing did not organise a crossword-recruitment drive. The Daily Telegraph did organise a crossword competition. Those who completed it in under 12 minutes were approached for work at Bletchley.
 47
 00:26:54,000 --> 00:27:21,000
 There was such a competition. 
-
+The Daily Telegraph did organise a crossword competition. Those who completed it in under 12 minutes were approached for work at Bletchley.
 48
 00:27:21,000 --> 00:28:21,000
 TRUE
-
+During bombing raids on London, the populace took shelter in the Underground.
 49
 00:28:21,000 --> 00:29:01,000
 TRUE
-
+London was repeatedly bombed.
 50
 00:29:01,000 --> 00:29:34,000
 There was such a competition, not organised by Turing.
-
+Turing did not organise a crossword-recruitment drive. The Daily Telegraph did organise a crossword competition. Those who completed it in under 12 minutes were approached for work at Bletchley.
 51
 00:29:34,000 --> 00:29:41,000
 FALSE
-
+Joan was not recruited via a crossword. She was poached directly by another team member, Gordon Welchman, from Cambridge where she was an undergraduate. She had even met Turing once before at the University
 52
 00:29:41,000 --> 00:30:43,000
 TRUE-ISH
-
+Despite illustrous achievements at Bletchley, Joan was paid less than the men & considered her career limited due to her gender. Women working at Bletchley Park were mostly employed in clerical & administration work & not the more intricate cryptology.
 53
 00:30:43,000 --> 00:31:36,000
 There was a recruitment drive of this sort.
-
+The Daily Telegraph did organise a crossword competition. Those who completed it in under 12 minutes were approached for work at Bletchley.
 54
 00:31:36,000 --> 00:32:03,000
 FALSE
-
+There is no evidence to suggest that JOAN was "better" (or "worse") than Turing. She was certainly a talented mathematician & considered one of the best cryptographers at Bletchley.
 55
 00:32:03,000 --> 00:32:28,000
 TRUE-ISH
-
+The sentence for treason was death.
 56
 00:32:28,000 --> 00:33:45,000
 FALSE-ISH
-
+It was not Christopher who introduced Turing to cryptography but another, later friend Victor Beuttell.
 57
 00:33:45,000 --> 00:34:01,000
 TRUE
-
+Turing did have a crush on Christopher Morcom at school.
 58
 00:34:01,000 --> 00:34:40,000
 FALSE
-
+The new wave Bombe machine, designed by Turing, was not built by him at Bletchley. It was built by Harold Keen at the British Tabulating Machine factory at Letchworth.
 59
 00:34:40,000 --> 00:34:53,000
 FALSE
-
+Turing did meet Joan's parents but only after they had become engaged much later.
 60
 00:34:53,000 --> 00:35:50,000
 FALSE
-
+Joan's father was a vicar but there's no evidence he blocked her working at Bletchley. She was, in fact, already at Bletchley when Turing met her. She was promoted to work with Turing's team.
 61
 00:35:50,000 --> 00:36:21,000
 FALSE-ISH
-
+While this scene didn't happen, it's likely the female staff lived separately from the male staff at Bletchley.
 62
 00:36:21,000 --> 00:37:00,000
 FALSE
-
+Didn't happen. Not sure where that line came from.
 63
 00:37:00,000 --> 00:38:13,000
 FALSE
-
+The police did not suspect him of espionage. They pursued him with regard to the homophobic law of gross indecency. He submitted a five-page statement admitting to his affair with Murray – evidence which helped convict him.
 64
 00:38:13,000 --> 00:38:49,000
 TRUE-ISH
-
+While Joan would've arrived at Bletchley Park at some point, she was already working at Bletchley Park when promoted to work on Turing's team.
 65
 00:38:49,000 --> 00:38:55,000
 FALSE
-
+The Nazis were very successfully bombing Allied supply ships on the Atlantic but Britian was by no means starving.
 66
 00:38:55,000 --> 00:39:22,000
 Cannot confirm the 100,000 tons figure.
-
+Cannot confirm the 100,000 tons figure.
 67
 00:39:22,000 --> 00:39:46,000
 TRUE-ISH
-
+Photographs of the Germans' monthly code books show code changes listed for each day. We cannot confirm those changes were made at midnight, but it seems likely. 
 68
 00:39:46,000 --> 00:40:41,000
 FALSE
-
+Didn't happen. The Bombe machine was slow & ineffective a lot of the time, but mainly because the Enigma code was so complex & was continualy revised & complexified by the Germans.
 69
 00:40:41,000 --> 00:41:19,000
 FALSE
-
+Peter Hilton did not have a brother who works on food convoys.
 70
 00:41:19,000 --> 00:43:41,000
 FALSE
-
+Didn't happen. Turing would never have committed such a breach of security.
 71
 00:43:41,000 --> 00:43:51,000
 FALSE
-
+In real life, the machine that cracked Enigma was called the Bombe, & the first operating version of it was named Victory.
 72
 00:43:51,000 --> 00:44:48,000
 One of Turing's theories concerned such a machine.
-
+Yes, one of Turing's theories revolved around the idea of a universal computing machine (a Turing machine) that could perform any computing task.
 73
 00:44:48,000 --> 00:45:51,000
 FALSE
-
+Turing was never suspected of being a spy.
 74
 00:45:51,000 --> 00:46:02,000
 TRUE-ISH
-
+Double agents often do not form lasting & adult emotional relationships due to their explotative motives.
 75
 00:46:02,000 --> 00:46:38,000
 FALSE
-
+Turing was never suspected of being a spy. Denniston never threatened Turing.
 76
 00:46:38,000 --> 00:47:04,000
 FALSE-ISH
-
+Turing was never suspected on being a spy so Joan never had to console him on that point.
 77
 00:47:04,000 --> 00:47:18,000
 FALSE-ISH
-
+It's unlikely that workers at top secret Bletchley chatting casually about their cypher work.
 78
 00:47:18,000 --> 00:48:21,000
 TRUE-ISH
-
+Hugh Alexander was considered charming & a diplomat. Turing was not a great manager of people but he was well liked & his co-workers were fond of him.
 79
 00:48:21,000 --> 00:49:23,000
 FALSE
-
+Turing was known for sociability, wit & tomfoolery.
 80
 00:49:23,000 --> 00:50:34,000
 FALSE
-
+Turing & Christopher shared no common interest in Cryptography.
 81
 00:50:34,000 --> 00:51:27,000
 TRUE-ISH
-
+It was actually Gorden Welchmann who suggested a new wiring configuration for the machine that spectuacularly improved its performance.
 82
 00:51:27,000 --> 00:52:35,000
 FALSE-ISH
-
+The Bombe machine was not housed at Bletchley. It did click & whirr loudly hence the name "bombe".
 83
 00:52:35,000 --> 00:53:07,000
 TRUE
-
+The Germans made great advances across Europe.
 84
 00:53:07,000 --> 00:53:37,000
 TRUE
-
+The Bombe machine was slow & often took weeks to decrypt messages.
 85
 00:53:37,000 --> 00:55:58,000
 FALSE
-
+The machine wasn't even installed at Bletchley Park. Denniston did not try to shut it down or fire Turing. Denniston was an experienced cryptanalyst & was among those who debriefed the 3 Polish experts who had already spent years figuring out how to attack the Enigma.
 86
 00:55:58,000 --> 00:56:43,000
 FALSE
-
+Never happened. Turing's colleagues were fond of him though.
 87
 00:56:43,000 --> 00:57:28,000
 FALSE
-
+This never happened. But Hugh Alexander was considered the diplomat of the team.
 88
 00:57:28,000 --> 00:58:10,000
 FALSE
-
+No one knew there was a spy at Bletchley Park until after the war.
 89
 00:58:10,000 --> 00:59:09,000
 TRUE-ISH
-
+Unable to not tell the truth, Turing admitted to police that he had an affair with a friend of the man who burgled his house. He naively wrote a five page statement explaining everything. The police thought it was a "lovely statement".
 90
 00:59:09,000 --> 00:59:24,000
 FALSE
-
+It was Turing himself who reported the fateful 1952 burglary, probably involving a working-class boyfriend, that brought his gay lifestyle to the attention to the police, thus setting off the legal proceedings against him.
 91
 00:59:24,000 --> 00:59:51,000
 TRUE-ISH
-
+It's probable, since the early machines were slow. They were later made faster & more powerful. 
 92
 00:59:51,000 --> 01:00:10,000
 FALSE
-
+Joan was happy at Bletchley & had no plans to leave.
 93
 01:00:10,000 --> 01:00:17,000
 FALSE
-
+Joan was happy at Bletchley & had no plans to leave.
 94
 01:00:17,000 --> 01:01:04,000
 FALSE
-
+No evidence of such a scene happening & it seems out to character for Joan. Records describe her as congenial but shy, gentle & kind, non-aggressive & always subordinate to the men in her life.
 95
 01:01:04,000 --> 01:02:14,000
 TRUE-ISH
-
+Turing did tend to apply logic to his human decisions. But he proposed to Joan in the traditional way, after spending some days together. She gladly accepted.
 96
 01:02:14,000 --> 01:03:27,000
 FALSE
-
+The engagement was kept hidden. Joan did not wear her ring in the Hut & only one member was told of the engagement.
 97
 01:03:27,000 --> 01:05:07,000
 FALSE
-
+Cairncross and Turing never met. In his own autobiography, Cairncross wrote: “The rigid separation of the different units made contact with other staff members almost impossible, so I never got to know anyone apart from my direct operational colleagues.”
 98
 01:05:07,000 --> 01:06:00,000
 TRUE-ISH
-
+Christopher did fall ill, suffering from Bovine TB, and died - though no one had told Alan that Christopher had contracted the disease from drinking infected cows milk as a small boy. We don't know about the note. 
 99
 01:06:00,000 --> 01:09:37,000
 FALSE
-
+Nock didn't exist & no such conversation with police detectives is on record.
 100
 01:09:37,000 --> 01:10:37,000
 TRUE
-
+The Bombe machine did struggle to keep up with advancements & modifications of the Enigma system.
 101
 01:10:37,000 --> 01:13:16,000
 FALSE-ISH
-
+No record of Hugh meeting a friend of Joan's. Hugh was charming though. 
 102
 01:13:16,000 --> 01:14:24,000
 FALSE
-
+People at Bletchley Park were not allowed to talk to other people about their work, details of their activities & certainly not contents of intercepted transmissions.
 103
 01:14:24,000 --> 01:15:20,000
 FALSE-ISH
-
+The Weather reports were part of the ongoing solution to decrypting Enigma messages. But it was more complicated that is shown in he film. It was not down to repeated usage of the phrase "Heil Hitler"
 104
 01:15:20,000 --> 01:18:45,000
 FALSE-ISH
-
+It's not how it happened. The reality was complicated & long-drawn. Too complicated to explain in this little box.
 105
 01:18:45,000 --> 01:19:25,000
 TRUE-ISH
-
+The broader team - not just Alan's team - did maintain an Atlantic plot which showed estimated positions of U-boats, warships & convoys.
 106
 01:19:25,000 --> 01:21:54,000
 FALSE
-
+The team did not decide which decrypts were to be acted upon. The Admiralty did. There was concern that successful intercepts might alert the Germans.
 107
 01:21:54,000 --> 01:23:35,000
 FALSE-ISH
-
+While this scene did not happen, the sinking & constant struggle with Enigma did sap the team's morale. The HMS Carlisle was an anti-aircraft ship that patrolled the Mediterranean, not the Atlantic.
 108
 01:23:35,000 --> 01:23:48,000
 TRUE-ISH
-
+Many convoys were torpedoed by German U-Boats in the Atlantic.
 109
 01:23:48,000 --> 01:24:40,000
 FALSE
-
+Turing & Joan did not travel to London to conspire with Menzies. (However, the Government Code & Cypher School was run by the head of the secret service, not by the Admiralty)
 110
 01:24:40,000 --> 01:25:07,000
 Menzies decided this for himself.
-
+Menzies decided for himself which intercepts to act on & which to not. Turing & he did not develop a plan.
 111
 01:25:07,000 --> 01:25:45,000
 TRUE-ISH
-
+Kinda true. Sometimes, the Allies had to engage in some subtle internal subterfuge to mask the use of such exact intelligence from their own people, in case those without appropriate clearance inferred the German codes had been cracked.
 112
 01:25:45,000 --> 01:26:11,000
 FALSE
-
+Menzies didn't need to agree because he wasn't there.
 113
 01:26:11,000 --> 01:26:22,000
 Can't confirm this.
-
+Can't confirm this.
 114
 01:26:22,000 --> 01:26:36,000
 FALSE
-
+Heinrich Himmler, the leader of the Nazi party, did not have a military command until close to the end of the war.
 115
 01:26:36,000 --> 01:26:40,000
 FALSE
-
+Well, they trusted him for good reason. He was in charge of a leading team of cryptographers & had proved himself highly proficient.
 116
 01:26:40,000 --> 01:27:02,000
 Peter respected Turing. 
-
+Peter Hilton had nothing but respect for Alan Turing whom he considered a genius.
 117
 01:27:02,000 --> 01:28:04,000
 FALSE
-
+Cairncross was a soviet spy. But he worked on another team at Bletchley & it's doubtful they ever even met. He was not revealed as a spy until 1951.
 118
 01:28:04,000 --> 01:28:50,000
 FALSE
-
+Turing never met Cairncross. Its ludicrous to believe that he would actively cover up for a spy.
 119
 01:28:50,000 --> 01:29:33,000
 FALSE
-
+Never happened.   
 120
 01:29:33,000 --> 01:30:15,000
 FALSE
-
+This scene never happened.
 121
 01:30:15,000 --> 01:30:50,000
 FALSE
-
+False. Cairncross was not deliberately placed at Bletchley. He did reveal to the Soviets that the British were breaking German codes. He was not revealed as a spy until 1951.
 122
 01:30:50,000 --> 01:31:03,000
 TRUE-ISH
-
+Churchill was happy to share some intelligence with the Soviets but not the methods on how they obtained it.
 123
 01:31:03,000 --> 01:31:38,000
 FALSE
-
+Cairncross was not an unwitting double-agent passing disinformation onto the Soviets. British Intelligence did not discover he was a spy until 1951.
 124
 01:31:38,000 --> 01:31:45,000
 FALSE
-
+Dramatic conceit. Didn't happen.
 125
 01:31:45,000 --> 01:32:21,000
 FALSE
-
+There was no such setup.
 126
 01:32:21,000 --> 01:32:49,000
 FALSE
-
+Didn't happen. 
 127
 01:32:49,000 --> 01:33:14,000
 TRUE-ISH
-
+The real Turing was engaged to her for a while, but he told her within a few days that he had homosexual tendencies. According to him, she was “unfazed” by this.
 128
 01:33:14,000 --> 01:33:19,000
 TRUE
-
+Joan suspected Turing was gay.
 129
 01:33:19,000 --> 01:34:05,000
 TRUE
-
+True. She was not the kind of woman to be bothered by "bogeywords".
 130
 01:34:05,000 --> 01:34:33,000
 FALSE
-
+Never happened. The breakup was quiet & very upsetting for both of them. Turing acted honourably.
 131
 01:34:33,000 --> 01:35:11,000
 FALSE
-
+Joan was passionate about her work, but was notably deferent to men.
 132
 01:35:11,000 --> 01:35:45,000
 FALSE
-
+These terrible decisions were not made by the cypher team but higher ups in the Admiralty & government.
 133
 01:35:45,000 --> 01:36:40,000
 TRUE-ISH
-
+Certainly many WWII battles were aided & won by Enigma intelligence. But the Ardennes wasn't one of them as the Germans did not use Enigma to transmit orders during that battle.
 134
 01:36:40,000 --> 01:37:42,000
 TRUE
-
+The Allies won the war.
 135
 01:37:42,000 --> 01:38:36,000
 FALSE-ISH
-
+All materials at Bletchley were destroyed. However many of the cypher teams - Turing & Joan included - stayed friends.
 136
 01:38:36,000 --> 01:39:30,000
 Nock didn't exist.
-
+Dramatically invented scene. There was no Nock.
 137
 01:39:30,000 --> 01:41:50,000
 FALSE-ISH
-
+Turing was pre-warned that his friend had died & that he should prepare for the worst. The housemasters announced Christopher's death to all the boys, not just Turing & was kind & comforting. 
 138
 01:41:50,000 --> 01:42:11,000
 TRUE
-
+Turing was sentenced on three counts of gross indeceny.
 139
 01:42:11,000 --> 01:42:40,000
 TRUE-ISH
-
+Joan did not turn up at Turing's house. However they remained life-long friends & she probably would've done anything to support him.
 140
 01:42:40,000 --> 01:43:02,000
 Turing's circle dispute that he was depressed.
-
+"Many members of Turing’s circle, dispute that the experience sent Turing into a downward spiral of depression. By the accounts of those who knew him, he bore the injustice with fortitude, then spent the next year enthusiastically pursuing projects."
 141
 01:43:02,000 --> 01:43:34,000
 TRUE
-
+Turing accepted a year of hormone treatment over prison.
 142
 01:43:34,000 --> 01:43:44,000
 FALSE
-
+Joan wasn't there.
 143
 01:43:44,000 --> 01:44:04,000
 FALSE
-
+Turing was eccentric but never confused computers with people.
 144
 01:44:04,000 --> 01:44:15,000
 TRUE-ISH
-
+If Turing was sent to prison, he could've lost his Manchester University position & access to the computer.
 145
 01:44:15,000 --> 01:45:05,000
 FALSE-ISH
-
+Privately, Turing may well have been upset about the verdict but his letters convey only a pragmatic resignation to his punishment.
 146
 01:45:05,000 --> 01:45:30,000
 TRUE-ISH
-
+Joan married a colleague named Lieutenant-Colonel J (Jock) K R Murray, a retired army office in 1952.
 147
 01:45:30,000 --> 01:46:05,000
 No mention of this side-effect. 
-
+Turing complained that the hormonal treatment gave him "breasts" but there was no mention of other physical or mental symptoms.
 148
 01:46:05,000 --> 01:46:53,000
 TRUE-ISH
-
+The country did have much to thank Turing for, but it really was a massive team effort with over 9000 dedicated staff working at Bletchley during the war. 
 149
 01:46:53,000 --> 01:47:30,000
 TRUE
-
+Turing was highly active, creative & influential in the fields of theoretical computer science & artificial intelligence.
 150
 01:47:30,000 --> 01:48:13,000
 FALSE
-
+This catchphrase was made up for the film.
 151
 01:48:13,000 --> 01:48:43,000
 TRUE-ISH
-
+All materials at Bletchley were destroyed after the war.
 152
 01:48:43,000 --> 01:48:59,000
 FALSE-ISH
-
+It's open to interpretation whether TURING committed suicide or actually accidentally poisoned himself with cyanide from his lab (he left no suicide note). Either way, it happened a full year AFTER he stopped hormonal therapy.
 153
 01:48:59,000 --> 01:49:09,000
 TRUE
-
+Truly terrible.
 154
 01:49:09,000 --> 01:49:23,000
 TRUE
-
+Queen Elizabeth issued a royal pardon for Alan Turing.
 155
 01:49:23,000 --> 01:49:34,000
 TRUE
-
+Some historians estimate that Bletchley Park's massive codebreaking operation, especially the breaking of U-boat Enigma, shortened the war in Europe by as many as two to four years.
 156
 01:49:34,000 --> 01:49:46,000
 TRUE-ISH
-
+Hmm, not really. The first book about Bletchley was published in 1974, 30 years after the war.
 157
 01:49:46,000 --> 01:50:09,000
 TRUE
-
+"Providing a blueprint for the electronic digital computer. The fact remains that everyone who taps at a keyboard, opening a spreadsheet or a word-processing program, is working on an incarnation of a Turing machine."
 158
 01:50:09,000 --> 01:52:00,000
 -
 
 159
 01:52:01,000 --> 01:52:02,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes

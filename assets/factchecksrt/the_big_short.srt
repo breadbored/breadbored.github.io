@@ -1,10 +1,8 @@
 1
 00:00:00,000 --> 00:00:05,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes
 
@@ -15,385 +13,383 @@ BreadCodes
 3
 00:00:49,000 --> 00:01:16,000
 TRUE
-
+The quote used has a similar meaning to the Tolstoy quote that originally prefaces the book the film is based on. The (long & wordy) Tolstoy quote was in the original screenplay, but was dropped. The quote probably refers to the ignorance in the housing market. 
 4
 00:01:16,000 --> 00:02:21,000
 TRUE
-
+Lewis Ranieri is considered the father of mortgage-backed securities. He started out at Salomon Brothers.
 5
 00:02:21,000 --> 00:03:04,000
 TRUE
-
+Business week reported: 'Ranieri's job was to sell those bonds—at a time when only 15 states recognized MBS as legal investments. With a trader's nerve and a salesman's persuasiveness, he did much more'
 6
 00:03:04,000 --> 00:03:18,000
 TRUE
-
+Bankers keep strip clubs going. 
 7
 00:03:18,000 --> 00:03:46,000
 TRUE
-
+A few years of easy credit and rising home prices put America on a high, until the bubble burst. 
 8
 00:03:46,000 --> 00:04:46,000
 TRUE
-
+Raneiri has been strongly criticised for his role in the banking crisis. Lehamn Brothers went bankrupt, the DOW dropped massively. Millions lost their jobs. 
 9
 00:04:46,000 --> 00:05:38,000
 TRUE
-
+Burry set up Scion Capital  with funds from a payout his family got after misdiagnosis played a part in his father's death. He was certainly eccentric, & always felt himself to be different. 
 10
 00:05:38,000 --> 00:07:48,000
 TRUE-ISH
-
+Burry understood economic crashes like nobody else. He did have a glass eye, lost to cancer in childhood. He didn't tell all this to a guy looking for a job, but he did have a couple of email-only friends who he disclosed such things to. 
 11
 00:07:48,000 --> 00:09:25,000
 TRUE-ISH
-
+Although we don't know if Burry had an analyst find this info or if he sourced it himself (he did have a team of staff, though), we do know he scanned & read thousands of pages of financial statements. He was a huge heavy metal fan, too. 
 12
 00:09:25,000 --> 00:11:15,000
 TRUE
-
+Eisman was in group therapy, & frequently burst in late to the meetings, spouted out his thoughts & then rushed off. 
 13
 00:11:15,000 --> 00:12:10,000
 TRUE
-
+Each mortgage bond came with it's own 130-page prospectus. Burry scanned hundreds of them. He figured out how mortgage bonds worked, & how poor lending standards were. 
 14
 00:12:10,000 --> 00:13:47,000
 TRUE
-
+The Fields character represented Joel Greenblatt of Gotham Capital, who were one of the original Scion investors. Burry saw him as a mentor & had always had his support, but not on this. 
 15
 00:13:47,000 --> 00:14:54,000
 TRUE
-
+No Margot Robbie in the book, obviously, but the author explains why mortgage bonds were so weak. They were full of bad loans.
 16
 00:14:54,000 --> 00:15:48,000
 TRUE
-
+There were no instruments through which to bet against the housing market. However, Burry figured out that he could short it through credit default swaps, & decided to persuade Wall Street firms to create them for him. 
 17
 00:15:48,000 --> 00:16:57,000
 TRUE
-
+Eisman studied the Talmut as a kid purely so he could find the contradictions within it. He always sought out corruption, hypocrisy etc. 
 18
 00:16:57,000 --> 00:18:59,000
 FALSE-ISH
-
+Eisman didn't lose a brother, but he did lose an infant son & it changed him. His wife Valerie talks about it in the book, but not in this much detail. The family asked that they leave Eisman's son out of the film, they couldn't bear to re-live his loss onscreen. 
 19
 00:18:59,000 --> 00:22:22,000
 TRUE
-
+Burry's first really huge subprime mortgage deal was with Goldman Sachs, who let him buy $100m in credit default swaps. They didn't seem to care which bonds he bought or why.
 20
 00:22:22,000 --> 00:22:38,000
 TRUE
-
+Deutsche let them buy $200m in swaps. 
 21
 00:22:38,000 --> 00:23:28,000
 TRUE
-
+Burry harrassed all the major banks to sell him as many credit default swaps as possible. They were happy to take his money, didn't ask too many questions. 
 22
 00:23:28,000 --> 00:24:26,000
 TRUE
-
+One of Burry's investors told him Lippmann (Vennett in the movie), the head subprime mortgage trader at Deutsche Bank, was shorting $1bn dollars through credit default swaps. He'd apparently heard about Burry's move & decided to give it a try. 
 23
 00:24:26,000 --> 00:25:54,000
 TRUE
-
+Greenblatt, along with most of Burry's other investors, were furious. He recieved all kinds of threats from them. 
 24
 00:25:54,000 --> 00:26:16,000
 FALSE
-
+Unclear whether Kathy Tao was a real person, but her character isn't mentioned in the book. 
 25
 00:26:16,000 --> 00:28:45,000
 TRUE-ISH
-
+They break the fourth wall to tell the audience this bit is really truly true, but we can't find confirmation.
 26
 00:28:45,000 --> 00:34:04,000
 TRUE
-
+Lippmann presented the concept of betting against the housing market to Eisman & his team. He'd already pitched to a load of other banks, who rejected his offer for a multitude of reasons, e.g. - 'I talked to Bear Stearns & they said you were crazy'.
 27
 00:34:04,000 --> 00:34:49,000
 TRUE
-
+No Anthony Bourdain, but the author describes collateralized debt obligations in great depth in the book. 
 28
 00:34:49,000 --> 00:35:56,000
 TRUE
-
+Lippmann presented the buying of credit default swaps to Eisman & team as his own original idea. Lippmann was really skeptical. Eisman was interested, although he didn't understand Lippmann's motives. They asked him back repeatedly to explain it all again. 
 29
 00:35:56,000 --> 00:37:20,000
 TRUE
-
+Eisman & his team did research the housing market to try & figure out if Lippmann was right, & if he was, if it was in their interest to work with the guy. 
 30
 00:37:20,000 --> 00:39:33,000
 TRUE
-
+Geller & Shipley were actually Ledley & Mai, & their fund was called Cornwall Capital Management. The pestered banks for an ISDA for 2 years to no avail. JP Morgan actually fired them as customer, saying they caused too much trouble. 
 31
 00:39:33,000 --> 00:40:44,000
 TRUE
-
+A friend did send them Lippmann's prospectus, that was how they found out about the housing bubble. 
 32
 00:40:44,000 --> 00:41:34,000
 TRUE
-
+Mai & Ledley ran the Cornwall Capital Management fund from a garage initially. they ahd $110k, which they turned into $30m by making cheap bets on market changes officially considered improbable. 
 33
 00:41:34,000 --> 00:42:43,000
 TRUE
-
+Rickert's real-life counterpart was Ben Hockett. He worked for Deutsche Bank & hated it, so he moved to San Francisco Bay area, where he met Mai, his neighbour. Mai & Ledley persuaded him to quit Deutsche & work with them. He helped them out big time. 
 34
 00:42:43,000 --> 00:45:42,000
 TRUE-ISH
-
+Eisman's team went to Miami to check out the housing market for themselves. They were shocked by the 'calamity' they found. They didn't see a croc in the pool of an abandoned house, though. 
 35
 00:45:42,000 --> 00:49:32,000
 TRUE
-
+Many unhappy investors sent Burry nasty emails, but Gotham Capital actually flew out to visit him face-to-face, in an attempt to intimidate him into returning their original investment. 
 36
 00:49:32,000 --> 00:50:34,000
 FALSE-ISH
-
+Eisman sent his guys to do this kind of research, rather than go himself, although he did speak to a lot of people trying to work out what was going on. A huge number of properties did go up for sale at this point, though.
 37
 00:50:34,000 --> 00:53:20,000
 FALSE-ISH
-
+Eisman and his guys spoke to as many people as they could to get the scoop on the housing market. It's plausible they spoke to mortgage brokers, although these particular two didn't turn up in the book. 
 38
 00:53:20,000 --> 00:54:40,000
 FALSE
-
+Daniel, not Eisman, met a stripper who had 5 separate home equity loans. Eisman was finding out about the state of the housing market from people he knew, including his baby nurse, who had ended up owning 6 properties & couldn't make the payments on any of them.
 39
 00:54:40,000 --> 00:55:12,000
 TRUE
-
+Eisman did buy the swaps from Lippmann eventually. Eisman has said 'we finally just did a trade with Lippmann, then we tried to figure out what we'd done'.
 40
 00:55:12,000 --> 00:56:56,000
 TRUE
-
+Daniel arranged the swaps deal with Lippmann. 
 41
 00:56:56,000 --> 01:00:30,000
 TRUE
-
+Hockett had pull on Wall Street. Somehow he managed to get them set up with an ISDA at Deutsche Bank with their $30m, even though Deutsche required min $2bn to be treated as an institution. 
 42
 01:00:30,000 --> 01:00:56,000
 TRUE-ISH
-
+Hockett did manage to get Cornwall an ISDA at Deutsche, although it was a bit more drawn out than the movie shows. Still, the process usually takes months - they got it through in 10 days.
 43
 01:00:56,000 --> 01:03:46,000
 TRUE
-
+Rather than being determined by the market, the banks were setting the value of the swaps. They were asking for more collateral on them even as the mortgages within the bonds defaulted. 
 44
 01:03:46,000 --> 01:04:06,000
 TRUE
-
+Eisman did tell Daniel to tell the risk guys to f*** off. They kept hounding him. They were really nervous.
 45
 01:04:06,000 --> 01:06:50,000
 TRUE
-
+Eisman & Daniel went to meet Ernestine Walker of S&P ratings agency to figure out what was going on. They figured out from her that S&P gave the banks what they wanted so they didn't go down the street to Moody's instead.
 46
 01:06:50,000 --> 01:07:30,000
 TRUE
-
+Because Burry didn't charge the usual 2% fee to his clients, he had to cover his shortfall by firing his staff while he waited for his bet to come good. Indeed, he did scream f*** at the top of his voice at this point. 
 47
 01:07:30,000 --> 01:08:19,000
 TRUE
-
+Mai & Ledley couldn't get their heads around what was happening with CDOs. Hockett had a better understanding, but they all agreed it was fraudulent. 
 48
 01:08:19,000 --> 01:10:47,000
 TRUE
-
+As everyone involved started to see that CDOs weren't shifting despite historic high default rates, they started to worry. 
 49
 01:10:47,000 --> 01:13:02,000
 TRUE
-
+The American Securitization Forum was basically a big conference about subprime mortgages. They all attended, hoping to figure out what was going on with the housing market. 
 50
 01:13:02,000 --> 01:14:37,000
 TRUE
-
+The CEO of Option One gave a speech at the conference, claiming his company was on the up. Eisman raised his hand & challenged him on his assertions, repeatedly. It wasn't a Q&A. 
 51
 01:14:37,000 --> 01:15:47,000
 TRUE-ISH
-
+A Bear Stearns credit default swap salesman invited them to go shooting at a conference in Vegas. They were idiots, out for a good time. They didn't want to talk about work, so Ledley's questions fell flatc (it was just Ledley, Mai didn't go).
 52
 01:15:47,000 --> 01:16:45,000
 TRUE-ISH
-
+There was no brother's ex, but her character represents the people that Eisman & co spoke to. Eisman thought the analysts working for ratings agencies would be content with their position at the top, but found would rather go analyse for Goldman Sachs. 
 53
 01:16:45,000 --> 01:17:00,000
 TRUE
-
+Mai, Ledley & Hockett did go round the conference questioning everybody who would give them the time of day, trying to figure out whether what they were doing was a good idea or not.  
 54
 01:17:00,000 --> 01:19:18,000
 TRUE-ISH
-
+Scion's value dropped before it rose. No mention in the book of an analyst questioning his boss like this, but Burry's investors certainly asked that question. They thought he was just unwilling to accept that had was wrong. 
 55
 01:19:18,000 --> 01:20:52,000
 TRUE
-
+After talking to as many people as they could at the conference, they convinced themselves they were right. They decided to buy up AA bonds. 
 56
 01:20:52,000 --> 01:21:36,000
 TRUE
-
+They hassled as many people as they could get to talk to them, talking them into buying AA stocks wherever they could. They had the most luck with Wachovia, who continued selling to them after other banks stopped selling swaps full stop. 
 57
 01:21:36,000 --> 01:22:33,000
 TRUE-ISH
-
+Rickert didn't need to remind them, Mai and Ledley were aware of the catastrophe that could hit if they were right. 
 58
 01:22:33,000 --> 01:24:20,000
 TRUE
-
+Eisman came away from a conversation with Chau with a clear understanding of 'the engine of doom'. Lippmann had seated them together hoping that Eisman would come to see the idiocy of those at the other end of the bet, giving him the confidence to buy more swaps. 
 59
 01:24:20,000 --> 01:27:51,000
 TRUE
-
+Well, Thaler & Gomez weren't part of the story, but book the movie is based on does explain what synthetic CDOs are. 
 60
 01:27:51,000 --> 01:28:50,000
 TRUE
-
+After speaking to Chau, Eisman marched directly to Lippmann & told him, 'whatever that guy is buying, I want to short it'. 
 61
 01:28:50,000 --> 01:29:38,000
 TRUE
-
+They all left the conference feeling like the world as they knew it was about to come to an end. Ledley says they were genuinley scared. 
 62
 01:29:38,000 --> 01:31:35,000
 FALSE-ISH
-
+Eisman didn't have a brother who committed suicide, but he did lose his infant son died when his nurse smothered him in her sleep. Eisman's family requested that his son's death didn't go into the film, & approved the brother story as an alternative. 
 63
 01:31:35,000 --> 01:32:51,000
 TRUE
-
+The process drove Burry nuts. Blasting heavy metal was an outlet for him. 
 64
 01:32:51,000 --> 01:34:06,000
 TRUE
-
+As part of the investor agreement, Burry was allowed to side-pocket the investors' funds (stop withdrawals) in case of fraud or disfunction, so he did that. They were mad. Greenblatt threatened to sue, & a bunch of other investors were on board with that. 
 65
 01:34:06,000 --> 01:34:34,000
 TRUE
-
+Certainly Hockett, Eisman, and Ledley feared the end of the world. Hockett was apocalyptic about it. 
 66
 01:34:34,000 --> 01:35:18,000
 TRUE
-
+In 2007 subprime loans were defaulting in record numbers, & the financial giants were weakening daily. 
 67
 01:35:18,000 --> 01:36:04,000
 TRUE
-
+It's unclear whether Tao is a fictional character or not, but yeah, the risk people at the bank were insisting Eisman sell his shorts. 
 68
 01:36:04,000 --> 01:37:03,000
 TRUE
-
+Burry had been calling & calling various banks to find out what was going on, but all the people he needed were mysteriously on holiday, sick, had systems failures, etc. Goldman Sachs finally called him back, tried to reassure him. Burry wasn't having any of it. 
 69
 01:37:03,000 --> 01:37:20,000
 TRUE-ISH
-
+After the conference Ledley called his mother, told her it was the end of democratic capitalism. She said 'Oh Charlie', & suggested he try Lithium. 
 70
 01:37:20,000 --> 01:37:58,000
 TRUE
-
+Ledley, Mai & Hockett realised the system was corrupt at every level. Banks were claiming the mortgage bond values hadn't moved, despite all the defaults on the stuff they contained. The banks wanted to offload what they had before letting the value drop. 
 71
 01:37:58,000 --> 01:39:10,000
 FALSE
-
+Mai & Ledley did try to tell a load of people about the giant fraud they'd uncovered, but nobody was interested. Whether they had a friend over at WSJ isn't on the record, though. 
 72
 01:39:10,000 --> 01:40:38,000
 TRUE
-
+Suddenly brokers were scrambling to buy credit default swaps.
 73
 01:40:38,000 --> 01:41:10,000
 TRUE
-
+Burry had been calling & calling various banks to find out what was going on, but all the people he needed were mysteriously on holiday, sick, had systems failures, etc. Goldman Sachs finally called him back, tried to reassure him. Burry wasn't having any of it. 
 74
 01:41:10,000 --> 01:43:40,000
 TRUE
-
+Goldman did lose $15bn in the crisis. 
 75
 01:43:40,000 --> 01:45:21,000
 TRUE
-
+Eisman's team were getting panicky, they wanted to sell their swaps before it was too late and they became worthless. For Eisman, it was more about a moral crusade than about the money, he wanted to screw the people at the top, which meant holding out a bit longer. 
 76
 01:45:21,000 --> 01:46:00,000
 TRUE
-
+Ledley was useless as a trader, the job had to go to Hockett. At the time Hockett was in England, on holiday with his family in Exmouth. 
 77
 01:46:00,000 --> 01:47:31,000
 TRUE
-
+Hockett sold their swaps from a pub called 'The Powder Monkey' in Exmouth, using their wifi. 
 78
 01:47:31,000 --> 01:48:00,000
 TRUE-ISH
-
+It was actually a little worse - the only thing the email said was 'you're welcome'.
 79
 01:48:00,000 --> 01:48:34,000
 TRUE
-
+Allegedly Lippmann got a bonus check for around $50m, but turned it down as too low. 
 80
 01:48:34,000 --> 01:49:28,000
 TRUE
-
+Hockett managed to sell their swaps in Europe, 3/4 of which went to UBS, a Swiss bank. They netted $80m from a $1m bet. 
 81
 01:49:28,000 --> 01:50:12,000
 TRUE
-
+Deutsche Bank invited Eisman to speak opposite Miller at their HQ auditorium. 
 82
 01:50:12,000 --> 01:53:13,000
 TRUE
-
+Bear Stearns was crashing literally as Eisman spoke out against the corruption and idiocy of the housing market - 'you built a castle to rip people off'. His team were getting and texting updates on Bear's falling stock. 
 83
 01:53:13,000 --> 01:54:10,000
 TRUE
-
+A young banker interrupted Miller's defence of the system to let him know that Bear's stocks had fallen 20 points since Miller started talking. The room emptied as people rushed out to sell their Bear Stocks, all going crazy on their Blackberries. 
 84
 01:54:10,000 --> 01:55:11,000
 TRUE-ISH
-
+Lehman Bros collapsed Sept 2008, filing for bankruptcy. Mai & Ledley didn't sneak into the building, though. As a 'garage-band fund' they'd always wanted to see inside of Wall Street - this scene probably represented that. 
 85
 01:55:11,000 --> 01:55:49,000
 TRUE
-
+Eisman's team were getting panicky, they wanted to sell their swaps before it was too late and they became worthless. For Eisman though, it was more about a moral crusade than about the money, he wanted to screw the people at the top, which meant holding out a bit longer. 
 86
 01:55:49,000 --> 01:58:07,000
 TRUE
-
+Burry felt betrayed by his investors, who firstly refused to trust him, & then went silent when his gamble paid off. His investors gained 489.34% after fees, but nobody thanked him. He decided money was an ugly business, & closed the fund. 
 87
 01:58:07,000 --> 01:58:50,000
 FALSE
-
+Mai & Ledley didn't sneak into the building. Their success was ana anticlimax, though. They didn't feel excited by their gains, but weary of the whole system. 
 88
 01:58:50,000 --> 01:59:53,000
 TRUE
-
+The afternoon of Lehman Bros collapse, Eisman & Daniel sat outside & watch people passing. They talk of feeling a great sadness that day, but no surprise. 
 89
 01:59:53,000 --> 02:00:42,000
 TRUE
-
+Kareem Serageldin of Credit Suisse was the only guy that went to jail over the crisis. 
 90
 02:00:42,000 --> 02:01:41,000
 TRUE
-
+By the end of 2007, Eisman's hedge fund reached $1.5 billion, doubling in size. Almost $1bn of that was profit gained by betting against the housing market. 
 91
 02:01:41,000 --> 02:02:08,000
 TRUE
-
+Estimates vary widely depending on criteria. PriceWaterHouseCooper estimates 7m lost their jobs in the US. Global losses have been estimated at $15tn. G20 agreed to a $5tn 'global stimulus package'. 
 92
 02:02:08,000 --> 02:02:30,000
 TRUE
-
+Eisman's wife Valerie reports that he turned nice after the collapse. Once he was proved right, he lost a lot of angst & calmed right down. 
 93
 02:02:30,000 --> 02:02:53,000
 TRUE
-
+All the law firms told them they were nuts. Mai still runs Cornwall Capital Management, with Ledley as an executive. Hockettt lives as a survivalist in a deeply rural part of California. 
 94
 02:02:53,000 --> 02:03:20,000
 TRUE
-
+Nobody was interested in hearing Burry's story. The FBI raided him and he got audited. 
 95
 02:03:20,000 --> 02:03:40,000
 TRUE
-
+Bespoke tranche opportunities' are CDOs with a new name. Goldmann Sachs and others are selling them. 
 96
 02:03:40,000 --> 02:10:09,000
 -
 
 97
 02:10:10,000 --> 02:10:11,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes

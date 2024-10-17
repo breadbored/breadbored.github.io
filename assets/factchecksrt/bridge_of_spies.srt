@@ -1,10 +1,8 @@
 1
 00:00:00,000 --> 00:00:05,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes
 
@@ -15,381 +13,379 @@ BreadCodes
 3
 00:01:14,000 --> 00:01:35,000
 TRUE
-
+During the cold war both sides continued to deploy spies, as they had for many years. The Soviets were especially good at it, penetrating The Manhattan Project & gaining US atomb secrets in the 1940s & 50s. 
 4
 00:01:35,000 --> 00:02:50,000
 TRUE
-
+Abel, whose real name was William Fisher, set up an artist's studio in Brooklyn under the name Emil Goldfus as a cover for his intelligence work. 
 5
 00:02:50,000 --> 00:05:22,000
 TRUE-ISH
-
+Abel's assistant fled to the US embassy in Paris, revealed his identity as a KGB agent & ratted ABEL out to the authorities, leading to Abel's capture by the FBI on 21 June 1957. They probably didn't literally follow him through the subway, though. 
 6
 00:05:22,000 --> 00:05:36,000
 TRUE-ISH
-
+Abel was an artist & photographer. His photo shop was a cover for his spy gear, & travel could be explained by his urge to paint & photograph. The FBI probably weren't following him through the streets - they found him at an address given by his former assistant. 
 7
 00:05:36,000 --> 00:06:12,000
 TRUE-ISH
-
+A hollow nickel containing a coded note was used in evidence against Abel. It was lost by Abel's useless assistant Hayhanen, & found 7 months later by a newsboy, who turned it in. The bench bit isn't in the records, though. 
 8
 00:06:12,000 --> 00:08:19,000
 TRUE-ISH
-
+A hollow nickel containing a coded note was used in evidence against Abel. It was lost by Abel's useless assistant Hayhanen, & found 7 months later by a newsboy, who turned it in. 
 9
 00:08:19,000 --> 00:10:30,000
 TRUE-ISH
-
+The FBI arrested Abel in a hotel room in NYC after his underling told the FBI where to find him. He was sleeping nude when they burst in. He was caught trying to conceal some papers, including a note with groups of numbers on it. The papers were confiscated. 
 10
 00:10:30,000 --> 00:12:42,000
 TRUE
-
+Donovan was an insurance lawyer, although he had previously worked for the CIA's forerunner, the Office of Strategic Services.
 11
 00:12:42,000 --> 00:13:12,000
 TRUE
-
+Donovan was a founding partner of the Watters & Donovan law firm. 
 12
 00:13:12,000 --> 00:15:07,000
 TRUE
-
+The Federal Court put the decision in the hands of the Brooklyn Bar Association, who chose Donovan because of his experience - he had worked on the Nuremburg Trials under Supreme Court Justice Robert Jackson, among other things. Donovan was reluctant to take the case. 
 13
 00:15:07,000 --> 00:15:41,000
 TRUE-ISH
-
+Donovan requested an associate from a Wall Street law firm (not his own), 'Dewey, Ballantine, Bushby, Palmer & Wood'. They lent him a 33-yr old associate - Arnold Fraiman. Donovan described him as young & aggressive. 
 14
 00:15:41,000 --> 00:17:46,000
 TRUE
-
+Mary screamed when Donovan first told her he was taking the case. Throughout the trial, she became upset that he was giving more time to Abel than to his own family. 
 15
 00:17:46,000 --> 00:22:11,000
 TRUE
-
+Donovan visited Abel to present him with his credentials & offer his services. Abel studied Donovan's papers & found him suitable. He agreed to pay him $10,000 fee, which Donovan donated to charity. Abel was allowed drawing materials in prison. 
 16
 00:22:11,000 --> 00:22:55,000
 TRUE-ISH
-
+Powers was discharged from the Air Force in 1956 with the rank of captain. From there, he joined the CIA's U-2 program. The details of his recruitment aren't public, though. 
 17
 00:22:55,000 --> 00:25:26,000
 TRUE-ISH
-
+Powers was discharged from the Air Force in 1956 with the rank of captain. From there, he joined the CIA's U-2 program. The details of his recruitment aren't public.
 18
 00:25:26,000 --> 00:26:50,000
 TRUE
-
+Donovan requested an extension to ensure adequate preparation. Byers wasn't sympathetic, he responded with sarcasm & refused the extension. All involved assumed Abel's guilt & expected a quick conviction - Byers especially.
 19
 00:26:50,000 --> 00:28:43,000
 Not in the memoir. 
-
+Donovan reported no such incident in his memoir.
 20
 00:28:43,000 --> 00:31:17,000
 Not in the memoir. 
-
+Donovan reported no such incident in his memoir.
 21
 00:31:17,000 --> 00:32:43,000
 TRUE
-
+The U-2 mission involved flying at altitudes above 70k feet & taking photos of Soviet territory, specifically missile sites. The base was in Peshawar, Pakistan. 
 22
 00:32:43,000 --> 00:33:39,000
 TRUE-ISH
-
+Donovan viewed the evidence at FBI New York HQ. It filled 25 tables. The search warrant issue came earlier. 
 23
 00:33:39,000 --> 00:34:47,000
 TRUE
-
+Donovan requested the case not go to trial since the FBI seemed not to have followed search-and-seizure protocol, thus violating Abel's constitutional rights & rendering evidence found in the search null. Byers denied the request.
 24
 00:34:47,000 --> 00:35:30,000
 TRUE
-
+With the stack of evidence against him, Abel was never going to go free. While he was concerned about his future, Donovan recalls that in the 4yrs plus that he defended Abel, he only saw him anger once (when his correspondence privileges were revoked in jail). He was a calm man. 
 25
 00:35:30,000 --> 00:36:21,000
 TRUE
-
+Schoolchildren were shown 'civil defence advice' videos, famously including the part-animated film, 'Duck & Cover'. 
 26
 00:36:21,000 --> 00:37:45,000
 FALSE-ISH
-
+This scene was inspired by real life, but Spielberg's, not Donovan's. Spielberg based the incident on memories from his own youth, when he spent a lot of time thinking about the end of the world. He once filled a bathtub with water after learning that fresh water would be scarce after an atomic attack. 
 27
 00:37:45,000 --> 00:38:17,000
 Not in the memoir. 
-
+While Donovan did get some hatemail etc., he doesn't mention being eyed in public like this. 
 28
 00:38:17,000 --> 00:38:56,000
 TRUE
-
+Abel was found guilty on all three counts charged. Byers told the jury he would have reached the same verdict. 
 29
 00:38:56,000 --> 00:42:39,000
 TRUE
-
+Donovan liked Abel, & wrote of him as an intellectual & a gentleman with a fine sense of humour. Likewise, Abel respected Donovan. He had previously turned down a lawyer wanting to represent him on the grounds that he looked shabby & had dirty fingernails.
 30
 00:42:39,000 --> 00:45:29,000
 TRUE-ISH
-
+Donovan did try to persuade the judge to let Abel live, on the grounds that he might be needed in a future prisoner exchange. However, it was in open court, not at the judge's home. 
 31
 00:45:29,000 --> 00:47:07,000
 TRUE
-
+Abel was sentenced to consecutive terms of 30, 10 & 5 years in prison, plus a $3000 fine. 
 32
 00:47:07,000 --> 00:47:52,000
 TRUE
-
+The case drew considerable public interest. Donovan did pursue an appeal. 
 33
 00:47:52,000 --> 00:48:37,000
 Not in the memoir. 
-
+Donovan reported no such incident in his memoir.
 34
 00:48:37,000 --> 00:50:17,000
 TRUE
-
+Donovan's appeal was based on the 4th Amendment, which prohibits unreasonable search & seizure. It then raised broader issues of constitutional protection for non-citizens. Donovan met with Abel often after the trial & they had long talks. 
 35
 00:50:17,000 --> 00:51:11,000
 FALSE
-
+Donovan was attacked verbally during the appeal, but not physically. His family did recieve hatemail & phone threats, & had to change their phone number. 
 36
 00:51:11,000 --> 00:52:36,000
 Not in the memoir. 
-
+Donovan reported no such incident in his memoir.
 37
 00:52:36,000 --> 00:54:13,000
 TRUE
-
+As in the movie, Powers did carry a hollow silver dollar, which hid a poisoned needle for the purpose of suicide in case of capture. 
 38
 00:54:13,000 --> 00:54:25,000
 TRUE
-
+Donovan, along with his assistant Tom Debevoise, travelled to Washington to present Abel's case before The Supreme Court. 
 39
 00:54:25,000 --> 00:54:52,000
 TRUE
-
+This mission was a silent over-flight across the Soviet Union in the 'Utility 2' plane. The goal was to photograph missile sites near Sverdlovsk. 
 40
 00:54:52,000 --> 00:55:21,000
 TRUE
-
+Donovan argued that Abel was a victim of constitutional violations, regardless of whether he be a Soviet spy. 
 41
 00:55:21,000 --> 00:55:33,000
 TRUE
-
+Powers was piloting the U2. He had clocked 500 air hours in the U2 in the past.
 42
 00:55:33,000 --> 00:55:53,000
 TRUE
-
+Donovan went All-American, arguing for courage, truth, freedom, etc., as markers of the United States. 
 43
 00:55:53,000 --> 00:56:14,000
 TRUE
-
+Powers took off from Peshawar, Pakistan on 1st May 1960, at 4.30am. He later admitted to feeling nervous & daunted by the flight, planned to take 8hrs under gruelling low-oxygen conditions at 70k feet. 
 44
 00:56:14,000 --> 00:57:03,000
 TRUE
-
+The Chief Justice was impressed with Donovan's defense & thanked the team for their 'arduous', 'self-sacrificing task'.
 45
 00:57:03,000 --> 00:59:48,000
 TRUE
-
+The U-2 plane, which could get higher than 70,000ft, was thought to be out of range of missile attacks. It wasn't. The Russians shot it down. Powers wasn't able to engage the self-destruct switch before ejecting from the cockpit. 
 46
 00:59:48,000 --> 01:00:24,000
 TRUE
-
+Donovan was almost successful in his appeal. He was intially instructed to present his argument again in 7months' time. Ultimately, The Supreme Court only upheld it by a majority verdict of 5/4, which Abel heard of over the radio. He did paint in prison.
 47
 01:00:24,000 --> 01:00:39,000
 TRUE
-
+The whole family were relieved when they thought it was over, including Donovan, who was satisfied that he had exhausted every route possible for Abel. 
 48
 01:00:39,000 --> 01:01:40,000
 TRUE
-
+Donovan received emotional hatemail, threatening letters, & midnight phone calls from fanatics (he also received letters of support). One letter came from East Germany. 
 49
 01:01:40,000 --> 01:02:29,000
 TRUE
-
+Donovan did recieve letters written as if from Abel's wife. It was thought that they were coded notes from the Soviets, making unofficial contact.
 50
 01:02:29,000 --> 01:03:21,000
 TRUE
-
+The Soviet Union sentenced Powers to 10yrs, consisting of 3yrs in jail followed by 7yrs hard labour. 
 51
 01:03:21,000 --> 01:07:18,000
 TRUE
-
+Donovan was asked to negotiate a prisoner exchange, after Abel recieved letters from his 'wife' (thought to be from the Soviet govt.) & POWERS' father, expressing interest in a swap. Dulles was replaced by McCone in 1961.
 52
 01:07:18,000 --> 01:09:05,000
 FALSE-ISH
-
+Pryor was a Yale student doing research in Berlin for his doctoral degree on trade behind the Iron Curtain. He wasn't there when the wall was being built, though, & didn't have a girlfriend there. 
 53
 01:09:05,000 --> 01:09:36,000
 FALSE
-
+Pryor didn't have a girlfriend in Berlin.
 54
 01:09:36,000 --> 01:11:21,000
 TRUE-ISH
-
+Pryor was arrested on charges of espionage. During his research he obtained materials that the East Germans considered confidential. He wasn't there when the wall was being built though. He only returned once after it was up.
 55
 01:11:21,000 --> 01:12:04,000
 TRUE-ISH
-
+Donovan didn't tell his wife anything. He often travelled to Europe on business. He sent her a cable from London saying he was headed to Scotland. She didn't suspect anything & wasn't worried, just grumbled 'good-naturedly' about his various trips abroad. 
 56
 01:12:04,000 --> 01:14:28,000
 TRUE
-
+Originally Donovan was supposed to be escorted by an American Mission officer, but the US decided it was too risky . He was informed about Pryor, along with another prisoner, Marvin Makinen, but told that Powers was the priority. 
 57
 01:14:28,000 --> 01:16:26,000
 TRUE
-
+An American named 'Bob' met Donovan & took him to a private residence, where he was briefed on the basics. 
 58
 01:16:26,000 --> 01:16:52,000
 FALSE
-
+Pryor didn't have a girlfriend in Berlin.
 59
 01:16:52,000 --> 01:18:58,000
 TRUE
-
+Upon seeing a queue 100-strong, Donovan approached the guards & stated he was running late for a meeting at the Soviet Embassy. This seemed to impress them & they let him through. 
 60
 01:18:58,000 --> 01:21:05,000
 FALSE-ISH
-
+Donovan recalls walking through a gang of 10 or 12 apparently homeless youths, & feeling intimidated. However, they didn't take his coat or give him any trouble. 
 61
 01:21:05,000 --> 01:23:15,000
 TRUE
-
+Donovan met the people claiming to be Abel's wife, daughter, & cousin. He described their act as old-fashioned melodrama. 
 62
 01:23:15,000 --> 01:29:10,000
 TRUE
-
+Schischkin was the second secretary of the Soviet Embassy. He & Donovan met to discuss the exchange. Donovan requested Powers, Pryor & another student, Makinen, be released in exchange for Abel.
 63
 01:29:10,000 --> 01:32:03,000
 TRUE
-
+Vogel & Donovan met in Vogel's office, where they agreed that Pryor would be released in exchange for Abel. Donovan did have a cold during his time in Berlin, probably because he forgot to turn the heating on at his residence. 
 64
 01:32:03,000 --> 01:33:55,000
 TRUE
-
+Donovan met frequently with American 'Bob' to update him on the negotiations. 
 65
 01:33:55,000 --> 01:36:28,000
 TRUE
-
+Initially Powers was accused of giving too much away to the KGB, but a CIA inquiry found that he behaved honourably. 
 66
 01:36:28,000 --> 01:37:07,000
 TRUE
-
+Abel was brought to Berlin for the exchange. 
 67
 01:37:07,000 --> 01:39:08,000
 TRUE
-
+The Soviets agreed to an exchange of Abel for Powers, but informed Donovan that Pryor's case must be dealt with through Vogel. Such a meeting has been arranged.
 68
 01:39:08,000 --> 01:39:50,000
 TRUE
-
+Vogel expressed the DDR's insult that Donovan had seemingly sold the same object to two people. They weren't happy that the US was exchanging Abel for Powers with the Soviets, & Abel for Pryor with them, & withdrew their offer. 
 69
 01:39:50,000 --> 01:42:25,000
 TRUE
-
+Vogel, Donovan & Drews left Vogel's office in Vogel's car. Police pulled them over. 
 70
 01:42:25,000 --> 01:43:39,000
 TRUE-ISH
-
+The police spoke only to Vogel, they didn't take Donovan anywhere. Vogel told Donovan he had gotten a speeding ticket, but Donovan concluded the whole thing was as staged as everything else had so far been, & was meant to rattle him.
 71
 01:43:39,000 --> 01:44:34,000
 FALSE
-
+Donovan didn't spend any time in jail. 
 72
 01:44:34,000 --> 01:45:41,000
 FALSE-ISH
-
+Donovan didn't witness any such shootings, although he was moved by their occurance & noted the heavily armed guards, towers & machine guns along the wall in his memoirs. 
 73
 01:45:41,000 --> 01:48:21,000
 FALSE
-
+The team behind Donovan did prioritise Powers, but they also wanted Pryor released. Donovan wasn't quite the lone agent he appears to be in the film, rather, he worked with his team & didn't go against their advice or instructions.
 74
 01:48:21,000 --> 01:50:08,000
 Not in the memoir. 
-
+No meeting with Harald Ott is recorded in Donovan's memoir.
 75
 01:50:08,000 --> 01:53:31,000
 Not in the memoir. 
-
+No meeting with Harald Ott is recorded in Donovan's memoir.
 76
 01:53:31,000 --> 01:54:28,000
 TRUE
-
+Donovan's people were concerned that his insistence on freeing all 3 American prisoners was jeopardising the primary goal of exchanging Abel for Powers.
 77
 01:54:28,000 --> 01:55:00,000
 Not in the memoir. 
-
+Donovan doesn't recount any conversations with his wife during the trip, & marmalade isn't mentioned. His children did ask for souveneirs, though.
 78
 01:55:00,000 --> 01:56:30,000
 TRUE-ISH
-
+Donovan & Bob waited hear from the other side for a tense couple of days. Donovan put the delays down to Pavlovian tactics. When the call came through it was to confirm a meeting at the embassy. It was there that Schischkin confirmed the logistics of the exchange.  
 79
 01:56:30,000 --> 01:58:09,000
 TRUE
-
+The exchange of Abel & Powers did happen at Glienicke Bridge in Berlin, ideal because it allowed both sides to see each other directly. Abel greeted Donovan warmly.
 80
 01:58:09,000 --> 01:58:39,000
 TRUE
-
+The guards at the bridge phoned Checkpoint Charlie for updates on Pryor.
 81
 01:58:39,000 --> 02:01:18,000
 TRUE
-
+Donovan asked Abel if he was concerned about returning. Abel insisted he wasn't, since he has done nothing wrong. Powers arrived on time. 
 82
 02:01:18,000 --> 02:03:49,000
 TRUE
-
+The parties met at Glienicke Bridge at 8.20am. Schischkin insisted that Pryor had been dropped off. He had not. Donovan insisted they wait. They received word that Pryor had arrived at 8.45am. 
 83
 02:03:49,000 --> 02:05:06,000
 TRUE
-
+Pryor was released to his parents at Checkpoint Charlie on the morning of Feb 10 1962. 
 84
 02:05:06,000 --> 02:07:20,000
 TRUE-ISH
-
+Abel did send Donovan a painting, although he didn't mention it at the point of exchange. Donovan did take a central role in the exchange, standing with Abel & watching him leave. 
 85
 02:07:20,000 --> 02:08:23,000
 TRUE-ISH
-
+Captain MacArthur of the C45 flight back home warmly congratulated Donovan, but said nothing to Powers. Powers & Donovan chatted throughout the flight. Nothing about Powers trying to thank everyone was mentioned, although he did thank Donovan. 
 86
 02:08:23,000 --> 02:08:56,000
 TRUE-ISH
-
+It's unclear when Donovan received a painting from Abel, but it did happen at some point. It wasn't a portrait of Donovan though, but a self-portrait Abel did from prison in Atlanta. He also later sent him two rare 16th century manuscripts as a show of appreciation.
 87
 02:08:56,000 --> 02:10:06,000
 Not in the memoir. 
-
+Donovan doesn't go into detail about his family's responses in his memoir.
 88
 02:10:06,000 --> 02:10:34,000
 Not in the memoir. 
-
+Donovan doesn't go into detail about his family's responses in his memoir.
 89
 02:10:34,000 --> 02:12:07,000
 Not in the memoir. 
-
+Donovan doesn't go into detail about his family's responses in his memoir.
 90
 02:12:07,000 --> 02:13:27,000
 Not in the memoir. 
-
+Donovan doesn't mention being noticed on the subway, either before or after events concluded. 
 91
 02:13:27,000 --> 02:13:35,000
 TRUE
-
+Abel continued to work for the KGB. He was never publically acknowledged by the Soviets as a spy, but did receive the Order of Lenin in 1966, & published KGB-approved memoirs in 1968. 
 92
 02:13:35,000 --> 02:13:46,000
 TRUE
-
+The CIA bestowed upon him their highest honour, the Intelligence Star for Bravery. He died in a helicopter crash. 
 93
 02:13:46,000 --> 02:13:54,000
 TRUE
-
+Frederic Pryor got his PhD from Yale & is now Professor emeritus of economics at Swarthmore College. He has authored 13 books. 
 94
 02:13:54,000 --> 02:14:19,000
 TRUE
-
+The Cuban Families Committee tapped Donovan to negotiate the freeing of Cuban & American prisoners captured during the Bay of Pigs invasion. He was sent to free a thousand or so people, but got almost 10,000 released. 
 95
 02:14:19,000 --> 02:21:19,000
 -
 
 96
 02:21:20,000 --> 02:21:21,000
-
 Original Data Provided By: 
-Karl Webster, David McCandless, Dr Stephanie Starling
-Omid Kashan
-
+Dr Stephanie Starling, David McCandless, DM
+Omid Kashan, Karl Webster
 Subtitles Compiled By: 
 BreadCodes
