@@ -7,7 +7,7 @@ categories: ["miniproject", "media"]
 
 Have you ever watched a "Based on a True Story" movie and wondered how much of it was true? Have you ever paused a movie to see how much of it actually happened? Have you heard that American Sniper was mostly fabricated and wanted to know which parts?
 
-All of those apply to me, and aparently to David McCandless, Dr Stephanie Starling, Omid Kashan, Karl Webster & DM. They created a [Visualisation of the accuracy of movies "based on a true story"](https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/). 
+All of those apply to me, and aparently to David McCandless, Dr Stephanie Starling, Omid Kashan, and Karl Webster. They created a [Visualisation of the accuracy of movies "based on a true story"](https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/). 
 
 I felt inspired by their work, and I had an idea: What if we could see fact checking information while watching a movie?... Maybe a bit boring and intrusive to some, but I think this would be a fun feature for those who are interested in the truth behind the stories.
 
@@ -53,12 +53,12 @@ If you find an issue with the subtitles like misaligned text, please email me at
 
 ## Original Data Credits:
 
-Again, thank you so much to David McCandless, Dr Stephanie Starling, Omid Kashan, Karl Webster & DM for their amazing work. You can find their original visualization [here](https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/).
+Again, thank you so much to David McCandless, Dr Stephanie Starling, Omid Kashan, and Karl Webster for their amazing work. You can find their original visualization [here](https://informationisbeautiful.net/visualizations/based-on-a-true-true-story/).
 
 You can also see their roles and more of their work here:
 
 - Concept & Design: [David McCandless](http://davidmccandless.com)
 - Code & Design: [Omid Kashan](https://omid.uk)
-- Research: [Dr Stephanie Starling](https://stephaniestarling.com), Karl Webster & DM
+- Research: [Dr Stephanie Starling](https://stephaniestarling.com), Karl Webster
 - [See the data](https://docs.google.com/spreadsheets/d/1sJDpzYH_sMYuYHqkmZeJGIq_TEXGDjboYdSoew7UjZ8)
 - [Information is Beautiful](https://informationisbeautiful.net/)
