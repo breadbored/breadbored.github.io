@@ -76,10 +76,16 @@ const Home = () => {
   const [posts, setPosts] = useState<PostType[]>([]);
 
   useEffect(() => {
-    // You'll need to host your posts data as a static JSON file
-    fetch(process.env.PUBLIC_URL + '/data/posts.json')
-      .then(res => res.json())
-      .then(data => setPosts(data));
+    // // You'll need to host your posts data as a static JSON file
+    // fetch(process.env.PUBLIC_URL + '/data/posts.json')
+    //   .then(res => res.json())
+    //   .then(data => setPosts(data));
+    setPosts([{
+      title: "Hello World",
+      slug: "hello-world",
+      date: "2021-01-01",
+      excerpt: "This is the first post on the blog."
+    }])
   }, []);
 
   return (
