@@ -1,0 +1,1077 @@
+1
+00:00:00,000 --> 00:00:05,000
+Original Data Provided By: 
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
+Subtitles Compiled By: 
+BreadCodes
+
+2
+00:00:11,000 --> 00:00:21,000
+-
+
+3
+00:01:56,000 --> 00:02:06,000
+FALSE
+There wasn't an Erica. Zuckerberg had been dating Priscilla Chan, his current girlfriend, at the time.
+The Guardian
+
+4
+00:02:25,000 --> 00:02:35,000
+TRUE
+Zuckerberg did score a perfect 1600 on his test.
+Rolling Stone
+
+5
+00:03:11,000 --> 00:03:21,000
+FALSE
+Zuckerberg did actually row for a crew team at his boarding school, Exeter. But he was obsessed with computers!
+Business Insider
+
+6
+00:03:30,000 --> 00:03:40,000
+TRUE-ISH
+Zuckerberg was renowned for his terrible social skills.
+NYT
+
+7
+00:05:14,000 --> 00:05:24,000
+FALSE
+There wasn't an Erica. Zuckerberg had been dating Priscilla Chan, his current girlfriend, at the time.
+The Guardian
+
+8
+00:07:41,000 --> 00:07:51,000
+TRUE-ISH
+Zuckerberg lived at Harvard's Kirkland house, reasonable to assume he hurried from a bar to his dorm on occasion when it was cold out.
+The Accidental Billionaires (2010) by B. Mezrich
+
+9
+00:08:30,000 --> 00:08:40,000
+TRUE
+Zuckerberg & his roommates did reside in Kirkland house, Suite H33. Zuckerberg did blog about a girl at the time, somebody called Jessica Alona. He called her a bitch as in the film, the transcript is available online.
+Slash Film
+Chasing the Frog
+
+10
+00:08:40,000 --> 00:08:50,000
+TRUE
+That was exactly what he wrote.
+Slash Film
+
+11
+00:09:03,000 --> 00:09:13,000
+TRUE
+Zuckerberg came up with the idea of comparing people with farm animals, Olsen suggested comparing two people, with the occasional farm animal thrown in for fun.
+The Accidental Billionaires (2010) by B. Mezrich, p43-44
+
+12
+00:09:34,000 --> 00:09:44,000
+TRUE
+Zuckerberg did create Facemash without farm animals in the end, & hacked the college face books for photos.
+The Accidental Billionaires (2010) by B. Mezrich, p44
+
+13
+00:09:50,000 --> 00:10:00,000
+TRUE
+The all-male Phoenix Club brought in beautiful girls from schools in the area to entertain them at parties. There was a bus known as the 'fuck truck' that travelled around campus & to local schools shuttling students to & from parties.
+The Accidental Billionaires (2010) by B. Mezrich, p7, 72
+
+14
+00:10:00,000 --> 00:10:00,000
+TRUE
+Kirkland was easy to hack because they kept everything open.
+The Accidental Billionaires (2010) by B. Mezrich, p45-49
+
+15
+00:10:17,000 --> 00:10:27,000
+TRUE-ISH
+The book claims all-male Phoenix Club brought in beautiful girls from schools in the area to entertain them at parties. Other sources claim this never happened.
+The Accidental Billionaires (2010) by B. Mezrich, p7
+Vulture
+
+16
+00:10:30,000 --> 00:10:40,000
+TRUE
+Eliot was an open system, but without an index. Still, easy for Zuckerberg to hack.
+The Accidental Billionaires (2010) by B. Mezrich, p45-49
+
+17
+00:10:50,000 --> 00:11:00,000
+TRUE
+The Phoenix Club did exist & was a hotspot for parties.
+The Accidental Billionaires (2010) by B. Mezrich, p7
+
+18
+00:11:44,000 --> 00:11:54,000
+TRUE
+Zuckerberg was able to hack most of the houses that night, some he had to do later.
+The Accidental Billionaires (2010) by B. Mezrich, p45-49
+
+19
+00:12:37,000 --> 00:12:47,000
+FALSE
+Adam D'Angelo was Zuckerberg's best friend & original collaborator, & first CTO of Facebook, Saverin wasn't really in the picture at this stage.
+Business Insider
+
+20
+00:12:52,000 --> 00:13:02,000
+FALSE
+Saverin supplied only the business end of the company, he didn't have any part in the tech side.
+The Accidental Billionaires (2010) by B. Mezrich, p45-49
+
+21
+00:13:02,000 --> 00:13:06,000
+We couldn't find a source for this.
+We couldn't find a source for this.
+
+
+22
+00:13:06,000 --> 00:13:16,000
+FALSE
+Final Club parties weren't that exciting.
+Vulture
+
+23
+00:13:50,000 --> 00:14:00,000
+TRUE
+Zuckerberg initially only sent Facemash to a handful of people, & it exploded from there.
+The Accidental Billionaires (2010) by B. Mezrich, p45-49
+
+24
+00:14:17,000 --> 00:14:27,000
+TRUE
+Zuckerberg got into trouble with women's groups at Harvard.
+The Crimson
+
+25
+00:14:39,000 --> 00:14:49,000
+FALSE
+Erica was a fictional character.
+The Guardian
+
+26
+00:15:00,000 --> 00:15:10,000
+TRUE
+The site reached approx. 450 students in 4 hours, logging 22,000 votes.
+Chasing the Frog
+
+27
+00:15:35,000 --> 00:15:45,000
+FALSE
+This bit wasn't in the book, & it has been suggested that such a crash was unlikely, especially given that Harvard's servers managed the even-more-popular Facebook just fine.
+The Accidental Billionaires (2010) by B. Mezrich
+Harvard
+
+28
+00:16:08,000 --> 00:16:18,000
+FALSE
+Facemash did go down after a few hours. One source claims Harvard's computer services noticed the surge in traffic & shut down Zuckerberg's web access. However, the book states that Zuckerberg panicked & shut it down himself.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p56-7
+
+29
+00:16:50,000 --> 00:17:00,000
+FALSE
+There wasn't an Erica, but Saverin did sue Zuckerberg.
+The Accidental Billionaires (2010) by B. Mezrich, p254
+
+30
+00:17:05,000 --> 00:17:15,000
+TRUE
+The site did get that many hits, but in the book there is no Marylin character - it doesn't go into the details of the deposition at all. Still, he had a team of lawyers - it's likely they talked about the hits at some stage.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich
+
+31
+00:17:48,000 --> 00:17:58,000
+TRUE
+Cameron & Tyler trained heavily throughout their time at Harvard.
+The Accidental Billionaires (2010) by B. Mezrich, p23-25
+
+32
+00:18:35,000 --> 00:18:45,000
+TRUE
+Narendra & the Winklevoss twins found out about the huge success of Facemash in the Crimson, & decided to get in touch with Zuckerberg regarding their HarvardConnection idea.
+The Accidental Billionaires (2010) by B. Mezrich, p58-63
+
+33
+00:18:47,000 --> 00:18:57,000
+TRUE
+The Harvard Connections team did sue Zuckerberg.
+The Accidental Billionaires (2010) by B. Mezrich, p253-254
+
+34
+00:19:10,000 --> 00:19:20,000
+TRUE
+Zuckerberg has stated that the main thing they got right was his wardrobe, which was spot on, 'like every single shirt or fleece they have in that movie is actually a shirt or fleece that I own'. Zuckerberg did have to face the ad board on those charges.
+Quora
+The Crimson
+
+35
+00:19:43,000 --> 00:19:53,000
+TRUE
+Zuckerberg argued that he had done Harvard a favour by exposing the flaws in their onlione security, & offered to help them improve it.
+The Accidental Billionaires (2010) by B. Mezrich, p66
+
+36
+00:20:06,000 --> 00:20:16,000
+FALSE-ISH
+Cox didn't appear in the book, but there were a number of network guys present at the hearing.
+The Accidental Billionaires (2010) by B. Mezrich, p65
+
+37
+00:20:34,000 --> 00:20:44,000
+FALSE
+Zuckerberg claims he was not forced to withdraw from school but declined to comment on any lesser punitive measures he might have faced. His punishment from the ad board wasn't mentioned in the book.
+The Crimson
+
+38
+00:21:20,000 --> 00:21:30,000
+FALSE
+This wasn't in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+39
+00:22:02,000 --> 00:22:12,000
+TRUE-ISH
+Narendra & the Winklevoss twins had been working on HarvardConnection for 2 years. Their programmer had left & they needed a replacement. However, they contacted him by email, not in person.
+The Accidental Billionaires (2010) by B. Mezrich, p29-32
+
+40
+00:22:12,000 --> 00:22:21,000
+TRUE-ISH
+The Winklevoss twins took Narendra, not Zuckerberg, into the bike room for meetings; not a member of the Porcellian, he was not allowed any further.
+The Accidental Billionaires (2010) by B. Mezrich, p85-86
+
+41
+00:22:57,000 --> 00:23:07,000
+TRUE
+Zuckerberg created Coursematch for Harvard students in 2003. Also created Synapse, a plug-in for MP3 player Winamp. Offered up to $2m for it, but uploaded it for free. Later tried to sell but didn't get the offers since it had been available for nothing.
+Chasing the Frog
+
+42
+00:24:10,000 --> 00:24:20,000
+TRUE
+The Winklevoss twins & Narendra asked Zuckerberg for help with their Harvard dating site idea. He agreed, & they thought he was working on it in the 3 months between Facemash & TheFacebook.
+Chasing the Frog
+
+43
+00:24:57,000 --> 00:25:07,000
+TRUE
+Zuckerberg did have to defend himself in depositions against these people, but the details are not available. According to the book, Zuckerberg presented his idea to Saverin in a restaurant rather than at the Caribbean night, but they did attend the Caribbean night.
+The Accidental Billionaires (2010) by B. Mezrich, p79-81
+
+44
+00:26:29,000 --> 00:26:39,000
+TRUE-ISH
+Saverin & Zuckerberg attended a Caribbean-themed Phoenix Club party, though not together. They were at similar party later when Saverin befriended Zuckerberg, having heard about his computer genius. Saverin was punched by the Phoenix Club in his junior year. I
+The Accidental Billionaires (2010) by B. Mezrich, p8-22
+
+45
+00:27:20,000 --> 00:27:30,000
+TRUE
+Although Zuckerberg pitched his idea to Saverin in a restaurant, rather than outside a party, he did explain TheFacebook as an exclusive online social network where people had to be invited, which Saverin thought was much like an online version of a Final Club.
+The Accidental Billionaires (2010) by B. Mezrich, p79-81
+
+46
+00:27:45,000 --> 00:27:55,000
+Deposition has remained private, with other a few details leaked online.
+Deposition has remained private, with other a few details leaked online.
+Business Insider
+
+47
+00:27:55,000 --> 00:28:01,000
+FALSE
+Moskvitz was not a programmer, but an operations guy who found code challenging. There were a number of other people involved who didn't make it into the movie.
+Business Insider
+
+48
+00:28:01,000 --> 00:28:06,000
+TRUE
+Zuckerberg asked Saverin for $1k to start things up, he agreed.
+The Accidental Billionaires (2010) by B. Mezrich, p82-83
+
+49
+00:28:06,000 --> 00:28:09,000
+TRUE
+Saverin invested $1k to start the company, then $20k soon after. In an IM conversation, Zuckerberg said Saverin was paying for the servers because he thought it would make money, while he (Zuckerberg), just wanted to do something cool.
+Chasing the Frog
+Business Insider
+
+50
+00:28:09,000 --> 00:28:16,000
+TRUE
+Zuckerberg proposed a 70/30 split, with Saverin getting CFO position in the company along with his 30%.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p83
+
+51
+00:28:16,000 --> 00:28:22,000
+TRUE
+He thought those terms were reasonable.
+The Accidental Billionaires (2010) by B. Mezrich, p84
+
+52
+00:28:22,000 --> 00:28:31,000
+FALSE
+This particularly cold line of argument from Zuckerberg didn't feature in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+53
+00:28:46,000 --> 00:28:56,000
+FALSE
+This aspect of things didn't feature in the book. Saverin thought Zuckerberg had screwed him over, but he didn't have a theory about why in particular. The suggestion was that he blamed Parker more than he blamed Zuckerberg. Zuckerberg certainly was mega-loaded.
+The Accidental Billionaires (2010) by B. Mezrich
+
+54
+00:28:59,000 --> 00:29:09,000
+Not in the book.
+The conversation wasn't recorded in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+55
+00:29:56,000 --> 00:30:06,000
+We couldn't find a source for this.
+We couldn't find a source for this.
+
+
+56
+00:30:07,000 --> 00:30:17,000
+TRUE
+In the book Saverin claimed that Zuckerberg scoffed at HarvardConnection & decided it wasn't worth his time, while continuing to communicate with them. No mention of him copying the idea from Narendra & the Winklevoss twins.
+The Accidental Billionaires (2010) by B. Mezrich, p81-82
+
+57
+00:30:55,000 --> 00:31:05,000
+TRUE
+Zuckerberg was working on TheFacebook while emailing the HarvardConnection team with progress updates that never materialised, & avoided meeting with them during the period.
+The Accidental Billionaires (2010) by B. Mezrich, p85-88
+
+58
+00:31:26,000 --> 00:31:36,000
+TRUE
+Saverin was punched as a junior & made it into the Phoenix Club.
+International Business Times
+
+59
+00:32:06,000 --> 00:32:16,000
+TRUE-ISH
+Although we don't know what Zuckerberg thought of Saverin attempting to join the Phoenix Club. They did meet frequently in his dorm to discuss TheFacebook.
+The Accidental Billionaires (2010) by B. Mezrich
+
+60
+00:32:33,000 --> 00:32:43,000
+TRUE
+Zuckerberg was working on TheFacebook while emailing the HarvardConnection team with progress updates that never materialised, & avoided meeting with them during the period.
+The Accidental Billionaires (2010) by B. Mezrich, p85-88
+
+61
+00:33:14,000 --> 00:33:24,000
+TRUE
+The John Harvard statue was known as the Statue of Three Lies. Memorising the three lies was part of the Phoenix Club admission test.
+Harvard
+The Accidental Billionaires (2010) by B. Mezrich, p124
+
+62
+00:33:34,000 --> 00:33:44,000
+TRUE
+11th Jan 2004 Zuckerberg paid $35 to register TheFacebook for a year. Went live for Harvard students 4th Feb 2004. When they removed the 'The', they paid $200k for a new domain name, debuted on 20th Sept 2005.
+Chasing the Frog
+
+63
+00:33:44,000 --> 00:33:52,000
+TRUE-ISH
+The twins claimed they had emails from Zuckerberg updating them on his progress. Whether or not these emails were truthful is difficult to know. However, according to the book Saverin did think that Zuckerberg hadn't done the work for HarvardConnection.
+The Accidental Billionaires (2010) by B. Mezrich
+
+64
+00:34:00,000 --> 00:34:10,000
+TRUE
+7 weeks into the HarvardConnection deal Zuckerberg expressed negativity about the idea for the first time, which worried the team, given his previous enthusiasm.
+The Accidental Billionaires (2010) by B. Mezrich, p88
+
+65
+00:34:41,000 --> 00:34:51,000
+FALSE
+This scene doesn't appear in the book. Social network sites were gaining popularity & there was several out there before both HarvardConnection & TheFacebook. Both were derivative. As for the code, there isn't a public copy of the original sets of code for comparison.
+AdWeek
+
+66
+00:35:32,000 --> 00:35:42,000
+TRUE-ISH
+Zuckerberg got the idea for adding 'relationship status' & 'interested in' to TheFacebook & raced to add it to the site, but we don't know where it came from.
+The Accidental Billionaires (2010) by B. Mezrich, p92-94
+
+67
+00:35:47,000 --> 00:35:57,000
+TRUE
+The site was almost ready to be launched, so Saverin was waiting for Zuckerberg to return to the dorm & get things finalised.
+The Accidental Billionaires (2010) by B. Mezrich, p92
+
+68
+00:36:35,000 --> 00:36:45,000
+TRUE
+Zuckerberg added those features at the last minute, the finishing touches. Saverin thought they were great & would distinguish TheFacebook from other social networking sites.
+The Accidental Billionaires (2010) by B. Mezrich, p94-95
+
+69
+00:36:49,000 --> 00:36:59,000
+FALSE
+In the book, it was only Zuckerberg's name on the masthead when the site went live. Saverin didn't mind.
+The Accidental Billionaires (2010) by B. Mezrich, p96
+
+70
+00:37:58,000 --> 00:38:08,000
+TRUE-ISH
+Zuckerberg did send TheFacebook out through the Phoenix Club mailing list, but it had been Saverin's idea. The book describes Zuckerberg as 'bobbing' oddly while he stared at the screen, waiting to see what would happen.
+The Accidental Billionaires (2010) by B. Mezrich, p97
+
+71
+00:39:00,000 --> 00:39:10,000
+FALSE
+This scene wasn't in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+72
+00:39:36,000 --> 00:39:46,000
+TRUE
+Narendra found out about TheFacebook in the Crimson & interrupted the twins' training session in the boathouse to tell them that Zuckerberg had stolen their website. They were all furious.
+The Accidental Billionaires (2010) by B. Mezrich, p100-101
+
+73
+00:42:31,000 --> 00:42:41,000
+TRUE
+They did get legal counsel & considered all their options for taking Zuckerberg down, but preferred not to take legal action if they could help it. Much of their frustration with Zuckerberg was related to his ethical breach; honour was really important to the twins.
+The Accidental Billionaires (2010) by B. Mezrich, p130, 163-164
+
+74
+00:43:42,000 --> 00:43:52,000
+FALSE
+This scene wasn't in the book. We don't know Zuckerberg's motivations for going to Saverin for funds.
+The Accidental Billionaires (2010) by B. Mezrich
+
+75
+00:43:54,000 --> 00:44:04,000
+TRUE
+Facebook reached a million users within the first year.
+The Guardian
+Wikipedia: Timeline of Facebook
+
+76
+00:44:17,000 --> 00:44:27,000
+TRUE
+In the book we first hear the phrase 'Facebook me' from Christy (Kelly), when she introduces herself to Saverin. Narendra doesn't mention it in the book, although he would have known about it.
+The Accidental Billionaires (2010) by B. Mezrich, p112
+
+77
+00:45:32,000 --> 00:45:42,000
+TRUE-ISH
+Bill Gates did give a speech at Harvard. Christy was actually a girl named Kelly, who was Saverin's girlfriend. Kelly & Alice introduced themselves at the presentation, excited to meet TheFacebook's then celebrity creators.
+Quora
+Quora
+The Accidental Billionaires (2010) by B. Mezrich, p109
+
+78
+00:46:25,000 --> 00:46:35,000
+TRUE
+The pair, but especially Zuckerberg, were getting pointed at & whispered about after TheFacebook launched.
+The Accidental Billionaires (2010) by B. Mezrich, p109-110
+
+79
+00:47:20,000 --> 00:47:30,000
+TRUE
+Saverin wanted to get rich, Zuckerberg wanted to be successful. Zuckerberg wasn't interested in any money beyond the running costs of the site.
+The Accidental Billionaires (2010) by B. Mezrich, p120
+
+80
+00:48:45,000 --> 00:48:55,000
+TRUE
+The twins sent Zuckerberg a cease & desist in Feb of 2004, soon after TheFacebook launched.
+The Accidental Billionaires (2010) by B. Mezrich, p113-114
+
+81
+00:50:32,000 --> 00:50:42,000
+FALSE-ISH
+The depositions details aren't in the book & only a few snippets have been leaked online. The email exchanges between Zuckerberg & the twins appear online in various forms, but can't be verifed.
+The Accidental Billionaires (2010) by B. Mezrich
+
+82
+00:50:46,000 --> 00:50:56,000
+TRUE
+The girls invited them for drinks that night, Saverin passed on the message to Zuckerberg, who thought it was an 'interesting' idea.
+The Accidental Billionaires (2010) by B. Mezrich, p112
+
+83
+00:51:30,000 --> 00:51:40,000
+TRUE
+Saverin & Zuckerberg hooked up with Kelly & Alice in a club bathroom.
+The Accidental Billionaires (2010) by B. Mezrich, p120-121
+
+84
+00:51:57,000 --> 00:52:07,000
+FALSE-ISH
+Although this particular scene doesn't feature in the book, Saverin & Zuckerberg did get some action with Kelly & Alice in the bathroom of a club.
+The Accidental Billionaires (2010) by B. Mezrich, p120-121
+
+85
+00:53:36,000 --> 00:53:46,000
+FALSE
+Erica Albright didn't exist.
+The Guardian
+
+86
+00:54:22,000 --> 00:54:32,000
+TRUE
+Moskovitz was hired to help expand the site to more schools & Hughes was the spokesperson for the business. Columbia, Stanford & Yale were the next schools to get Facebook after Harvard.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p118
+
+87
+00:55:30,000 --> 00:55:40,000
+No Marylin character in the book. 
+Zuckerberg's deposition lawyers weren't in the book, & this comment was never recorded.
+The Accidental Billionaires (2010) by B. Mezrich
+
+88
+00:56:47,000 --> 00:56:57,000
+TRUE
+The twins used their connections to meet Summers, wanted to get him to punish Zuckerberg.
+The Accidental Billionaires (2010) by B. Mezrich, p122-131
+
+89
+00:58:58,000 --> 00:59:08,000
+TRUE-ISH
+In the book, Parker woke up in his own room, which was near enough attached to the Stanford dorms although he wasn't a student there. There were bits of girls' clothing around the place. He lay there & reminised about his previous ventures, his success with girls etc.
+The Accidental Billionaires (2010) by B. Mezrich, p132-142
+
+90
+01:00:06,000 --> 01:00:16,000
+TRUE
+Parker did discover TheFacebook on a girl's laptop, & decided to seek out Zuckerberg. He emailed Saverin & Saverin set up the meeting at 66 in New York.
+The Accidental Billionaires (2010) by B. Mezrich, p139-142
+
+91
+01:00:29,000 --> 01:00:39,000
+TRUE
+The twins pulled all the connections they had to get a meeting with SUMMERS. His office was in Mass Hall, one of the oldest buildings in Harvard square.
+The Accidental Billionaires (2010) by B. Mezrich, p122-124
+
+92
+01:03:54,000 --> 01:04:04,000
+TRUE
+Summers showed no interest in the case, claimed it was out of Harvard's jurisdiction. Irritated that the twins had taken up his time with it.
+The Accidental Billionaires (2010) by B. Mezrich, p126-131
+
+93
+01:04:05,000 --> 01:04:15,000
+FALSE-ISH
+The twins did leave Summers' office in a rage. They didn't break the doorknob, though.
+The Accidental Billionaires (2010) by B. Mezrich, p131
+
+94
+01:04:37,000 --> 01:04:47,000
+TRUE
+Zuckerberg & Saverin met several advertisers together in NY.
+The Accidental Billionaires (2010) by B. Mezrich, p144
+
+95
+01:05:09,000 --> 01:05:19,000
+TRUE
+Saverin set up numerous meetings with potential advertisers. Zuckerberg, not interested in the 'uncool' world of suits & money, slept through most of them or stayed silent the whole way through. The ad guys didn't 'get' the site, & the meetings failed.
+The Accidental Billionaires (2010) by B. Mezrich, p144
+
+96
+01:05:20,000 --> 01:05:30,000
+TRUE
+After meeting with advertisers they met with Parker.
+The Accidental Billionaires (2010) by B. Mezrich, p145
+
+97
+01:05:50,000 --> 01:06:00,000
+TRUE-ISH
+Zuckerberg & Saverin did meet Parker at 66 in New York. Zuckerberg was really excited, Saverin not so much. Zuckerberg & Saverin were accompanied not by Saverin's girlfriend, but by Zuckerberg's girlfriend Priscilla Chan.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p145
+
+98
+01:06:05,000 --> 01:06:15,000
+TRUE
+From Saverin's online research into Parker, he didn't trust him at all.
+The Accidental Billionaires (2010) by B. Mezrich, p145
+
+99
+01:06:50,000 --> 01:07:00,000
+TRUE
+Parker seemed to know everybody in the joint, & was popular with all of them.
+The Accidental Billionaires (2010) by B. Mezrich, p146
+
+100
+01:07:00,000 --> 01:07:02,000
+TRUE
+Parker told them his recent life story.
+The Accidental Billionaires (2010) by B. Mezrich, p146
+
+101
+01:07:02,000 --> 01:07:10,000
+TRUE
+The bar was really popular, buzzing, a hotspot.
+The Accidental Billionaires (2010) by B. Mezrich, p145
+
+102
+01:07:10,000 --> 01:07:17,000
+TRUE
+Saverin thought Parker was totally self-centered.
+The Accidental Billionaires (2010) by B. Mezrich, p146
+
+103
+01:07:17,000 --> 01:07:26,000
+TRUE
+There were drinks & food & Zuckerberg idolised Parker, it was only Saverin who wasn't up for the meeting.
+The Accidental Billionaires (2010) by B. Mezrich, p146
+
+104
+01:07:26,000 --> 01:07:28,000
+TRUE
+Parker was open with them about everything, including Napster's implosion.
+The Accidental Billionaires (2010) by B. Mezrich, p146-147
+
+105
+01:07:39,000 --> 01:07:49,000
+TRUE
+Parker was open with them about everything, including Napster's implosion.
+The Accidental Billionaires (2010) by B. Mezrich, p146-147
+
+106
+01:07:49,000 --> 01:07:57,000
+TRUE
+Parker told them everything.
+The Accidental Billionaires (2010) by B. Mezrich, p146-147
+
+107
+01:07:57,000 --> 01:08:05,000
+TRUE
+Parker gave them all the details.
+The Accidental Billionaires (2010) by B. Mezrich, p146-147
+
+108
+01:08:05,000 --> 01:08:13,000
+FALSE
+In the book Parker didn't talk to Saverin about being followed.
+The Accidental Billionaires (2010) by B. Mezrich
+
+109
+01:08:29,000 --> 01:08:39,000
+TRUE
+Parker did think he was being watched. He saw cars with blacked-out windows following him, heard clicks on his phoneline, got weird callbacks on his mobile etc. Thought it was Moritz getting dirt on him so he could push him out of Plaxo.
+The Accidental Billionaires (2010) by B. Mezrich, p136
+
+110
+01:08:39,000 --> 01:08:40,000
+FALSE
+Saverin didn't mention anything about Parker being delusional in the book, but he certainly thought he was a snake.
+The Accidental Billionaires (2010) by B. Mezrich
+
+111
+01:08:50,000 --> 01:09:00,000
+TRUE-ISH
+That was Parker's view of Napster. While the conversation didn't come up explicitly in the book, we know Parker told them everything & that Saverin didn't trust him.
+The Accidental Billionaires (2010) by B. Mezrich, p134
+
+112
+01:09:04,000 --> 01:09:14,000
+TRUE
+Parker told them all about his partying, his friends, before questioning Zuckerberg about TheFacebook.
+The Accidental Billionaires (2010) by B. Mezrich, p146-147
+
+113
+01:09:58,000 --> 01:10:08,000
+TRUE
+Parker & Zuckerberg were on the same page about everything,
+The Accidental Billionaires (2010) by B. Mezrich, p146-148
+
+114
+01:10:08,000 --> 01:10:18,000
+TRUE-ISH
+Although those exact words weren't in the book, Parker had been aiming for his first billion with his other two major projects, & hoped Facebook would be the one to get him there.
+The Accidental Billionaires (2010) by B. Mezrich, p198
+
+115
+01:10:40,000 --> 01:10:50,000
+TRUE-ISH
+Zuckerberg wasn't keen on ads because they weren't cool, & that Parker was on the same page, advising them to aim for $1bn first. There was tension between Saverin & the others.
+The Accidental Billionaires (2010) by B. Mezrich
+
+116
+01:10:50,000 --> 01:11:00,000
+TRUE
+Parker picked up the check on his way out.
+The Accidental Billionaires (2010) by B. Mezrich, p148
+
+117
+01:11:08,000 --> 01:11:18,000
+TRUE-ISH
+The' was dropped from TheFacebook gradually by its users. However, one of the first things Parker thought when he discovered the site was 'why not just Facebook?' & he did push for dropping the 'The' officially.
+The Accidental Billionaires (2010) by B. Mezrich, p109, 141, 181
+
+118
+01:11:31,000 --> 01:11:41,000
+TRUE-ISH
+Although this particular scene doesn't feature in the book, we know Saverin & Zuckerberg disagreed throughout about whether, & when, & how to monetise Facebook.
+The Accidental Billionaires (2010) by B. Mezrich, p119-120
+
+119
+01:12:28,000 --> 01:12:38,000
+Not in the book.
+We don't know if this was raised in the deposition. The depositions didn't appear in the book & most of the details are sealed.
+The Accidental Billionaires (2010) by B. Mezrich
+
+120
+01:12:38,000 --> 01:12:43,000
+FALSE
+Zuckerberg reading the article didn't feature in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+121
+01:12:43,000 --> 01:12:53,000
+TRUE
+Carrying a chicken at all times for 5 days was a standard part of Phoenix Club initiation that Saverin took part in.
+The Accidental Billionaires (2010) by B. Mezrich, p36-37
+
+122
+01:12:53,000 --> 01:13:00,000
+FALSE
+There was a Harvard Crimson article that addressed the use of chickens in The Phoenix Club rituals, but it did not mention Saverin & nobody in connection with the club has ever admitted or been charged with animal cruelty.
+Chasing the Frog
+
+123
+01:13:00,000 --> 01:13:09,000
+TRUE
+Saverin did not view his 'care' of the chicken as cruel, rather, he just had no idea what to feed it. The instructions from the Phoenix Club were to keep it healthy & alive, not to torture it.
+The Accidental Billionaires (2010) by B. Mezrich, p38
+
+124
+01:13:09,000 --> 01:13:13,000
+FALSE
+Zuckerberg reading the article didn't feature in the book.
+The Accidental Billionaires (2010) by B. Mezrich
+
+125
+01:13:13,000 --> 01:13:20,000
+The depositions details aren't in the book. 
+The depositions details aren't in the book & only a few snippets have been leaked online.
+The Accidental Billionaires (2010) by B. Mezrich
+
+126
+01:13:20,000 --> 01:13:22,000
+FALSE
+Zuckerberg found the whole chicken thing amusing & didn't care about the consequences.
+The Accidental Billionaires (2010) by B. Mezrich, p36
+
+127
+01:13:34,000 --> 01:13:44,000
+TRUE
+Saverin did feed fried chicken to his chicken, & was seen by two members of the Porcellian Club, who made a complaint to The United Poultry Concern. The group approached Harvard president Larry Summers & an ad board investigation was launched.
+The Accidental Billionaires (2010) by B. Mezrich, p38
+
+128
+01:14:05,000 --> 01:14:15,000
+TRUE-ISH
+Zuckerberg did set up a website to help him cheat on his core paper while he was working on TheFacebook, but TheFacebook wasn't up & running at that point.
+The Accidental Billionaires (2010) by B. Mezrich, p96-97
+
+129
+01:14:33,000 --> 01:14:43,000
+The depositions details aren't in the book. 
+The depositions details aren't in the book & only a few snippets have been leaked online.
+The Accidental Billionaires (2010) by B. Mezrich
+
+130
+01:15:58,000 --> 01:16:08,000
+TRUE
+Zuckerberg decided Silicon Valley was the place to be over the summer break. They decided to hire two interns to help get TheFacebook into 100 schools by the end of summer. Saverin not keen, but agrees to fund it.
+The Accidental Billionaires (2010) by B. Mezrich, p154-55
+
+131
+01:17:40,000 --> 01:17:50,000
+TRUE
+Zuckerberg set up a coding/drinking competition between the candidates, there was an audience & a lot of excitement.
+The Accidental Billionaires (2010) by B. Mezrich, p157-159
+
+132
+01:18:19,000 --> 01:18:29,000
+TRUE
+Saverin eventually decided very little could go wrong in 3 months, despite his initial concerns about California.
+The Accidental Billionaires (2010) by B. Mezrich, p159
+
+133
+01:19:06,000 --> 01:19:16,000
+TRUE
+They took a house on La Jennifer Way, no. 819, in Palo Alto. They did create a zipline from the chimney to a telegraph pole across the pool, & damaged the chimney in the process.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p168
+
+134
+01:19:34,000 --> 01:19:44,000
+TRUE-ISH
+Parker & Zuckerberg did meet unexpectedly on the streets of Palo Alto after losing touch for a couple of months following their initial meeting.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p166
+
+135
+01:20:17,000 --> 01:20:27,000
+TRUE
+Saverin got offered a prestigious internship in New York, decided to take it, search for advertising for TheFacebook in his spare time.
+The Accidental Billionaires (2010) by B. Mezrich, p153
+
+136
+01:24:12,000 --> 01:24:22,000
+TRUE
+Zuckerberg did invite Parker to move into the Palo Alto house with them, soon after which he became president of Facebook. Parker decided he was going to show Zuckerberg the way to success.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p167-168
+
+137
+01:25:54,000 --> 01:26:04,000
+TRUE
+The twins did compete in the Regatta, losing by second to the best team in the world - the Dutch.
+The Accidental Billionaires (2010) by B. Mezrich, p185-186
+
+138
+01:27:53,000 --> 01:28:03,000
+TRUE
+They were at the reception in London when a man asked them if they were on TheFacebook, so that they could contact his daughter about her photos of the race.
+The Accidental Billionaires (2010) by B. Mezrich, p188
+
+139
+01:28:49,000 --> 01:28:59,000
+TRUE-ISH
+While in the book they didn't rush to a computer there & then, they did decide at that moment that a lawsuit was inevitable.
+The Accidental Billionaires (2010) by B. Mezrich, p190
+
+140
+01:29:28,000 --> 01:29:38,000
+TRUE
+They made a mess of the suburban house they rented, turning it into a frat house.
+The Accidental Billionaires (2010) by B. Mezrich, p169
+
+141
+01:30:30,000 --> 01:30:40,000
+FALSE
+Zuckerberg did pick Saverin up from the airport.
+The Accidental Billionaires (2010) by B. Mezrich, p177
+
+142
+01:31:40,000 --> 01:31:50,000
+TRUE
+Saverin felt displaced by Parker's involvement in the business side of things, given that it was supposed to Saverin's job to handle investors & advertisers.
+The Accidental Billionaires (2010) by B. Mezrich, p192-193
+
+143
+01:33:07,000 --> 01:33:17,000
+TRUE
+Saverin quit his internship on day one after realising that he needed to be focusing on getting advertising for Facebook.
+The Accidental Billionaires (2010) by B. Mezrich, p174
+
+144
+01:33:26,000 --> 01:33:36,000
+TRUE
+Saverin froze the business account. He had been angry about being shut out of TheFacebook & Parker setting up business meetings was the final straw. Zuckerberg had to fund the house & site costs out of pocket & his family had to take out loans to fund the servers.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p195 
+Business Insider
+
+145
+01:33:39,000 --> 01:33:49,000
+TRUE
+The meeting was at 555 California Street, where the movie was filmed.
+Movie Locations
+The Accidental Billionaires (2010) by B. Mezrich, p203
+
+146
+01:34:17,000 --> 01:34:27,000
+TRUE
+Parker had set up a meeting with former PayPal CEO Peter Thiel. He invested $500k.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p203-204
+
+147
+01:35:54,000 --> 01:36:04,000
+FALSE-ISH
+Although this particular incident didn't happen in the book, Kelly was insanely jealous & possessive.
+The Accidental Billionaires (2010) by B. Mezrich, p184
+
+148
+01:36:39,000 --> 01:36:49,000
+TRUE
+Christy's real-life equivalent did set fire to Saverin's gift & his belongings in her dorm room, which nearly burned down. Saverin was on a flight back to NY when it happened. Zuckerberg & Parker were angry that Saverin's extreme actions had put Facebook at risk.
+Quora
+The Accidental Billionaires (2010) by B. Mezrich, p184, 200
+
+149
+01:37:38,000 --> 01:37:48,000
+TRUE
+Saverin wasn't there when Kelly lit the fire, but she did light it. Saverin did have these conversations with Zuckerberg. They both apologised & tried to smooth things over.
+The Accidental Billionaires (2010) by B. Mezrich, p212
+
+150
+01:37:48,000 --> 01:37:57,000
+TRUE-ISH
+Saverin did end the relationship because she was crazy possessive.
+The Accidental Billionaires (2010) by B. Mezrich, p212
+
+151
+01:37:57,000 --> 01:38:04,000
+TRUE-ISH
+Although this particular scene doesn't feature in the book, Zuckerberg was thrilled with the success of Facebook & Parker's involvement.
+The Accidental Billionaires (2010) by B. Mezrich
+
+152
+01:39:00,000 --> 01:39:10,000
+TRUE
+These were the initial shares in the reincorporated Facebook, open to dilution as more investors & staff joined.
+The Accidental Billionaires (2010) by B. Mezrich, p215
+
+153
+01:40:02,000 --> 01:40:12,000
+TRUE
+Saverin felt betrayed by his friend, he had never thought Zuckerberg would do something like that.
+The Accidental Billionaires (2010) by B. Mezrich, p228
+
+154
+01:40:24,000 --> 01:40:34,000
+TRUE
+Zuckerberg dropped out of Harvard & moved to Palo Alto in June 2004. Never returned to Harvard as a student.
+Chasing the Frog
+
+155
+01:41:18,000 --> 01:41:28,000
+TRUE
+Parker convinced Zuckerberg to throw a meeting with Sequoia Capital by turning up late, in pjs, & giving a terrible presentation. Parker thought M. Moritz of Sequoia Capital had squeezed him out from his company. Zuckerberg claims to regret wasting their time.
+Chasing the Frog
+
+156
+01:42:05,000 --> 01:42:15,000
+TRUE
+Saverin was called to California to talk about investments & help train a new recruit. When he arrived he was handed legal papers. The people from the company that took Parker down were now vying to invest in Facebook.
+The Accidental Billionaires (2010) by B. Mezrich, p227-228, 232-233
+
+157
+01:42:57,000 --> 01:43:07,000
+TRUE
+Saverin was being diluted out of the company. He was furious, but according to the him & to the book he didn't smash anything up.
+The Accidental Billionaires (2010) by B. Mezrich, p230
+Forbes
+
+158
+01:43:07,000 --> 01:43:09,000
+FALSE-ISH
+Saverin's shares were diluted to below 10%, but not as low as 0.03%. The dilution did end their business relationship.
+Chasing the Frog
+
+159
+01:44:38,000 --> 01:44:48,000
+FALSE
+There is no evidence that Zuckerberg screwed Saverin over out of jealousy, & although in the book Saverin noted that Zuckerberg was impressed with Saverin's Phoenix Club admission, he didn't mention jealousy.
+The Accidental Billionaires (2010) by B. Mezrich, p19
+
+160
+01:45:08,000 --> 01:45:18,000
+FALSE
+Parker didn't try to wind Saverin up in this way. In the book Parker seems only vaguely interested in Saverin, didn't have strong enough feelings to try & annoy him intentionally. Saverin didn't try to punch Parker.
+The Accidental Billionaires (2010) by B. Mezrich, p230
+
+161
+01:45:50,000 --> 01:46:00,000
+FALSE
+The book didn't mention Zuckerberg's feelings about Saverin at all, his emotions were portrayed as mostly inpenetrable.
+The Accidental Billionaires (2010) by B. Mezrich
+
+162
+01:46:30,000 --> 01:46:40,000
+FALSE
+This didn't happen in the book. Zuckerberg barely showed an interest in women at all.
+The Accidental Billionaires (2010) by B. Mezrich
+
+163
+01:47:00,000 --> 01:47:10,000
+TRUE
+Facebook reached one million members within 10 months.
+Business Insider
+
+164
+01:47:40,000 --> 01:47:50,000
+TRUE
+Parker was at a party with an undergraduate Facebook employee. He had been getting excited about all the new ideas for Facebook, the photo sharing, the newsfeed etc.
+The Accidental Billionaires (2010) by B. Mezrich, p242-246
+
+165
+01:47:54,000 --> 01:48:04,000
+TRUE
+The police broke up the party - Parker thought it was a set up, given it was a pretty standard frat-type party near campus.
+The Accidental Billionaires (2010) by B. Mezrich, p242-246
+
+166
+01:48:29,000 --> 01:48:39,000
+TRUE
+Parker had ideas about life itself moving online.
+The Accidental Billionaires (2010) by B. Mezrich, p244
+
+167
+01:49:33,000 --> 01:49:43,000
+TRUE
+Parker didn't do any drugs himself because of his asthma & allergies, but was busted there by the police, wrong place, wrong time. Parker was arrested for cocaine possession in 2005. He was never charged, but resigned from Facebook under pressure from the board.
+Chasing the Frog
+The Accidental Billionaires (2010) by B. Mezrich, p242-246
+
+168
+01:49:43,000 --> 01:49:49,000
+FALSE
+The book didn't give the sense that Zuckerberg was stressed or upset by the way things worked out.
+The Accidental Billionaires (2010) by B. Mezrich
+
+169
+01:50:51,000 --> 01:51:01,000
+TRUE-ISH
+We don't know who was on the other end of the phone call Zuckerberg receieved about Parker, but he was not happy about the situation & realised Parker had to go for the sake of the company.
+The Accidental Billionaires (2010) by B. Mezrich, p247
+
+170
+01:51:07,000 --> 01:51:17,000
+TRUE
+Zuckerberg had two sets of business cards, one read 'CEO' & the other, 'I'm CEO... bitch'.
+Chasing the Frog
+
+171
+01:53:34,000 --> 01:53:44,000
+TRUE
+Although the Marylin character didn't appear in the book, the case was resolved in a settlement, so it's reasonable to assume Zuckerberg got this advice from his lawyers at some stage.
+The Accidental Billionaires (2010) by B. Mezrich, p253
+
+172
+01:54:26,000 --> 01:54:36,000
+FALSE-ISH
+Zuckerberg wasn't pining over an ex at this point - he had the same girlfriend throughout. Chris Hughes has said it was never about girls or power for Zuckerberg.
+Chasing the Frog
+Forbes
+Fortune
+
+173
+01:56:25,000 --> 01:56:35,000
+TRUE
+Settlement details are correct. Winklevoss twins were paid in cash & assets - later found the assets had been undervalued, but the case wasn't reopened. Zuckerberg was the youngest billionaire in 2010, & Facebook did have over 500m members at that point.
+Chasing the Frog
+Forbes
+Fortune
+
+174
+02:00:17,000 --> 02:00:27,000
+-
+
+175
+02:00:28,000 --> 02:00:32,000
+Original Data Provided By: 
+Omid Kashan, DM, David McCandless
+Karl Webster, Dr Stephanie Starling
+Subtitles Compiled By: 
+BreadCodes

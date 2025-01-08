@@ -2,12 +2,16 @@
 import React, { useState, useEffect, ReactElement } from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Post as PostType } from './types';
+import "./App.scss";
 
 const Layout = ({ children }: {
   children: ReactElement | ReactElement[] | string | string[] | number | number[] | boolean | boolean[] | null | undefined;
 }) => (
-  <div>
-    <div className="page-width min-h-screen">
+  <div style={{
+    background: "white",
+    margin: "auto",
+  }} className='page-width'>
+    <div className="mx-auto">
       <div className="py-20 text-center bg-white">
         <marquee className="mb-4">Software Development Is My Passion</marquee>
         <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
