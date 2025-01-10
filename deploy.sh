@@ -1,31 +1,53 @@
 #!/bin/bash
 
 # Build the site
+echo "Building site..."
 npm run build
 
-# Save the current branch name
-current_branch=$(git branch --show-current)
+# Create a temp directory for the build files
+echo "Creating temp directory..."
+rm -rf temp_deploy
+mkdir temp_deploy
 
-# Create and switch to gh-pages branch, creating it if it doesn't exist
-git checkout gh-pages 2>/dev/null || git checkout -b gh-pages
+# Copy the built files to temp
+echo "Copying build files to temp..."
+cp -r out/* temp_deploy/
 
-# Remove existing files (except .git and .gitignore)
-find . -maxdepth 1 ! -name '.git' ! -name '.gitignore' ! -name 'out' -exec rm -rf {} +
+# Store the current branch
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
-# Copy everything from out directory to root
-cp -r out/* .
+# Switch to gh-pages branch (create if it doesn't exist)
+echo "Switching to gh-pages branch..."
+if git show-ref --verify --quiet refs/heads/gh-pages; then
+    git checkout gh-pages
+else
+    git checkout --orphan gh-pages
+    git rm -rf .
+fi
 
-# Remove the out directory after copying
-rm -rf out
+# Remove everything except git, gitignore, and temp_deploy
+echo "Cleaning directory..."
+find . -not -path "./.git*" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete
 
-# Add all files
-git add -A
+# Copy the build files from temp
+echo "Copying build files to root..."
+cp -r temp_deploy/* .
+rm -rf temp_deploy
+
+# Stage changes
+echo "Staging changes..."
+git add .
 
 # Commit
+echo "Committing changes..."
 git commit -m "Deploy to gh-pages"
 
-# Push to gh-pages
+# Push
+echo "Pushing to gh-pages..."
 git push origin gh-pages --force
 
 # Return to original branch
-git checkout $current_branch
+echo "Returning to original branch..."
+git checkout "$CURRENT_BRANCH"
+
+echo "Deployment complete!"
