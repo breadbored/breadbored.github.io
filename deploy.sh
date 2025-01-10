@@ -1,8 +1,7 @@
 #!/bin/bash
 
-source ~/.zshrc
-
 echo "Building site..."
+yarn
 yarn build
 
 echo "Creating temp directory..."
@@ -45,3 +44,5 @@ echo "Returning to original branch..."
 git checkout "$CURRENT_BRANCH"
 
 echo "Deployment complete!"
+
+yarn
