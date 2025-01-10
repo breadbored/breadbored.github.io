@@ -1,0 +1,22 @@
+@use "variables";
+@use "_highlights";
+
+body {
+  background: url(/assets/circuitboard.jpg) !important;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif !important;
+  cursor: url(/assets/cursor.png), auto !important;
+}
+ol, ul, pre, code {
+text-align: start;
+}
+article {
+padding: 10px;
+}
+.highlight {
+  overflow-x: scroll;
+}
+
+.page-width {
+  max-width: 600px;
+}
+
