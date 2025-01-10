@@ -27,3 +27,4 @@ tmp/*
 blog/*
 artifacts/*
 .next/
+out/

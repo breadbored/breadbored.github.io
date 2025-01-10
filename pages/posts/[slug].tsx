@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from "rehype-raw"
 import { Post as PostType } from '../../types'
 import { getAllPosts } from '../../utils/post_parser'
 
@@ -43,7 +44,7 @@ const Post = ({ post }: { post: PostType }) => {
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
             <div className="mb-8 text-gray-600">{formattedDate}</div>
             <div className="prose max-w-none">
-                <ReactMarkdown>{post.content}</ReactMarkdown>
+                <ReactMarkdown children={post.content} rehypePlugins={[rehypeRaw]} />
             </div>
         </article>
     )
