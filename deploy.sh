@@ -1,7 +1,9 @@
 #!/bin/bash
 
+source ~/.zshrc
+
 echo "Building site..."
-npm run build
+yarn build
 
 echo "Creating temp directory..."
 rm -rf temp_deploy
@@ -21,7 +23,7 @@ else
 fi
 
 echo "Cleaning directory..."
-find . -not -path "./.git*" -not -path "CNAME" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete
+find . -not -path "./.git*" -not -path "./CNAME" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete
 
 echo "Creating .nojekyll file..."
 touch .nojekyll
