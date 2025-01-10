@@ -25,7 +25,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && mkdir temp_deploy && cp -r out/* temp_deploy/ && git checkout --orphan gh-pages && git reset --hard && git clean -fd && git pull origin gh-pages --rebase || true && find . -maxdepth 1 ! -name '.git' ! -name '.gitignore' ! -name 'temp_deploy' -exec rm -rf {} + && cp -r temp_deploy/* . && rm -rf temp_deploy && git add . && git commit -m \"Deploy to gh-pages\" && git push origin gh-pages --force && git checkout -"
   },
   "eslintConfig": {
     "extends": [
