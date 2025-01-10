@@ -23,6 +23,9 @@ fi
 echo "Cleaning directory..."
 find . -not -path "./.git*" -not -path "CNAME" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete
 
+echo "Creating .nojekyll file..."
+touch .nojekyll
+
 echo "Copying build files to root..."
 cp -r temp_deploy/* .
 rm -rf temp_deploy
