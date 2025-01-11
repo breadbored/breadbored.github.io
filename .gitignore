@@ -28,3 +28,4 @@ blog/*
 artifacts/*
 .next/
 out/
+.env

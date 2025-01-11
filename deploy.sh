@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Backing up .env file..."
+env_value=$(cat .env)
+
 echo "Building site..."
 yarn
 yarn build
@@ -44,5 +47,8 @@ echo "Returning to original branch..."
 git checkout "$CURRENT_BRANCH"
 
 echo "Deployment complete!"
+
+echo "Restoring .env file..."
+echo "$env_value" >.env
 
 yarn

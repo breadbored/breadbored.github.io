@@ -2,9 +2,13 @@
 @use "_highlights";
 
 body {
-  background: url(/assets/circuitboard.jpg) !important;
+  background-image: url(/assets/C1.jpg) !important;
   font-family: "Comic Sans MS", "Comic Sans", sans-serif !important;
   cursor: url(/assets/cursor.png), auto !important;
+  background-size: 256px !important;
+  image-rendering: pixelated !important;
+  background-blend-mode: darken;
+  background-color: #8b8b8b;
 }
 ol, ul, pre, code {
 text-align: start;
@@ -18,5 +22,81 @@ padding: 10px;
 
 .page-width {
   max-width: 600px;
+  margin: 0 20px;
 }
 
+.bsky {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: 25px 0;
+  min-height: 100px;
+  padding: 25px 35px;
+  border-radius: 8px;
+  border: 1px solid #d7d7d7;
+
+  .bsky-header {
+    display: flex;
+    flex-direction: row;
+
+    .bsky-avatar {
+      // Empty block preserved
+    }
+
+    .bsky-author {
+      justify-self: center;
+      justify-content: center;
+      height: fit-content;
+      margin: auto 20px;
+      align-content: start;
+      text-align: start;
+    }
+  }
+
+  .bsky-content {
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+
+    .bsky-title {
+      // Empty block preserved
+    }
+
+    .bsky-text {
+      // Empty block preserved
+    }
+  }
+
+  .bsky-footer {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+
+    .bsky-date {
+      align-self: start;
+    }
+
+    .bsky-icon {
+      align-self: end;
+      margin-left: auto;
+    }
+  }
+}
+
+.profile-image-container {
+  display: inline-block;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-image {
+  @extend .profile-image-container;
+  border: 1px solid var(--box-line-color);
+  background: white;
+}
+
+.profile-image-m {
+  @extend .profile-image;
+  width: 50px;
+  height: 50px;
+}
