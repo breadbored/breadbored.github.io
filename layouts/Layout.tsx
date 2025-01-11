@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/no-distracting-elements */
 import Link from "next/link";
 import Image from "next/image";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
@@ -32,10 +34,16 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         </Link>
                     </nav>
 
-                    <audio controls className="mx-auto mb-4" autoPlay={true}>
-                        <source src="/assets/Linkin-Park-Numb.mp3" type="audio/mpeg" />
-                        Your browser does not support the audio element.
-                    </audio>
+                    <AudioPlayer
+                        header="Linkin-Park-Numb.mp3"
+                        src={"/assets/Linkin-Park-Numb.mp3"}
+                        autoPlayAfterSrcChange={true}
+                        className="mb-4"
+                        volume={0.4}
+                        loop
+                        autoPlay
+                        showJumpControls={false}
+                    />
 
                     <main className="px-4">{children}</main>
                 </div>

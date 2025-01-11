@@ -10,6 +10,8 @@ import React, {
     useEffect,
     useState,
 } from "react";
+import BlueSkyEmbed from "../pages/bsky-test";
+import { BSkyPost } from "../utils/bsky";
 
 function flatten(
     text: string,
@@ -48,6 +50,41 @@ function HeadingRenderer(level: number) {
     };
 }
 
+const BSkyRenderer = (skeets: BSkyPost[]) => (
+    props: ClassAttributes<HTMLDivElement> &
+        HTMLAttributes<HTMLDivElement> &
+        ExtraProps,
+): ReactElement => {
+    const { href, children } = props as any;
+
+    if (href && href.match(/^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi)?.length > 0) {
+        const skeet = skeets.find((skeet: BSkyPost) => {
+            return skeet?.url === href
+        });
+        if (skeet) {
+            return <BlueSkyEmbed post={{
+                message: "Post fetched successfully",
+                data: skeet,
+                lastUpdated: new Date().toISOString(),
+            }} />;
+        }
+    }
+    if (children && children.match && children.match(/^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi)?.length > 0) {
+        const skeet = skeets.find((skeet: BSkyPost) => {
+            return skeet?.url === children
+        });
+        if (skeet) {
+            return <BlueSkyEmbed post={{
+                message: "Post fetched successfully",
+                data: skeet,
+                lastUpdated: new Date().toISOString(),
+            }} />;
+        }
+    }
+
+    return props.children as ReactElement;
+}
+
 const Post = ({ post }: { post: PostType }) => {
     const [isClient, setIsClient] = useState<boolean>(false);
     const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
@@ -75,6 +112,7 @@ const Post = ({ post }: { post: PostType }) => {
                             h4: HeadingRenderer(4),
                             h5: HeadingRenderer(5),
                             h6: HeadingRenderer(6),
+                            p: BSkyRenderer(post.skeets),
                         }}
                     />
                 ) : (
@@ -87,6 +125,7 @@ const Post = ({ post }: { post: PostType }) => {
                             h4: HeadingRenderer(4),
                             h5: HeadingRenderer(5),
                             h6: HeadingRenderer(6),
+                            p: BSkyRenderer(post.skeets),
                         }}
                         rehypePlugins={[rehypeRaw]}
                     />

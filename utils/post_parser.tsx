@@ -40,6 +40,7 @@ export function parseJekyllPost(content: string): JekyllPost {
         excerpt: postContent.split("\n\n")[0], // First paragraph as excerpt
         content: postContent,
         categories: frontmatter.categories || [],
+        skeets: []
     };
 }
 

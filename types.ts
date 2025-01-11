@@ -1,3 +1,5 @@
+import type { BSkyPost } from "./utils/bsky";
+
 export type Post = {
   title: string;
   date: string;
@@ -5,4 +7,5 @@ export type Post = {
   excerpt: string;
   content: string;
   categories: string[];
+  skeets: BSkyPost[];
 };
