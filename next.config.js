@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     // Handle UMD modules
@@ -17,7 +17,7 @@ const nextConfig = {
     // Force specific modules to be handled as CommonJS
     config.module.rules.push({
       test: /\.m?js$/,
-      type: 'javascript/auto',
+      type: "javascript/auto",
       resolve: {
         fullySpecified: false,
       },
@@ -26,7 +26,7 @@ const nextConfig = {
     return config;
   },
   // Prevent errors with PostHog and other external scripts
-  transpilePackages: ['posthog-js']
-}
+  transpilePackages: ["posthog-js"],
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

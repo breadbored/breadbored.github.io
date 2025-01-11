@@ -2,9 +2,13 @@
 @use "_highlights";
 
 body {
-  background: url(/assets/circuitboard.jpg) !important;
+  background-image: url(/assets/C1.jpg) !important;
   font-family: "Comic Sans MS", "Comic Sans", sans-serif !important;
   cursor: url(/assets/cursor.png), auto !important;
+  background-size: 256px !important;
+  image-rendering: pixelated !important;
+  background-blend-mode: darken;
+  background-color: #8b8b8b;
 }
 ol, ul, pre, code {
 text-align: start;
@@ -18,5 +22,6 @@ padding: 10px;
 
 .page-width {
   max-width: 600px;
+  margin: 0 20px;
 }
 
