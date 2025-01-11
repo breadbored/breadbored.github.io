@@ -15,7 +15,7 @@ categories: ["retro-computing", "microcontrollers"]
 3. [The Gameboy Printer](#the-gameboy-printer)
 4. [Important Notes](#important-notes)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EhVYzfLQQ70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="536" height="301" src="https://www.youtube.com/embed/EhVYzfLQQ70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <a href="https://www.patreon.com/bePatron?u=34519148" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 

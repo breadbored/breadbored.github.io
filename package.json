@@ -1,0 +1,66 @@
+{
+  "name": "breadbored.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.3.4",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "axios": "^0.21.1",
+    "highlight.js": "^11.11.1",
+    "next": "^14.1.0",
+    "posthog-js": "^1.205.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-loader": "^4.13.0",
+    "react-markdown": "^9.0.3",
+    "react-router": "^7.1.1",
+    "react-router-dom": "^7.1.1",
+    "rehype-raw": "^7.0.0",
+    "sass": "^1.83.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "bash deploy.sh"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^14.14.31",
+    "@types/reach__router": "^1.3.7",
+    "@types/react": "^16.14.4",
+    "@types/react-dom": "^16.9.11",
+    "@types/webpack-env": "^1.16.0",
+    "autoprefixer": "^10.4.20",
+    "next": "^15.1.4",
+    "postcss": "^8.4.49",
+    "react-hot-loader": "^4.13.1",
+    "react-static": "^7.6.2",
+    "serve": "^11.3.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^4.1.5"
+  }
+}
