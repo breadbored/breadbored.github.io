@@ -6,9 +6,7 @@ import 'react-h5-audio-player/lib/styles.css';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div style={{
-            margin: "0 10%",
-        }}>
+        <>
             <div className="page-width mx-auto mt-12">
                 <div className="pb-12 pt-6 text-center bg-white">
                     {/** @ts-ignore */}
@@ -106,7 +104,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     </p>
                 </div>
             </footer>
-        </div>
+        </>
     );
 };
 
