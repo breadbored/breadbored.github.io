@@ -39,7 +39,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         className="mb-4"
                         volume={0.4}
                         loop
-                        autoPlay
+                        // autoPlay
                         showJumpControls={false}
                     />
 
