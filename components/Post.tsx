@@ -13,6 +13,7 @@ import React, {
 import BlueSkyEmbed from "../pages/bsky-test";
 import { BSkyPost } from "../utils/bsky";
 import hljs from "highlight.js";
+import Head from "next/head";
 
 function flatten(
     text: string,
@@ -100,40 +101,61 @@ const Post = ({ post }: { post: PostType }) => {
     }, []);
 
     return (
-        <article className="max-w-2xl mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-            <div className="mb-8 text-gray-600">{formattedDate}</div>
-            <div className="prose max-w-none">
-                {!isClient ? (
-                    <ReactMarkdown
-                        children={post.content}
-                        components={{
-                            h1: HeadingRenderer(1),
-                            h2: HeadingRenderer(2),
-                            h3: HeadingRenderer(3),
-                            h4: HeadingRenderer(4),
-                            h5: HeadingRenderer(5),
-                            h6: HeadingRenderer(6),
-                            p: BSkyRenderer(post.skeets),
-                        }}
-                    />
-                ) : (
-                    <ReactMarkdown
-                        children={post.content}
-                        components={{
-                            h1: HeadingRenderer(1),
-                            h2: HeadingRenderer(2),
-                            h3: HeadingRenderer(3),
-                            h4: HeadingRenderer(4),
-                            h5: HeadingRenderer(5),
-                            h6: HeadingRenderer(6),
-                            p: BSkyRenderer(post.skeets),
-                        }}
-                        rehypePlugins={[rehypeRaw]}
-                    />
-                )}
-            </div>
-        </article>
+        <>
+            <Head>
+                <title>{post.title} - bread.codes</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#333333" />
+                <meta name="title" content="bread.codes" />
+                <meta name="author" content="BreadCodes" />
+                <meta
+                    name="description"
+                    content={post.excerpt}
+                />
+                <meta
+                    name="keywords"
+                    content={
+                        (post.categories && post.categories.length > 0 ? post.categories.join(", ") + ", " : "") +
+                        "bread.codes, breadcodes, breadbored, bread bored, bread, bored, brad, code, codes, programming, web development, software engineering, software, engineering, web, development, blog, tech, technology, computer, science, computer science, game boy, gameboy, game boy advance, GBA, gameboy advance, hacking, reverse engineering, reverse, engineering, pokemon, pokemon hacking, pokemon reverse engineering, nintendo hacking, nintendo reverse engineering, nintendo, gamefreak, game freak"
+                    }
+                />
+                <meta name="google-adsense-account" content="ca-pub-8749505090904262" />
+            </Head>
+            <article className="max-w-2xl mx-auto px-4">
+                <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+                <div className="mb-8 text-gray-600">{formattedDate}</div>
+                <div className="prose max-w-none">
+                    {!isClient ? (
+                        <ReactMarkdown
+                            children={post.content}
+                            components={{
+                                h1: HeadingRenderer(1),
+                                h2: HeadingRenderer(2),
+                                h3: HeadingRenderer(3),
+                                h4: HeadingRenderer(4),
+                                h5: HeadingRenderer(5),
+                                h6: HeadingRenderer(6),
+                                p: BSkyRenderer(post.skeets),
+                            }}
+                        />
+                    ) : (
+                        <ReactMarkdown
+                            children={post.content}
+                            components={{
+                                h1: HeadingRenderer(1),
+                                h2: HeadingRenderer(2),
+                                h3: HeadingRenderer(3),
+                                h4: HeadingRenderer(4),
+                                h5: HeadingRenderer(5),
+                                h6: HeadingRenderer(6),
+                                p: BSkyRenderer(post.skeets),
+                            }}
+                            rehypePlugins={[rehypeRaw]}
+                        />
+                    )}
+                </div>
+            </article>
+        </>
     );
 };
 
