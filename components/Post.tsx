@@ -83,7 +83,7 @@ const BSkyRenderer = (skeets: BSkyPost[]) => (
         }
     }
 
-    return props.children as ReactElement;
+    return <p {...props}>{props.children}</p>;
 }
 
 const Post = ({ post }: { post: PostType }) => {
