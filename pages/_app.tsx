@@ -10,6 +10,7 @@ import javascript from "highlight.js/lib/languages/javascript";
 import "../styles/App.scss";
 import "tailwindcss/tailwind.css";
 import '../styles/dracula.css';
+import { Head } from "next/document";
 
 hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
