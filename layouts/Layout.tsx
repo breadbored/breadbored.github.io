@@ -35,7 +35,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     <AudioPlayer
                         header="Linkin-Park-Numb.mp3"
                         src={"/assets/Linkin-Park-Numb.mp3"}
-                        autoPlayAfterSrcChange={true}
+                        // autoPlayAfterSrcChange={true}
                         className="mb-4"
                         volume={0.4}
                         loop
