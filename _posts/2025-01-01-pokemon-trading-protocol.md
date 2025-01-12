@@ -222,7 +222,7 @@ typedef struct PartyMember {
 } PartyMember;
 ```
 
-Which is deserialized like so:
+Which is serialized like so:
 
 ```c
 struct PartyMember *pPartyMember = &traderPacket.pokemon[i];
@@ -273,6 +273,62 @@ pPartyMember->attack = 100;
 pPartyMember->defense = 100;
 pPartyMember->speed = 100;
 pPartyMember->special = 100;
+```
+
+and deserialized like so:
+
+```c
+void party_member_to_bytes(struct PartyMember *pPartyMember, uint8_t *out) {
+    uint8_t res[44] = {
+        pPartyMember->pokemon,
+        (uint8_t) (pPartyMember->current_hp >> 8),
+        (uint8_t) (pPartyMember->current_hp & 0x00FF),
+        pPartyMember->level,
+        pPartyMember->status,
+        pPartyMember->type1,
+        pPartyMember->type2,
+        pPartyMember->catch_rate_or_held_item,
+        pPartyMember->move1,
+        pPartyMember->move2,
+        pPartyMember->move3,
+        pPartyMember->move4,
+        (uint8_t) (pPartyMember->original_trainer_id >> 8),
+        (uint8_t) (pPartyMember->original_trainer_id & 0x00FF),
+        (uint8_t) ((pPartyMember->experience & 0x00FF0000) >> 16),
+        (uint8_t) ((pPartyMember->experience & 0x0000FF00) >> 8),
+        (uint8_t) (pPartyMember->experience & 0x000000FF),
+        (uint8_t) (pPartyMember->HP_ev >> 8),
+        (uint8_t) (pPartyMember->HP_ev & 0x00FF),
+        (uint8_t) (pPartyMember->attack_ev >> 8),
+        (uint8_t) (pPartyMember->attack_ev & 0x00FF),
+        (uint8_t) (pPartyMember->defense_ev >> 8),
+        (uint8_t) (pPartyMember->defense_ev & 0x00FF),
+        (uint8_t) (pPartyMember->speed_ev >> 8),
+        (uint8_t) (pPartyMember->speed_ev & 0x00FF),
+        (uint8_t) (pPartyMember->special_ev >> 8),
+        (uint8_t) (pPartyMember->special_ev & 0x00FF),
+        (uint8_t) (((pPartyMember->attack_iv & 0xF) << 4) | (pPartyMember->defense_iv & 0xF)),
+        (uint8_t) (((pPartyMember->speed_iv & 0xF) << 4) | (pPartyMember->special_iv & 0xF)),
+        pPartyMember->move1_pp,
+        pPartyMember->move2_pp,
+        pPartyMember->move3_pp,
+        pPartyMember->move4_pp,
+        pPartyMember->level,
+        (uint8_t) (pPartyMember->max_hp >> 8),
+        (uint8_t) (pPartyMember->max_hp & 0x00FF),
+        (uint8_t) (pPartyMember->attack >> 8),
+        (uint8_t) (pPartyMember->attack & 0x00FF),
+        (uint8_t) (pPartyMember->defense >> 8),
+        (uint8_t) (pPartyMember->defense & 0x00FF),
+        (uint8_t) (pPartyMember->speed >> 8),
+        (uint8_t) (pPartyMember->speed & 0x00FF),
+        (uint8_t) (pPartyMember->special >> 8),
+        (uint8_t) (pPartyMember->special & 0x00FF),
+    };
+    for (size_t i = 0; i < 44; i++) {
+        out[i] = res[i];
+    }
+}
 ```
 
 https://bsky.app/profile/bread.codes/post/3lcrkdegqyx2m
