@@ -11,6 +11,7 @@ import "../styles/App.scss";
 import "tailwindcss/tailwind.css";
 import '../styles/dracula.css';
 import { Head } from "next/document";
+import PostHogPageView from "../components/PostHogPageView";
 
 hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
@@ -36,6 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <PostHogPageView />
     </>
   );
 }
