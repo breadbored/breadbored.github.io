@@ -11,6 +11,8 @@ const About = () => {
       <section>
         <h2>Contact Information</h2>
         <p>Email: brad@bread.codes</p>
+        <p>Discord: @breadcodes</p>
+        <p>BSky: @bread.codes</p>
       </section>
     </div>
   );

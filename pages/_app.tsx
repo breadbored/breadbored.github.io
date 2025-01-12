@@ -4,11 +4,14 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { initPostHog } from "../utils/posthog";
 import hljs from "highlight.js";
+import c from "highlight.js/lib/languages/c";
 import cpp from "highlight.js/lib/languages/cpp";
 import javascript from "highlight.js/lib/languages/javascript";
 import "../styles/App.scss";
 import "tailwindcss/tailwind.css";
+import '../styles/dracula.css';
 
+hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
 hljs.registerLanguage("javascript", javascript);
 

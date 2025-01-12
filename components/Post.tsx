@@ -12,6 +12,7 @@ import React, {
 } from "react";
 import BlueSkyEmbed from "../pages/bsky-test";
 import { BSkyPost } from "../utils/bsky";
+import hljs from "highlight.js";
 
 function flatten(
     text: string,
@@ -95,6 +96,7 @@ const Post = ({ post }: { post: PostType }) => {
 
     useEffect(() => {
         setIsClient(true);
+        hljs.highlightAll();
     }, []);
 
     return (
