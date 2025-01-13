@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <div className="pb-12 pt-6 text-center bg-white">
                     {/** @ts-ignore */}
                     <marquee className="my-4" behavior="alternate">
-                        HTML Is My Passion
+                        <a href="https://sendfox.com/bread">Subscribe to my newsletter!</a>
                         {/** @ts-ignore */}
                     </marquee>
                     <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
