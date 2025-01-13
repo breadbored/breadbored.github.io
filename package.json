@@ -30,7 +30,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "bash deploy.sh"
+    "deploy": "ts-node scripts/rss.ts && bash deploy.sh"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +58,8 @@
     "@types/react-dom": "^16.9.11",
     "@types/webpack-env": "^1.16.0",
     "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "feed": "^4.2.2",
     "next": "^15.1.4",
     "postcss": "^8.4.49",
     "prettier": "3.4.2",
