@@ -9,11 +9,13 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <>
             <div className="page-width mx-auto mt-12">
                 <div className="pb-12 pt-6 text-center bg-white">
-                    {/** @ts-ignore */}
-                    <marquee className="my-4" behavior="alternate">
-                        <a href="https://sendfox.com/bread">Subscribe to my newsletter!</a>
+                    <a href="https://sendfox.com/bread" tabIndex={0}>
                         {/** @ts-ignore */}
-                    </marquee>
+                        <marquee className="my-4" behavior="alternate" tabIndex={0}>
+                            Subscribe to my newsletter!
+                            {/** @ts-ignore */}
+                        </marquee>
+                    </a>
                     <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
                     <h3 className="text-xl mb-4">code stuff</h3>
 
