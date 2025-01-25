@@ -130,3 +130,37 @@ padding: 10px;
     height: 25px;
   }
 }
+
+table {
+  background-color: #ffffff;
+  // margin: auto -50%;
+  font-size: small;
+  max-width: 100%;
+  min-width: min-content;
+  width: auto;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  table {
+    // margin: auto 0;
+    overflow-x: auto;
+  }
+}
+table, th, td {
+  border: 1px solid #d7d7d7;
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #d7d7d7;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+td {
+  background-color: #ffffff;
+}

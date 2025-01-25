@@ -1,0 +1,2696 @@
+[
+  {
+    "name": "Abjurer",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 84,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "9",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 209
+    },
+    "url": ""
+  },
+  {
+    "name": "Alhoon",
+    "size": "Medium",
+    "type": "Undead",
+    "environment": [
+      "underground"
+    ],
+    "hp": 120,
+    "ac": 15,
+    "initiative": 1,
+    "alignment": "any evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "10",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 172
+    },
+    "url": ""
+  },
+  {
+    "name": "Annis Hag",
+    "size": "Large",
+    "type": "Fey",
+    "environment": [
+      "grassland",
+      "mountain"
+    ],
+    "hp": 75,
+    "ac": 17,
+    "initiative": 1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 159
+    },
+    "url": ""
+  },
+  {
+    "name": "Apprentice Wizard",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 9,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 209
+    },
+    "url": ""
+  },
+  {
+    "name": "Archdruid",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "mountain",
+      "swamp",
+      "aquatic"
+    ],
+    "hp": 132,
+    "ac": 16,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "12",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 210
+    },
+    "url": ""
+  },
+  {
+    "name": "Archer",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "urban"
+    ],
+    "hp": 75,
+    "ac": 16,
+    "initiative": 4,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 210
+    },
+    "url": ""
+  },
+  {
+    "name": "Aurochs",
+    "size": "Large",
+    "type": "Beast",
+    "environment": [
+      "grassland",
+      "mountain"
+    ],
+    "hp": 38,
+    "ac": 11,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 207
+    },
+    "url": ""
+  },
+  {
+    "name": "Babau",
+    "size": "Medium",
+    "type": "Fiend",
+    "environment": [
+      "underground",
+      "urban"
+    ],
+    "hp": 82,
+    "ac": 16,
+    "initiative": 3,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 136
+    },
+    "url": ""
+  },
+  {
+    "name": "Banderhobb",
+    "size": "Large",
+    "type": "Monstrosity",
+    "environment": [
+      "urban"
+    ],
+    "hp": 84,
+    "ac": 15,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 122
+    },
+    "url": ""
+  },
+  {
+    "name": "Bard",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 44,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 211
+    },
+    "url": ""
+  },
+  {
+    "name": "Barghest",
+    "size": "Large",
+    "type": "Fiend",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 90,
+    "ac": 17,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 123
+    },
+    "url": ""
+  },
+  {
+    "name": "Bheur Hag",
+    "size": "Medium",
+    "type": "Fey",
+    "environment": [
+      "arctic"
+    ],
+    "hp": 91,
+    "ac": 17,
+    "initiative": 3,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "7",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 160
+    },
+    "url": ""
+  },
+  {
+    "name": "Blackguard",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "underground",
+      "urban"
+    ],
+    "hp": 153,
+    "ac": 18,
+    "initiative": 0,
+    "alignment": "non-good",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "8",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 211
+    },
+    "url": ""
+  },
+  {
+    "name": "Bodak",
+    "size": "Medium",
+    "type": "Undead",
+    "environment": [
+      "swamp",
+      "underground",
+      "urban"
+    ],
+    "hp": 58,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 127
+    },
+    "url": ""
+  },
+  {
+    "name": "Boggle",
+    "size": "Small",
+    "type": "Fey",
+    "environment": [
+      "forest",
+      "grassland",
+      "underground",
+      "urban"
+    ],
+    "hp": 18,
+    "ac": 14,
+    "initiative": 4,
+    "alignment": "chaotic neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.125",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 128
+    },
+    "url": ""
+  },
+  {
+    "name": "Brontosaurus",
+    "size": "Gargantuan",
+    "type": "Beast",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 121,
+    "ac": 15,
+    "initiative": -1,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 139
+    },
+    "url": ""
+  },
+  {
+    "name": "Champion",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "desert",
+      "urban"
+    ],
+    "hp": 143,
+    "ac": 18,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "9",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 212
+    },
+    "url": ""
+  },
+  {
+    "name": "Chitine",
+    "size": "Small",
+    "type": "Monstrosity",
+    "environment": [
+      "underground"
+    ],
+    "hp": 18,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 131
+    },
+    "url": ""
+  },
+  {
+    "name": "Choldrith",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "environment": [
+      "underground"
+    ],
+    "hp": 66,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 132
+    },
+    "url": ""
+  },
+  {
+    "name": "Cloud Giant Smiling One",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "mountain"
+    ],
+    "hp": 262,
+    "ac": 15,
+    "initiative": 1,
+    "alignment": "chaotic neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "11",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 146
+    },
+    "url": ""
+  },
+  {
+    "name": "Conjurer",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 40,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 212
+    },
+    "url": ""
+  },
+  {
+    "name": "Cow",
+    "size": "Large",
+    "type": "Beast",
+    "environment": [
+      "urban"
+    ],
+    "hp": 15,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 207
+    },
+    "url": ""
+  },
+  {
+    "name": "Cow (Ox)",
+    "size": "Large",
+    "type": "Beast",
+    "environment": [
+      "urban"
+    ],
+    "hp": 15,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 208
+    },
+    "url": ""
+  },
+  {
+    "name": "Cranium Rat",
+    "size": "Tiny",
+    "type": "Beast",
+    "environment": [
+      "underground",
+      "urban"
+    ],
+    "hp": 2,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 133
+    },
+    "url": ""
+  },
+  {
+    "name": "Darkling",
+    "size": "Small",
+    "type": "Fey",
+    "environment": [
+      "forest",
+      "swamp",
+      "underground",
+      "urban"
+    ],
+    "hp": 13,
+    "ac": 14,
+    "initiative": 3,
+    "alignment": "chaotic neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 134
+    },
+    "url": ""
+  },
+  {
+    "name": "Darkling Elder",
+    "size": "Medium",
+    "type": "Fey",
+    "environment": [
+      "forest",
+      "swamp",
+      "underground",
+      "urban"
+    ],
+    "hp": 27,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "chaotic neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 134
+    },
+    "url": ""
+  },
+  {
+    "name": "Death Kiss",
+    "size": "Large",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 161,
+    "ac": 16,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "10",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 124
+    },
+    "url": ""
+  },
+  {
+    "name": "Deep Scion",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "coast",
+      "aquatic"
+    ],
+    "hp": 67,
+    "ac": 11,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 135
+    },
+    "url": ""
+  },
+  {
+    "name": "Deinonychus",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 26,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 139
+    },
+    "url": ""
+  },
+  {
+    "name": "Devourer",
+    "size": "Large",
+    "type": "Fiend",
+    "environment": [
+      "underground"
+    ],
+    "hp": 178,
+    "ac": 16,
+    "initiative": 1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "13",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 138
+    },
+    "url": ""
+  },
+  {
+    "name": "Dimetrodon",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "swamp"
+    ],
+    "hp": 19,
+    "ac": 12,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 139
+    },
+    "url": ""
+  },
+  {
+    "name": "Diviner",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 67,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "8",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 213
+    },
+    "url": ""
+  },
+  {
+    "name": "Dolphin",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "coast",
+      "aquatic"
+    ],
+    "hp": 11,
+    "ac": 12,
+    "initiative": 1,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.125",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 208122
+    },
+    "url": ""
+  },
+  {
+    "name": "Draegloth",
+    "size": "Large",
+    "type": "Fiend",
+    "environment": [
+      "underground"
+    ],
+    "hp": 123,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "7",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 141
+    },
+    "url": ""
+  },
+  {
+    "name": "Elder Brain",
+    "size": "Large",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 210,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "14",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 173
+    },
+    "url": ""
+  },
+  {
+    "name": "Evoker",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 66,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "9",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 214
+    },
+    "url": ""
+  },
+  {
+    "name": "Fire Giant Dreadnought",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "mountain",
+      "underground"
+    ],
+    "hp": 187,
+    "ac": 21,
+    "initiative": -1,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "14",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 147
+    },
+    "url": ""
+  },
+  {
+    "name": "Firenewt Warlock of Imix",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 33,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 143
+    },
+    "url": ""
+  },
+  {
+    "name": "Firenewt Warrior",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 22,
+    "ac": 16,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 142
+    },
+    "url": ""
+  },
+  {
+    "name": "Flind",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "forest",
+      "grassland"
+    ],
+    "hp": 127,
+    "ac": 16,
+    "initiative": 0,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "9",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 153
+    },
+    "url": ""
+  },
+  {
+    "name": "Frost Giant Everlasting One",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "arctic",
+      "coast"
+    ],
+    "hp": 189,
+    "ac": 15,
+    "initiative": -1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "12",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 148
+    },
+    "url": ""
+  },
+  {
+    "name": "Gauth",
+    "size": "Medium",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 67,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 125
+    },
+    "url": ""
+  },
+  {
+    "name": "Gazer",
+    "size": "Tiny",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 13,
+    "ac": 13,
+    "initiative": 3,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 126
+    },
+    "url": ""
+  },
+  {
+    "name": "Giant Strider",
+    "size": "Large",
+    "type": "Monstrosity",
+    "environment": [
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 22,
+    "ac": 14,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 143
+    },
+    "url": ""
+  },
+  {
+    "name": "Girallon",
+    "size": "Large",
+    "type": "Monstrosity",
+    "environment": [
+      "forest"
+    ],
+    "hp": 59,
+    "ac": 13,
+    "initiative": 3,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 152
+    },
+    "url": ""
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "forest",
+      "grassland"
+    ],
+    "hp": 22,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 154
+    },
+    "url": ""
+  },
+  {
+    "name": "Gnoll Hunter",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "forest",
+      "grassland"
+    ],
+    "hp": 22,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 154
+    },
+    "url": ""
+  },
+  {
+    "name": "Gnoll Witherling",
+    "size": "Medium",
+    "type": "Undead",
+    "environment": [
+      "arctic",
+      "forest",
+      "grassland"
+    ],
+    "hp": 11,
+    "ac": 12,
+    "initiative": -1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 155
+    },
+    "url": ""
+  },
+  {
+    "name": "Grung",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest"
+    ],
+    "hp": 11,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 156
+    },
+    "url": ""
+  },
+  {
+    "name": "Grung Elite Warrior",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest"
+    ],
+    "hp": 49,
+    "ac": 13,
+    "initiative": 3,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 157
+    },
+    "url": ""
+  },
+  {
+    "name": "Grung Wildling",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest"
+    ],
+    "hp": 27,
+    "ac": 13,
+    "initiative": 3,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 157
+    },
+    "url": ""
+  },
+  {
+    "name": "Guard Drake",
+    "size": "Medium",
+    "type": "Dragon",
+    "environment": [
+      "dungeon",
+      "urban"
+    ],
+    "hp": 52,
+    "ac": 14,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 158
+    },
+    "url": ""
+  },
+  {
+    "name": "Hadrosaurus",
+    "size": "Large",
+    "type": "Beast",
+    "environment": [
+      "grassland",
+      "swamp"
+    ],
+    "hp": 19,
+    "ac": 11,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 140
+    },
+    "url": ""
+  },
+  {
+    "name": "Hobgoblin Devastator",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 45,
+    "ac": 13,
+    "initiative": 1,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 161
+    },
+    "url": ""
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 32,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 162
+    },
+    "url": ""
+  },
+  {
+    "name": "Illusionist",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 38,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 214
+    },
+    "url": ""
+  },
+  {
+    "name": "Ki-rin",
+    "size": "Huge",
+    "type": "Celestial",
+    "environment": [
+      "coast",
+      "desert",
+      "grassland",
+      "mountain"
+    ],
+    "hp": 152,
+    "ac": 20,
+    "initiative": 3,
+    "alignment": "lawful good",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "12",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 163
+    },
+    "url": ""
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground",
+      "urban"
+    ],
+    "hp": 44,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [
+      "kobold"
+    ],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 165
+    },
+    "url": ""
+  },
+  {
+    "name": "Kobold Inventor",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground",
+      "urban"
+    ],
+    "hp": 13,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [
+      "kobold"
+    ],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 166
+    },
+    "url": ""
+  },
+  {
+    "name": "Kobold Scale Sorcerer",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground",
+      "urban"
+    ],
+    "hp": 27,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [
+      "kobold"
+    ],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 167
+    },
+    "url": ""
+  },
+  {
+    "name": "Kraken Priest",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "coast",
+      "aquatic"
+    ],
+    "hp": 75,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 215
+    },
+    "url": ""
+  },
+  {
+    "name": "Martial Arts Adept",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 60,
+    "ac": 16,
+    "initiative": 3,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 216
+    },
+    "url": ""
+  },
+  {
+    "name": "Master Thief",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 84,
+    "ac": 16,
+    "initiative": 4,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 216
+    },
+    "url": ""
+  },
+  {
+    "name": "Maw Demon",
+    "size": "Medium",
+    "type": "Fiend",
+    "environment": [
+      "underground"
+    ],
+    "hp": 33,
+    "ac": 13,
+    "initiative": -1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 137
+    },
+    "url": ""
+  },
+  {
+    "name": "Meenlock",
+    "size": "Small",
+    "type": "Fey",
+    "environment": [
+      "forest",
+      "swamp",
+      "urban"
+    ],
+    "hp": 31,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 170
+    },
+    "url": ""
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "size": "Medium",
+    "type": "Undead",
+    "environment": [
+      "underground"
+    ],
+    "hp": 135,
+    "ac": 17,
+    "initiative": 3,
+    "alignment": "any evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "22",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 172
+    },
+    "url": ""
+  },
+  {
+    "name": "Mindwitness",
+    "size": "Large",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 75,
+    "ac": 15,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 176
+    },
+    "url": ""
+  },
+  {
+    "name": "Morkoth",
+    "size": "Medium",
+    "type": "Aberration",
+    "environment": [
+      "coast",
+      "aquatic"
+    ],
+    "hp": 130,
+    "ac": 17,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "11",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 177
+    },
+    "url": ""
+  },
+  {
+    "name": "Mouth of Grolantor",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "grassland"
+    ],
+    "hp": 105,
+    "ac": 14,
+    "initiative": 0,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 149
+    },
+    "url": ""
+  },
+  {
+    "name": "Neogi",
+    "size": "Small",
+    "type": "Aberration",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 33,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 180
+    },
+    "url": ""
+  },
+  {
+    "name": "Neogi Hatchling",
+    "size": "Tiny",
+    "type": "Aberration",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 7,
+    "ac": 11,
+    "initiative": 1,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.125",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 179
+    },
+    "url": ""
+  },
+  {
+    "name": "Neogi Master",
+    "size": "Medium",
+    "type": "Aberration",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 71,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 180
+    },
+    "url": ""
+  },
+  {
+    "name": "Neothelid",
+    "size": "Gargantuan",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 325,
+    "ac": 16,
+    "initiative": -2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "13",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 181
+    },
+    "url": ""
+  },
+  {
+    "name": "Nilbog",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 7,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 182
+    },
+    "url": ""
+  },
+  {
+    "name": "Orc Blade of Ilneval",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 60,
+    "ac": 18,
+    "initiative": 0,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 183
+    },
+    "url": ""
+  },
+  {
+    "name": "Orc Claw of Luthic",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "mountain",
+      "underground"
+    ],
+    "hp": 45,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 183
+    },
+    "url": ""
+  },
+  {
+    "name": "Orc Hand of Yurtrus",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 30,
+    "ac": 12,
+    "initiative": 0,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 184
+    },
+    "url": ""
+  },
+  {
+    "name": "Orc Nurtured One of Yurtrus",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 30,
+    "ac": 9,
+    "initiative": -1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 184
+    },
+    "url": ""
+  },
+  {
+    "name": "Orc Red Fang of Shargaas",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "forest",
+      "grassland",
+      "mountain",
+      "underground",
+      "urban"
+    ],
+    "hp": 52,
+    "ac": 15,
+    "initiative": 3,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 185
+    },
+    "url": ""
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "size": "Huge",
+    "type": "Beast",
+    "environment": [
+      "coast",
+      "grassland",
+      "mountain"
+    ],
+    "hp": 30,
+    "ac": 13,
+    "initiative": 1,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 140
+    },
+    "url": ""
+  },
+  {
+    "name": "Quickling",
+    "size": "Tiny",
+    "type": "Fey",
+    "environment": [
+      "forest"
+    ],
+    "hp": 10,
+    "ac": 16,
+    "initiative": 6,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 187
+    },
+    "url": ""
+  },
+  {
+    "name": "Rothe",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 13,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 208
+    },
+    "url": ""
+  },
+  {
+    "name": "Sea Spawn",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "coast",
+      "aquatic"
+    ],
+    "hp": 32,
+    "ac": 11,
+    "initiative": -1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 189
+    },
+    "url": ""
+  },
+  {
+    "name": "Shadow Mastiff Alpha",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "environment": [
+      "forest",
+      "grassland",
+      "swamp"
+    ],
+    "hp": 48,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 190
+    },
+    "url": ""
+  },
+  {
+    "name": "Shoosuva",
+    "size": "Large",
+    "type": "Fiend",
+    "environment": [
+      "arctic",
+      "forest",
+      "grassland"
+    ],
+    "hp": 110,
+    "ac": 14,
+    "initiative": 1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "8",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 137
+    },
+    "url": ""
+  },
+  {
+    "name": "Spawn of Kyuss",
+    "size": "Medium",
+    "type": "Undead",
+    "environment": [
+      "desert",
+      "underground"
+    ],
+    "hp": 76,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 192
+    },
+    "url": ""
+  },
+  {
+    "name": "Stegosaurus",
+    "size": "Huge",
+    "type": "Beast",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 76,
+    "ac": 13,
+    "initiative": -1,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 140
+    },
+    "url": ""
+  },
+  {
+    "name": "Stench Kow",
+    "size": "Large",
+    "type": "Beast",
+    "environment": [
+      "grassland"
+    ],
+    "hp": 15,
+    "ac": 10,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 208
+    },
+    "url": ""
+  },
+  {
+    "name": "Stone Giant Dreamwalker",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "coast",
+      "grassland",
+      "mountain"
+    ],
+    "hp": 161,
+    "ac": 18,
+    "initiative": 2,
+    "alignment": "chaotic neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "10",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 150
+    },
+    "url": ""
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "size": "Huge",
+    "type": "Giant",
+    "environment": [
+      "arctic",
+      "coast",
+      "desert",
+      "mountain",
+      "aquatic"
+    ],
+    "hp": 230,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "chaotic good",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "16",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 151
+    },
+    "url": ""
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "underground",
+      "urban"
+    ],
+    "hp": 36,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 133
+    },
+    "url": ""
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "size": "Medium",
+    "type": "Beast",
+    "environment": [
+      "swamp",
+      "underground"
+    ],
+    "hp": 22,
+    "ac": 8,
+    "initiative": -2,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 208
+    },
+    "url": ""
+  },
+  {
+    "name": "Swashbuckler",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "coast",
+      "urban"
+    ],
+    "hp": 66,
+    "ac": 17,
+    "initiative": 4,
+    "alignment": "non-lawful",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 217
+    },
+    "url": ""
+  },
+  {
+    "name": "Tanarukk",
+    "size": "Medium",
+    "type": "Fiend",
+    "environment": [
+      "grassland",
+      "mountain",
+      "underground"
+    ],
+    "hp": 95,
+    "ac": 14,
+    "initiative": 1,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 186
+    },
+    "url": ""
+  },
+  {
+    "name": "Thorny",
+    "size": "Medium",
+    "type": "Plant",
+    "environment": [
+      "forest",
+      "swamp"
+    ],
+    "hp": 27,
+    "ac": 14,
+    "initiative": 1,
+    "alignment": "neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 197
+    },
+    "url": ""
+  },
+  {
+    "name": "Tlingcalli",
+    "size": "Large",
+    "type": "Monstrosity",
+    "environment": [
+      "desert"
+    ],
+    "hp": 85,
+    "ac": 15,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 193
+    },
+    "url": ""
+  },
+  {
+    "name": "Transmuter",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 40,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 218
+    },
+    "url": ""
+  },
+  {
+    "name": "Trapper",
+    "size": "Large",
+    "type": "Monstrosity",
+    "environment": [
+      "underground"
+    ],
+    "hp": 85,
+    "ac": 13,
+    "initiative": 0,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "3",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 194
+    },
+    "url": ""
+  },
+  {
+    "name": "Ulitharid",
+    "size": "Large",
+    "type": "Aberration",
+    "environment": [
+      "underground"
+    ],
+    "hp": 127,
+    "ac": 15,
+    "initiative": 1,
+    "alignment": "lawful evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "9",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 175
+    },
+    "url": ""
+  },
+  {
+    "name": "Vargouille",
+    "size": "Tiny",
+    "type": "Fiend",
+    "environment": [
+      "desert",
+      "swamp",
+      "underground"
+    ],
+    "hp": 13,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 195
+    },
+    "url": ""
+  },
+  {
+    "name": "Vegepygmy",
+    "size": "Small",
+    "type": "Plant",
+    "environment": [
+      "forest",
+      "swamp"
+    ],
+    "hp": 9,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 196
+    },
+    "url": ""
+  },
+  {
+    "name": "Velociraptor",
+    "size": "Tiny",
+    "type": "Beast",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 10,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "unaligned",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.25",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 140
+    },
+    "url": ""
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "forest",
+      "mountain",
+      "swamp",
+      "urban"
+    ],
+    "hp": 49,
+    "ac": 11,
+    "initiative": 1,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 219
+    },
+    "url": ""
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "desert",
+      "underground",
+      "urban"
+    ],
+    "hp": 78,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "7",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 219
+    },
+    "url": ""
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "arctic",
+      "grassland",
+      "mountain",
+      "underground",
+      "urban"
+    ],
+    "hp": 91,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "6",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 220
+    },
+    "url": ""
+  },
+  {
+    "name": "Warlord",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "urban"
+    ],
+    "hp": 229,
+    "ac": 18,
+    "initiative": 3,
+    "alignment": "any",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "12",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 220
+    },
+    "url": ""
+  },
+  {
+    "name": "Wood Woad",
+    "size": "Medium",
+    "type": "Plant",
+    "environment": [
+      "forest"
+    ],
+    "hp": 75,
+    "ac": 18,
+    "initiative": 1,
+    "alignment": "lawful neutral",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 198
+    },
+    "url": ""
+  },
+  {
+    "name": "Xvart",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 7,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.125",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 200
+    },
+    "url": ""
+  },
+  {
+    "name": "Xvart Speaker",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 7,
+    "ac": 13,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "0.125",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 200
+    },
+    "url": ""
+  },
+  {
+    "name": "Xvart Warlock of Raxivort",
+    "size": "Small",
+    "type": "Humanoid",
+    "environment": [
+      "grassland",
+      "underground"
+    ],
+    "hp": 22,
+    "ac": 12,
+    "initiative": 2,
+    "alignment": "chaotic evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "1",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 200
+    },
+    "url": ""
+  },
+  {
+    "name": "Yeth Hound",
+    "size": "Large",
+    "type": "Fey",
+    "environment": [
+      "forest",
+      "grassland"
+    ],
+    "hp": 51,
+    "ac": 14,
+    "initiative": 3,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 201
+    },
+    "url": ""
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "size": "Huge",
+    "type": "Monstrosity",
+    "environment": [
+      "desert",
+      "forest",
+      "underground"
+    ],
+    "hp": 189,
+    "ac": 16,
+    "initiative": 1,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "12",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 202
+    },
+    "url": ""
+  },
+  {
+    "name": "Yuan-ti Broodguard",
+    "size": "Medium",
+    "type": "Humanoid",
+    "environment": [
+      "desert",
+      "forest",
+      "underground"
+    ],
+    "hp": 45,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "2",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 203
+    },
+    "url": ""
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "environment": [
+      "desert",
+      "forest",
+      "underground"
+    ],
+    "hp": 71,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 204
+    },
+    "url": ""
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "environment": [
+      "desert",
+      "forest",
+      "underground"
+    ],
+    "hp": 71,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "4",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 205
+    },
+    "url": ""
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "size": "Medium",
+    "type": "Monstrosity",
+    "environment": [
+      "desert",
+      "forest",
+      "underground"
+    ],
+    "hp": 88,
+    "ac": 14,
+    "initiative": 2,
+    "alignment": "neutral evil",
+    "isLegendary": false,
+    "hasLair": false,
+    "isUnique": false,
+    "cr": "5",
+    "tags": [],
+    "source": {
+      "book": "Volo's Guide to Monsters",
+      "page": 206
+    },
+    "url": ""
+  }
+]

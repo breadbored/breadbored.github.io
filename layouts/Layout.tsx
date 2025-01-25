@@ -5,14 +5,22 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
+    const url_path = typeof window !== "undefined" ? window.location.pathname : "";
+    const isFullWidth = url_path.startsWith("/volos-guide-to-monsters");
+
     return (
         <>
-            <div className="page-width mx-auto mt-12">
+            <div className="page-width mx-auto mt-12" style={isFullWidth ? {
+                maxWidth: "1200px",
+                width: "100%",
+            } : {
+                maxWidth: "600px",
+            }}>
                 <div className="pb-12 pt-6 text-center bg-white">
                     <a href="https://sendfox.com/bread" tabIndex={0}>
                         {/** @ts-ignore */}
                         <marquee className="my-4" behavior="alternate" tabIndex={0}>
-                            Subscribe to my newsletter!
+                            subscribe
                             {/** @ts-ignore */}
                         </marquee>
                     </a>
@@ -49,7 +57,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 </div>
             </div>
 
-            <footer className="page-width text-center py-4 space-y-4 mx-auto">
+            <footer className="page-width text-center py-4 space-y-4 mx-auto" style={isFullWidth ? {
+                maxWidth: "1200px",
+            } : {}}>
                 <div>
                     <Image
                         src="/assets/ie_logo.gif"

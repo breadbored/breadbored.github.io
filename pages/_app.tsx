@@ -12,17 +12,22 @@ import "tailwindcss/tailwind.css";
 import '../styles/dracula.css';
 import { Head } from "next/document";
 import PostHogPageView from "../components/PostHogPageView";
+import { usePathname } from "next/navigation";
 
 hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
 hljs.registerLanguage("javascript", javascript);
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const pathname = usePathname();
+
   useEffect(() => {
-    initPostHog();
+    if (!pathname.startsWith("/reproductiverights")) {
+      initPostHog();
+    }
   }, []);
 
-  return (
+  return !pathname.startsWith("/reproductiverights") ? (
     <>
       <Script
         id="posthog-init"
@@ -39,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Layout>
       <PostHogPageView />
     </>
-  );
+  ) : <Component {...pageProps} />;
 }
 
 export default MyApp;
