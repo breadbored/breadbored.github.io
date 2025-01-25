@@ -7,10 +7,8 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-    // get path from window or from nextjs router
     const url_path = usePathname();
     const isFullWidth = url_path.includes("volos-guide-to-monsters");
-    console.log("isFullWidth", isFullWidth, url_path);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
