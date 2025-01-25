@@ -3,10 +3,22 @@ import Link from "next/link";
 import Image from "next/image";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-    const url_path = typeof window !== "undefined" ? window.location.pathname : "";
-    const isFullWidth = url_path.startsWith("/volos-guide-to-monsters");
+    // get path from window or from nextjs router
+    const url_path = usePathname();
+    const isFullWidth = url_path.includes("volos-guide-to-monsters");
+    console.log("isFullWidth", isFullWidth, url_path);
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            const url_path = window.location.pathname;
+            const title = url_path === "/" ? "Home" : url_path.replaceAll("/", "").replace(/-/g, " ");
+            document.title = `BreadCodes - ${title}`;
+        }
+    }, []);
 
     return (
         <>
@@ -59,7 +71,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
             <footer className="page-width text-center py-4 space-y-4 mx-auto" style={isFullWidth ? {
                 maxWidth: "1200px",
-            } : {}}>
+                width: "100%",
+            } : {
+                maxWidth: "600px",
+            }}>
                 <div>
                     <Image
                         src="/assets/ie_logo.gif"
