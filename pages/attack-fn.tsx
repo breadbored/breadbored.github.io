@@ -66,15 +66,6 @@ const AttackConeVisualizer = () => {
                                 Normalized: {normalizedX.toFixed(3)}
                             </div>
                         </div>
-                        <input
-                            type="range"
-                            min="-1"
-                            max="1"
-                            step="0.1"
-                            value={normalizedX}
-                            onChange={(e) => handleInputChange((e.target.value as unknown as number) * Math.abs(rawVectorX), setRawVectorX)}
-                            className="w-full"
-                        />
                     </div>
 
                     <div className="space-y-2">
@@ -91,15 +82,6 @@ const AttackConeVisualizer = () => {
                                 Normalized: {normalizedY.toFixed(3)}
                             </div>
                         </div>
-                        <input
-                            type="range"
-                            min="-1"
-                            max="1"
-                            step="0.1"
-                            value={normalizedY}
-                            onChange={(e) => handleInputChange((e.target.value as unknown as number) * Math.abs(rawVectorY), setRawVectorY)}
-                            className="w-full"
-                        />
                     </div>
 
                     <div className="space-y-2">
@@ -116,15 +98,6 @@ const AttackConeVisualizer = () => {
                             />
                             <div className="text-sm">degrees</div>
                         </div>
-                        <input
-                            type="range"
-                            min="0"
-                            max="360"
-                            step="5"
-                            value={coneAngle}
-                            onChange={(e) => setConeAngle(parseFloat(e.target.value))}
-                            className="w-full"
-                        />
                     </div>
                 </div>
 
