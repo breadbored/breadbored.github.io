@@ -14,6 +14,7 @@ import BlueSkyEmbed from "../pages/bsky-test";
 import { BSkyPost } from "../utils/bsky";
 import hljs from "highlight.js";
 import Head from "next/head";
+import remarkGfm from 'remark-gfm';
 
 function flatten(
     text: string,
@@ -127,6 +128,7 @@ const Post = ({ post }: { post: PostType }) => {
                 <div className="prose max-w-none">
                     {!isClient ? (
                         <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
                             children={post.content}
                             components={{
                                 h1: HeadingRenderer(1),
