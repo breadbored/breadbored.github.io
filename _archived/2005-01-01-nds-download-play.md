@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Proprietary Wireless L3 Protocol From Packet Traces
-date: 2022-03-09
+date: 2005-01-01
 author: Unknown
 categories: ["nintendo", "ds", "nds", "download play", "wireless", "protocol", "reverse engineering", "wmb", "nifi", "rsa"]
 ---
 
 ## Please Note
 
-This is not my work, but I am hosting it here for archival purposes. The source I am rehosting is [here](https://web.archive.org/web/20110723013725/http://www.bottledlight.com/ds/index.php/Wifi/WMBProtocol), which is a archival rehost of a a website no longer hosting the content, a website which is rehosting parts of a paper from 2005 by the same author entitled _Inferring a Proprietary Wireless L3 Protocol From Packet Traces_.
+This is not my work, but I am hosting it here for archival purposes. The source I am rehosting is [here](https://web.archive.org/web/20110723013725/http://www.bottledlight.com/ds/index.php/Wifi/WMBProtocol), which is an archival rehost of a website no longer hosting the content, a website which is rehosting parts of a paper from 2005 by the same author entitled _Inferring a Proprietary Wireless L3 Protocol From Packet Traces_.
 
 This came up in my research for the NDS Download Play protocol and it appears that the only place hosting this content is the WaybackMachine. I am hosting it here for archival purposes. If you are the original author and wish for me to take it down, please contact me at [brad@bread.codes](mailto:brad@bread.codes).
 
@@ -155,9 +155,10 @@ The RSA frame format (type 0x03) sends a table of information about the game bei
 
 There are several abortive sendings of empty RSA frames with a size field of 0x03, before the real frame is sent (always with a size field of 0x75).
 
-|     |     |     |
-| --- | --- | --- |RSA signature frame payload (type 0x03)
+RSA signature frame payload (type 0x03)
+
 | Offset | Size | Description |
+| --- | --- | --- |
 | `0x00` | `4` | ARM9 execute address |
 | `0x04` | `4` | ARM7 execute address |
 | `0x08` | `4` | `0x00` |
@@ -184,10 +185,11 @@ Notes:
 
 The data packets (type 0x04) include a transport-layer sequence number inside of the data packet itself, but no destination offset or other mechanism to allow the packets to be processed out-of-order. The only way to place the data at the correct location in memory is to re-order the packets according to the sequence number and process them sequentially.
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |Data packet (type 0x04)
-| 0   | 1   | 2   | 3   | ..  | End |
-| 00  | \[Sequence #\] |     | xx  | ..  | yy  |
+Data packet (type 0x04)
+
+|0|1|2|3|..|End|
+|---|---|---|---|---|---|
+|00|\[Sequence#\]||xx|..|yy|
 
 The sequence number is a zero based little-endian number. Each packet only contains data for one of the three destination blocks (header, ARM9, ARM7), so the change-of-destination check only needs to be made on packet boundaries.
 
@@ -197,20 +199,22 @@ The replies from client to host are sent on the 0x10 flow. The client uses an in
 
 One type of packet frequently sent before a download gets underway is what I have termed the Idle or Pong packet (in response to 0x00 ‘Pings’). It has a reply type field of 0x00, and does not contribute any additional information.
 
-|     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Idle / Pong reply (type 0x00)
-| 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
-| `04` | `81` | `00` | `00` | `00` | `00` | `00` | `00` | `00` | `00` |
+Idle / Pong reply (type 0x00)
+
+|0|1|2|3|4|5|6|7|8|9|
+|---|---|---|---|---|---|---|---|---|---|
+|`04`|`81`|`00`|`00`|`00`|`00`|`00`|`00`|`00`|`00`|
 
 The name reply (type 0x07) is sent shortly after association is completed, although I am not certain what triggers it. There are a variable number of pings preceding this reply, but most are replied via Pongs. The name reply sends the user-configured DS name (set in the firmware menu) split over four messages (with the 4th byte of the packet specifying which message fragment this is, 1 based). This can be a total length of 10 UCS-2 characters, although all four messages are still sent if it is shorter (padded with nulls to 10 characters, and then 01 and then nulls until the end of the frame).
 
-|     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Name reply (type 0x07)
-| 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
-| `04` | `81` | `07` | `01` | \[Character0\] |     | \[Character1\] |     | \[Character2\] |     |
-| `04` | `81` | `07` | `02` | \[Character3\] |     | \[Character4\] |     | \[Character5\] |     |
-| `04` | `81` | `07` | `03` | \[Character6\] |     | \[Character7\] |     | \[Character8\] |     |
-| `04` | `81` | `07` | `04` | \[Character9\] |     | `01` | `00` | `00` | `00` |
+Name reply (type 0x07)
+
+|0|1|2|3|4|5|6|7|8|9|
+|---|---|---|---|---|---|---|---|---|---|
+|`04`|`81`|`07`|`01`|\[Character0\]||\[Character1\]||\[Character2\]||
+|`04`|`81`|`07`|`02`|\[Character3\]||\[Character4\]||\[Character5\]||
+|`04`|`81`|`07`|`03`|\[Character6\]||\[Character7\]||\[Character8\]||
+|`04`|`81`|`07`|`04`|\[Character9\]||`01`|`00`|`00`|`00`|
 
 The RSA frame receipt reply contains no extra information; it only acknowledges receipt of a type 0x03 host packet on the main flow (0x00). Bizarrely, the xx bytes in the table below are not driven to a particular value when replying to an RSA frame, and usually contain the same data as the second (of four) name response frames.
 
@@ -221,10 +225,11 @@ The RSA frame receipt reply contains no extra information; it only acknowledges 
 
 The data packet receipt reply implements is interesting in that it includes both an immediate acknowledgement and something akin to a cumulative acknowledgement. It specifies the transport layer sequence number for both the packet just received, and the highest continuously addressed packet received.
 
-|     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |Data packet receipt reply (type 0x09)
-| 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
-| `04` | `81` | `09` | \[Last packet\] |     | \[Best packet\] |     | `00` | `00` | `00` |
+Data packet receipt reply (type 0x09)
+
+|0|1|2|3|4|5|6|7|8|9|
+|---|---|---|---|---|---|---|---|---|---|
+|`04`|`81`|`09`|\[Last packet\]||\[Best packet\]||`00`|`00`|`00`|
 
 Notes:
 
@@ -236,10 +241,11 @@ Notes:
 
 These packets contain four data bytes, but three are always zero. The first seems to be random, with no connection to the acknowledged data. The actual indication of acknowledgement is the sequence control number of the packet. It is set to be one greater than the sequence control number of the initial host packet (sent on flow 0x00) that the client has just responded to, to indicate that the reply was received.
 
-|     |     |     |     |
-| --- | --- | --- | --- |Host-to-client acknowledgement
-| 0   | 1   | 2   | 3   |
-| `??` | `00` | `00` | `00` |
+Host-to-client acknowledgement
+
+|0|1|2|3|
+|---|---|---|---|
+|`??`|`00`|`00`|`00`|
 
 # Experimental Verification of Protocol
 
