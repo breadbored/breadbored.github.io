@@ -142,6 +142,7 @@ const Post = ({ post }: { post: PostType }) => {
                         />
                     ) : (
                         <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
                             children={post.content}
                             components={{
                                 h1: HeadingRenderer(1),
