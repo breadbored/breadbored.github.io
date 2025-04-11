@@ -13,6 +13,7 @@ import '../styles/dracula.css';
 import { Head } from "next/document";
 import PostHogPageView from "../components/PostHogPageView";
 import { usePathname } from "next/navigation";
+import { LESS_SILLY_PATHS } from "../utils/lesssilly";
 
 hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
@@ -20,14 +21,16 @@ hljs.registerLanguage("javascript", javascript);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const pathname = usePathname();
+  const less_silly = !LESS_SILLY_PATHS.includes(pathname);
 
   useEffect(() => {
-    if (!pathname.startsWith("/reproductiverights")) {
+    if (!less_silly) {
       initPostHog();
+      document.body.classList.add("silly");
     }
   }, []);
 
-  return !pathname.startsWith("/reproductiverights") ? (
+  return !less_silly ? (
     <>
       <Script
         id="posthog-init"

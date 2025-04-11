@@ -177,7 +177,7 @@ const SaveActImpactQuiz = () => {
                 impactDescription = "You may be significantly impacted by the SAVE Act if it becomes law.";
                 break;
             case 'medium':
-                impactDescription = "You may be moderately impacted by the SAVE Act if it becomes law.";
+                impactDescription = "You may be impacted by the SAVE Act if it becomes law.";
                 break;
             case 'low':
                 impactDescription = "You may not be substantially impacted by the SAVE Act if it becomes law, but could still face some challenges.";
@@ -247,7 +247,7 @@ const SaveActImpactQuiz = () => {
     };
 
     return (
-        <div className="max-w-2xl mx-auto p-4">
+        <div className="bg-white max-w-2xl mx-auto p-4 m-auto">
             <div className="mb-6">
                 <h1 className="text-2xl font-bold text-center mb-2">SAVE Act Impact Assessment</h1>
                 <p className="text-center text-gray-600">

@@ -5,10 +5,12 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { LESS_SILLY_PATHS } from "../utils/lesssilly";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const url_path = usePathname();
     const isFullWidth = url_path.includes("volos-guide-to-monsters") || url_path.includes("5e");
+    const less_silly = !LESS_SILLY_PATHS.includes(url_path);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -27,15 +29,21 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 maxWidth: "600px",
             }}>
                 <div className="pb-12 pt-6 text-center bg-white">
-                    <a href="https://sendfox.com/bread" tabIndex={0}>
-                        {/** @ts-ignore */}
-                        <marquee className="my-4" behavior="alternate" tabIndex={0}>
-                            subscribe
+                    {!less_silly && (
+                        <a href="https://sendfox.com/bread" tabIndex={0}>
                             {/** @ts-ignore */}
-                        </marquee>
-                    </a>
+                            <marquee className="my-4" behavior="alternate" tabIndex={0}>
+                                subscribe
+                                {/** @ts-ignore */}
+                            </marquee>
+                        </a>
+                    )}
                     <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
-                    <h3 className="text-xl mb-4">code stuff</h3>
+                    {less_silly ? (
+                        <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
+                    ) : (
+                        <h3 className="text-xl mb-4">code stuff</h3>
+                    )}
 
                     <nav className="space-x-4 mb-8">
                         <Link href="/" className="hover:text-blue-600">
@@ -52,83 +60,100 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         </Link>
                     </nav>
 
-                    <AudioPlayer
-                        header="Linkin-Park-Numb.mp3"
-                        src={"/assets/Linkin-Park-Numb.mp3"}
-                        // autoPlayAfterSrcChange={true}
-                        className="mb-4"
-                        volume={0.4}
-                        loop
-                        // autoPlay
-                        showJumpControls={false}
-                    />
+                    {!less_silly && (
+                        <AudioPlayer
+                            header="Linkin-Park-Numb.mp3"
+                            src={"/assets/Linkin-Park-Numb.mp3"}
+                            // autoPlayAfterSrcChange={true}
+                            className="mb-4"
+                            volume={0.4}
+                            loop
+                            // autoPlay
+                            showJumpControls={false}
+                        />
+                    )}
 
                     <main className="px-4">{children}</main>
+
+                    {less_silly && (
+                        <AudioPlayer
+                            header="Linkin-Park-Numb.mp3"
+                            src={"/assets/Linkin-Park-Numb.mp3"}
+                            // autoPlayAfterSrcChange={true}
+                            className="mb-4"
+                            volume={0.4}
+                            loop
+                            // autoPlay
+                            showJumpControls={false}
+                        />
+                    )}
                 </div>
             </div>
 
-            <footer className="page-width text-center py-4 space-y-4 mx-auto" style={isFullWidth ? {
-                maxWidth: "1200px",
-                width: "100%",
-            } : {
-                maxWidth: "600px",
-            }}>
-                <div>
-                    <Image
-                        src="/assets/ie_logo.gif"
-                        alt="IE Logo"
-                        width={88}
-                        height={31}
-                        className="inline mx-1"
-                    />
-                    <Image
-                        src="/assets/ns_logo.gif"
-                        alt="Netscape Logo"
-                        width={88}
-                        height={31}
-                        className="inline mx-1"
-                    />
-                    <Image
-                        src="/assets/notepad.gif"
-                        alt="Notepad"
-                        width={88}
-                        height={31}
-                        className="inline mx-1"
-                    />
-                </div>
-                <div>
-                    <Image
-                        src="/assets/pokemon3.gif"
-                        alt="Pokemon"
-                        width={88}
-                        height={31}
-                        className="inline mx-1"
-                    />
-                    <a href="mailto:brad@bread.codes">
+            {!less_silly && (
+                <footer className="page-width text-center py-4 space-y-4 mx-auto" style={isFullWidth ? {
+                    maxWidth: "1200px",
+                    width: "100%",
+                } : {
+                    maxWidth: "600px",
+                }}>
+                    <div>
                         <Image
-                            src="/assets/emailme.gif"
-                            alt="Email Me"
+                            src="/assets/ie_logo.gif"
+                            alt="IE Logo"
                             width={88}
                             height={31}
                             className="inline mx-1"
                         />
-                    </a>
-                    <Image
-                        src="/assets/pokemon3.gif"
-                        alt="Pokemon"
-                        width={88}
-                        height={31}
-                        className="inline mx-1"
-                    />
-                </div>
-                <div style={{
-                    backgroundColor: "#f0f0f0",
-                }}>
-                    <p>
-                        <b>Copyright © {new Date().getFullYear()} BreadCodes</b>
-                    </p>
-                </div>
-            </footer>
+                        <Image
+                            src="/assets/ns_logo.gif"
+                            alt="Netscape Logo"
+                            width={88}
+                            height={31}
+                            className="inline mx-1"
+                        />
+                        <Image
+                            src="/assets/notepad.gif"
+                            alt="Notepad"
+                            width={88}
+                            height={31}
+                            className="inline mx-1"
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src="/assets/pokemon3.gif"
+                            alt="Pokemon"
+                            width={88}
+                            height={31}
+                            className="inline mx-1"
+                        />
+                        <a href="mailto:brad@bread.codes">
+                            <Image
+                                src="/assets/emailme.gif"
+                                alt="Email Me"
+                                width={88}
+                                height={31}
+                                className="inline mx-1"
+                            />
+                        </a>
+                        <Image
+                            src="/assets/pokemon3.gif"
+                            alt="Pokemon"
+                            width={88}
+                            height={31}
+                            className="inline mx-1"
+                        />
+                    </div>
+                    <div style={{
+                        backgroundColor: "#f0f0f0",
+                    }}>
+                        <p>
+                            <b>Copyright © {new Date().getFullYear()} BreadCodes</b>
+                        </p>
+                    </div>
+                </footer>
+            )}
         </>
     );
 };
