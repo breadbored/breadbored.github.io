@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const url_path = usePathname();
-    const isFullWidth = url_path.includes("volos-guide-to-monsters");
+    const isFullWidth = url_path.includes("volos-guide-to-monsters") || url_path.includes("5e");
 
     useEffect(() => {
         if (typeof window !== "undefined") {
