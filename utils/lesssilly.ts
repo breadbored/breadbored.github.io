@@ -1,1 +1,1 @@
-export const LESS_SILLY_PATHS = ["/", "/5e", "/volos-guide-to-monsters", "/save-act", "/reproductiverights"]
+export const LESS_SILLY_PATHS = ["/", "/5e", "/volos-guide-to-monsters", "/save-act", "/reproductiverights", "/dialog"]
