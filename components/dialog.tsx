@@ -740,7 +740,7 @@ export default function DialogEditor(): JSX.Element {
         <div className="flex flex-col h-screen">
             <header className="bg-gray-800 text-white p-4">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-xl font-bold">Dialog Flowchart Editor</h1>
+                    <h1 className="text-xl font-bold">Untitled Dialog Editor</h1>
                     <div className="flex space-x-2">
                         <button
                             onClick={resetZoom}
