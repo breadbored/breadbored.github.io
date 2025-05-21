@@ -28,6 +28,7 @@ interface Node {
     y: number;
     width: number;
     height: number;
+    isDragged?: boolean;
 }
 
 interface Edge {
@@ -201,9 +202,11 @@ export default function DialogEditor(): JSX.Element {
         edges: []
     });
     const [dragState, setDragState] = useState<DragState | null>(null);
+    const [nodePositions, setNodePositions] = useState<Record<string, Point>>({});
 
     const svgRef = useRef<SVGSVGElement | null>(null);
     const transformRef = useRef<TransformUtils>(createTransform());
+    const fileInputRef = useRef<HTMLInputElement | null>(null);
 
     // Load initial XML on mount
     useEffect(() => {
@@ -408,10 +411,17 @@ export default function DialogEditor(): JSX.Element {
             const levelWidth = totalNodesAtLevel * NODE_WIDTH + (totalNodesAtLevel - 1) * NODE_MARGIN_X;
             const startX = -levelWidth / 2;
 
-            node.position = {
-                x: startX + position * (NODE_WIDTH + NODE_MARGIN_X),
-                y: node.level * (NODE_HEIGHT + NODE_MARGIN_Y)
-            };
+            // Use stored position if available, otherwise calculate new position
+            const savedPosition = nodePositions[node.id];
+
+            if (savedPosition) {
+                node.position = { ...savedPosition };
+            } else {
+                node.position = {
+                    x: startX + position * (NODE_WIDTH + NODE_MARGIN_X),
+                    y: node.level * (NODE_HEIGHT + NODE_MARGIN_Y)
+                };
+            }
 
             levelPositions[node.level] = position + 1;
         });
@@ -487,6 +497,7 @@ export default function DialogEditor(): JSX.Element {
         point.y = e.clientY;
         const svgPoint = point.matrixTransform(svg.getScreenCTM()?.inverse() || new DOMMatrix());
 
+        // Default to pan operation
         setDragState({
             type: 'pan',
             startX: svgPoint.x,
@@ -494,6 +505,37 @@ export default function DialogEditor(): JSX.Element {
             lastX: svgPoint.x,
             lastY: svgPoint.y
         });
+    };
+
+    const handleNodeMouseDown = (e: React.MouseEvent<SVGGElement>, nodeId: string): void => {
+        e.stopPropagation(); // Prevent SVG pan
+
+        const svg = svgRef.current;
+        if (!svg) return;
+
+        const point = svg.createSVGPoint();
+        point.x = e.clientX;
+        point.y = e.clientY;
+        const svgPoint = point.matrixTransform(svg.getScreenCTM()?.inverse() || new DOMMatrix());
+
+        setDragState({
+            type: 'node',
+            nodeId,
+            startX: svgPoint.x,
+            startY: svgPoint.y,
+            lastX: svgPoint.x,
+            lastY: svgPoint.y
+        });
+
+        // Mark node as being dragged for visual feedback
+        setFlowchartLayout(prev => ({
+            ...prev,
+            nodes: prev.nodes.map(node =>
+                node.id === nodeId
+                    ? { ...node, isDragged: true }
+                    : node
+            )
+        }));
     };
 
     const handleSvgMouseMove = (e: React.MouseEvent<SVGSVGElement>): void => {
@@ -518,12 +560,88 @@ export default function DialogEditor(): JSX.Element {
                 lastX: svgPoint.x,
                 lastY: svgPoint.y
             });
-        } else if (dragState.type === 'node') {
-            // Node dragging logic if needed
+        } else if (dragState.type === 'node' && dragState.nodeId) {
+            // Node dragging logic
+            const dx = svgPoint.x - dragState.lastX;
+            const dy = svgPoint.y - dragState.lastY;
+
+            // Update node position in flowchart layout
+            setFlowchartLayout(prev => {
+                const updatedNodes = prev.nodes.map(node => {
+                    if (node.id === dragState.nodeId) {
+                        return {
+                            ...node,
+                            x: node.x + dx,
+                            y: node.y + dy
+                        };
+                    }
+                    return node;
+                });
+
+                // Recalculate edge paths
+                const updatedEdges = prev.edges.map(edge => {
+                    const fromNode = updatedNodes.find(n => n.id === edge.from);
+                    const toNode = updatedNodes.find(n => n.id === edge.to);
+
+                    if (!fromNode || !toNode) return edge;
+
+                    const start = {
+                        x: fromNode.x + NODE_WIDTH / 2,
+                        y: fromNode.y + NODE_HEIGHT
+                    };
+
+                    const end = {
+                        x: toNode.x + NODE_WIDTH / 2,
+                        y: toNode.y
+                    };
+
+                    return {
+                        ...edge,
+                        start,
+                        end,
+                        controlPoint: {
+                            x: (start.x + end.x) / 2,
+                            y: start.y + (end.y - start.y) / 2
+                        }
+                    };
+                });
+
+                return {
+                    nodes: updatedNodes,
+                    edges: updatedEdges
+                };
+            });
+
+            setDragState({
+                ...dragState,
+                lastX: svgPoint.x,
+                lastY: svgPoint.y
+            });
         }
     };
 
     const handleSvgMouseUp = (): void => {
+        if (dragState?.type === 'node' && dragState.nodeId) {
+            // Save the final position of the node
+            const node = flowchartLayout.nodes.find(n => n.id === dragState.nodeId);
+            if (node) {
+                setNodePositions(prev => ({
+                    ...prev,
+                    [node.id]: { x: node.x, y: node.y }
+                }));
+            }
+
+            // Remove drag visual indicator
+            setFlowchartLayout(prev => ({
+                ...prev,
+                nodes: prev.nodes.map(node =>
+                    node.id === dragState.nodeId
+                        ? { ...node, isDragged: false }
+                        : node
+                )
+            }));
+        }
+
         setDragState(null);
     };
 
@@ -551,6 +669,29 @@ export default function DialogEditor(): JSX.Element {
         transformRef.current.reset();
         // Force re-render
         setFlowchartLayout(prev => ({ ...prev }));
+    };
+
+    // File handling
+    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            const content = event.target?.result as string;
+            if (content) {
+                setXmlContent(content);
+                parseXml(content);
+                setIsDirty(false);
+                // Reset node positions when loading a new file
+                setNodePositions({});
+            }
+        };
+        reader.readAsText(file);
+    };
+
+    const triggerFileInput = (): void => {
+        fileInputRef.current?.click();
     };
 
     // Dialog manipulation functions
@@ -740,8 +881,21 @@ export default function DialogEditor(): JSX.Element {
         <div className="flex flex-col h-screen">
             <header className="bg-gray-800 text-white p-4">
                 <div className="flex justify-between items-center">
-                    <h1 className="text-xl font-bold">Untitled Dialog Editor</h1>
+                    <h1 className="text-xl font-bold">Dialog Flowchart Editor</h1>
                     <div className="flex space-x-2">
+                        <input
+                            ref={fileInputRef}
+                            type="file"
+                            accept=".xml"
+                            onChange={handleFileChange}
+                            className="hidden"
+                        />
+                        <button
+                            onClick={triggerFileInput}
+                            className="bg-gray-600 hover:bg-gray-700 px-3 py-1 rounded flex items-center"
+                        >
+                            Load XML
+                        </button>
                         <button
                             onClick={resetZoom}
                             className="bg-gray-600 hover:bg-gray-700 px-3 py-1 rounded flex items-center"
@@ -819,20 +973,23 @@ export default function DialogEditor(): JSX.Element {
                                 <g
                                     key={`node-${node.id}`}
                                     transform={`translate(${node.x},${node.y})`}
-                                    onClick={() => {
+                                    onMouseDown={(e) => handleNodeMouseDown(e, node.id)}
+                                    onClick={(e) => {
+                                        e.stopPropagation();
                                         setSelectedPageId(node.id);
                                         setIsEditing(true);
                                     }}
-                                    style={{ cursor: 'pointer' }}
+                                    style={{ cursor: node.isDragged ? 'grabbing' : 'grab' }}
+                                    className="select-none"
                                 >
                                     <rect
                                         width={node.width}
                                         height={node.height}
                                         rx="8"
                                         ry="8"
-                                        fill={selectedPageId === node.id ? "#bfdbfe" : "white"}
-                                        stroke={selectedPageId === node.id ? "#3b82f6" : "#ccc"}
-                                        strokeWidth="2"
+                                        fill={node.isDragged ? "#e5edff" : selectedPageId === node.id ? "#bfdbfe" : "white"}
+                                        stroke={node.isDragged ? "#2563eb" : selectedPageId === node.id ? "#3b82f6" : "#ccc"}
+                                        strokeWidth={node.isDragged ? "3" : "2"}
                                     />
 
                                     <foreignObject
