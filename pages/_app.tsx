@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (less_silly) {
       initPostHog();
-      document.body.classList.remove("silly");
+      document.body.classList.add("not-silly");
     }
   }, []);
 

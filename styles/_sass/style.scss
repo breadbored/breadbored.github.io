@@ -1,7 +1,7 @@
 @use "variables";
 @use "_highlights";
 
-body.silly {
+body:not(.silly) {
   background-image: url(/assets/C1.jpg) !important;
   font-family: "Comic Sans MS", "Comic Sans", sans-serif !important;
   cursor: url(/assets/cursor.png), auto !important;
