@@ -24,9 +24,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   const less_silly = !LESS_SILLY_PATHS.includes(pathname);
 
   useEffect(() => {
-    if (!less_silly) {
+    if (less_silly) {
       initPostHog();
-      document.body.classList.add("silly");
+      document.body.classList.remove("silly");
     }
   }, []);
 
