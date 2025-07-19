@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bread.codes/</id>
     <title>BreadCodes</title>
-    <updated>2025-06-12T03:50:09.489Z</updated>
+    <updated>2025-07-19T07:12:47.946Z</updated>
     <generator>feed</generator>
     <author>
         <name>BreadCodes</name>
@@ -15,6 +15,23 @@
     <logo>https://bread.codes/image.png</logo>
     <icon>https://bread.codes/favicon.ico</icon>
     <rights>All rights reserved 2025, BreadCodes</rights>
+    <entry>
+        <title type="html"><![CDATA[Mario Kart World Toolkit]]></title>
+        <id>mario-kart-world-toolkit</id>
+        <link href="https://bread.codes/posts/mario-kart-world-toolkit"/>
+        <updated>2025-07-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a temprorary post for hosting the alpha version of the Mario Kart World Toolkit.]]></summary>
+        <content type="html"><![CDATA[This is a temprorary post for hosting the alpha version of the Mario Kart World Toolkit.
+
+You can download the toolkit from the links below:
+
+- [Windows](/MkWorld.Toolkit_0.0.2_x64-setup.exe)]]></content>
+        <author>
+            <name>BreadCodes</name>
+            <email>brad@bread.codes</email>
+            <uri>https://bread.codes/about</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pokemon Trading Protocol]]></title>
         <id>pokemon-trading-protocol</id>
