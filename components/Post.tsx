@@ -122,7 +122,9 @@ const Post = ({ post }: { post: PostType }) => {
                 />
                 <meta name="google-adsense-account" content="ca-pub-8749505090904262" />
             </Head>
-            <article className="max-w-2xl mx-auto px-4">
+            <article className="max-w-2xl mx-auto px-4" style={{
+                background: "white",
+            }}>
                 <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
                 <div className="mb-8 text-gray-600">{formattedDate}</div>
                 <div className="prose max-w-none">
