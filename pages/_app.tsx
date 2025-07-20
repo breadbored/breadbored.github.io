@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, []);
 
-  return !less_silly ? (
+  return (
     <>
       <Script
         id="posthog-init"
@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Layout>
       <PostHogPageView />
     </>
-  ) : <Component {...pageProps} />;
+  );
 }
 
 export default MyApp;
