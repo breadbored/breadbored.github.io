@@ -18,7 +18,7 @@ How to use the Toolkit:
 ### Setup Instructions
 
 - (Optional) If you want to stream MKWorld with OBS, you must download SplitCam from https://splitcam.com/
-    - You need this (for now) because Windows doesn't support multiple applications using the same webcam at the same time. I am trying to develop a built-in virtual camera for the toolkit, but it is not ready yet.
+    - You need this (for now) because Windows doesn't support multiple applications using the same capture card at the same time. I am trying to develop a built-in virtual camera for the toolkit, but it is not ready yet.
     - I do not have instructions for setting this up. Please refer to the SplitCam documentation for help.
 - Download the [Windows](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.2-alpha/MKWorld.Toolkit_0.0.2_x64-setup.exe) version of the MKWorld Toolkit.
 - Run the installer and follow the instructions.
