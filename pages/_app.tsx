@@ -21,11 +21,11 @@ hljs.registerLanguage("javascript", javascript);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const pathname = usePathname();
-  const less_silly = !LESS_SILLY_PATHS.includes(pathname);
+  const silly = !LESS_SILLY_PATHS.includes(pathname);
 
   useEffect(() => {
-    if (less_silly) {
-      initPostHog();
+    initPostHog();
+    if (silly) {
       document.body.classList.add("not-silly");
     }
   }, []);

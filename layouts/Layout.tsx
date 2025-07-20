@@ -10,7 +10,7 @@ import { LESS_SILLY_PATHS } from "../utils/lesssilly";
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const url_path = usePathname();
     const isFullWidth = url_path.includes("volos-guide-to-monsters") || url_path.includes("5e");
-    const less_silly = !LESS_SILLY_PATHS.includes(url_path);
+    const silly = !LESS_SILLY_PATHS.includes(url_path);
 
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -29,7 +29,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 maxWidth: "600px",
             }}>
                 <div className="pb-12 pt-6 text-center bg-white">
-                    {!less_silly && (
+                    {silly && (
                         <a href="https://sendfox.com/bread" tabIndex={0}>
                             {/** @ts-ignore */}
                             <marquee className="my-4" behavior="alternate" tabIndex={0}>
@@ -39,7 +39,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         </a>
                     )}
                     <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
-                    {less_silly ? (
+                    {!silly ? (
                         <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
                     ) : (
                         <h3 className="text-xl mb-4">code stuff</h3>
@@ -60,7 +60,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                         </Link>
                     </nav>
 
-                    {!less_silly && (
+                    {silly && (
                         <AudioPlayer
                             header="Linkin-Park-Numb.mp3"
                             src={"/assets/Linkin-Park-Numb.mp3"}
@@ -75,7 +75,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
                     <main className="px-4">{children}</main>
 
-                    {less_silly && (
+                    {!silly && (
                         <AudioPlayer
                             header="Linkin-Park-Numb.mp3"
                             src={"/assets/Linkin-Park-Numb.mp3"}
@@ -90,7 +90,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 </div>
             </div>
 
-            {!less_silly && (
+            {silly && (
                 <footer className="page-width text-center py-4 space-y-4 mx-auto" style={isFullWidth ? {
                     maxWidth: "1200px",
                     width: "100%",
