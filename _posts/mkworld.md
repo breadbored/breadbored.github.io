@@ -13,25 +13,38 @@ You can download the toolkit from the links below:
 
 How to use the Toolkit:
 
-## Windows 
+- [Windows](#windows)
+    - [Setup Instructions](#setup-instructions-windows)
+    - [How to choose a track](#how-to-choose-a-track)
+    - [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11)
+    - [How to test the program for pre-release testing](#how-to-test-the-program-for-pre-release-testing)
+- [DISCLAIMER](#disclaimer)
 
-### Setup Instructions
+## Windows
 
-- (Optional) If you want to stream MKWorld with OBS, you must download SplitCam from https://splitcam.com/
-    - You need this (for now) because Windows doesn't support multiple applications using the same capture card at the same time. I am trying to develop a built-in virtual camera for the toolkit, but it is not ready yet.
-    - I do not have instructions for setting this up. Please refer to the SplitCam documentation for help.
+### Setup Instructions (Windows)
+
+- (Optional) If you want to stream MKWorld with OBS, you must download use Windows 11 (or Mac or Linux when I publish the releases for those platforms).
+    - You need this (for now) because Windows 10 doesn't support multiple applications using the same capture card at the same time, but Windows 11 has an option for it you can enable. I am trying to develop a built-in virtual camera for the toolkit for Windows Pre-11 users, but it is not ready yet.
+    - See [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions on how to set this up.
 - Download the [Windows](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.2-alpha/MKWorld.Toolkit_0.0.2_x64-setup.exe) version of the MKWorld Toolkit.
 - Run the installer and follow the instructions.
 - Once installed, open MKWorld Toolkit.
 
 ### How to choose a track
 
-- First click the top left button and select "Split Config" in the menu.
+- Click the top left menu button and select "Split Config" in the menu.
 - Choose the track you want to run, put in the times you want to compare against, and then click the save button at the very bottom of the screen.
 
-### (Optional) How to stream with OBS
+### (Optional) How to stream with OBS (Windows 11)
 
-- You must have OBS and SplitCam installed.
+- You must have OBS and Windows 11.
+-    Open Windows 11 Settings with `Win + I`.
+    - Go to "*_Bluetooth & devices_*"
+    - Click "*_Cameras_*"
+    - Under *_Connected cameras_* , click/tap on the capture card (e.g. "MiraBox") you want to change this setting for.
+    - Click/tap on the *_Edit_* button for *_Advanced camera options_*.
+    - Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click/tap on Apply.
 - Open MKWorld Toolkit
 - Open OBS and add a new source.
 - Choose "Video Capture Device" and select the SplitCam camera as the device.
@@ -39,7 +52,7 @@ How to use the Toolkit:
   - Set the size to 800x1080, or whatever size you want the speedrun split UI to be.
 - Arrange to flavor.
 
-### How to test your setup
+### How to test the program for pre-release testing
 
 - Open the MKWorld Toolkit.
 - Once MKWorld Toolkit is opened, you can navigate to http://localhost:2025/obs in your web browser.
@@ -54,6 +67,6 @@ How to use the Toolkit:
     - Once the race is completed, the timer will stop and the splits will be updated.
     - The timer resets when you restart the race.
 
-### DISCLAIMER
+## DISCLAIMER
 
 MKWorld Toolkit is in ALPHA. It was originally built for my own personal use on MacOS, and Windows is in an untested state.
