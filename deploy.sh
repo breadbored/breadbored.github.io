@@ -101,6 +101,11 @@ git commit -m "Deploy to gh-pages" || {
     handle_error $LINENO
 }
 
+git lfs track "*.exe" || {
+    echo "Failed to track .exe files with LFS"
+    handle_error $LINENO
+}
+
 echo "Pushing to gh-pages..."
 git push origin gh-pages --force || {
     echo "Failed to push to gh-pages"
