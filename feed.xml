@@ -4,7 +4,7 @@
         <title>BreadCodes</title>
         <link>https://bread.codes/</link>
         <description>code stuff</description>
-        <lastBuildDate>Sun, 20 Jul 2025 19:55:53 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Jul 2025 19:58:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>feed</generator>
         <language>en</language>
@@ -54,12 +54,14 @@ How to use the Toolkit:
 ### (Optional) How to stream with OBS (Windows 11)
 
 - You must have OBS and Windows 11.
--    Open Windows 11 Settings with `Win + I`.
+- Set up your capture card in Windows 11:
+    - Instructions with images can be found [here](https://www.elevenforum.com/t/enable-or-disable-multiple-apps-to-use-camera-in-windows-11.31199/).
+    - Open Windows 11 Settings with `Win + I`.
     - Go to "*_Bluetooth & devices_*"
     - Click "*_Cameras_*"
-    - Under *_Connected cameras_* , click/tap on the capture card (e.g. "MiraBox") you want to change this setting for.
-    - Click/tap on the *_Edit_* button for *_Advanced camera options_*.
-    - Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click/tap on Apply.
+    - Under *_Connected cameras_* , click on the capture card (e.g. "MiraBox") you want to change this setting for.
+    - Click on the *_Edit_* button for *_Advanced camera options_*.
+    - Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click on Apply.
 - Open MKWorld Toolkit
 - Open OBS and add a new source.
 - Choose "Video Capture Device" and select the SplitCam camera as the device.
