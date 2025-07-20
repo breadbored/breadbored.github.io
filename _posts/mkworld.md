@@ -33,20 +33,26 @@ How to use the Toolkit:
 
 ### How to choose a track
 
-- Click the top left menu button and select "Split Config" in the menu.
+- Click the top left menu button and select "Split Management" in the menu.
 - Choose the track you want to run, put in the times you want to compare against, and then click the save button at the very bottom of the screen.
 
 ### (Optional) How to stream with OBS (Windows 11)
 
-- You must have OBS and Windows 11.
-- Set up your capture card in Windows 11:
-    - Instructions with images can be found [here](https://www.elevenforum.com/t/enable-or-disable-multiple-apps-to-use-camera-in-windows-11.31199/).
-    - Open Windows 11 Settings with `Win + I`.
-    - Go to "*_Bluetooth & devices_*"
-    - Click "*_Cameras_*"
-    - Under *_Connected cameras_* , click on the capture card (e.g. "MiraBox") you want to change this setting for.
-    - Click on the *_Edit_* button for *_Advanced camera options_*.
-    - Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click on Apply.
+You must have OBS and Windows 11.
+
+#### Set up your capture card in Windows 11:
+
+Instructions with images can be found [here](https://www.elevenforum.com/t/enable-or-disable-multiple-apps-to-use-camera-in-windows-11.31199/).
+
+- Open Windows 11 Settings with `Win + I`.
+- Go to "*_Bluetooth & devices_*"
+- Click "*_Cameras_*"
+- Under *_Connected cameras_* , click on the capture card (e.g. "MiraBox") you want to change this setting for.
+- Click on the *_Edit_* button for *_Advanced camera options_*.
+- Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click on Apply.
+
+#### Set up OBS to use the capture card:
+
 - Open MKWorld Toolkit
 - Open OBS and add a new source.
 - Choose "Video Capture Device" and select the SplitCam camera as the device.
