@@ -139,7 +139,7 @@ const Post = ({ post }: { post: PostType }) => {
                                 h4: HeadingRenderer(4),
                                 h5: HeadingRenderer(5),
                                 h6: HeadingRenderer(6),
-                                p: BSkyRenderer(post.skeets),
+                                // p: BSkyRenderer(post.skeets),
                             }}
                         />
                     ) : (
@@ -153,7 +153,7 @@ const Post = ({ post }: { post: PostType }) => {
                                 h4: HeadingRenderer(4),
                                 h5: HeadingRenderer(5),
                                 h6: HeadingRenderer(6),
-                                p: BSkyRenderer(post.skeets),
+                                // p: BSkyRenderer(post.skeets),
                             }}
                             rehypePlugins={[rehypeRaw]}
                         />

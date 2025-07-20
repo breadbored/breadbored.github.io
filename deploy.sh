@@ -22,8 +22,8 @@ handle_error() {
 # Set up error trap
 trap 'handle_error $LINENO' ERR
 
-echo "Backing up .env file..."
-env_value=$(cat .env)
+# echo "Backing up .env file..."
+# env_value=$(cat .env)
 
 echo "Building site..."
 yarn || {
@@ -115,11 +115,11 @@ git checkout "$CURRENT_BRANCH" || {
 
 echo "Deployment complete!"
 
-echo "Restoring .env file..."
-echo "$env_value" >.env || {
-    echo "Failed to restore .env file"
-    handle_error $LINENO
-}
+# echo "Restoring .env file..."
+# echo "$env_value" >.env || {
+#     echo "Failed to restore .env file"
+#     handle_error $LINENO
+# }
 
 yarn || {
     echo "Final yarn install failed"
