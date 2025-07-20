@@ -68,7 +68,7 @@ else
 fi
 
 echo "Cleaning directory..."
-find . -not -path "./.git*" -not -path "./CNAME" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete || {
+find . -not -path "./.git*" -not -path "./CNAME" -not -path "./.gitattributes" -not -path "./temp_deploy*" -not -name ".gitignore" -not -name "." -not -name ".." -delete || {
     echo "Failed to clean directory"
     handle_error $LINENO
 }
