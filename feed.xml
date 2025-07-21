@@ -4,7 +4,7 @@
         <title>BreadCodes</title>
         <link>https://bread.codes/</link>
         <description>code stuff</description>
-        <lastBuildDate>Mon, 21 Jul 2025 03:30:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jul 2025 03:34:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>feed</generator>
         <language>en</language>
@@ -36,7 +36,7 @@ How to use the Toolkit:
 
 ### Download
 
-- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3-alpha/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
+- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
     - Changes:
         - Added user Data Consent dialog for error reporting
             - Error reporting helps me fix bugs in the program.
