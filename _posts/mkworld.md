@@ -24,9 +24,8 @@ How to use the Toolkit:
 - [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
     - Changes:
         - Added "Data Consent" dialog for optional error reporting
-            - This is ***optional*** and ***off by default***, but if enabled, helps me resolve issues in the app faster and easier for everyone.
-            - Error reporting helps me find and fix bugs in the program and reduce the number of issues, please consider enabling it.
-            - Error Tracking provided by [Posthog](https://posthog.com/)
+            - This is ***optional*** and ***off by default***, but if enabled, helps me resolve issues in the app faster and easier for everyone. Please consider enabling it.
+            - Data is never shared with anyone except me, and is not used for any other purpose.
         - Added support for Windows 11 camera sharing
             - This allows you to use the capture card in OBS while also using it in the MKWorld Toolkit (see [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions).
         - Fixed a bug where all times would report negative if the game pauses
