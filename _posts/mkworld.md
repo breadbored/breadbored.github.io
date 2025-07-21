@@ -21,7 +21,7 @@ How to use the Toolkit:
 
 ### Download
 
-- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3-alpha/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
+- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
     - Changes:
         - Added user Data Consent dialog for error reporting
             - Error reporting helps me fix bugs in the program.
