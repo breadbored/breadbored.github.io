@@ -30,18 +30,6 @@ How to use the Toolkit:
             - This allows you to use the capture card in OBS while also using it in the MKWorld Toolkit (see [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions).
         - Fixed a bug where all times would report negative if the game pauses
         - Fixed a bug where auto-splits get triggered when the game is paused or the player falls off the track
-- v0.0.2 (removed)
-    - Changes:
-        - Added support for Windows 10
-        - (update) this version did not include error tracking, which is necessary for proper testing while in Alpha.
-- v0.0.1
-    - Initial build for MacOS (not Windows or Linux)
-    - Features:
-        - Functionality for running Time Trials
-        - Functionality for auto-splitting
-        - Functionality for streaming with OBS (MacOS only)
-        - Functionality for using a capture card
-        - Settings / Configuration for tracks and times, as well as app settings
 
 ### Setup Instructions (Windows)
 
