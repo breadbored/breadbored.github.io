@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bread.codes/</id>
     <title>BreadCodes</title>
-    <updated>2025-07-20T20:08:10.331Z</updated>
+    <updated>2025-07-21T03:30:24.623Z</updated>
     <generator>feed</generator>
     <author>
         <name>BreadCodes</name>
@@ -23,13 +23,10 @@
         <summary type="html"><![CDATA[This is a temprorary post for hosting the alpha version of the Mario Kart World Toolkit.]]></summary>
         <content type="html"><![CDATA[This is a temprorary post for hosting the alpha version of the Mario Kart World Toolkit.
 
-You can download the toolkit from the links below:
-
-- [Windows](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.2-alpha/MKWorld.Toolkit_0.0.2_x64-setup.exe)
-
 How to use the Toolkit:
 
 - [Windows](#windows)
+    - [Download](#download)
     - [Setup Instructions](#setup-instructions-windows)
     - [How to choose a track](#how-to-choose-a-track)
     - [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11)
@@ -37,6 +34,30 @@ How to use the Toolkit:
 - [DISCLAIMER](#disclaimer)
 
 ## Windows
+
+### Download
+
+- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3-alpha/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
+    - Changes:
+        - Added user Data Consent dialog for error reporting
+            - Error reporting helps me fix bugs in the program.
+            - Data is not shared with anyone except me, and is not used for any other purpose.
+        - Added support for Windows 11 camera sharing
+            - This allows you to use the capture card in OBS while also using it in the MKWorld Toolkit (see [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions).
+        - Fixed a bug where all times would report negative if the game pauses
+        - Fixed a bug where auto-splits get triggered when the game is paused or the player falls off the track
+- v0.0.2 (removed)
+    - Changes:
+        - Added support for Windows 10
+        - (update) this version did not include error tracking, which is necessary for proper testing while in Alpha.
+- v0.0.1
+    - Initial build for MacOS (not Windows or Linux)
+    - Features:
+        - Functionality for running Time Trials
+        - Functionality for auto-splitting
+        - Functionality for streaming with OBS (MacOS only)
+        - Functionality for using a capture card
+        - Settings / Configuration for tracks and times, as well as app settings
 
 ### Setup Instructions (Windows)
 
