@@ -21,7 +21,12 @@ How to use the Toolkit:
 
 ### Download
 
-- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe) (latest)
+- [v0.0.4](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.4/MKWorld.Toolkit_0.0.4_x64-setup.exe) (latest)
+    - Changes:
+        - Added support for Elgato HD60 series capture cards
+        - Added support for YUV2 2-byte pixel format
+        - Added support for 4k capture cards
+- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe)
     - Changes:
         - Added "Data Consent" dialog for optional error reporting
             - This is ***optional*** and ***off by default***, but if enabled, helps me resolve issues in the app faster and easier for everyone. Please consider enabling it.
