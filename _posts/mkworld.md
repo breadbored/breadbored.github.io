@@ -11,6 +11,7 @@ How to use the Toolkit:
 
 - [Windows](#windows)
     - [Download](#download)
+    - [Notes](#notes)
     - [Setup Instructions](#setup-instructions-windows)
     - [How to choose a track](#how-to-choose-a-track)
     - [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11)
@@ -35,6 +36,10 @@ How to use the Toolkit:
             - This allows you to use the capture card in OBS while also using it in the MKWorld Toolkit (see [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions).
         - Fixed a bug where all times would report negative if the game pauses
         - Fixed a bug where auto-splits get triggered when the game is paused or the player falls off the track
+
+### Notes
+
+When I refer to Windows 11, I mean Windows 11 24H2 with the latest updates installed. There is a patch after 24H2 that adds the ability to use the camera in multiple applications at once, which is required for the MKWorld Toolkit to work with OBS.
 
 ### Setup Instructions (Windows)
 
@@ -69,7 +74,7 @@ Instructions with images can be found [here](https://www.elevenforum.com/t/enabl
 
 - Open MKWorld Toolkit
 - Open OBS and add a new source.
-- Choose "Video Capture Device" and select the SplitCam camera as the device.
+- Choose "Video Capture Device" and select the capture card as the device.
 - Add a webview source and set the URL to `http://localhost:2025/obs`.
   - Set the size to 800x1080, or whatever size you want the speedrun split UI to be.
 - Arrange to flavor.
