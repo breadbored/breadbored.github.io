@@ -5,72 +5,112 @@ date: 2025-07-19
 categories: ["mariokartworld"]
 ---
 
-This is a temprorary post for hosting the alpha version of the Mario Kart World Toolkit.
+This is a temporary post for hosting the alpha version of the Mario Kart World Toolkit.
+
+Know what to do and just need the download link? [Go here!](#download)
+
+[Join the brand-new Discord](https://discord.gg/FVscyknKZH) for support, feature requests, bug reports, and to contribute art and code!
 
 How to use the Toolkit:
 
-- [Windows](#windows)
+- [Windows 11 24H2, latest update patch](#windows)
+    - [Pre-Setup Instructions (Windows 11 24H2 latest patch)](#pre-setup-instructions-windows-11-24h2-latest-patch)
+<!-- - [MacOS](#macos)
+    - [Pre-Setup Instructions (MacOS)](#pre-setup-instructions-macos)
+- [Linux](#linux)
+    - [Debian / Ubuntu / Debian-based Distros](#debian-ubuntu-debian-based-distros)
+    - [Others](#others) -->
+- [Setup Instructions for All Platforms](#setup-instructions-for-all-platforms)
     - [Download](#download)
-    - [Notes](#notes)
-    - [Setup Instructions](#setup-instructions-windows)
     - [How to choose a track](#how-to-choose-a-track)
-    - [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11)
+    - [Set up OBS to use the capture card](#set-up-obs-to-use-the-capture-card)
     - [How to test the program for pre-release testing](#how-to-test-the-program-for-pre-release-testing)
 - [DISCLAIMER](#disclaimer)
 
 ## Windows
 
+### Pre-Setup Instructions (Windows 11 24H2 latest patch)
+
+When I refer to Windows 11, I mean Windows 11 24H2 with the latest updates installed. There is a patch after 24H2 that adds the ability to use the camera in multiple applications at once, which is required for the MKWorld Toolkit to work with OBS.
+
+Instructions with images can be found [here](https://www.elevenforum.com/t/enable-or-disable-multiple-apps-to-use-camera-in-windows-11.31199/).
+
+- Open Windows 11 Settings with `Win + I`.
+- Go to "***Bluetooth & devices***"
+- Click "***Cameras***"
+- Under ***Connected cameras*** , click on the capture card (e.g. "MiraBox") you want to change this setting for.
+- Click on the ***Edit*** button for ***Advanced camera options***.
+- Turn `on` or `off` ***Allow multiple apps to use camera at the same time*** for what you want, and click on Apply.
+
+[Continue to setup instructions](#setup-instructions-for-all-platforms).
+
+<!-- ## MacOS
+
+### Pre-Setup Instructions (MacOS)
+
+The app is unsigned because an Apple Developer account is $99/year, so you will need to allow the app to run in your security settings.
+
+- Open System Settings.
+- Go to "***Privacy & Security***".
+- Scroll down to the "***Security***" section.
+- Click on the "***Allow***" button next to the "***MKWorld Toolkit*** app.
+
+[Continue to setup instructions](#setup-instructions-for-all-platforms).
+
+## Linux
+
+### Debian / Ubuntu / Debian-based Distros
+
+All good :D
+
+[Continue to setup instructions](#setup-instructions-for-all-platforms).
+
+### Others
+
+Wait until the source is available... I am refactoring the code on a daily basis until I'm happy with architecture, and it is subject to change frequently. I can't reasonably maintain a complex CI/CD pipeline while the code and dependencies are in flux.
+
+[Continue to setup instructions](#setup-instructions-for-all-platforms). -->
+
+---
+
+## Setup Instructions for All Platforms
+
 ### Download
 
-- [v0.0.4](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.4/MKWorld.Toolkit_0.0.4_x64-setup.exe) (latest)
+- v0.0.5 (latest)
+    - [Windows Download](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.5/MKWorld.Toolkit_0.0.5_x64-setup.exe)
+    <!-- - MacOS
+        - [Intel/x86_64 Download]()
+        - [Apple Silicon/ARM Download]()
+    - Linux
+        - [Linux (.deb)]() -->
+    - Changes:
+        - HUGE performance improvements
+        - Attempt History and Export
+        - Better capture card support
+        - 90% of bugs reported have been fixed
+- v0.0.4
+    - [Windows Download](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.4/MKWorld.Toolkit_0.0.4_x64-setup.exe)
     - Changes:
         - Added support for Elgato HD60 series capture cards
         - Added support for YUV2 2-byte pixel format
         - Added support for 4k capture cards
-- [v0.0.3](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe)
+- v0.0.3
+    - [Windows Download](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.3/MKWorld.Toolkit_0.0.3_x64-setup.exe)
     - Changes:
         - Added "Data Consent" dialog for optional error reporting
             - This is ***optional*** and ***off by default***, but if enabled, helps me resolve issues in the app faster and easier for everyone. Please consider enabling it.
             - Data is never shared with anyone except me, and is not used for any other purpose.
         - Added support for Windows 11 camera sharing
-            - This allows you to use the capture card in OBS while also using it in the MKWorld Toolkit (see [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions).
         - Fixed a bug where all times would report negative if the game pauses
         - Fixed a bug where auto-splits get triggered when the game is paused or the player falls off the track
-
-### Notes
-
-When I refer to Windows 11, I mean Windows 11 24H2 with the latest updates installed. There is a patch after 24H2 that adds the ability to use the camera in multiple applications at once, which is required for the MKWorld Toolkit to work with OBS.
-
-### Setup Instructions (Windows)
-
-- (Optional) If you want to stream MKWorld with OBS, you must download use Windows 11 (or Mac or Linux when I publish the releases for those platforms).
-    - You need this (for now) because Windows 10 doesn't support multiple applications using the same capture card at the same time, but Windows 11 has an option for it you can enable. I am trying to develop a built-in virtual camera for the toolkit for Windows Pre-11 users, but it is not ready yet.
-    - See [Optional: How to stream with OBS (Windows 11)](#optional-how-to-stream-with-obs-windows-11) for instructions on how to set this up.
-- Download the [Windows](https://github.com/breadbored/breadbored.github.io/releases/download/v0.0.2-alpha/MKWorld.Toolkit_0.0.2_x64-setup.exe) version of the MKWorld Toolkit.
-- Run the installer and follow the instructions.
-- Once installed, open MKWorld Toolkit.
 
 ### How to choose a track
 
 - Click the top left menu button and select "Split Management" in the menu.
 - Choose the track you want to run, put in the times you want to compare against, and then click the save button at the very bottom of the screen.
 
-### (Optional) How to stream with OBS (Windows 11)
-
-You must have OBS and Windows 11.
-
-#### Set up your capture card in Windows 11:
-
-Instructions with images can be found [here](https://www.elevenforum.com/t/enable-or-disable-multiple-apps-to-use-camera-in-windows-11.31199/).
-
-- Open Windows 11 Settings with `Win + I`.
-- Go to "*_Bluetooth & devices_*"
-- Click "*_Cameras_*"
-- Under *_Connected cameras_* , click on the capture card (e.g. "MiraBox") you want to change this setting for.
-- Click on the *_Edit_* button for *_Advanced camera options_*.
-- Turn `on` or `off` *_Allow multiple apps to use camera at the same time_* for what you want, and click on Apply.
-
-#### Set up OBS to use the capture card:
+### Set up OBS to use the capture card:
 
 - Open MKWorld Toolkit
 - Open OBS and add a new source.
