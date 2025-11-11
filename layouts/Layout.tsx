@@ -5,12 +5,13 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { LESS_SILLY_PATHS } from "../utils/lesssilly";
+import { FULL_SCREEN_PATHS, LESS_SILLY_PATHS } from "../utils/lesssilly";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const url_path = usePathname();
     const isFullWidth = url_path.includes("volos-guide-to-monsters") || url_path.includes("5e");
     const silly = !LESS_SILLY_PATHS.includes(url_path);
+    const fullscreen = FULL_SCREEN_PATHS.includes(url_path)
 
     useEffect(() => {
         if (typeof window !== "undefined") {
@@ -20,7 +21,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         }
     }, []);
 
-    return (
+    return fullscreen ? (
+        <>{children}</>
+    ) : (
         <>
             <div className="page-width mx-auto mt-12" style={isFullWidth ? {
                 maxWidth: "1200px",
