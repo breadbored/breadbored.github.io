@@ -10,8 +10,8 @@ import { FULL_SCREEN_PATHS, LESS_SILLY_PATHS } from "../utils/lesssilly";
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const url_path = usePathname();
     const isFullWidth = url_path.includes("volos-guide-to-monsters") || url_path.includes("5e");
-    const silly = !LESS_SILLY_PATHS.includes(url_path);
-    const fullscreen = FULL_SCREEN_PATHS.includes(url_path)
+    const silly = !(LESS_SILLY_PATHS.includes(url_path) || LESS_SILLY_PATHS.includes(url_path + '/'));
+    const fullscreen = FULL_SCREEN_PATHS.includes(url_path) || FULL_SCREEN_PATHS.includes(url_path + '/')
 
     useEffect(() => {
         if (typeof window !== "undefined") {
