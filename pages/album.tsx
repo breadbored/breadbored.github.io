@@ -3,10 +3,36 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 
 const FONT_OPTIONS = [
-  "ark", "arthur", "awesome", "compass", "corset", "desert", "dust", "fear",
-  "holotype", "hungry", "kobold", "lookout", "loser", "match", "memo", "nope",
-  "outflank", "passage", "rude", "saga", "salty", "sins", "vest", "winds",
-  "xerxes", "yesterday"
+  "ark",
+  "arthur",
+  "awesome",
+  "compass",
+  "corset",
+  "desert",
+  "dust",
+  "fear",
+  "holotype",
+  "hungry",
+  "kobold",
+  "lookout",
+  "loser",
+  "match",
+  "memo",
+  "nope",
+  "outflank",
+  "passage",
+  "rude",
+  "saga",
+  "salty",
+  "sins",
+  "vest",
+  "winds",
+  "xerxes",
+  "yesterday",
+];
+
+const PALETTE_OPTIONS: [string, string, string, string][] = [
+  ["#46425E", "#D17C7C", "#5B768D", "#F6C6A8"],
 ];
 
 interface Song {
@@ -27,15 +53,30 @@ const AlbumUpload = () => {
   const [artistName, setArtistName] = useState("");
   const [artistBiography, setArtistBiography] = useState("");
   const [fontChoice, setFontChoice] = useState("saga");
+  const [paletteChoice, setPaletteChoice] = useState<
+    [string, string, string, string]
+  >(PALETTE_OPTIONS[0]);
   const [albumCover, setAlbumCover] = useState<File | null>(null);
   const [songs, setSongs] = useState<Song[]>([
-    { title: "", file: null, order: 1, featuringArtist: "", songDescription: "" }
+    {
+      title: "",
+      file: null,
+      order: 1,
+      featuringArtist: "",
+      songDescription: "",
+    },
   ]);
 
   const addSong = () => {
     setSongs([
       ...songs,
-      { title: "", file: null, order: songs.length + 1, featuringArtist: "", songDescription: "" }
+      {
+        title: "",
+        file: null,
+        order: songs.length + 1,
+        featuringArtist: "",
+        songDescription: "",
+      },
     ]);
   };
 
@@ -63,7 +104,9 @@ const AlbumUpload = () => {
         if (img.width === 64 && img.height === 64) {
           resolve(true);
         } else {
-          setError(`Album cover must be exactly 64x64 pixels (yours is ${img.width}x${img.height})`);
+          setError(
+            `Album cover must be exactly 64x64 pixels (yours is ${img.width}x${img.height})`,
+          );
           resolve(false);
         }
       };
@@ -114,8 +157,8 @@ const AlbumUpload = () => {
         return false;
       }
       const validExtensions = [".it", ".s3m", ".mod", ".vgm"];
-      const hasValidExtension = validExtensions.some(ext =>
-        song.file!.name.toLowerCase().endsWith(ext)
+      const hasValidExtension = validExtensions.some((ext) =>
+        song.file!.name.toLowerCase().endsWith(ext),
       );
       if (!hasValidExtension) {
         setError(`Song ${i + 1}: File must be .it, .s3m, .mod, or .vgm`);
@@ -143,7 +186,7 @@ const AlbumUpload = () => {
       formData.append("albumCover", albumCover!);
 
       // Add song files
-      songs.forEach(song => {
+      songs.forEach((song) => {
         if (song.file) {
           formData.append("songFiles", song.file);
         }
@@ -154,21 +197,23 @@ const AlbumUpload = () => {
         albumName,
         artistName,
         fontChoice,
+        palette: paletteChoice,
         artistBiography: artistBiography || undefined,
-        songs: songs.map(song => ({
+        songs: songs.map((song) => ({
           title: song.title,
           order: song.order,
           featuringArtist: song.featuringArtist || undefined,
           songDescription: song.songDescription || undefined,
-        }))
+        })),
       };
 
       formData.append("data", JSON.stringify(metadata));
 
       // Determine API endpoint based on environment
-      const apiUrl = process.env.NODE_ENV === "production"
-        ? "https://album.bread.codes/upload"
-        : "http://localhost:3000/upload";
+      const apiUrl =
+        process.env.NODE_ENV === "production"
+          ? "https://album.bread.codes/upload"
+          : "http://localhost:3000/upload";
 
       const response = await fetch(apiUrl, {
         method: "POST",
@@ -196,20 +241,24 @@ const AlbumUpload = () => {
       <Head>
         <title>Upload Album - bread.codes</title>
       </Head>
-      <div style={{
-        backgroundColor: "#f0f0f0",
-        padding: "20px",
-        border: "3px solid #000",
-        borderRadius: "0",
-      }}>
+      <div
+        style={{
+          backgroundColor: "#f0f0f0",
+          padding: "20px",
+          border: "3px solid #000",
+          borderRadius: "0",
+        }}
+      >
         <center>
-          <h1 style={{
-            fontFamily: "Comic Sans MS, cursive",
-            color: "#ff0066",
-            textShadow: "2px 2px #000",
-            fontSize: "32px",
-            marginBottom: "10px"
-          }}>
+          <h1
+            style={{
+              fontFamily: "Comic Sans MS, cursive",
+              color: "#ff0066",
+              textShadow: "2px 2px #000",
+              fontSize: "32px",
+              marginBottom: "10px",
+            }}
+          >
             .:*~~*:. ALBUM UPLOAD .:*~~*:.
           </h1>
           <p style={{ fontFamily: "Arial, sans-serif", marginBottom: "20px" }}>
@@ -222,13 +271,15 @@ const AlbumUpload = () => {
         </center>
 
         {error && (
-          <div style={{
-            backgroundColor: "#ffcccc",
-            border: "2px solid #ff0000",
-            padding: "10px",
-            marginBottom: "15px",
-            fontFamily: "Arial, sans-serif"
-          }}>
+          <div
+            style={{
+              backgroundColor: "#ffcccc",
+              border: "2px solid #ff0000",
+              padding: "10px",
+              marginBottom: "15px",
+              fontFamily: "Arial, sans-serif",
+            }}
+          >
             <b>ERROR:</b> {error}
           </div>
         )}
@@ -241,7 +292,7 @@ const AlbumUpload = () => {
             style={{
               width: "100%",
               backgroundColor: "#ffffff",
-              borderCollapse: "collapse"
+              borderCollapse: "collapse",
             }}
           >
             <tbody>
@@ -264,7 +315,7 @@ const AlbumUpload = () => {
                       width: "100%",
                       padding: "4px",
                       border: "2px inset #ccc",
-                      fontFamily: "Arial, sans-serif"
+                      fontFamily: "Arial, sans-serif",
                     }}
                   />
                 </td>
@@ -283,7 +334,7 @@ const AlbumUpload = () => {
                       width: "100%",
                       padding: "4px",
                       border: "2px inset #ccc",
-                      fontFamily: "Arial, sans-serif"
+                      fontFamily: "Arial, sans-serif",
                     }}
                   />
                 </td>
@@ -301,11 +352,46 @@ const AlbumUpload = () => {
                       width: "100%",
                       padding: "4px",
                       border: "2px inset #ccc",
-                      fontFamily: "Arial, sans-serif"
+                      fontFamily: "Arial, sans-serif",
                     }}
                   >
-                    {FONT_OPTIONS.map(font => (
-                      <option key={font} value={font}>{font}</option>
+                    {FONT_OPTIONS.map((font) => (
+                      <option key={font} value={font}>
+                        {font}
+                      </option>
+                    ))}
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td style={{ backgroundColor: "#e0e0e0" }}>
+                  <b>Palette Choice:*</b>
+                </td>
+                <td>
+                  <select
+                    value={paletteChoice}
+                    onChange={(e) =>
+                      setPaletteChoice(
+                        e.target.value.split("-").map((p) => {
+                          return `#${p}`;
+                        }) as [string, string, string, string],
+                      )
+                    }
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "4px",
+                      border: "2px inset #ccc",
+                      fontFamily: "Arial, sans-serif",
+                    }}
+                  >
+                    {PALETTE_OPTIONS.map((pal) => (
+                      <option
+                        key={pal.join("-").replace("#", "")}
+                        value={pal.join("-").replace("#", "")}
+                      >
+                        {pal.join("-").replace("#", "")}
+                      </option>
                     ))}
                   </select>
                 </td>
@@ -323,7 +409,7 @@ const AlbumUpload = () => {
                     onChange={(e) => setAlbumCover(e.target.files?.[0] || null)}
                     required
                     style={{
-                      fontFamily: "Arial, sans-serif"
+                      fontFamily: "Arial, sans-serif",
                     }}
                   />
                   {albumCover && (
@@ -348,7 +434,7 @@ const AlbumUpload = () => {
                       width: "100%",
                       padding: "4px",
                       border: "2px inset #ccc",
-                      fontFamily: "Arial, sans-serif"
+                      fontFamily: "Arial, sans-serif",
                     }}
                   />
                 </td>
@@ -364,7 +450,7 @@ const AlbumUpload = () => {
               style={{
                 width: "100%",
                 backgroundColor: "#ffffff",
-                borderCollapse: "collapse"
+                borderCollapse: "collapse",
               }}
             >
               <tbody>
@@ -388,7 +474,7 @@ const AlbumUpload = () => {
                               backgroundColor: "#ff6666",
                               border: "2px outset #ff3333",
                               cursor: "pointer",
-                              fontFamily: "Arial, sans-serif"
+                              fontFamily: "Arial, sans-serif",
                             }}
                           >
                             Remove
@@ -404,13 +490,15 @@ const AlbumUpload = () => {
                         <input
                           type="text"
                           value={song.title}
-                          onChange={(e) => updateSong(index, "title", e.target.value)}
+                          onChange={(e) =>
+                            updateSong(index, "title", e.target.value)
+                          }
                           required
                           style={{
                             width: "100%",
                             padding: "4px",
                             border: "2px inset #ccc",
-                            fontFamily: "Arial, sans-serif"
+                            fontFamily: "Arial, sans-serif",
                           }}
                         />
                       </td>
@@ -425,10 +513,16 @@ const AlbumUpload = () => {
                         <input
                           type="file"
                           accept=".it,.s3m,.mod,.vgm"
-                          onChange={(e) => updateSong(index, "file", e.target.files?.[0] || null)}
+                          onChange={(e) =>
+                            updateSong(
+                              index,
+                              "file",
+                              e.target.files?.[0] || null,
+                            )
+                          }
                           required
                           style={{
-                            fontFamily: "Arial, sans-serif"
+                            fontFamily: "Arial, sans-serif",
                           }}
                         />
                         {song.file && (
@@ -446,14 +540,20 @@ const AlbumUpload = () => {
                         <input
                           type="number"
                           value={song.order}
-                          onChange={(e) => updateSong(index, "order", parseInt(e.target.value) || 1)}
+                          onChange={(e) =>
+                            updateSong(
+                              index,
+                              "order",
+                              parseInt(e.target.value) || 1,
+                            )
+                          }
                           min={1}
                           required
                           style={{
                             width: "80px",
                             padding: "4px",
                             border: "2px inset #ccc",
-                            fontFamily: "Arial, sans-serif"
+                            fontFamily: "Arial, sans-serif",
                           }}
                         />
                       </td>
@@ -468,12 +568,14 @@ const AlbumUpload = () => {
                         <input
                           type="text"
                           value={song.featuringArtist}
-                          onChange={(e) => updateSong(index, "featuringArtist", e.target.value)}
+                          onChange={(e) =>
+                            updateSong(index, "featuringArtist", e.target.value)
+                          }
                           style={{
                             width: "100%",
                             padding: "4px",
                             border: "2px inset #ccc",
-                            fontFamily: "Arial, sans-serif"
+                            fontFamily: "Arial, sans-serif",
                           }}
                         />
                       </td>
@@ -487,13 +589,15 @@ const AlbumUpload = () => {
                       <td>
                         <textarea
                           value={song.songDescription}
-                          onChange={(e) => updateSong(index, "songDescription", e.target.value)}
+                          onChange={(e) =>
+                            updateSong(index, "songDescription", e.target.value)
+                          }
                           rows={2}
                           style={{
                             width: "100%",
                             padding: "4px",
                             border: "2px inset #ccc",
-                            fontFamily: "Arial, sans-serif"
+                            fontFamily: "Arial, sans-serif",
                           }}
                         />
                       </td>
@@ -514,7 +618,7 @@ const AlbumUpload = () => {
                   cursor: "pointer",
                   fontFamily: "Comic Sans MS, cursive",
                   fontSize: "14px",
-                  fontWeight: "bold"
+                  fontWeight: "bold",
                 }}
               >
                 + ADD ANOTHER SONG +
@@ -535,7 +639,7 @@ const AlbumUpload = () => {
                 fontSize: "18px",
                 fontWeight: "bold",
                 color: "#ffffff",
-                textShadow: "1px 1px #000"
+                textShadow: "1px 1px #000",
               }}
             >
               {loading ? "UPLOADING..." : ">>> SUBMIT ALBUM <<<"}
@@ -543,14 +647,16 @@ const AlbumUpload = () => {
           </center>
         </form>
 
-        <div style={{
-          marginTop: "20px",
-          padding: "10px",
-          backgroundColor: "#ffffcc",
-          border: "2px dashed #000",
-          fontFamily: "Arial, sans-serif",
-          fontSize: "12px"
-        }}>
+        <div
+          style={{
+            marginTop: "20px",
+            padding: "10px",
+            backgroundColor: "#ffffcc",
+            border: "2px dashed #000",
+            fontFamily: "Arial, sans-serif",
+            fontSize: "12px",
+          }}
+        >
           <b>* = Required field</b>
           <br />
           Album cover must be PNG format and exactly 64x64 pixels!
