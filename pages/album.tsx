@@ -47,6 +47,7 @@ const AlbumUpload = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [paletteDropdownOpen, setPaletteDropdownOpen] = useState(false);
 
   // Form state
   const [albumName, setAlbumName] = useState("");
@@ -368,32 +369,116 @@ const AlbumUpload = () => {
                   <b>Palette Choice:*</b>
                 </td>
                 <td>
-                  <select
-                    value={paletteChoice}
-                    onChange={(e) =>
-                      setPaletteChoice(
-                        e.target.value.split("-").map((p) => {
-                          return `#${p}`;
-                        }) as [string, string, string, string],
-                      )
-                    }
-                    required
-                    style={{
-                      width: "100%",
-                      padding: "4px",
-                      border: "2px inset #ccc",
-                      fontFamily: "Arial, sans-serif",
-                    }}
-                  >
-                    {PALETTE_OPTIONS.map((pal) => (
-                      <option
-                        key={pal.join("-").replace("#", "")}
-                        value={pal.join("-").replace("#", "")}
+                  <div style={{ position: "relative" }}>
+                    <div
+                      onClick={() =>
+                        setPaletteDropdownOpen(!paletteDropdownOpen)
+                      }
+                      style={{
+                        width: "100%",
+                        padding: "8px",
+                        border: "2px inset #ccc",
+                        backgroundColor: "#fff",
+                        cursor: "pointer",
+                        fontFamily: "Arial, sans-serif",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <div
+                        style={{
+                          display: "flex",
+                          gap: "4px",
+                          alignItems: "center",
+                        }}
                       >
-                        {pal.join("-").replace("#", "")}
-                      </option>
-                    ))}
-                  </select>
+                        {paletteChoice.map((color, i) => (
+                          <div
+                            key={i}
+                            style={{
+                              width: "24px",
+                              height: "24px",
+                              backgroundColor: color,
+                              border: "1px solid #000",
+                            }}
+                          />
+                        ))}
+                        <span style={{ marginLeft: "8px", fontSize: "12px" }}>
+                          {paletteChoice.join(" ")}
+                        </span>
+                      </div>
+                      <span>{paletteDropdownOpen ? "▲" : "▼"}</span>
+                    </div>
+                    {paletteDropdownOpen && (
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "100%",
+                          left: 0,
+                          right: 0,
+                          backgroundColor: "#fff",
+                          border: "2px solid #000",
+                          zIndex: 1000,
+                          maxHeight: "300px",
+                          overflowY: "auto",
+                        }}
+                      >
+                        {PALETTE_OPTIONS.map((pal) => (
+                          <div
+                            key={pal.join("-")}
+                            onClick={() => {
+                              setPaletteChoice(pal);
+                              setPaletteDropdownOpen(false);
+                            }}
+                            style={{
+                              padding: "8px",
+                              cursor: "pointer",
+                              borderBottom: "1px solid #ccc",
+                              backgroundColor:
+                                paletteChoice.join("-") === pal.join("-")
+                                  ? "#e0e0e0"
+                                  : "#fff",
+                              display: "flex",
+                              alignItems: "center",
+                              gap: "8px",
+                            }}
+                            onMouseEnter={(e) => {
+                              if (paletteChoice.join("-") !== pal.join("-")) {
+                                e.currentTarget.style.backgroundColor =
+                                  "#f5f5f5";
+                              }
+                            }}
+                            onMouseLeave={(e) => {
+                              if (paletteChoice.join("-") !== pal.join("-")) {
+                                e.currentTarget.style.backgroundColor = "#fff";
+                              }
+                            }}
+                          >
+                            {pal.map((color, i) => (
+                              <div
+                                key={i}
+                                style={{
+                                  width: "32px",
+                                  height: "32px",
+                                  backgroundColor: color,
+                                  border: "1px solid #000",
+                                }}
+                              />
+                            ))}
+                            <span
+                              style={{
+                                fontSize: "12px",
+                                fontFamily: "monospace",
+                              }}
+                            >
+                              {pal.join(" ")}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </td>
               </tr>
               <tr>
