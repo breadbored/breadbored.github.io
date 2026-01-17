@@ -23,6 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   const pathname = usePathname();
   const silly = !LESS_SILLY_PATHS.includes(pathname);
   const [accessibilityMode, setAccessibilityMode] = useState<boolean>(false);
+  const [showTooltip, setShowTooltip] = useState<boolean>(false);
+  const [hasShownInitialTooltip, setHasShownInitialTooltip] = useState<boolean>(false);
 
   useEffect(() => {
     initPostHog();
@@ -42,6 +44,19 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [accessibilityMode]);
 
+  // Show tooltip on initial load for 5 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowTooltip(true);
+      const hideTimer = setTimeout(() => {
+        setShowTooltip(false);
+        setHasShownInitialTooltip(true);
+      }, 5000);
+      return () => clearTimeout(hideTimer);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <Script
@@ -55,39 +70,79 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
 
-      <button
-        type="button"
-        aria-label={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
-        aria-pressed={accessibilityMode}
-        title={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
-        onClick={() => {
-          setAccessibilityMode(!accessibilityMode);
-        }}
+      <div
         style={{
           position: "fixed",
           bottom: "10px",
           right: "10px",
-          cursor: "pointer",
-          background: "none",
-          border: "none",
-          padding: 0,
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
         }}
+        onMouseEnter={() => hasShownInitialTooltip && setShowTooltip(true)}
+        onMouseLeave={() => hasShownInitialTooltip && setShowTooltip(false)}
       >
-        <img
-          src="/assets/accessibility_icon.png"
-          alt=""
-          aria-hidden="true"
+        <div
+          className="accessibility-tooltip"
           style={{
-            width: "64px",
-            height: "64px",
-            margin: "0 auto",
-            padding: "2px",
+            backgroundColor: "white",
+            border: "2px solid black",
             borderRadius: "8px",
-            border: "2px solid white",
-            backgroundColor: "white"
+            padding: "12px 16px",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            maxWidth: "300px",
+            transform: showTooltip ? "translateX(0)" : "translateX(calc(100% + 20px))",
+            opacity: showTooltip ? 1 : 0,
+            transition: "transform 0.3s ease-in-out, opacity 0.3s ease-in-out",
+            pointerEvents: showTooltip ? "auto" : "none",
+            // fontSize: "14px",
+            lineHeight: "1.4",
+            fontSize: "1.5rem",
+            marginBottom: "10px",
           }}
-        />
-      </button>
+        >
+          <ul
+            style={{
+              margin: "4px 0 0 0",
+            }}
+          >
+            <li>High Contrast Colors</li>
+            <li>Readable Fonts</li>
+            <li>Reduced Motion</li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          aria-label={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
+          aria-pressed={accessibilityMode}
+          title={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
+          onClick={() => {
+            setAccessibilityMode(!accessibilityMode);
+          }}
+          style={{
+            cursor: "pointer",
+            background: "none",
+            border: "none",
+            padding: 0,
+            flexShrink: 0,
+          }}
+        >
+          <img
+            src="/assets/accessibility_icon.png"
+            alt=""
+            aria-hidden="true"
+            style={{
+              width: "64px",
+              height: "64px",
+              margin: "0 auto",
+              padding: "2px",
+              borderRadius: "8px",
+              border: "2px solid white",
+              backgroundColor: "white"
+            }}
+          />
+        </button>
+      </div>
 
       <Layout accessibilityMode={accessibilityMode} setAccessibilityMode={(val: boolean) => {
         setAccessibilityMode(val);
