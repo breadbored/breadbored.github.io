@@ -34,8 +34,8 @@ const Home = ({ posts }: { posts: Post[] }) => {
                 <meta name="google-adsense-account" content="ca-pub-8749505090904262" />
             </Head>
             <div className="posts">
-                {posts.map((post) => (
-                    <PostPreview key={post.slug} post={post} type={"posts"} />
+                {posts.map((post, i) => (
+                    <PostPreview key={post.slug} post={post} type={"posts"} index={i} />
                 ))}
             </div>
         </>

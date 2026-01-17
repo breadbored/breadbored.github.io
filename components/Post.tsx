@@ -49,7 +49,7 @@ function HeadingRenderer(level: number) {
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
     var slug = text.toLowerCase().replace(/\W/g, "-");
-    return React.createElement("h" + level, { id: slug }, props.children);
+    return React.createElement("h" + level, { id: slug, tabIndex: 12 }, props.children);
   };
 }
 
@@ -65,8 +65,13 @@ function CodeRenderer() {
       var slug = text.toLowerCase().replace(/\W/g, "-");
       return React.createElement(
         "code",
-        { id: slug },
-        React.createElement("pre", { id: `${slug}-pre` }, props.children),
+        {
+          id: slug,
+          tabIndex: 12
+        },
+        React.createElement("pre", {
+          id: `${slug}-pre`
+        }, props.children),
       );
     }
     var slug = text.toLowerCase().replace(/\W/g, "-");
@@ -81,6 +86,7 @@ function CodeRenderer() {
           padding: "0 6px",
           margin: "0 3px",
         },
+        tabIndex: 12
       },
       props.children,
     );
@@ -89,59 +95,59 @@ function CodeRenderer() {
 
 const BSkyRenderer =
   (skeets: BSkyPost[]) =>
-  (
-    props: ClassAttributes<HTMLDivElement> &
-      HTMLAttributes<HTMLDivElement> &
-      ExtraProps,
-  ): ReactElement => {
-    const { href, children } = props as any;
+    (
+      props: ClassAttributes<HTMLDivElement> &
+        HTMLAttributes<HTMLDivElement> &
+        ExtraProps,
+    ): ReactElement => {
+      const { href, children } = props as any;
 
-    if (
-      href &&
-      href.match(
-        /^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
-      )?.length > 0
-    ) {
-      const skeet = skeets.find((skeet: BSkyPost) => {
-        return skeet?.url === href;
-      });
-      if (skeet) {
-        return (
-          <BlueSkyEmbed
-            post={{
-              message: "Post fetched successfully",
-              data: skeet,
-              lastUpdated: new Date().toISOString(),
-            }}
-          />
-        );
+      if (
+        href &&
+        href.match(
+          /^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
+        )?.length > 0
+      ) {
+        const skeet = skeets.find((skeet: BSkyPost) => {
+          return skeet?.url === href;
+        });
+        if (skeet) {
+          return (
+            <BlueSkyEmbed
+              post={{
+                message: "Post fetched successfully",
+                data: skeet,
+                lastUpdated: new Date().toISOString(),
+              }}
+            />
+          );
+        }
       }
-    }
-    if (
-      children &&
-      children.match &&
-      children.match(
-        /^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
-      )?.length > 0
-    ) {
-      const skeet = skeets.find((skeet: BSkyPost) => {
-        return skeet?.url === children;
-      });
-      if (skeet) {
-        return (
-          <BlueSkyEmbed
-            post={{
-              message: "Post fetched successfully",
-              data: skeet,
-              lastUpdated: new Date().toISOString(),
-            }}
-          />
-        );
+      if (
+        children &&
+        children.match &&
+        children.match(
+          /^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
+        )?.length > 0
+      ) {
+        const skeet = skeets.find((skeet: BSkyPost) => {
+          return skeet?.url === children;
+        });
+        if (skeet) {
+          return (
+            <BlueSkyEmbed
+              post={{
+                message: "Post fetched successfully",
+                data: skeet,
+                lastUpdated: new Date().toISOString(),
+              }}
+            />
+          );
+        }
       }
-    }
 
-    return <p {...props}>{props.children}</p>;
-  };
+      return <p {...props}>{props.children}</p>;
+    };
 
 const Post = ({ post }: { post: PostType }) => {
   const [isClient, setIsClient] = useState<boolean>(false);
@@ -182,8 +188,8 @@ const Post = ({ post }: { post: PostType }) => {
           background: "white",
         }}
       >
-        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
-        <div className="mb-8 text-gray-600">{formattedDate}</div>
+        <h1 className="text-4xl font-bold mb-4" tabIndex={10}>{post.title}</h1>
+        <div className="mb-8 text-gray-600 pixel-font" tabIndex={11}>{formattedDate}</div>
         <div
           className={`prose max-w-none ${post.align == "right" ? "text-right" : post.align == "left" ? "text-left" : "text-center"}`}
         >
@@ -192,6 +198,7 @@ const Post = ({ post }: { post: PostType }) => {
               remarkPlugins={[remarkGfm]}
               children={post.content}
               components={{
+                // @ts-expect-error bad typing
                 code: CodeRenderer(),
                 h1: HeadingRenderer(1),
                 h2: HeadingRenderer(2),
@@ -200,6 +207,12 @@ const Post = ({ post }: { post: PostType }) => {
                 h5: HeadingRenderer(5),
                 h6: HeadingRenderer(6),
                 // p: BSkyRenderer(post.skeets),
+                p: ({ node, ...props }) => <p {...props} tabIndex={12}>{props.children}</p>,
+                i: ({ node, ...props }) => <i {...props} tabIndex={12}>{props.children}</i>,
+                b: ({ node, ...props }) => <b {...props} tabIndex={12}>{props.children}</b>,
+                strong: ({ node, ...props }) => <strong {...props} tabIndex={12}>{props.children}</strong>,
+                a: ({ node, ...props }) => <a {...props} tabIndex={12}>{props.children}</a>,
+                li: ({ node, ...props }) => <li {...props} tabIndex={12}>{props.children}</li>,
               }}
             />
           ) : (
@@ -207,6 +220,7 @@ const Post = ({ post }: { post: PostType }) => {
               remarkPlugins={[remarkGfm]}
               children={post.content}
               components={{
+                // @ts-expect-error bad typing
                 code: CodeRenderer(),
                 h1: HeadingRenderer(1),
                 h2: HeadingRenderer(2),
@@ -215,6 +229,12 @@ const Post = ({ post }: { post: PostType }) => {
                 h5: HeadingRenderer(5),
                 h6: HeadingRenderer(6),
                 // p: BSkyRenderer(post.skeets),
+                p: ({ node, ...props }) => <p {...props} tabIndex={12}>{props.children}</p>,
+                i: ({ node, ...props }) => <i {...props} tabIndex={12}>{props.children}</i>,
+                b: ({ node, ...props }) => <b {...props} tabIndex={12}>{props.children}</b>,
+                strong: ({ node, ...props }) => <strong {...props} tabIndex={12}>{props.children}</strong>,
+                a: ({ node, ...props }) => <a {...props} tabIndex={12}>{props.children}</a>,
+                li: ({ node, ...props }) => <li {...props} tabIndex={12}>{props.children}</li>,
               }}
               rehypePlugins={[rehypeRaw]}
             />

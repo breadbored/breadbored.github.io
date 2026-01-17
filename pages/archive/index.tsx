@@ -16,8 +16,8 @@ export const getStaticProps: GetStaticProps = async () => {
 const Archived = ({ posts }: { posts: Post[] }) => {
     return (
         <div className="posts">
-            {posts.map((post) => (
-                <PostPreview key={post.slug} post={post} type={"archive"} />
+            {posts.map((post, i) => (
+                <PostPreview key={post.slug} post={post} type={"archive"} index={i} />
             ))}
         </div>
     );

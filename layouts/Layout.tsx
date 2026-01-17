@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { FULL_SCREEN_PATHS, LESS_SILLY_PATHS } from "../utils/lesssilly";
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { children: React.ReactNode, setAccessibilityMode: (val: boolean) => void, accessibilityMode: boolean }) => {
     const url_path = usePathname();
     const isFullWidth = url_path?.includes("volos-guide-to-monsters") || url_path?.includes("5e");
     const silly = !(LESS_SILLY_PATHS.includes(url_path) || LESS_SILLY_PATHS.includes(url_path + '/'));
@@ -32,7 +32,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 maxWidth: "600px",
             }}>
                 <div className="pb-12 pt-6 text-center bg-white">
-                    {silly && (
+                    {(silly && !accessibilityMode) && (
                         <a href="https://sendfox.com/bread" tabIndex={0}>
                             {/** @ts-ignore */}
                             <marquee className="my-4" behavior="alternate" tabIndex={0}>
@@ -41,29 +41,29 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             </marquee>
                         </a>
                     )}
-                    <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
+                    <h1 className="text-4xl font-bold mb-2" tabIndex={1}>bread.codes</h1>
                     {!silly ? (
-                        <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
+                        <h3 className="text-xl mb-4" tabIndex={2}><s>code</s> stuff</h3>
                     ) : (
-                        <h3 className="text-xl mb-4">code stuff</h3>
+                        <h3 className="text-xl mb-4" tabIndex={2}>code stuff</h3>
                     )}
 
                     <nav className="space-x-4 mb-8">
-                        <Link href="/" className="hover:text-blue-600">
+                        <Link href="/" className="hover:text-blue-600 pixel-font" tabIndex={3}>
                             Home
                         </Link>
-                        <Link href="/search" className="hover:text-blue-600">
+                        <Link href="/search" className="hover:text-blue-600 pixel-font" tabIndex={4}>
                             Search
                         </Link>
-                        <Link href="/about" className="hover:text-blue-600">
+                        <Link href="/about" className="hover:text-blue-600 pixel-font" tabIndex={5}>
                             About
                         </Link>
-                        <Link href="/archive" className="hover:text-blue-600">
+                        <Link href="/archive" className="hover:text-blue-600 pixel-font" tabIndex={6}>
                             Archive
                         </Link>
                     </nav>
 
-                    {silly && (
+                    {(silly && !accessibilityMode) && (
                         <AudioPlayer
                             header="Linkin-Park-Numb.mp3"
                             src={"/assets/Linkin-Park-Numb.mp3"}
@@ -131,7 +131,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                             height={31}
                             className="inline mx-1"
                         />
-                        <a href="mailto:brad@bread.codes">
+                        <a href="mailto:brad@bread.codes" tabIndex={999}>
                             <Image
                                 src="/assets/emailme.gif"
                                 alt="Email Me"
@@ -151,7 +151,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     <div style={{
                         backgroundColor: "#f0f0f0",
                     }}>
-                        <p>
+                        <p tabIndex={1000}>
                             <b>Copyright © {new Date().getFullYear()} BreadCodes</b>
                         </p>
                     </div>

@@ -36,7 +36,7 @@ export function parseJekyllPost(content: string): JekyllPost {
   return {
     title: frontmatter.title,
     date: frontmatter.date,
-    align: frontmatter.align,
+    align: frontmatter.align || 'center',
     slug,
     excerpt: postContent.split("\n\n")[0], // First paragraph as excerpt
     content: postContent,

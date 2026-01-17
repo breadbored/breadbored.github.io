@@ -1,6 +1,17 @@
 @use "variables";
 @use "_highlights";
 
+@font-face {
+  font-family: 'More';
+  src: url('/more.ttf');
+  size-adjust: 200%;
+}
+@font-face {
+  font-family: 'Ziplock';
+  src: url('/ziplock.ttf');
+  size-adjust: 150%;
+}
+
 body:not(.silly) {
   background-image: url(/assets/C1.jpg) !important;
   font-family: "Comic Sans MS", "Comic Sans", sans-serif !important;
@@ -163,4 +174,36 @@ th {
 }
 td {
   background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
+  font-family: "More", "Comic Sans MS", "Comic Sans", sans-serif !important;
+}
+
+body.accessibility-mode, body.accessibility-mode .pixel-font {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  background-color: #ffffff !important;
+  cursor: auto !important;
+  background-image: none !important;
+
+  a {
+    text-decoration: underline !important;
+    font-weight: bold !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  .accessibility-btn {
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    border: 1px solid #000000 !important;
+    padding: 0px 4px !important;
+  }
+}
+
+body {
+  position: relative;
 }

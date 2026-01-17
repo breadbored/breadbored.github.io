@@ -1,7 +1,7 @@
 import { AppProps } from "next/app";
 import Layout from "../layouts/Layout";
 import Script from "next/script";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { initPostHog } from "../utils/posthog";
 import hljs from "highlight.js";
 import c from "highlight.js/lib/languages/c";
@@ -22,13 +22,25 @@ hljs.registerLanguage("javascript", javascript);
 function MyApp({ Component, pageProps }: AppProps) {
   const pathname = usePathname();
   const silly = !LESS_SILLY_PATHS.includes(pathname);
+  const [accessibilityMode, setAccessibilityMode] = useState<boolean>(false);
 
   useEffect(() => {
     initPostHog();
     if (silly) {
       document.body.classList.add("not-silly");
+    } else {
+      document.body.classList.remove("not-silly");
     }
   }, []);
+
+  useEffect(() => {
+    initPostHog();
+    if (accessibilityMode) {
+      document.body.classList.add("accessibility-mode");
+    } else {
+      document.body.classList.remove("accessibility-mode");
+    }
+  }, [accessibilityMode]);
 
   return (
     <>
@@ -42,7 +54,46 @@ function MyApp({ Component, pageProps }: AppProps) {
           `,
         }}
       />
-      <Layout>
+
+      <a
+        tabIndex={1}
+        title="Accessibility Mode Toggle Icon"
+        onClick={() => {
+          setAccessibilityMode(!accessibilityMode);
+        }}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            setAccessibilityMode(!accessibilityMode);
+          }
+        }}
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "10px",
+          cursor: "pointer",
+        }}
+      >
+        <img
+          src="/assets/accessibility_icon.png"
+          alt="Accessibility Mode Toggle Icon"
+          style={{
+            width: "64px",
+            height: "64px",
+            margin: "0 auto",
+            padding: "2px",
+            borderRadius: "8px",
+            border: "2px solid white",
+            backgroundColor: "white"
+          }}
+          onClick={() => {
+            setAccessibilityMode(!accessibilityMode);
+          }}
+        />
+      </a>
+
+      <Layout accessibilityMode={accessibilityMode} setAccessibilityMode={(val: boolean) => {
+        setAccessibilityMode(val);
+      }}>
         <Component {...pageProps} />
       </Layout>
       <PostHogPageView />

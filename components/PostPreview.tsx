@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Post as PostType } from "../types";
 
-const PostPreview = ({ post, type }: { post: PostType, type: "posts" | "archive" }) => {
+const PostPreview = ({ post, type, index }: { post: PostType, type: "posts" | "archive", index: number }) => {
   const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -11,7 +11,7 @@ const PostPreview = ({ post, type }: { post: PostType, type: "posts" | "archive"
 
   return (
     <article className="border border-black m-2.5 p-4">
-      <Link href={`/${type}/${post.slug}`} className="block">
+      <Link href={`/${type}/${post.slug}`} className="block" tabIndex={20 + index * 10}>
         <h1 className="text-2xl font-bold mb-2">{post.title}</h1>
         <div className="mb-4">
           <p className="text-gray-600">{formattedDate}</p>
