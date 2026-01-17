@@ -41,7 +41,7 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                             </marquee>
                         </a>
                     )}
-                    <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
+                    <h1 className="text-4xl font-bold mb-2 pixel-font-fancy">bread.codes</h1>
                     {!silly ? (
                         <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
                     ) : (

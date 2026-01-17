@@ -186,8 +186,11 @@ td {
   background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
+h1, .pixel-font-fancy {
   font-family: "More", "Comic Sans MS", "Comic Sans", sans-serif !important;
+}
+h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
+  font-family: "Tape", "Comic Sans MS", "Comic Sans", sans-serif !important;
 }
 
 // Pixel art style focus indicator (default mode)
