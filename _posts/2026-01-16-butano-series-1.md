@@ -19,6 +19,8 @@ While I will try to keep things as beginner-friendly as possible, I will be writ
 
 This is intended for people who are interested in the hobby and it is supposed to be a fun use of your time. For that reason, the use of GenAI tools is discouraged. I wanted to make that clear sooner rather than later, as I know people - including myself - are opinionated on the subject. Opinions expressed are my own and are not a representation of the greater GBA community, however the use of GenAI is generally disallowed in GBA Game Jams, and I feel that this is a good standard to uphold for learning and hobby purposes.
 
+GBA dev is fun, encourages learning, and has a great community.
+
 ### What We Will Be Building
 
 Over the course of this series, we will be building a simple puzzle game based on [Klotski](https://en.wikipedia.org/wiki/Klotski), which is often referred to as "sliding block puzzle." The goal of the game is to move - as I call it - "inconveniently" arranged rectangular block, which block each other's paths, to free the target block. I recommend [this video](https://www.youtube.com/watch?v=YGLNyHd2w10) about Klotski for a handful of reasons, only one of which is relevant to this series (how the game works). This game will lay a great foundation for understanding Butano's core features, game loops, entity management, collision, and other game development concepts. For Butano specifically, we'll cover the following major features:
