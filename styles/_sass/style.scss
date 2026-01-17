@@ -21,6 +21,16 @@
   src: url('/sins.ttf');
   size-adjust: 200%;
 }
+@font-face {
+  font-family: 'Tape Mono';
+  src: url('/tape-mono.ttf');
+  size-adjust: 90%;
+}
+@font-face {
+  font-family: 'Sins Mono';
+  src: url('/sins-mono.ttf');
+  size-adjust: 200%;
+}
 
 body:not(.silly) {
   background-image: url(/assets/C0.png) !important;
@@ -44,6 +54,17 @@ padding: 10px;
 .page-width {
   // max-width: 600px;
   margin: 0 20px;
+  transition: max-width 1s ease-in-out;
+}
+.full-width {
+  max-width: 1200px;
+  width: 100%;
+}
+.page-width:not(.full-width) {
+  max-width: 600px;
+}
+.page-width.wider {
+  max-width: 1000px;
 }
 
 .bsky {
@@ -124,7 +145,7 @@ padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  .page-width {
+  .page-width, .full-width, .page-width:not(.full-width) {
     max-width: 100%;
     margin: 0 10px;
   }
@@ -394,8 +415,11 @@ body.reduced-motion-mode {
 
 code {
   pre {
-    font-family: 'Sins', monospace !important;
+    font-family: 'Sins Mono', monospace !important;
   }
+}
+.inline-code {
+  font-family: 'Sins Mono', monospace !important;
 }
 
 // Accessibility tooltip styling

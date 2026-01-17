@@ -6,6 +6,7 @@ title: Intro to Butano
 date: 2026-01-13
 categories: ["miniproject", "media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
+wider: true
 ---
 
 ## Preface
@@ -83,7 +84,7 @@ butano-tutorial-series/
 ├─ README.md
 ```
 
-You can follow along with the tutorial series in its entirety by using the `chapter-1-getting-started` directory as your starting point, and work in that directory for the duration of the series. The other directories are provided for reference and 
+You can follow along with the tutorial series in its entirety by using the `chapter-1-getting-started` directory as your starting point, and work in that directory (or copy that directory elsewhere) for the duration of the series. The other directories are provided for reference.
 
 ### Setup Complete
 

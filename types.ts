@@ -6,6 +6,7 @@ export type Post = {
   date: string;
   slug: string;
   align?: "center" | "left" | "right";
+  wider?: boolean;
   excerpt: string;
   content: string;
   categories: string[];

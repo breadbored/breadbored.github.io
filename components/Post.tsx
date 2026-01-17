@@ -78,6 +78,7 @@ function CodeRenderer() {
       "span",
       {
         id: `${slug}`,
+        className: "inline-code",
         style: {
           background: "#333",
           borderRadius: "5px",
@@ -158,6 +159,18 @@ const Post = ({ post }: { post: PostType }) => {
   useEffect(() => {
     setIsClient(true);
     hljs.highlightAll();
+
+    // css select `.page-width` and set class `wider` if post.wider is true
+    const pageWidthDiv = document.querySelector(".page-width");
+    if (pageWidthDiv && post.wider) {
+      pageWidthDiv.classList.add("wider");
+    }
+
+    return () => {
+      if (pageWidthDiv && post.wider) {
+        pageWidthDiv.classList.remove("wider");
+      }
+    }
   }, []);
 
   return (
@@ -181,7 +194,7 @@ const Post = ({ post }: { post: PostType }) => {
         <meta name="google-adsense-account" content="ca-pub-8749505090904262" />
       </Head>
       <article
-        className="max-w-2xl mx-auto px-4"
+        className={`${post.wider ? "max-w-4xl" : "max-w-2xl"} mx-auto px-4`}
         style={{
           background: "white",
         }}

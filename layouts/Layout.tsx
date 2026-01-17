@@ -25,17 +25,12 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
         <>{children}</>
     ) : (
         <>
-            <div className="page-width mx-auto mt-12" style={isFullWidth ? {
-                maxWidth: "1200px",
-                width: "100%",
-            } : {
-                maxWidth: "600px",
-            }}>
+            <div className={`page-width ${isFullWidth ? "full-width" : ""} mx-auto mt-12`}>
                 <div className="pb-12 pt-6 text-center bg-white">
                     {(silly && !accessibilityMode) && (
-                        <a href="https://sendfox.com/bread">
+                        <a href="https://sendfox.com/bread" className="pb-4">
                             {/** @ts-ignore */}
-                            <marquee className="my-4" behavior="alternate">
+                            <marquee behavior="alternate" className="pb-4">
                                 subscribe
                                 {/** @ts-ignore */}
                             </marquee>
