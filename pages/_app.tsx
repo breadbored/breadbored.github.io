@@ -55,27 +55,28 @@ function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
 
-      <a
-        tabIndex={1}
-        title="Accessibility Mode Toggle Icon"
+      <button
+        type="button"
+        aria-label={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
+        aria-pressed={accessibilityMode}
+        title={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
         onClick={() => {
           setAccessibilityMode(!accessibilityMode);
-        }}
-        onKeyDown={(e) => {
-          if (e.key === "Enter") {
-            setAccessibilityMode(!accessibilityMode);
-          }
         }}
         style={{
           position: "fixed",
           bottom: "10px",
           right: "10px",
           cursor: "pointer",
+          background: "none",
+          border: "none",
+          padding: 0,
         }}
       >
         <img
           src="/assets/accessibility_icon.png"
-          alt="Accessibility Mode Toggle Icon"
+          alt=""
+          aria-hidden="true"
           style={{
             width: "64px",
             height: "64px",
@@ -85,11 +86,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             border: "2px solid white",
             backgroundColor: "white"
           }}
-          onClick={() => {
-            setAccessibilityMode(!accessibilityMode);
-          }}
         />
-      </a>
+      </button>
 
       <Layout accessibilityMode={accessibilityMode} setAccessibilityMode={(val: boolean) => {
         setAccessibilityMode(val);

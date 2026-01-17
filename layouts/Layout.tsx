@@ -33,32 +33,32 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
             }}>
                 <div className="pb-12 pt-6 text-center bg-white">
                     {(silly && !accessibilityMode) && (
-                        <a href="https://sendfox.com/bread" tabIndex={0}>
+                        <a href="https://sendfox.com/bread">
                             {/** @ts-ignore */}
-                            <marquee className="my-4" behavior="alternate" tabIndex={0}>
+                            <marquee className="my-4" behavior="alternate">
                                 subscribe
                                 {/** @ts-ignore */}
                             </marquee>
                         </a>
                     )}
-                    <h1 className="text-4xl font-bold mb-2" tabIndex={1}>bread.codes</h1>
+                    <h1 className="text-4xl font-bold mb-2">bread.codes</h1>
                     {!silly ? (
-                        <h3 className="text-xl mb-4" tabIndex={2}><s>code</s> stuff</h3>
+                        <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
                     ) : (
-                        <h3 className="text-xl mb-4" tabIndex={2}>code stuff</h3>
+                        <h3 className="text-xl mb-4">code stuff</h3>
                     )}
 
                     <nav className="space-x-4 mb-8">
-                        <Link href="/" className="hover:text-blue-600 pixel-font" tabIndex={3}>
+                        <Link href="/" className="hover:text-blue-600 pixel-font">
                             Home
                         </Link>
-                        <Link href="/search" className="hover:text-blue-600 pixel-font" tabIndex={4}>
+                        <Link href="/search" className="hover:text-blue-600 pixel-font">
                             Search
                         </Link>
-                        <Link href="/about" className="hover:text-blue-600 pixel-font" tabIndex={5}>
+                        <Link href="/about" className="hover:text-blue-600 pixel-font">
                             About
                         </Link>
-                        <Link href="/archive" className="hover:text-blue-600 pixel-font" tabIndex={6}>
+                        <Link href="/archive" className="hover:text-blue-600 pixel-font">
                             Archive
                         </Link>
                     </nav>
@@ -131,7 +131,7 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                             height={31}
                             className="inline mx-1"
                         />
-                        <a href="mailto:brad@bread.codes" tabIndex={999}>
+                        <a href="mailto:brad@bread.codes">
                             <Image
                                 src="/assets/emailme.gif"
                                 alt="Email Me"
@@ -151,7 +151,7 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                     <div style={{
                         backgroundColor: "#f0f0f0",
                     }}>
-                        <p tabIndex={1000}>
+                        <p>
                             <b>Copyright © {new Date().getFullYear()} BreadCodes</b>
                         </p>
                     </div>

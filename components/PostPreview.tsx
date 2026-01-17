@@ -11,7 +11,7 @@ const PostPreview = ({ post, type, index }: { post: PostType, type: "posts" | "a
 
   return (
     <article className="border border-black m-2.5 p-4">
-      <Link href={`/${type}/${post.slug}`} className="block" tabIndex={20 + index * 10}>
+      <Link href={`/${type}/${post.slug}`} className="block">
         <h1 className="text-2xl font-bold mb-2">{post.title}</h1>
         <div className="mb-4">
           <p className="text-gray-600">{formattedDate}</p>

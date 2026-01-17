@@ -49,7 +49,7 @@ function HeadingRenderer(level: number) {
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
     var slug = text.toLowerCase().replace(/\W/g, "-");
-    return React.createElement("h" + level, { id: slug, tabIndex: 12 }, props.children);
+    return React.createElement("h" + level, { id: slug }, props.children);
   };
 }
 
@@ -66,8 +66,7 @@ function CodeRenderer() {
       return React.createElement(
         "code",
         {
-          id: slug,
-          tabIndex: 12
+          id: slug
         },
         React.createElement("pre", {
           id: `${slug}-pre`
@@ -85,8 +84,7 @@ function CodeRenderer() {
           color: "orange",
           padding: "0 6px",
           margin: "0 3px",
-        },
-        tabIndex: 12
+        }
       },
       props.children,
     );
@@ -188,8 +186,8 @@ const Post = ({ post }: { post: PostType }) => {
           background: "white",
         }}
       >
-        <h1 className="text-4xl font-bold mb-4" tabIndex={10}>{post.title}</h1>
-        <div className="mb-8 text-gray-600 pixel-font" tabIndex={11}>{formattedDate}</div>
+        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+        <div className="mb-8 text-gray-600 pixel-font">{formattedDate}</div>
         <div
           className={`prose max-w-none ${post.align == "right" ? "text-right" : post.align == "left" ? "text-left" : "text-center"}`}
         >
@@ -207,12 +205,12 @@ const Post = ({ post }: { post: PostType }) => {
                 h5: HeadingRenderer(5),
                 h6: HeadingRenderer(6),
                 // p: BSkyRenderer(post.skeets),
-                p: ({ node, ...props }) => <p {...props} tabIndex={12}>{props.children}</p>,
-                i: ({ node, ...props }) => <i {...props} tabIndex={12}>{props.children}</i>,
-                b: ({ node, ...props }) => <b {...props} tabIndex={12}>{props.children}</b>,
-                strong: ({ node, ...props }) => <strong {...props} tabIndex={12}>{props.children}</strong>,
-                a: ({ node, ...props }) => <a {...props} tabIndex={12}>{props.children}</a>,
-                li: ({ node, ...props }) => <li {...props} tabIndex={12}>{props.children}</li>,
+                p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
+                i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
+                b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
+                strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
+                a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
+                li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
               }}
             />
           ) : (
@@ -229,12 +227,12 @@ const Post = ({ post }: { post: PostType }) => {
                 h5: HeadingRenderer(5),
                 h6: HeadingRenderer(6),
                 // p: BSkyRenderer(post.skeets),
-                p: ({ node, ...props }) => <p {...props} tabIndex={12}>{props.children}</p>,
-                i: ({ node, ...props }) => <i {...props} tabIndex={12}>{props.children}</i>,
-                b: ({ node, ...props }) => <b {...props} tabIndex={12}>{props.children}</b>,
-                strong: ({ node, ...props }) => <strong {...props} tabIndex={12}>{props.children}</strong>,
-                a: ({ node, ...props }) => <a {...props} tabIndex={12}>{props.children}</a>,
-                li: ({ node, ...props }) => <li {...props} tabIndex={12}>{props.children}</li>,
+                p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
+                i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
+                b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
+                strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
+                a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
+                li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
               }}
               rehypePlugins={[rehypeRaw]}
             />
