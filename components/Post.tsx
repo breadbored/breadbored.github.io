@@ -7,7 +7,9 @@ import React, {
   ReactElement,
   ReactNode,
   ReactPortal,
+  useCallback,
   useEffect,
+  useRef,
   useState,
 } from "react";
 import BlueSkyEmbed from "../pages/bsky-test";
@@ -149,6 +151,9 @@ const BSkyRenderer =
     };
 
 const Post = ({ post }: { post: PostType }) => {
+  const borderText = "`~,~";
+  const hrWidthRef = useRef<HTMLHRElement>(null);
+  const [hrWidth, setHrWidth] = useState<number>(-1);
   const [isClient, setIsClient] = useState<boolean>(false);
   const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
     month: "long",
@@ -172,6 +177,22 @@ const Post = ({ post }: { post: PostType }) => {
       }
     }
   }, []);
+
+  const hrResizeListener = useCallback(() => {
+    if (hrWidthRef.current) {
+      setHrWidth(hrWidthRef.current.offsetWidth);
+    }
+  }, [hrWidthRef]);
+
+  useEffect(() => {
+    // listen for the width of the hrWidthRef changing
+    window?.addEventListener("resize", hrResizeListener);
+    hrResizeListener();
+
+    return () => {
+      window?.removeEventListener("resize", hrResizeListener);
+    };
+  }, [])
 
   return (
     <>
@@ -227,6 +248,21 @@ const Post = ({ post }: { post: PostType }) => {
                 strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
                 a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
                 li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
+                hr: ({ node, ...props }) => <>
+                  <hr ref={hrWidthRef} style={{
+                    // remove style
+                    border: "none",
+                    margin: "0",
+                    height: "0",
+                  }} />
+                  <div {...props} className={`my-4 border-t border-gray-300`} >
+                    <b className="fake-hr">
+                      {Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
+                        <React.Fragment key={i}>{borderText[i % borderText.length]}</React.Fragment>
+                      ))}
+                    </b>
+                  </div>
+                </>,
               }}
             />
           ) : (
@@ -249,6 +285,21 @@ const Post = ({ post }: { post: PostType }) => {
                 strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
                 a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
                 li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
+                hr: ({ node, ...props }) => <>
+                  <hr ref={hrWidthRef} style={{
+                    // remove style
+                    border: "none",
+                    margin: "0",
+                    height: "0",
+                  }} />
+                  <div {...props} className={`my-4 border-t border-gray-300`} >
+                    <b className="fake-hr">
+                      {hrWidth && Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
+                        <React.Fragment key={i}>{borderText[i % borderText.length]}</React.Fragment>
+                      ))}
+                    </b>
+                  </div>
+                </>,
               }}
               rehypePlugins={[rehypeRaw]}
             />

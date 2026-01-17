@@ -25,7 +25,8 @@
     "**/*.ts",
     "**/*.tsx",
     "scripts/rss.mts",
-    "scripts/rss.mts"
+    "scripts/rss.mts",
+    "_posts/*.md"
   ],
   "exclude": ["node_modules"],
   "ts-node": {

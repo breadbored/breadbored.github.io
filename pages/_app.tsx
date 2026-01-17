@@ -14,6 +14,7 @@ import { Head } from "next/document";
 import PostHogPageView from "../components/PostHogPageView";
 import { usePathname } from "next/navigation";
 import { LESS_SILLY_PATHS } from "../utils/lesssilly";
+import { getAccessibilitySettings, setAccessibilitySettings } from "../utils/accessibilityCookies";
 
 hljs.registerLanguage("c", c);
 hljs.registerLanguage("cpp", cpp);
@@ -40,6 +41,12 @@ function MyApp({ Component, pageProps }: AppProps) {
     } else {
       document.body.classList.remove("not-silly");
     }
+
+    // Load accessibility settings from cookie on mount
+    const savedSettings = getAccessibilitySettings();
+    setHighContrast(savedSettings.highContrast);
+    setReadableFonts(savedSettings.readableFonts);
+    setReducedMotion(savedSettings.reducedMotion);
   }, []);
 
   useEffect(() => {
@@ -65,6 +72,15 @@ function MyApp({ Component, pageProps }: AppProps) {
       document.body.classList.remove("reduced-motion-mode");
     }
   }, [reducedMotion]);
+
+  // Save accessibility settings to cookie whenever they change
+  useEffect(() => {
+    setAccessibilitySettings({
+      highContrast,
+      readableFonts,
+      reducedMotion,
+    });
+  }, [highContrast, readableFonts, reducedMotion]);
 
   // Focus management: when tooltip opens, focus first option
   useEffect(() => {

@@ -214,6 +214,15 @@ h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
   font-family: "Tape", "Comic Sans MS", "Comic Sans", sans-serif !important;
 }
 
+b, strong, em {
+  font-family: "More", "Tape", "Comic Sans MS", "Comic Sans", sans-serif !important;
+  font-weight: lighter !important;
+}
+
+.fake-hr {
+  font-family: "Tape Mono", monospace !important;
+}
+
 // Pixel art style focus indicator (default mode)
 body:not(.accessibility-mode) {
   // Only apply focus styles to interactive elements
