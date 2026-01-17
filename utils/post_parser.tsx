@@ -1,5 +1,29 @@
 import { Post as JekyllPost } from "../types";
 
+function processIncludes(content: string): string {
+  const fs = require("fs");
+  const path = require("path");
+
+  // Match {{file_path}} pattern
+  const includePattern = /\{\{([^}]+)\}\}/g;
+
+  return content.replace(includePattern, (match, filePath) => {
+    try {
+      const trimmedPath = filePath.trim();
+      const fullPath = path.join(process.cwd(), trimmedPath);
+
+      // Read the file content
+      const includedContent = fs.readFileSync(fullPath, "utf8");
+
+      // Recursively process includes in the included file
+      return processIncludes(includedContent);
+    } catch (error) {
+      console.error(`Failed to include file: ${filePath}`, error);
+      return match; // Return original if file can't be read
+    }
+  });
+}
+
 export function parseJekyllPost(content: string): JekyllPost {
   // Split frontmatter and content
   const parts = content.split("---\n");
@@ -25,7 +49,10 @@ export function parseJekyllPost(content: string): JekyllPost {
     }, {});
 
   // Get content (everything after second ---)
-  const postContent = parts.slice(2).join("---\n").trim();
+  let postContent = parts.slice(2).join("---\n").trim();
+
+  // Process file includes
+  postContent = processIncludes(postContent);
 
   // Create slug from title
   const slug = frontmatter.slug || frontmatter.title
@@ -56,12 +83,18 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
   const fileNames = fs.readdirSync(postsDirectory);
 
-  const posts = fileNames.map((fileName: string) => {
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, "utf8");
+  const posts = fileNames
+    .filter((fileName: string) => {
+      const fullPath = path.join(postsDirectory, fileName);
+      // Only process files, not directories
+      return fs.statSync(fullPath).isFile() && fileName.endsWith('.md');
+    })
+    .map((fileName: string) => {
+      const fullPath = path.join(postsDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, "utf8");
 
-    return parseJekyllPost(fileContents);
-  });
+      return parseJekyllPost(fileContents);
+    });
 
   // Sort posts by date
   return posts.sort(
