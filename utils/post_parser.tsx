@@ -28,12 +28,13 @@ export function parseJekyllPost(content: string): JekyllPost {
   const postContent = parts.slice(2).join("---\n").trim();
 
   // Create slug from title
-  const slug = frontmatter.title
+  const slug = frontmatter.slug || frontmatter.title
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
   return {
+    superTitle: frontmatter["super-title"] || null,
     title: frontmatter.title,
     date: frontmatter.date,
     align: frontmatter.align || 'center',

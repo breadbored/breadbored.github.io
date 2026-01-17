@@ -241,9 +241,8 @@ body:not(.accessibility-mode) {
   }
 }
 
-body.accessibility-mode, body.accessibility-mode .pixel-font {
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-size: 18px !important;
+// High Contrast Mode - ONLY affects colors
+body.high-contrast-mode {
   background-color: #ffffff !important;
   cursor: auto !important;
   background-image: none !important;
@@ -272,32 +271,15 @@ body.accessibility-mode, body.accessibility-mode .pixel-font {
     }
   }
 
-  h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font {
-    font-family: Arial, Helvetica, sans-serif !important;
-    color: var(--color-text) !important;
-  }
-
   p, li, td, th, span, div {
     color: var(--color-text) !important;
   }
 
-  .accessibility-btn {
-    font-weight: bold !important;
-    border-radius: 8px !important;
-    border: 1px solid var(--color-border) !important;
-    padding: 0px 4px !important;
-    background-color: var(--color-background) !important;
+  h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font, .pixel-font-fancy {
     color: var(--color-text) !important;
   }
 
-  // High contrast focus indicator for accessibility mode
-  *:focus,
-  *:focus-visible {
-    outline: 4px solid var(--color-focus) !important;
-    outline-offset: 2px !important;
-    box-shadow: none !important;
-  }
-
+  // High contrast focus indicator (override pixel art style)
   a:focus,
   a:focus-visible,
   button:focus,
@@ -305,10 +287,31 @@ body.accessibility-mode, body.accessibility-mode .pixel-font {
   input:focus,
   input:focus-visible,
   textarea:focus,
-  textarea:focus-visible {
+  textarea:focus-visible,
+  select:focus,
+  select:focus-visible,
+  [tabindex]:focus,
+  [tabindex]:focus-visible {
     outline: 4px solid var(--color-focus) !important;
     outline-offset: 2px !important;
-    box-shadow: none !important;
+
+    &::after {
+      display: none !important;
+    }
+  }
+}
+
+// Readable Fonts Mode - ONLY affects fonts
+body.readable-fonts-mode {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+
+  h1, h2, h3, h4, h5, h6, marquee, .rhap_header, .pixel-font, .pixel-font-fancy {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  .pixel-font {
+    font-family: Arial, Helvetica, sans-serif !important;
   }
 }
 
@@ -349,8 +352,8 @@ body {
   }
 }
 
-// Force motion reduction in accessibility mode
-body.accessibility-mode {
+// Reduced Motion Mode - ONLY affects animations
+body.reduced-motion-mode {
   *,
   *::before,
   *::after {
@@ -403,8 +406,8 @@ code {
   }
 }
 
-// Disable tooltip animation in accessibility mode
-body.accessibility-mode .accessibility-tooltip {
+// Disable tooltip animation in reduced motion mode
+body.reduced-motion-mode .accessibility-tooltip {
   transition: opacity 0.01ms !important;
 }
 

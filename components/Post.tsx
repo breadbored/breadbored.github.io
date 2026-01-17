@@ -163,7 +163,7 @@ const Post = ({ post }: { post: PostType }) => {
   return (
     <>
       <Head>
-        <title>{post.title} - bread.codes</title>
+        <title>{post.superTitle ? `${post.superTitle}: ${post.title}` : post.title} - bread.codes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#333333" />
         <meta name="title" content="bread.codes" />
@@ -186,6 +186,9 @@ const Post = ({ post }: { post: PostType }) => {
           background: "white",
         }}
       >
+        {post.superTitle && (
+          <h1 className="text-2xl font-semibold mb-2">{post.superTitle}</h1>
+        )}
         <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
         <div className="mb-8 text-gray-600 pixel-font">{formattedDate}</div>
         <div

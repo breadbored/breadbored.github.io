@@ -1,12 +1,14 @@
 ---
 layout: post
+super-title: Chapter 1
+slug: butano-series-1
 title: Intro to Butano
 date: 2026-01-13
 categories: ["miniproject", "media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 ---
 
-## Chapter 1: Preface
+## Preface
 
 Welcome to my tutorial series on Butano, a modern C++ high-level engine for Game Boy Advance homebrew development. This will begin with introductions getting our environment setup, and then we will move into building a simple game over the course of several chapters.
 

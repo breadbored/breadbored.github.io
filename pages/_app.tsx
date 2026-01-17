@@ -1,7 +1,7 @@
 import { AppProps } from "next/app";
 import Layout from "../layouts/Layout";
 import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { initPostHog } from "../utils/posthog";
 import hljs from "highlight.js";
 import c from "highlight.js/lib/languages/c";
@@ -22,9 +22,16 @@ hljs.registerLanguage("javascript", javascript);
 function MyApp({ Component, pageProps }: AppProps) {
   const pathname = usePathname();
   const silly = !LESS_SILLY_PATHS.includes(pathname);
-  const [accessibilityMode, setAccessibilityMode] = useState<boolean>(false);
+  const [highContrast, setHighContrast] = useState<boolean>(false);
+  const [readableFonts, setReadableFonts] = useState<boolean>(false);
+  const [reducedMotion, setReducedMotion] = useState<boolean>(false);
   const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const [hasShownInitialTooltip, setHasShownInitialTooltip] = useState<boolean>(false);
+
+  const firstOptionRef = useRef<HTMLButtonElement>(null);
+  const mainButtonRef = useRef<HTMLButtonElement>(null);
+
+  const accessibilityMode = highContrast || readableFonts || reducedMotion;
 
   useEffect(() => {
     initPostHog();
@@ -36,26 +43,36 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   useEffect(() => {
-    initPostHog();
-    if (accessibilityMode) {
-      document.body.classList.add("accessibility-mode");
+    if (highContrast) {
+      document.body.classList.add("high-contrast-mode");
     } else {
-      document.body.classList.remove("accessibility-mode");
+      document.body.classList.remove("high-contrast-mode");
     }
-  }, [accessibilityMode]);
+  }, [highContrast]);
 
-  // Show tooltip on initial load for 5 seconds
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowTooltip(true);
-      const hideTimer = setTimeout(() => {
-        setShowTooltip(false);
-        setHasShownInitialTooltip(true);
-      }, 5000);
-      return () => clearTimeout(hideTimer);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+    if (readableFonts) {
+      document.body.classList.add("readable-fonts-mode");
+    } else {
+      document.body.classList.remove("readable-fonts-mode");
+    }
+  }, [readableFonts]);
+
+  useEffect(() => {
+    if (reducedMotion) {
+      document.body.classList.add("reduced-motion-mode");
+    } else {
+      document.body.classList.remove("reduced-motion-mode");
+    }
+  }, [reducedMotion]);
+
+  // Focus management: when tooltip opens, focus first option
+  useEffect(() => {
+    if (showTooltip && hasShownInitialTooltip) {
+      // Only auto-focus if user manually opened it (not on initial load)
+      firstOptionRef.current?.focus();
+    }
+  }, [showTooltip, hasShownInitialTooltip]);
 
   return (
     <>
@@ -76,13 +93,14 @@ function MyApp({ Component, pageProps }: AppProps) {
           bottom: "10px",
           right: "10px",
           display: "flex",
-          alignItems: "center",
+          alignItems: "flex-end",
           gap: "10px",
         }}
-        onMouseEnter={() => hasShownInitialTooltip && setShowTooltip(true)}
-        onMouseLeave={() => hasShownInitialTooltip && setShowTooltip(false)}
       >
         <div
+          id="accessibility-menu"
+          role="menu"
+          aria-label="Accessibility options"
           className="accessibility-tooltip"
           style={{
             backgroundColor: "white",
@@ -95,7 +113,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             opacity: showTooltip ? 1 : 0,
             transition: "transform 0.3s ease-in-out, opacity 0.3s ease-in-out",
             pointerEvents: showTooltip ? "auto" : "none",
-            // fontSize: "14px",
+            visibility: showTooltip ? "visible" : "hidden",
             lineHeight: "1.4",
             fontSize: "1.5rem",
             marginBottom: "10px",
@@ -104,20 +122,133 @@ function MyApp({ Component, pageProps }: AppProps) {
           <ul
             style={{
               margin: "4px 0 0 0",
+              listStyle: "none",
+              padding: 0,
             }}
           >
-            <li>High Contrast Colors</li>
-            <li>Readable Fonts</li>
-            <li>Reduced Motion</li>
+            <li style={{ marginBottom: "8px" }}>
+              <button
+                ref={firstOptionRef}
+                type="button"
+                onClick={() => setHighContrast(!highContrast)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Escape') {
+                    setShowTooltip(false);
+                    mainButtonRef.current?.focus();
+                  }
+                }}
+                aria-pressed={highContrast}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: "4px 0",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  fontSize: "inherit",
+                }}
+              >
+                <span style={{
+                  display: "inline-block",
+                  width: "20px",
+                  height: "20px",
+                  border: "2px solid black",
+                  backgroundColor: highContrast ? "black" : "white",
+                  flexShrink: 0,
+                }}></span>
+                High Contrast Colors
+              </button>
+            </li>
+            <li style={{ marginBottom: "8px" }}>
+              <button
+                type="button"
+                onClick={() => setReadableFonts(!readableFonts)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Escape') {
+                    setShowTooltip(false);
+                    mainButtonRef.current?.focus();
+                  }
+                }}
+                aria-pressed={readableFonts}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: "4px 0",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  fontSize: "inherit",
+                }}
+              >
+                <span style={{
+                  display: "inline-block",
+                  width: "20px",
+                  height: "20px",
+                  border: "2px solid black",
+                  backgroundColor: readableFonts ? "black" : "white",
+                  flexShrink: 0,
+                }}></span>
+                Readable Fonts
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                onClick={() => setReducedMotion(!reducedMotion)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Escape') {
+                    setShowTooltip(false);
+                    mainButtonRef.current?.focus();
+                  }
+                }}
+                aria-pressed={reducedMotion}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: "4px 0",
+                  cursor: "pointer",
+                  textAlign: "left",
+                  width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  fontSize: "inherit",
+                }}
+              >
+                <span style={{
+                  display: "inline-block",
+                  width: "20px",
+                  height: "20px",
+                  border: "2px solid black",
+                  backgroundColor: reducedMotion ? "black" : "white",
+                  flexShrink: 0,
+                }}></span>
+                Reduced Motion
+              </button>
+            </li>
           </ul>
         </div>
         <button
+          ref={mainButtonRef}
           type="button"
-          aria-label={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
-          aria-pressed={accessibilityMode}
-          title={accessibilityMode ? "Disable accessibility mode" : "Enable accessibility mode"}
+          aria-label="Toggle accessibility options"
+          aria-expanded={showTooltip}
+          aria-controls="accessibility-menu"
+          title="Accessibility options"
           onClick={() => {
-            setAccessibilityMode(!accessibilityMode);
+            setShowTooltip(!showTooltip);
+            setHasShownInitialTooltip(true);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Escape' && showTooltip) {
+              setShowTooltip(false);
+            }
           }}
           style={{
             cursor: "pointer",
@@ -144,9 +275,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         </button>
       </div>
 
-      <Layout accessibilityMode={accessibilityMode} setAccessibilityMode={(val: boolean) => {
-        setAccessibilityMode(val);
-      }}>
+      <Layout
+        accessibilityMode={accessibilityMode}
+        setAccessibilityMode={(val: boolean) => {
+          // Toggle all features on/off together
+          setHighContrast(val);
+          setReadableFonts(val);
+          setReducedMotion(val);
+        }}
+      >
         <Component {...pageProps} />
       </Layout>
       <PostHogPageView />
