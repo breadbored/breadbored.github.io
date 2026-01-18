@@ -90,6 +90,53 @@ function NextPrev({ params, key }: { params: string[]; key?: Key | null }) {
   )
 }
 
+function ButanoSeriesNav({ params, key }: { params: string[]; key?: Key | null }) {
+  // this series starts at chapter 0
+  const startingChapter = 0;
+  const currentChapterNum = parseInt(params[0]) || 0;
+  const chapterRoute = (num: number) => {
+    return `/posts/butano-series-${num}`;
+  };
+  const seriesMap = [
+    {
+      "title": "Introductions",
+    },
+    {
+      "title": "Intro to Butano",
+    },
+  ];
+  return (
+    <ol
+      key={key}
+      start={0}
+    >
+      {Array.from(seriesMap).map((chapter, i) => {
+        const index = i + startingChapter;
+        const currentChapter = index === currentChapterNum ? true : false;
+
+        if (currentChapter) {
+          return (
+            <li>
+              Chapter {index}: {chapter.title} - <b>{"you are here"}</b>
+            </li>
+          );
+        }
+
+        return (
+          <li>
+            <a
+              key={index}
+              href={chapterRoute(index)}
+            >
+              Chapter {index}: {chapter.title}
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+  )
+}
+
 function ComponentInterceptor() {
   return (
     props: ClassAttributes<HTMLHeadingElement> &
@@ -139,6 +186,8 @@ function ComponentInterceptor() {
       switch (componentName) {
         case "NextPrev":
           return <NextPrev key={props.key} params={params} />;
+        case "ButanoSeriesNav":
+          return <ButanoSeriesNav key={props.key} params={params} />;
         default:
           break;
       }

@@ -24,20 +24,47 @@ While I will be doing all of my development on MacOS and Linux, DevKitPro suppor
     - MacOS / Linux terminal:
       - Most systems: `dkp-pacman -S gba-dev`
       - Some distros using vanilla pacman: `pacman -S gba-dev`
-- [mGBA](https://mgba.io/downloads.html), an emulator for testing our GBA homebrew
+- [mGBA](https://mgba.io/downloads.html), an emulator for testing our GBA homebrew.
+  - Supports GDB debugging as well for breakpoints and memory inspection.
 - `git`, for version control
   - Windows: [Git for Windows](https://gitforwindows.org/)
+    - For the remainder of this tutorial, you will be using the Git Bash terminal so that the commands match those shown for MacOS and Linux.
   - MacOS: Install via [Homebrew](https://brew.sh/) with `brew install git`, or download from [git-scm.com](https://git-scm.com/download/mac)
   - Linux: Install via your package manager, e.g. `sudo apt install git` on Debian-based systems
 
 Some flavorful alternatives for the experienced reader who wants to explore beyond the scope of this tutorial:
 
 - Toolchains:
-  - [Wonderful Toolchain](https://wonderful.asie.pl/), an alternative GBA homebrew toolchain supported by Butano. For Windows & Linux only.
+  - [Wonderful Toolchain](https://wonderful.asie.pl/), an alternative GBA homebrew toolchain supported by Butano.
+    - For Windows & Linux only!
 - Emulators:
+  - [VisualBoyAdvance-M (VBA-M)](https://github.com/visualboyadvance-m/visualboyadvance-m), a popular alternative emulator for GBA homebrew development.
+    - It supports debugging with gdb like mGBA, which is very useful
   - [Mesen](https://mesen.ca/), an alternative emulator that supports GBA, has a color mode that more closely matches the original screen, and has a great debugger.
 
+Finally, you will need a code editor. This is the most highly subjective part of the setup, so I will leave it up to you. 
+
+If you are a beginner, don't use a basic text editor or an IDE that requires extensive configuration unless you really know what you're doing. Beginners will fall into the trap of simple text editors or misconfigurations, and run into errors they don't know how to debug. IDEs are designed to help you with debugging and code management. Experienced developers may prefer text editors or highly configurable IDEs, but they also know how to debug issues that arise from using them.
+
+I have included configurations for the following editors in the repository:
+
+|**Editor**|**Pros**|**Cons**|**Notes**|
+|:---:|:---:|:---:|:---:|
+|[Visual Studio Code](https://code.visualstudio.com/)|Supports every OS<br/>Free and open source<br/>Extensive plugin ecosystem<br/>Supports many languages and frameworks<br/>Supports GDB debugging with the right extensions<br/>Integrated git support|Can be resource-intensive with many extensions<br/>Built on Electron and Chromium, which comes with its own set of trade-offs|Popular choice|
+|[Zed](https://zed.dev/)|Free and open source<br/>Fast and modern features<br/>Built on Rust for memory safety<br/>Good language support<br/>Integrated git support|Newer IDE with a smaller ecosystem|I like it a lot. I use it for my job.|
+|Any editor that uses clangd for C++ language server support|Clangd provides smart code analysis, autocompletion, and error checking|Requires configuration to set up clangd and integrate with the editor|Flexible option for advanced users|
+
+Editors that I recommend but did not include configurations for:
+
+|**Editor**|**Pros**|**Cons**|**Notes**|
+|:---:|:---:|:---:|:---:|
+|[CLion](https://www.jetbrains.com/clion/)|First-class C++ support with smart code analysis<br/>Integrated debugger<br/>Great refactoring tools|Paid product (free trial and free licenses for students and open source contributors)<br/>More resource-intensive than VS Code|My preferred IDE for C++ development|
+|[Visual Studio](https://visualstudio.microsoft.com/)|Powerful IDE with extensive features<br/>Excellent debugging and profiling tools<br/>Strong C++ support|Primarily Windows-focused<br/>Can be resource-intensive|Great for Windows users|
+|[Vim / Neovim](https://neovim.io/)|Extremely lightweight and fast<br/>Highly customizable with plugins<br/>Powerful keyboard-centric editing|Steeper learning curve<br/>Requires configuration for optimal C++ support|Great for those who prefer terminal-based editors|
+
 ### Getting the starter repository
+
+From here on out, if you are on Windows, "terminal" means the Git-Bash terminal. It is important to use Git-Bash because many commands will not work correctly in Command Prompt or PowerShell.
 
 Open your terminal, navigate to your desired directory, and run the following commands to clone the starter repository and navigate into it:
 
@@ -54,10 +81,7 @@ In this directory you will find:
 
 ```text
 butano-tutorial-series/
-├─ chapter-1-getting-started/ - Our starting point for this series
-├─ chapter-2-assets/          - Our next chapter, covering assets
-├─ chapter-3-game-loop/       - Chapter covering the game loop
-├─ chapter-4-entities/        - Chapter covering entities and sprites
+├─ chapter-1-getting-started/   - Our starting point for this series
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
@@ -73,8 +97,15 @@ Now let's build and run our starter project to ensure everything is working corr
 
 ```bash
 make
+```
+
+To start the game in mGBA (without debugging with gdb) you can run:
+
+```bash
 make run
 ```
+
+Once you see the mGBA window pop up with our starter project running, congratulations! Your development environment is set up correctly!
 
 ### What's Next?
 
@@ -82,17 +113,7 @@ Next we will begin working with assets in Butano. This includes creating and imp
 
 ### Chapter Overview
 
-- [Chapter 0 - Introductions and Overview](/posts/butano-series-0): Introducing the series, myself, and what we will be building.
-- \[Chapter 1 - Intro to Butano\]: Setting up our development environment.
-- \[Work in Progress\] Chapter 2
-- \[Work in Progress\] Chapter 3
-- \[Work in Progress\] Chapter 4
-- \[Work in Progress\] Chapter 5
-- \[Work in Progress\] Chapter 6
-
----
-
-###### NextPrev "Chapter 0: Introductions","/posts/butano-series-0","Chapter 2: Assets","/posts/butano-series-2"
+###### ButanoSeriesNav "1","1"
 
 ---
 ---

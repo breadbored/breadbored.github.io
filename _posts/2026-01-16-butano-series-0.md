@@ -48,15 +48,7 @@ Over the course of this series, we will be building a simple puzzle game based o
 
 ### Chapter Overview
 
-- \[Chapter 0 - Introductions and Overview\]: Introducing the series, myself, and what we will be building.
-- [Chapter 1 - Intro to Butano](/posts/butano-series-1): Setting up our development environment.
-- \[Work in Progress\] Chapter 2
-- \[Work in Progress\] Chapter 3
-- \[Work in Progress\] Chapter 4
-- \[Work in Progress\] Chapter 5
-- \[Work in Progress\] Chapter 6
-
-###### NextPrev "","","Chapter 1: Getting Started","/posts/butano-series-1"
+###### ButanoSeriesNav 0
 
 ---
 
