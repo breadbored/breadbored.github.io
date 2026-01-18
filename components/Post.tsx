@@ -143,7 +143,7 @@ function ComponentInterceptor() {
     }
 
     const level = 6;
-    var slug = text.toLowerCase().replace(/\W/g, "-");
+    var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
 
     const handleClick = (e: React.MouseEvent) => {
       e.preventDefault();
@@ -199,7 +199,7 @@ function HeadingRenderer(level: number) {
   ): ReactElement => {
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
-    var slug = text.toLowerCase().replace(/\W/g, "-");
+    var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
 
     const handleClick = (e: React.MouseEvent) => {
       e.preventDefault();
@@ -247,7 +247,7 @@ function HeadingRenderer(level: number) {
   };
 }
 
-function CodeRenderer({ slug }: { slug: string }) {
+function CodeRenderer() {
   return (
     props: ClassAttributes<HTMLPreElement | HTMLElement> &
       HTMLAttributes<HTMLPreElement | HTMLElement> &
@@ -255,6 +255,7 @@ function CodeRenderer({ slug }: { slug: string }) {
   ): ReactElement => {
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
+    var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
     if (text.includes("\n")) {
       return React.createElement(
         "code",
@@ -425,7 +426,7 @@ const Post = ({ post }: { post: PostType }) => {
               components={{
                 code: ({ node, ...props }) => {
                   const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
-                  const CodeComponent = CodeRenderer({ slug });
+                  const CodeComponent = CodeRenderer();
                   return <CodeComponent {...props} />;
                 },
                 h1: HeadingRenderer(1),
@@ -465,7 +466,7 @@ const Post = ({ post }: { post: PostType }) => {
               components={{
                 code: ({ node, ...props }) => {
                   const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
-                  const CodeComponent = CodeRenderer({ slug });
+                  const CodeComponent = CodeRenderer();
                   return <CodeComponent {...props} />;
                 },
                 h1: HeadingRenderer(1),
