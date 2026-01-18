@@ -446,7 +446,7 @@ const Post = ({ post }: { post: PostType }) => {
                     border: "none",
                     margin: "0",
                     height: "0",
-                  }} />
+                  }}></hr>
                   <div {...props} className={`my-4 border-t border-gray-300`} >
                     <b className="fake-hr">
                       {Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
