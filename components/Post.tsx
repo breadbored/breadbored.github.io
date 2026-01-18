@@ -463,8 +463,11 @@ const Post = ({ post }: { post: PostType }) => {
               remarkPlugins={[remarkGfm]}
               children={post.content}
               components={{
-                // @ts-expect-error bad typing
-                code: CodeRenderer(),
+                code: ({ node, ...props }) => {
+                  const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
+                  const CodeComponent = CodeRenderer({ slug });
+                  return <CodeComponent />;
+                },
                 h1: HeadingRenderer(1),
                 h2: HeadingRenderer(2),
                 h3: HeadingRenderer(3),
