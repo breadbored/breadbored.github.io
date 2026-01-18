@@ -253,9 +253,21 @@ function CodeRenderer() {
       HTMLAttributes<HTMLPreElement | HTMLElement> &
       ExtraProps,
   ): ReactElement => {
+    const codeRef = useRef<HTMLElement>(null);
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
     var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
+
+    useEffect(() => {
+      if (codeRef.current && text.includes("\n")) {
+        try {
+          hljs.highlightElement(codeRef.current);
+        } catch (e) {
+          console.warn("Syntax highlighting failed:", e);
+        }
+      }
+    }, [text]);
+
     if (text.includes("\n")) {
       return React.createElement(
         "pre",
@@ -263,7 +275,8 @@ function CodeRenderer() {
           id: `${slug}-pre`
         },
         React.createElement("code", {
-          id: slug
+          id: slug,
+          ref: codeRef
         }, props.children),
       );
     }
@@ -297,7 +310,7 @@ const BSkyRenderer =
       if (
         href &&
         href.match(
-          /^https:\/\/bsky\.app\/profile\/([^\/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
+          /^https:\/\/bsky\.app\/profile\/([^/]+)\/post\/[a-zA-Z0-9]+\/?$/gi,
         )?.length > 0
       ) {
         const skeet = skeets.find((skeet: BSkyPost) => {
@@ -354,7 +367,6 @@ const Post = ({ post }: { post: PostType }) => {
 
   useEffect(() => {
     setIsClient(true);
-    hljs.highlightAll();
 
     // css select `.page-width` and set class `wider` if post.wider is true
     const pageWidthDiv = document.querySelector(".page-width");
