@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2018",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -25,8 +25,7 @@
     "**/*.ts",
     "**/*.tsx",
     "scripts/rss.mts",
-    "scripts/rss.mts",
-    "_posts/*.md"
+    "scripts/rss.mts"
   ],
   "exclude": ["node_modules"],
   "ts-node": {

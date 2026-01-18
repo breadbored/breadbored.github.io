@@ -35,15 +35,19 @@ Some flavorful alternatives for the experienced reader who wants to explore beyo
 - Toolchains:
   - [Wonderful Toolchain](https://wonderful.asie.pl/), an alternative GBA homebrew toolchain supported by Butano. For Windows & Linux only.
 - Emulators:
-  - [Mesen](https://mesen.ca/), an alternative GBA emulator.
+  - [Mesen](https://mesen.ca/), an alternative emulator that supports GBA, has a color mode that more closely matches the original screen, and has a great debugger.
 
 ### Getting the starter repository
 
 Open your terminal, navigate to your desired directory, and run the following commands to clone the starter repository and navigate into it:
 
 ```bash
+# Clone the repository and navigate into it
 git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
 cd butano-tutorial-series
+
+# Initialize git submodules, which includes Butano itself and an extension for Fonts
+git submodule update --init --recursive
 ```
 
 In this directory you will find:
@@ -59,7 +63,18 @@ butano-tutorial-series/
 ├─ README.md
 ```
 
-You can follow along with the tutorial series in its entirety by using the `chapter-1-getting-started` directory as your starting point, and work in that directory (or copy that directory elsewhere) for the duration of the series. The other directories are provided for reference.
+You can follow along with the tutorial series in its entirety by using the `chapter-1-getting-started` directory as your starting point, and work in that directory (or copy that directory elsewhere) for the duration of the series. The other directories are provided for reference. For the purposes of this tutorial, we will be working in the `chapter-1-getting-started` directory.
+
+```bash
+cd chapter-1-getting-started
+```
+
+Now let's build and run our starter project to ensure everything is working correctly.
+
+```bash
+make
+make run
+```
 
 ### What's Next?
 
@@ -75,8 +90,11 @@ Next we will begin working with assets in Butano. This includes creating and imp
 - \[Work in Progress\] Chapter 5
 - \[Work in Progress\] Chapter 6
 
+---
+
 ###### NextPrev "Chapter 0: Introductions","/posts/butano-series-0","Chapter 2: Assets","/posts/butano-series-2"
 
+---
 ---
 
 {{_posts/components/gba-communities.md}}

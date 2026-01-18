@@ -3,7 +3,9 @@ import rehypeRaw from "rehype-raw";
 import { Post as PostType } from "../types";
 import React, {
   ClassAttributes,
+  Fragment,
   HTMLAttributes,
+  Key,
   ReactElement,
   ReactNode,
   ReactPortal,
@@ -42,11 +44,11 @@ function flatten(
   }
 }
 
-function NextPrev({ params }: { params: string[] }) {
+function NextPrev({ params, key }: { params: string[]; key?: Key | null }) {
   const [prevTitle, prevLink, nextTitle, nextLink] = params;
 
   return (
-    <div style={{
+    <div key={key} style={{
       display: 'flex',
       gap: '1rem',
       marginTop: '2rem',
@@ -136,7 +138,7 @@ function ComponentInterceptor() {
 
       switch (componentName) {
         case "NextPrev":
-          return <NextPrev params={params} />;
+          return <NextPrev key={props.key} params={params} />;
         default:
           break;
       }
@@ -155,7 +157,8 @@ function ComponentInterceptor() {
       "h" + level,
       {
         id: slug,
-        className: "heading-anchor-wrapper"
+        className: "heading-anchor-wrapper",
+        key: props.key
       },
       React.createElement(
         "a",
@@ -211,7 +214,8 @@ function HeadingRenderer(level: number) {
       "h" + level,
       {
         id: slug,
-        className: "heading-anchor-wrapper"
+        className: "heading-anchor-wrapper",
+        key: props.key,
       },
       React.createElement(
         "a",
@@ -272,7 +276,9 @@ function CodeRenderer() {
       return React.createElement(
         "pre",
         {
-          id: `${slug}-pre`
+          id: `${slug}-pre`,
+          className: "not-prose",
+          key: props.key
         },
         React.createElement("code", {
           id: slug,
@@ -285,6 +291,7 @@ function CodeRenderer() {
       {
         id: `${slug}`,
         className: "inline-code",
+        key: props.key,
         style: {
           background: "#333",
           borderRadius: "5px",
@@ -358,7 +365,6 @@ const Post = ({ post }: { post: PostType }) => {
   const borderText = "`~,~";
   const hrWidthRef = useRef<HTMLHRElement>(null);
   const [hrWidth, setHrWidth] = useState<number>(-1);
-  const [isClient, setIsClient] = useState<boolean>(false);
   const formattedDate = new Date(post.date).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -366,8 +372,6 @@ const Post = ({ post }: { post: PostType }) => {
   });
 
   useEffect(() => {
-    setIsClient(true);
-
     // css select `.page-width` and set class `wider` if post.wider is true
     const pageWidthDiv = document.querySelector(".page-width");
     if (pageWidthDiv && post.wider) {
@@ -431,88 +435,51 @@ const Post = ({ post }: { post: PostType }) => {
         <div
           className={`prose max-w-none ${post.align == "right" ? "text-right" : post.align == "left" ? "text-left" : "text-center"}`}
         >
-          {!isClient ? (
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              children={post.content}
-              components={{
-                code: ({ node, ...props }) => {
-                  const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
-                  const CodeComponent = CodeRenderer();
-                  return <CodeComponent {...props} />;
-                },
-                h1: HeadingRenderer(1),
-                h2: HeadingRenderer(2),
-                h3: HeadingRenderer(3),
-                h4: HeadingRenderer(4),
-                h5: HeadingRenderer(5),
-                h6: ComponentInterceptor(),
-                // p: BSkyRenderer(post.skeets),
-                p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
-                i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
-                b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
-                strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
-                a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
-                li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
-                hr: ({ node, ...props }) => <>
-                  <hr ref={hrWidthRef} style={{
-                    // remove style
-                    border: "none",
-                    margin: "0",
-                    height: "0",
-                  }}></hr>
-                  <div {...props} className={`my-4 border-t border-gray-300`} >
-                    <b className="fake-hr">
-                      {Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
-                        <React.Fragment key={i}>{borderText[i % borderText.length]}</React.Fragment>
-                      ))}
-                    </b>
-                  </div>
-                </>,
-              }}
-            />
-          ) : (
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              children={post.content}
-              components={{
-                code: ({ node, ...props }) => {
-                  const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
-                  const CodeComponent = CodeRenderer();
-                  return <CodeComponent {...props} />;
-                },
-                h1: HeadingRenderer(1),
-                h2: HeadingRenderer(2),
-                h3: HeadingRenderer(3),
-                h4: HeadingRenderer(4),
-                h5: HeadingRenderer(5),
-                h6: ComponentInterceptor(),
-                // p: BSkyRenderer(post.skeets),
-                p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
-                i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
-                b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
-                strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
-                a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
-                li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
-                hr: ({ node, ...props }) => <>
-                  <hr ref={hrWidthRef} style={{
-                    // remove style
-                    border: "none",
-                    margin: "0",
-                    height: "0",
-                  }} />
-                  <div {...props} className={`my-4 border-t border-gray-300`} >
-                    <b className="fake-hr">
-                      {hrWidth && Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
-                        <React.Fragment key={i}>{borderText[i % borderText.length]}</React.Fragment>
-                      ))}
-                    </b>
-                  </div>
-                </>,
-              }}
-              rehypePlugins={[rehypeRaw]}
-            />
-          )}
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            children={post.content}
+            components={{
+              code: ({ node, ...props }) => {
+                const CodeComponent = CodeRenderer();
+                return <CodeComponent {...props} />;
+              },
+              pre: ({ node, ...props }) => {
+                const CodeComponent = CodeRenderer();
+                return <CodeComponent {...props} />;
+              },
+              h1: HeadingRenderer(1),
+              h2: HeadingRenderer(2),
+              h3: HeadingRenderer(3),
+              h4: HeadingRenderer(4),
+              h5: HeadingRenderer(5),
+              h6: ComponentInterceptor(),
+              // p: BSkyRenderer(post.skeets),
+              p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
+              i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
+              b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
+              strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
+              a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
+              li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
+              hr: ({ node, ...props }) => <Fragment key={props.key}>
+                <hr key={`hr-${props.key}`} ref={hrWidthRef} style={{
+                  // remove style
+                  border: "none",
+                  margin: "0",
+                  height: "0",
+                }} />
+                <div key={`div-${props.key}`} {...props} className={`my-4 border-t border-gray-300`} >
+                  <b className="fake-hr">
+                    {hrWidth && Array.from({ length: Math.floor(hrWidth / 10) }).map((_, i) => (
+                      <React.Fragment key={i}>{borderText[i % borderText.length]}</React.Fragment>
+                    ))}
+                  </b>
+                </div>
+              </Fragment>,
+            }}
+            rehypePlugins={[
+              rehypeRaw,
+            ]}
+          />
         </div>
       </article>
     </>
