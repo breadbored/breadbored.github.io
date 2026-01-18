@@ -450,3 +450,16 @@ body.reduced-motion-mode .accessibility-tooltip {
     transition: opacity 0.01ms !important;
   }
 }
+
+// Heading anchor link styles
+.heading-anchor-wrapper {
+  &:hover .heading-anchor-hash {
+    opacity: 1 !important;
+  }
+}
+
+.heading-anchor {
+  &:hover {
+    text-decoration: none !important;
+  }
+}

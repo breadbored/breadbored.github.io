@@ -42,6 +42,155 @@ function flatten(
   }
 }
 
+function NextPrev({ params }: { params: string[] }) {
+  const [prevTitle, prevLink, nextTitle, nextLink] = params;
+
+  return (
+    <div style={{
+      display: 'flex',
+      gap: '1rem',
+      marginTop: '2rem',
+      marginBottom: '2rem',
+    }}>
+      {prevTitle && prevLink && (
+        <a href={prevLink} style={{
+          flex: 1,
+          padding: '1rem',
+          border: '2px solid #333',
+          borderRadius: '8px',
+          textAlign: 'center',
+          cursor: 'pointer',
+          textDecoration: 'none',
+          color: 'inherit',
+          transition: 'background-color 0.2s',
+        }}>
+          <div style={{ fontSize: '1.5rem' }}>←</div>
+          <div>{prevTitle}</div>
+        </a>
+      )}
+      {nextTitle && nextLink && (
+        <a href={nextLink} style={{
+          flex: 1,
+          padding: '1rem',
+          border: '2px solid #333',
+          borderRadius: '8px',
+          textAlign: 'center',
+          cursor: 'pointer',
+          textDecoration: 'none',
+          color: 'inherit',
+          transition: 'background-color 0.2s',
+        }}>
+          <div style={{ fontSize: '1.5rem' }}>→</div>
+          <div>{nextTitle}</div>
+        </a>
+      )}
+    </div>
+  )
+}
+
+function ComponentInterceptor() {
+  return (
+    props: ClassAttributes<HTMLHeadingElement> &
+      HTMLAttributes<HTMLHeadingElement> &
+      ExtraProps,
+  ): ReactElement => {
+    var children = React.Children.toArray(props.children);
+    var text = children.reduce(flatten, "");
+
+    if (typeof props.children === "string" || typeof (props.children as unknown as undefined | (string | undefined)[])?.[0] === "string") {
+      const fullText = (
+        (props.children as unknown as string | undefined) || (props.children as unknown as undefined | (string | undefined)[])?.[0]
+      )?.trim() || "";
+
+      const firstSpaceIndex = fullText.indexOf(' ');
+      const componentName = firstSpaceIndex === -1 ? fullText : fullText.substring(0, firstSpaceIndex);
+      const paramsText = firstSpaceIndex === -1 ? "" : fullText.substring(firstSpaceIndex + 1);
+
+      // Parse comma-separated quoted strings
+      const parseParams = (text: string): string[] => {
+        const params: string[] = [];
+        let current = '';
+        let inQuotes = false;
+
+        for (let i = 0; i < text.length; i++) {
+          const char = text[i];
+
+          if (char === '"') {
+            inQuotes = !inQuotes;
+          } else if (char === ',' && !inQuotes) {
+            params.push(current.trim());
+            current = '';
+          } else {
+            current += char;
+          }
+        }
+
+        if (current.trim()) {
+          params.push(current.trim());
+        }
+
+        return params;
+      };
+
+      const params = parseParams(paramsText);
+
+      switch (componentName) {
+        case "NextPrev":
+          return <NextPrev params={params} />;
+        default:
+          break;
+      }
+    }
+
+    const level = 6;
+    var slug = text.toLowerCase().replace(/\W/g, "-");
+
+    const handleClick = (e: React.MouseEvent) => {
+      e.preventDefault();
+      window.history.pushState({}, "", `#${slug}`);
+      document.getElementById(slug)?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    return React.createElement(
+      "h" + level,
+      {
+        id: slug,
+        className: "heading-anchor-wrapper"
+      },
+      React.createElement(
+        "a",
+        {
+          href: `#${slug}`,
+          onClick: handleClick,
+          className: "heading-anchor",
+          style: {
+            textDecoration: "none",
+            color: "inherit",
+            display: "inline-flex",
+            alignItems: "center",
+            position: "relative"
+          }
+        },
+        props.children,
+        React.createElement(
+          "span",
+          {
+            className: "heading-anchor-hash",
+            style: {
+              opacity: 0,
+              marginLeft: "0.5rem",
+              transition: "opacity 0.2s",
+              color: "#666",
+              fontSize: "0.8em"
+            }
+          },
+          "#"
+        )
+      )
+    );
+  };
+}
+
 function HeadingRenderer(level: number) {
   return (
     props: ClassAttributes<HTMLHeadingElement> &
@@ -51,7 +200,50 @@ function HeadingRenderer(level: number) {
     var children = React.Children.toArray(props.children);
     var text = children.reduce(flatten, "");
     var slug = text.toLowerCase().replace(/\W/g, "-");
-    return React.createElement("h" + level, { id: slug }, props.children);
+
+    const handleClick = (e: React.MouseEvent) => {
+      e.preventDefault();
+      window.history.pushState({}, "", `#${slug}`);
+      document.getElementById(slug)?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    return React.createElement(
+      "h" + level,
+      {
+        id: slug,
+        className: "heading-anchor-wrapper"
+      },
+      React.createElement(
+        "a",
+        {
+          href: `#${slug}`,
+          onClick: handleClick,
+          className: "heading-anchor",
+          style: {
+            textDecoration: "none",
+            color: "inherit",
+            display: "inline-flex",
+            alignItems: "center",
+            position: "relative"
+          }
+        },
+        props.children,
+        React.createElement(
+          "span",
+          {
+            className: "heading-anchor-hash",
+            style: {
+              opacity: 0,
+              marginLeft: "0.5rem",
+              transition: "opacity 0.2s",
+              color: "#666",
+              fontSize: "0.8em"
+            }
+          },
+          "#"
+        )
+      )
+    );
   };
 }
 
@@ -240,7 +432,7 @@ const Post = ({ post }: { post: PostType }) => {
                 h3: HeadingRenderer(3),
                 h4: HeadingRenderer(4),
                 h5: HeadingRenderer(5),
-                h6: HeadingRenderer(6),
+                h6: ComponentInterceptor(),
                 // p: BSkyRenderer(post.skeets),
                 p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
                 i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
@@ -277,7 +469,7 @@ const Post = ({ post }: { post: PostType }) => {
                 h3: HeadingRenderer(3),
                 h4: HeadingRenderer(4),
                 h5: HeadingRenderer(5),
-                h6: HeadingRenderer(6),
+                h6: ComponentInterceptor(),
                 // p: BSkyRenderer(post.skeets),
                 p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
                 i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
