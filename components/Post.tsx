@@ -249,8 +249,8 @@ function HeadingRenderer(level: number) {
 
 function CodeRenderer({ slug }: { slug: string }) {
   return (
-    props: ClassAttributes<HTMLHeadingElement> &
-      HTMLAttributes<HTMLHeadingElement> &
+    props: ClassAttributes<HTMLPreElement | HTMLElement> &
+      HTMLAttributes<HTMLPreElement | HTMLElement> &
       ExtraProps,
   ): ReactElement => {
     var children = React.Children.toArray(props.children);
@@ -426,7 +426,7 @@ const Post = ({ post }: { post: PostType }) => {
                 code: ({ node, ...props }) => {
                   const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
                   const CodeComponent = CodeRenderer({ slug });
-                  return <CodeComponent />;
+                  return <CodeComponent {...props} />;
                 },
                 h1: HeadingRenderer(1),
                 h2: HeadingRenderer(2),
@@ -466,7 +466,7 @@ const Post = ({ post }: { post: PostType }) => {
                 code: ({ node, ...props }) => {
                   const slug = `code-block-${Math.random().toString(36).substring(2, 15)}`;
                   const CodeComponent = CodeRenderer({ slug });
-                  return <CodeComponent />;
+                  return <CodeComponent {...props} />;
                 },
                 h1: HeadingRenderer(1),
                 h2: HeadingRenderer(2),
