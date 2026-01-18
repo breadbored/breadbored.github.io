@@ -258,12 +258,12 @@ function CodeRenderer() {
     var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
     if (text.includes("\n")) {
       return React.createElement(
-        "code",
+        "pre",
         {
-          id: slug
-        },
-        React.createElement("pre", {
           id: `${slug}-pre`
+        },
+        React.createElement("code", {
+          id: slug
         }, props.children),
       );
     }
