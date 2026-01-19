@@ -113,143 +113,145 @@ function MyApp({ Component, pageProps }: AppProps) {
           gap: "10px",
         }}
       >
-        <div
-          id="accessibility-menu"
-          role="menu"
-          aria-label="Accessibility options"
-          className="accessibility-tooltip"
-          style={{
-            backgroundColor: "white",
-            border: "2px solid black",
-            borderRadius: "8px",
-            padding: "12px 16px",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            maxWidth: "300px",
-            transform: showTooltip ? "translateX(0)" : "translateX(calc(100% + 20px))",
-            opacity: showTooltip ? 1 : 0,
-            transition: "transform 0.3s ease-in-out, opacity 0.3s ease-in-out",
-            pointerEvents: showTooltip ? "auto" : "none",
-            visibility: showTooltip ? "visible" : "hidden",
-            lineHeight: "1.4",
-            fontSize: "1.5rem",
-            marginBottom: "10px",
-          }}
-        >
-          <ul
+        {showTooltip && (
+          <div
+            id="accessibility-menu"
+            role="menu"
+            aria-label="Accessibility options"
+            className="accessibility-tooltip"
             style={{
-              margin: "4px 0 0 0",
-              listStyle: "none",
-              padding: 0,
+              backgroundColor: "white",
+              border: "2px solid black",
+              borderRadius: "8px",
+              padding: "12px 16px",
+              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+              maxWidth: "300px",
+              transform: showTooltip ? "translateX(0)" : "translateX(calc(100% + 20px))",
+              opacity: showTooltip ? 1 : 0,
+              transition: "transform 0.3s ease-in-out, opacity 0.3s ease-in-out",
+              pointerEvents: showTooltip ? "auto" : "none",
+              visibility: showTooltip ? "visible" : "hidden",
+              lineHeight: "1.4",
+              fontSize: "1.5rem",
+              marginBottom: "10px",
             }}
           >
-            <li style={{ marginBottom: "8px" }}>
-              <button
-                ref={firstOptionRef}
-                type="button"
-                onClick={() => setHighContrast(!highContrast)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Escape') {
-                    setShowTooltip(false);
-                    mainButtonRef.current?.focus();
-                  }
-                }}
-                aria-pressed={highContrast}
-                style={{
-                  background: "none",
-                  border: "none",
-                  padding: "4px 0",
-                  cursor: "pointer",
-                  textAlign: "left",
-                  width: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  fontSize: "inherit",
-                }}
-              >
-                <span style={{
-                  display: "inline-block",
-                  width: "20px",
-                  height: "20px",
-                  border: "2px solid black",
-                  backgroundColor: highContrast ? "black" : "white",
-                  flexShrink: 0,
-                }}></span>
-                High Contrast Colors
-              </button>
-            </li>
-            <li style={{ marginBottom: "8px" }}>
-              <button
-                type="button"
-                onClick={() => setReadableFonts(!readableFonts)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Escape') {
-                    setShowTooltip(false);
-                    mainButtonRef.current?.focus();
-                  }
-                }}
-                aria-pressed={readableFonts}
-                style={{
-                  background: "none",
-                  border: "none",
-                  padding: "4px 0",
-                  cursor: "pointer",
-                  textAlign: "left",
-                  width: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  fontSize: "inherit",
-                }}
-              >
-                <span style={{
-                  display: "inline-block",
-                  width: "20px",
-                  height: "20px",
-                  border: "2px solid black",
-                  backgroundColor: readableFonts ? "black" : "white",
-                  flexShrink: 0,
-                }}></span>
-                Readable Fonts
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                onClick={() => setReducedMotion(!reducedMotion)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Escape') {
-                    setShowTooltip(false);
-                    mainButtonRef.current?.focus();
-                  }
-                }}
-                aria-pressed={reducedMotion}
-                style={{
-                  background: "none",
-                  border: "none",
-                  padding: "4px 0",
-                  cursor: "pointer",
-                  textAlign: "left",
-                  width: "100%",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  fontSize: "inherit",
-                }}
-              >
-                <span style={{
-                  display: "inline-block",
-                  width: "20px",
-                  height: "20px",
-                  border: "2px solid black",
-                  backgroundColor: reducedMotion ? "black" : "white",
-                  flexShrink: 0,
-                }}></span>
-                Reduced Motion
-              </button>
-            </li>
-          </ul>
-        </div>
+            <ul
+              style={{
+                margin: "4px 0 0 0",
+                listStyle: "none",
+                padding: 0,
+              }}
+            >
+              <li style={{ marginBottom: "8px" }}>
+                <button
+                  ref={firstOptionRef}
+                  type="button"
+                  onClick={() => setHighContrast(!highContrast)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') {
+                      setShowTooltip(false);
+                      mainButtonRef.current?.focus();
+                    }
+                  }}
+                  aria-pressed={highContrast}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: "4px 0",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    fontSize: "inherit",
+                  }}
+                >
+                  <span style={{
+                    display: "inline-block",
+                    width: "20px",
+                    height: "20px",
+                    border: "2px solid black",
+                    backgroundColor: highContrast ? "black" : "white",
+                    flexShrink: 0,
+                  }}></span>
+                  High Contrast Colors
+                </button>
+              </li>
+              <li style={{ marginBottom: "8px" }}>
+                <button
+                  type="button"
+                  onClick={() => setReadableFonts(!readableFonts)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') {
+                      setShowTooltip(false);
+                      mainButtonRef.current?.focus();
+                    }
+                  }}
+                  aria-pressed={readableFonts}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: "4px 0",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    fontSize: "inherit",
+                  }}
+                >
+                  <span style={{
+                    display: "inline-block",
+                    width: "20px",
+                    height: "20px",
+                    border: "2px solid black",
+                    backgroundColor: readableFonts ? "black" : "white",
+                    flexShrink: 0,
+                  }}></span>
+                  Readable Fonts
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  onClick={() => setReducedMotion(!reducedMotion)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') {
+                      setShowTooltip(false);
+                      mainButtonRef.current?.focus();
+                    }
+                  }}
+                  aria-pressed={reducedMotion}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: "4px 0",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    fontSize: "inherit",
+                  }}
+                >
+                  <span style={{
+                    display: "inline-block",
+                    width: "20px",
+                    height: "20px",
+                    border: "2px solid black",
+                    backgroundColor: reducedMotion ? "black" : "white",
+                    flexShrink: 0,
+                  }}></span>
+                  Reduced Motion
+                </button>
+              </li>
+            </ul>
+          </div>
+        )}
         <button
           ref={mainButtonRef}
           type="button"
