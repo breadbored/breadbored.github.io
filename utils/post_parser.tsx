@@ -83,7 +83,9 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
   const fileNames = fs.readdirSync(postsDirectory);
 
-  const posts = fileNames
+  const seriesMap: Record<string, JekyllPost[]> = {};
+
+  const posts: JekyllPost[] = fileNames
     .filter((fileName: string) => {
       const fullPath = path.join(postsDirectory, fileName);
       // Only process files, not directories
@@ -95,6 +97,34 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
       return parseJekyllPost(fileContents);
     });
+
+  // Group series posts
+  for (const post of posts) {
+    const isSeries = !!post.superTitle
+
+    if (isSeries) {
+      const name = post.slug.split('-series-')[0];
+      if (!seriesMap[name]) {
+        seriesMap[name] = [];
+      }
+      seriesMap[name].push(post);
+    }
+  }
+
+  // Attach series posts to each post
+  for (const post of posts) {
+    const isSeries = !!post.superTitle
+
+    if (isSeries) {
+      const name = post.slug.split('-series-')[0];
+      post.otherInSeries = seriesMap[name].map(p => {
+        const { otherInSeries, ...otherPost } = p
+        return {
+          ...otherPost,
+        }
+      });
+    }
+  }
 
   // Sort posts by date
   return posts.sort(

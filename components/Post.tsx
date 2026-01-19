@@ -44,7 +44,7 @@ function flatten(
   }
 }
 
-function NextPrev({ params, key }: { params: string[]; key?: Key | null }) {
+function NextPrev({ params, key, post }: { params: string[]; key?: Key | null; post: PostType }) {
   const [prevTitle, prevLink, nextTitle, nextLink] = params;
 
   return (
@@ -90,25 +90,26 @@ function NextPrev({ params, key }: { params: string[]; key?: Key | null }) {
   )
 }
 
-function ButanoSeriesNav({ params, key }: { params: string[]; key?: Key | null }) {
+function ButanoSeriesNav({ params, key, post }: { params: string[]; key?: Key | null; post: PostType }) {
+  if (!post.otherInSeries) {
+    return null;
+  }
   // this series starts at chapter 0
   const startingChapter = 0;
   const currentChapterNum = parseInt(params[0]) || 0;
   const chapterRoute = (num: number) => {
     return `/posts/butano-series-${num}`;
   };
-  const seriesMap = [
-    {
-      "title": "Introductions",
-    },
-    {
-      "title": "Intro to Butano",
-    },
-  ];
+  const seriesMap = post.otherInSeries.sort((a, b) => {
+    const aNum = parseInt(a.slug.split('butano-series-')[1]);
+    const bNum = parseInt(b.slug.split('butano-series-')[1]);
+    return aNum - bNum;
+  });
   return (
     <ol
       key={key}
       start={0}
+      className="chapter-list"
     >
       {Array.from(seriesMap).map((chapter, i) => {
         const index = i + startingChapter;
@@ -117,7 +118,7 @@ function ButanoSeriesNav({ params, key }: { params: string[]; key?: Key | null }
         if (currentChapter) {
           return (
             <li>
-              Chapter {index}: {chapter.title} - <b>{"you are here"}</b>
+              {chapter.title} - <b>{"you are here"}</b>
             </li>
           );
         }
@@ -128,7 +129,7 @@ function ButanoSeriesNav({ params, key }: { params: string[]; key?: Key | null }
               key={index}
               href={chapterRoute(index)}
             >
-              Chapter {index}: {chapter.title}
+              {chapter.title}
             </a>
           </li>
         );
@@ -137,7 +138,7 @@ function ButanoSeriesNav({ params, key }: { params: string[]; key?: Key | null }
   )
 }
 
-function ComponentInterceptor() {
+function ComponentInterceptor(post: PostType) {
   return (
     props: ClassAttributes<HTMLHeadingElement> &
       HTMLAttributes<HTMLHeadingElement> &
@@ -185,9 +186,9 @@ function ComponentInterceptor() {
 
       switch (componentName) {
         case "NextPrev":
-          return <NextPrev key={props.key} params={params} />;
+          return <NextPrev key={props.key} params={params} post={post} />;
         case "ButanoSeriesNav":
-          return <ButanoSeriesNav key={props.key} params={params} />;
+          return <ButanoSeriesNav key={props.key} params={params} post={post} />;
         default:
           break;
       }
@@ -501,7 +502,7 @@ const Post = ({ post }: { post: PostType }) => {
               h3: HeadingRenderer(3),
               h4: HeadingRenderer(4),
               h5: HeadingRenderer(5),
-              h6: ComponentInterceptor(),
+              h6: ComponentInterceptor(post),
               // p: BSkyRenderer(post.skeets),
               p: ({ node, ...props }) => <p {...props} >{props.children}</p>,
               i: ({ node, ...props }) => <i {...props} >{props.children}</i>,

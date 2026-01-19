@@ -17,6 +17,8 @@ While I will be doing all of my development on MacOS and Linux, DevKitPro suppor
 
 #### Software
 
+##### Development Tools
+
 - [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
   - Once installed, install the `gba-dev` package.
     - Windows:
@@ -61,6 +63,34 @@ Editors that I recommend but did not include configurations for:
 |[CLion](https://www.jetbrains.com/clion/)|First-class C++ support with smart code analysis<br/>Integrated debugger<br/>Great refactoring tools|Paid product (free trial and free licenses for students and open source contributors)<br/>More resource-intensive than VS Code|My preferred IDE for C++ development|
 |[Visual Studio](https://visualstudio.microsoft.com/)|Powerful IDE with extensive features<br/>Excellent debugging and profiling tools<br/>Strong C++ support|Primarily Windows-focused<br/>Can be resource-intensive|Great for Windows users|
 |[Vim / Neovim](https://neovim.io/)|Extremely lightweight and fast<br/>Highly customizable with plugins<br/>Powerful keyboard-centric editing|Steeper learning curve<br/>Requires configuration for optimal C++ support|Great for those who prefer terminal-based editors|
+
+##### Art Tools
+
+\* What we will be using in this series.
+
+- Visual Asset Options:
+  - [Aseprite (paid)](https://www.aseprite.org/)\*, a pixel art tool for creating sprites and animations.
+    - Paid software, but worth the investment. I have bought this software 3 times across different computers because I use it so much.
+  - [Aseprite (source)](https://github.com/aseprite/aseprite/releases), the open source version of Aseprite that you can compile yourself.
+    - Lacks some features of the paid version, but still very capable.
+  - [GIMP](https://www.gimp.org/), a free and open source image editor.
+    - More general-purpose than Aseprite, but can be used for pixel art as well.
+  - [Krita](https://krita.org/en/), another free and open source image editor.
+    - Also more general-purpose, but has good support for pixel art.
+
+- Audio Assets Options:
+  - [OpenMPT](https://openmpt.org/)\*, a free and open source tracker for creating music.
+    - Supports exporting to formats compatible with GBA homebrew.
+    - Windows "only" software, but can be run on MacOS & Linux with Wine (requires `wine`).
+      - MacOS
+        - Install [Homebrew](https://brew.sh/) if you haven't already with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+        - Run `brew install --cask wine-stable` to install Wine.
+      - Linux
+        - Install Wine via your package manager, e.g. `sudo apt install wine` on Debian-based systems.
+  - [Furnace Tracker](https://tildearrow.org/furnace/), a free and open source tracker designed for chiptune music.
+    - Cross-platform and lightweight.
+    - "Supports" making GBA music, but the only format it can export that is compatible is VGM, which means you can only make Game Boy / Color music. Luckily, the GBA is backwards compatible with GB/C audio, but you cannot take advantage of the GBA's 2 PCM channels.
+      - This could be a misunderstanding on my part; please correct me if I'm wrong!
 
 ### Getting the starter repository
 

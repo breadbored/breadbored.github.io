@@ -11,4 +11,5 @@ export type Post = {
   content: string;
   categories: string[];
   skeets: BSkyPost[];
+  otherInSeries?: Post[];
 };
