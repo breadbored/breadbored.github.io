@@ -1,6 +1,7 @@
 import type { BSkyPost } from "./utils/bsky";
 
 export type Post = {
+  chapterHeader?: string | null;
   superTitle?: string | null;
   title: string;
   date: string;

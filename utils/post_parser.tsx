@@ -61,6 +61,7 @@ export function parseJekyllPost(content: string): JekyllPost {
     .replace(/^-|-$/g, "");
 
   return {
+    chapterHeader: frontmatter["chapter-header"] || null,
     superTitle: frontmatter["super-title"] || null,
     title: frontmatter.title,
     date: frontmatter.date,
@@ -100,7 +101,7 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
   // Group series posts
   for (const post of posts) {
-    const isSeries = !!post.superTitle
+    const isSeries = !!post.chapterHeader
 
     if (isSeries) {
       const name = post.slug.split('-series-')[0];
@@ -113,7 +114,7 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
   // Attach series posts to each post
   for (const post of posts) {
-    const isSeries = !!post.superTitle
+    const isSeries = !!post.chapterHeader
 
     if (isSeries) {
       const name = post.slug.split('-series-')[0];

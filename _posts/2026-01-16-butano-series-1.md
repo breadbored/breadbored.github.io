@@ -1,9 +1,10 @@
 ---
 layout: post
-super-title: Chapter 1
-slug: butano-series-1
+chapter-header: Chapter 1
+super-title: Butano Series
 title: Intro to Butano
-date: 2026-01-13
+slug: butano-series-1
+date: 2026-01-18
 categories: ["miniproject", "media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 wider: true

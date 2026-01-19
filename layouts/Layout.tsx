@@ -10,7 +10,7 @@ import { FULL_SCREEN_PATHS, LESS_SILLY_PATHS } from "../utils/lesssilly";
 const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { children: React.ReactNode, setAccessibilityMode: (val: boolean) => void, accessibilityMode: boolean }) => {
     const url_path = usePathname();
     const isFullWidth = url_path?.includes("volos-guide-to-monsters") || url_path?.includes("5e");
-    const isWider = url_path?.includes("butano-series");
+    const isWider = url_path?.includes("butano-series-");
     const silly = !(LESS_SILLY_PATHS.includes(url_path) || LESS_SILLY_PATHS.includes(url_path + '/'));
     const fullscreen = FULL_SCREEN_PATHS.includes(url_path) || FULL_SCREEN_PATHS.includes(url_path + '/');
 
@@ -48,8 +48,8 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                         <Link href="/" className="hover:text-blue-600 pixel-font">
                             Home
                         </Link>
-                        <Link href="/search" className="hover:text-blue-600 pixel-font">
-                            Search
+                        <Link href="/series" className="hover:text-blue-600 pixel-font">
+                            Series
                         </Link>
                         <Link href="/about" className="hover:text-blue-600 pixel-font">
                             About

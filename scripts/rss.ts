@@ -33,7 +33,7 @@ async function generateRSSFeed() {
 
         posts.forEach(post => {
             feed.addItem({
-                title: post.superTitle ? `${post.superTitle}: ${post.title}` : post.title,
+                title: post.chapterHeader ? `${post.chapterHeader}: ${post.title}` : post.title,
                 id: post.slug,
                 link: `https://bread.codes/posts/${post.slug}`,
                 description: post.excerpt,
