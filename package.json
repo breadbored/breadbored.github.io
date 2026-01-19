@@ -29,7 +29,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "python3 scripts/generate_og_images.py && next build",
     "start": "next start",
     "deploy": "ts-node scripts/rss.ts && bash deploy.sh"
   },

@@ -470,6 +470,24 @@ const Post = ({ post }: { post: PostType }) => {
           }
         />
         <meta name="google-adsense-account" content="ca-pub-8749505090904262" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://bread.codes/posts/${post.slug}`} />
+        <meta property="og:title" content={post.chapterHeader ? `${post.superTitle ? `${post.superTitle}: ` : ""}${post.chapterHeader} - ${post.title}` : post.title} />
+        <meta property="og:description" content={post.excerpt} />
+        <meta property="og:image" content={`https://bread.codes/og/${post.slug}.png`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="bread.codes" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={`https://bread.codes/posts/${post.slug}`} />
+        <meta name="twitter:title" content={post.chapterHeader ? `${post.superTitle ? `${post.superTitle}: ` : ""}${post.chapterHeader} - ${post.title}` : post.title} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content={`https://bread.codes/og/${post.slug}.png`} />
+        <meta name="twitter:creator" content="@breadbored" />
       </Head>
       <article
         className={`${post.wider ? "max-w-4xl" : "max-w-2xl"} mx-auto px-4`}
