@@ -75,12 +75,12 @@ def wrap_text(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[s
 
 
 def create_gradient_background() -> Image.Image:
-    """Create a dot-matrix background with 2x2 pixel grid pattern."""
+    """Create a dot-matrix background with 4x4 pixel grid pattern."""
     img = Image.new('RGB', (OG_WIDTH, OG_HEIGHT))
     pixels = img.load()
 
-    # Dot-matrix grid size (2x2 pixels per "pixel")
-    dot_size = 2
+    # Dot-matrix grid size (4x4 pixels per "pixel")
+    dot_size = 4
 
     # Parse base color (using 'dark' as solid background)
     r_base = int(COLORS['dark'][1:3], 16)
@@ -96,7 +96,7 @@ def create_gradient_background() -> Image.Image:
     for y in range(OG_HEIGHT):
         for x in range(OG_WIDTH):
             # Create dot-matrix pattern: darkest color at grid boundaries
-            is_grid_boundary = (x % dot_size == 0) or (y % dot_size == 0)
+            is_grid_boundary = (x % dot_size == 1) or (y % dot_size == 0)
 
             if is_grid_boundary:
                 # Use darkest color for grid lines
