@@ -14,7 +14,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import BlueSkyEmbed from "../pages/bsky-test";
+import BlueSkyEmbed from "../pages.bak/bsky-test";
 import { BSkyPost } from "../utils/bsky";
 import hljs from "highlight.js";
 import Head from "next/head";
