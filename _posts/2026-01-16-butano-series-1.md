@@ -10,7 +10,11 @@ align: left
 wider: true
 ---
 
-[!["Buy Me A Coffee"](/assets/buymeacoffee.png)](https://buymeacoffee.com/breadcodes)
+<center>
+  <a href="https://buymeacoffee.com/breadcodes" target="_blank">
+    <img src="/assets/buymeacoffee.png" alt="Buy Me A Coffee" style="width: 200px;" />
+  </a>
+</center>
 
 ## Getting Started
 
