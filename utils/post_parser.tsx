@@ -68,7 +68,7 @@ export function parseJekyllPost(content: string): JekyllPost {
     align: frontmatter.align || 'center',
     wider: frontmatter.wider || false,
     slug,
-    excerpt: postContent.split("\n\n")[0], // First paragraph as excerpt
+    excerpt: frontmatter.excerpt || postContent.split("\n\n")[0], // First paragraph as excerpt
     content: postContent,
     categories: frontmatter.categories || [],
     skeets: [],

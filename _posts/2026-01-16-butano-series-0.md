@@ -8,6 +8,7 @@ date: 2026-01-16
 categories: ["miniproject", "media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 wider: true
+excerpt: In this chapter, we will introduce the Butano series, outline what we will be building, and provide an overview of the Butano engine.
 ---
 
 <center>
