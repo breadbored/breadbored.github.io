@@ -68,6 +68,26 @@ if ! /opt/wonderful/bin/wf-pacman -Syu wf-tools target-gba target-gba-libtonc; t
     exit 9
 fi
 
+if ! /opt/wonderful/bin/wf-config repo enable blocksds; then
+    echo "Error: Failed to enable BlockSDS repository"
+    exit 10
+fi
+
+if ! /opt/wonderful/bin/wf-pacman -Syu; then
+    echo "Error: Failed to update packages"
+    exit 11
+fi
+
+if ! /opt/wonderful/bin/wf-pacman -S blocksds-toolchain; then
+    echo "Error: Failed to install BlockSDS toolchain"
+    exit 12
+fi
+
+if ! /opt/wonderful/bin/wf-pacman -Syu target-gba target-gba-libtonc; then
+    echo "Error: Failed to install GBA toolchain"
+    exit 13
+fi
+
 source /opt/wonderful/bin/wf-env
 
 echo "Wonderful toolchain installed successfully."
