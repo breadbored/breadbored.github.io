@@ -63,14 +63,11 @@ if ! tar xzf "$TEMP_FILE"; then
     exit 8
 fi
 
-if ! /opt/wonderful/bin/wf-pacman -Syu wf-tools; then
+if ! /opt/wonderful/bin/wf-pacman -Syu wf-tools target-gba target-gba-libtonc; then
     echo "Error: Failed to install wf-tools"
     exit 9
 fi
 
-if ! wf-pacman -S target-gba target-gba-libtonc; then
-    echo "Error: Failed to install GBA targets"
-    exit 10
-fi
+source /opt/wonderful/bin/wf-env
 
 echo "Wonderful toolchain installed successfully."
