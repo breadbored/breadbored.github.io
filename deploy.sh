@@ -88,6 +88,12 @@ touch .nojekyll || {
     handle_error $LINENO
 }
 
+echo "Creating CNAME file..."
+echo "bread.codes" > CNAME || {
+    echo "Failed to create CNAME file"
+    handle_error $LINENO
+}
+
 echo "Copying build files to root..."
 cp -r temp_deploy/* . || {
     echo "Failed to copy build files to root"
