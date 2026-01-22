@@ -48,7 +48,16 @@ cp -r out/* temp_deploy/ || {
     exit 1
 }
 
+echo "Copying public files to temp..."
+cp -r public/* temp_deploy/ || {
+    echo "Failed to copy public files"
+    exit 1
+}
+
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+echo "Resetting public directory changes..."
+git checkout -- public/ || true
 
 echo "Switching to gh-pages branch..."
 if git show-ref --verify --quiet refs/heads/gh-pages; then
