@@ -15,7 +15,9 @@ jobs:
     
       - name: Build example repository
         run: |
-          cd butano-tutorial-series/chapter-1-getting-started
+          cd butano-tutorial-series
+          git submodule update --init --recursive
+          cd chapter-1-getting-started
           make
           if [ ! -f chapter-1-getting-started.gba ]; then
               echo "chapter-1-getting-started.gba does not exist!"
