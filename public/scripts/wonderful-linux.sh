@@ -73,4 +73,6 @@ if ! wf-pacman -S target-gba target-gba-libtonc; then
     exit 10
 fi
 
+source /opt/wonderful/bin/wf-env
+
 echo "Wonderful toolchain installed successfully."

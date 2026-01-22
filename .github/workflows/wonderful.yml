@@ -8,13 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test wonderful toolchain installer
-        run: curl -fsSL https://bread.codes/scripts/wonderful-linux.sh | bash
-
-      - name: Pull example repository
-        run: git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
-    
-      - name: Build example repository
         run: |
+          curl -fsSL https://bread.codes/scripts/wonderful-linux.sh | bash
+          source /opt/wonderful/bin/wf-env
+          git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
           cd butano-tutorial-series
           git submodule update --init --recursive
           cd chapter-1-getting-started
