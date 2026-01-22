@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # Wonderful Toolchain Installer
 # Usage: curl -fsSL https://bread.codes/scripts/wonderful.sh | bash
@@ -14,34 +13,64 @@ case "$ARCH" in
         BOOTSTRAP_URL="https://wonderful.asie.pl/bootstrap/wf-bootstrap-aarch64.tar.gz"
         ;;
     *)
+        echo "Error: Unsupported architecture: $ARCH"
         exit 1
         ;;
 esac
 
 if [ ! -d "/opt/wonderful" ]; then
-    sudo mkdir -p /opt/wonderful
+    if ! sudo mkdir -p /opt/wonderful; then
+        echo "Error: Failed to create /opt/wonderful directory"
+        exit 2
+    fi
 fi
 
-sudo chown -R "$USER" /opt/wonderful
+if ! sudo chown -R "$USER" /opt/wonderful; then
+    echo "Error: Failed to change ownership of /opt/wonderful"
+    exit 3
+fi
 
 TEMP_FILE=$(mktemp)
+if [ -z "$TEMP_FILE" ]; then
+    echo "Error: Failed to create temporary file"
+    exit 4
+fi
 
 trap "rm -f $TEMP_FILE" EXIT
 
 if command -v curl &> /dev/null; then
-    curl -fsSL "$BOOTSTRAP_URL" -o "$TEMP_FILE"
+    if ! curl -fsSL "$BOOTSTRAP_URL" -o "$TEMP_FILE"; then
+        echo "Error: Failed to download bootstrap"
+        exit 5
+    fi
 elif command -v wget &> /dev/null; then
-    wget -q "$BOOTSTRAP_URL" -O "$TEMP_FILE"
+    if ! wget -q "$BOOTSTRAP_URL" -O "$TEMP_FILE"; then
+        echo "Error: Failed to download bootstrap"
+        exit 5
+    fi
 else
-    exit 1
+    echo "Error: Neither curl nor wget found"
+    exit 6
 fi
 
-cd /opt/wonderful/
+if ! cd /opt/wonderful/; then
+    echo "Error: Failed to change to /opt/wonderful directory"
+    exit 7
+fi
 
-tar xzf "$TEMP_FILE"
+if ! tar xzf "$TEMP_FILE"; then
+    echo "Error: Failed to extract bootstrap"
+    exit 8
+fi
 
-/opt/wonderful/bin/wf-pacman -Syu wf-tools
+if ! /opt/wonderful/bin/wf-pacman -Syu wf-tools; then
+    echo "Error: Failed to install wf-tools"
+    exit 9
+fi
+
+if ! wf-pacman -S target-gba target-gba-libtonc; then
+    echo "Error: Failed to install GBA targets"
+    exit 10
+fi
 
 echo "Wonderful toolchain installed successfully."
-
-wf-pacman -S target-gba target-gba-libtonc
