@@ -1,0 +1,11 @@
+name: Test Wonderful Toolchain Installer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-installer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test wonderful toolchain installer
+        run: curl -fsSL https://bread.codes/scripts/wonderful.sh | bash
