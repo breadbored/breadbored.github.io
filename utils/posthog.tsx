@@ -8,8 +8,8 @@ export const initPostHog = () => {
       loaded: (posthog) => {
         // posthog.opt_out_capturing();
       },
-      persistence: "memory",
-      persistence_name: "posthog",
+      persistence: "localStorage+cookie",
+      persistence_name: "ph",
       // Disable page view tracking because Next acts like a single-page app once loaded
       // and we need to handle this ourselves
       // https://posthog.com/tutorials/single-page-app-pageviews
