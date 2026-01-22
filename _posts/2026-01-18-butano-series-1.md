@@ -5,7 +5,7 @@ super-title: Butano Series
 title: Intro to Butano
 slug: butano-series-1
 date: 2026-01-18
-categories: ["miniproject", "media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
+categories: ["media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 wider: true
 excerpt: In this chapter, we will introduce Butano, a modern C++ high-level engine for Game Boy Advance homebrew development, and set up our development environment.

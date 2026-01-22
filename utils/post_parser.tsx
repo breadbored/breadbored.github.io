@@ -76,8 +76,12 @@ export function parseJekyllPost(content: string): JekyllPost {
 }
 
 export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
-  // You'll need to implement the file reading logic here
-  // This is just a placeholder example
+  let otherPosts: JekyllPost[] = [];
+
+  if (dir === "_drafts") {
+    otherPosts = await getAllPublishedPosts();
+  }
+
   const fs = require("fs");
   const path = require("path");
   const postsDirectory = path.join(process.cwd(), dir);
@@ -100,7 +104,7 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
     });
 
   // Group series posts
-  for (const post of posts) {
+  for (const post of [...posts, ...otherPosts]) {
     const isSeries = !!post.chapterHeader
 
     if (isSeries) {
@@ -136,6 +140,10 @@ export async function getAllPosts(dir: string): Promise<JekyllPost[]> {
 
 export async function getAllPublishedPosts(): Promise<JekyllPost[]> {
   return await getAllPosts("_posts");
+}
+
+export async function getAllDraftPosts(): Promise<JekyllPost[]> {
+  return await getAllPosts("_drafts");
 }
 
 export async function getAllArchivedPosts(): Promise<JekyllPost[]> {
