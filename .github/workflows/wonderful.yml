@@ -15,8 +15,9 @@ jobs:
         run: |
           curl -fsSL https://bread.codes/scripts/wonderful-linux.0.0.2.sh | bash
           source /opt/wonderful/bin/wf-env
-          if ! command -v wf-pacman &> /dev/null; then
-              echo "wf-pacman could not be found!"
+          # check if the script failed
+          if [ $? -ne 0 ]; then
+              echo "Error: Wonderful toolchain installer failed"
               exit 1
           fi
           git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
