@@ -16,7 +16,7 @@ jobs:
       
       - name: Test wonderful toolchain installer
         run: |
-          curl -fsSL https://bread.codes/scripts/wonderful-linux-0.0.1.sh | bash
+          curl -fsSL https://bread.codes/scripts/wonderful-linux.0.0.1.sh | bash
           source /opt/wonderful/bin/wf-env
           git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
           cd butano-tutorial-series
