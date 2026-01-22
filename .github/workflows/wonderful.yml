@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test wonderful toolchain installer
-        run: curl -fsSL https://bread.codes/scripts/wonderful.sh | bash
+        run: curl -fsSL https://bread.codes/scripts/wonderful-linux.sh | bash
