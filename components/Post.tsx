@@ -444,9 +444,13 @@ const Post = ({ post }: { post: PostType }) => {
   useEffect(() => {
     // listen for the width of the hrWidthRef changing
     window?.addEventListener("resize", hrResizeListener);
-    hrResizeListener();
+
+    const timeout = setTimeout(() => {
+      hrResizeListener();
+    }, 100);
 
     return () => {
+      clearTimeout(timeout);
       window?.removeEventListener("resize", hrResizeListener);
     };
   }, [])

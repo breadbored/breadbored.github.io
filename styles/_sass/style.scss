@@ -5,31 +5,37 @@
   font-family: 'More';
   src: url('/more.ttf');
   size-adjust: 200%;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ziplock';
   src: url('/ziplock.ttf');
   size-adjust: 150%;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Tape';
   src: url('/tape.ttf');
   size-adjust: 90%;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sins';
   src: url('/sins.ttf');
   size-adjust: 200%;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Tape Mono';
   src: url('/tape-mono.ttf');
   size-adjust: 90%;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sins Mono';
   src: url('/sins-mono.ttf');
   size-adjust: 200%;
+  font-display: swap;
 }
 
 body:not(.silly) {
