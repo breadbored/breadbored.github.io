@@ -13,7 +13,7 @@
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.471.0",
     "next": "^14.1.0",
-    "posthog-js": "^1.205.0",
+    "posthog-js": "^1.333.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-h5-audio-player": "^3.10.0-rc.1",

@@ -19,6 +19,7 @@ import { BSkyPost } from "../utils/bsky";
 import hljs from "highlight.js";
 import Head from "next/head";
 import remarkGfm from "remark-gfm";
+import posthog from "posthog-js";
 
 function flatten(
   text: string,
@@ -55,33 +56,45 @@ function NextPrev({ params, key, post }: { params: string[]; key?: Key | null; p
       marginBottom: '2rem',
     }}>
       {prevTitle && prevLink && (
-        <a href={prevLink} style={{
-          flex: 1,
-          padding: '1rem',
-          border: '2px solid #333',
-          borderRadius: '8px',
-          textAlign: 'center',
-          cursor: 'pointer',
-          textDecoration: 'none',
-          color: 'inherit',
-          transition: 'background-color 0.2s',
-        }}>
+        <a
+          href={prevLink}
+          style={{
+            flex: 1,
+            padding: '1rem',
+            border: '2px solid #333',
+            borderRadius: '8px',
+            textAlign: 'center',
+            cursor: 'pointer',
+            textDecoration: 'none',
+            color: 'inherit',
+            transition: 'background-color 0.2s',
+          }}
+          onClick={() => {
+            posthog.capture('link-click', { property: prevLink })
+          }}
+        >
           <div style={{ fontSize: '1.5rem' }}>←</div>
           <div>{prevTitle}</div>
         </a>
       )}
       {nextTitle && nextLink && (
-        <a href={nextLink} style={{
-          flex: 1,
-          padding: '1rem',
-          border: '2px solid #333',
-          borderRadius: '8px',
-          textAlign: 'center',
-          cursor: 'pointer',
-          textDecoration: 'none',
-          color: 'inherit',
-          transition: 'background-color 0.2s',
-        }}>
+        <a
+          href={nextLink}
+          style={{
+            flex: 1,
+            padding: '1rem',
+            border: '2px solid #333',
+            borderRadius: '8px',
+            textAlign: 'center',
+            cursor: 'pointer',
+            textDecoration: 'none',
+            color: 'inherit',
+            transition: 'background-color 0.2s',
+          }}
+          onClick={() => {
+            posthog.capture('link-click', { property: nextLink })
+          }}
+        >
           <div style={{ fontSize: '1.5rem' }}>→</div>
           <div>{nextTitle}</div>
         </a>
@@ -208,7 +221,10 @@ function ComponentInterceptor(post: PostType) {
       {
         id: slug,
         className: "heading-anchor-wrapper",
-        key: props.key
+        key: props.key,
+        onClick: () => {
+          posthog.capture('link-click', { property: `#${slug}` })
+        },
       },
       React.createElement(
         "a",
@@ -266,6 +282,9 @@ function HeadingRenderer(level: number) {
         id: slug,
         className: "heading-anchor-wrapper",
         key: props.key,
+        onClick: () => {
+          posthog.capture('link-click', { property: `#${slug}` })
+        },
       },
       React.createElement(
         "a",
@@ -328,7 +347,10 @@ function CodeRenderer() {
         {
           id: `${slug}-pre`,
           className: "not-prose",
-          key: props.key
+          key: props.key,
+          onClick: () => {
+            posthog.capture('code-click', { property: `${slug}-pre` })
+          },
         },
         React.createElement("code", {
           id: slug,
@@ -348,7 +370,10 @@ function CodeRenderer() {
           color: "orange",
           padding: "0 6px",
           margin: "0 3px",
-        }
+        },
+        onClick: () => {
+          posthog.capture('code-click', { property: `${slug}` })
+        },
       },
       props.children,
     );
@@ -530,7 +555,9 @@ const Post = ({ post }: { post: PostType }) => {
               i: ({ node, ...props }) => <i {...props} >{props.children}</i>,
               b: ({ node, ...props }) => <b {...props} >{props.children}</b>,
               strong: ({ node, ...props }) => <strong {...props} >{props.children}</strong>,
-              a: ({ node, ...props }) => <a {...props} >{props.children}</a>,
+              a: ({ node, ...props }) => <a {...props} target="_blank" onClick={() => {
+                posthog.capture('link-click', { property: props.href })
+              }} >{props.children}</a>,
               li: ({ node, ...props }) => <li {...props} >{props.children}</li>,
               hr: ({ node, ...props }) => <Fragment key={props.key}>
                 <hr key={`hr-${props.key}`} ref={hrWidthRef} style={{
