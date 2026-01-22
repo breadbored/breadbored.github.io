@@ -18,6 +18,7 @@ const Home = ({ posts }: { posts: Post[] }) => {
     return (
         <>
             <Head>
+                <html lang="en-US" />
                 <title>bread.codes</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#333333" />
