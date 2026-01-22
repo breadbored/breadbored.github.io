@@ -81,6 +81,8 @@ fi
 
 echo "step 9: installing wf-tools..."
 
+export PATH=/opt/wonderful/bin:$PATH
+
 if ! /opt/wonderful/bin/wf-pacman -Syu wf-tools; then
     echo "Error: Failed to install wf-tools"
     exit 9
