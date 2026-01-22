@@ -42,15 +42,15 @@ mkdir temp_deploy || {
     exit 1
 }
 
-echo "Copying build files to temp..."
-cp -r out/* temp_deploy/ || {
-    echo "Failed to copy build files"
-    exit 1
-}
-
 echo "Copying public files to temp..."
 cp -r public/* temp_deploy/ || {
     echo "Failed to copy public files"
+    exit 1
+}
+
+echo "Copying build files to temp..."
+cp -r out/* temp_deploy/ || {
+    echo "Failed to copy build files"
     exit 1
 }
 
