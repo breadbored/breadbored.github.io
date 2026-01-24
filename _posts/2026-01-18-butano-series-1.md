@@ -2,7 +2,7 @@
 layout: post
 chapter-header: Chapter 1
 super-title: Butano Series
-title: Intro to Butano
+title: Setting Up Your Development Environment
 slug: butano-series-1
 date: 2026-01-18
 categories: ["media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
