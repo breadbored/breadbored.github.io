@@ -2,7 +2,7 @@
 layout: post
 chapter-header: Chapter 1.1
 super-title: Butano Series
-title: Butano FAQ
+title: Environment FAQ
 slug: butano-series-1.1
 date: 2026-01-21
 categories: ["media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
@@ -19,13 +19,17 @@ excerpt: In this chapter, we will explore common questions and troubleshooting t
 
 ## Editor FAQ
 
-### Visual Studio Code
+### I don't see error squiggles or IntelliSense in my C++ files
 
-#### I don't see error squiggles or IntelliSense in my C++ files
+#### Visual Studio Code IntelliSense Setup
 
 Make sure you have the C/C++ extension installed from Microsoft. You can find it in the Extensions Marketplace by searching for "C/C++".  
 ![C/C++ Extension](https://code.visualstudio.com/assets/docs/languages/cpp/cpp-extension.png)  
 (source: [Visual Studio Code Documentation](https://code.visualstudio.com/docs/languages/cpp))
+
+#### Zed Editor IntelliSense Setup
+
+C/C++ IntelliSense is supported natively in Zed Editor. Ensure that your paths match your setup in the `.clangd` file.
 
 ## Chapter Overview
 
