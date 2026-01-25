@@ -1,14 +1,14 @@
 ---
 layout: post
-chapter-header: Chapter 2
+chapter-header: Chapter 1.1
 super-title: Butano Series
-title: Sprites in Butano
-slug: butano-series-2
+title: Butano FAQ
+slug: butano-series-1.1
 date: 2026-01-21
 categories: ["media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 wider: true
-excerpt: In this chapter, we will explore how to create and import sprites into Butano, and how to use them in our game.
+excerpt: In this chapter, we will explore common questions and troubleshooting tips for using Butano.
 ---
 
 <center>
@@ -17,17 +17,19 @@ excerpt: In this chapter, we will explore how to create and import sprites into 
   </a>
 </center>
 
-## Creating and Importing Sprites in Butano
+## Editor FAQ
 
-### Assets in Aseprite
+### Visual Studio Code
 
-### Adding the Sprite to Our Project
+#### I don't see error squiggles or IntelliSense in my C++ files
 
-### Using the Sprite in Butano
+Make sure you have the C/C++ extension installed from Microsoft. You can find it in the Extensions Marketplace by searching for "C/C++".  
+![C/C++ Extension](https://code.visualstudio.com/assets/docs/languages/cpp/cpp-extension.png)  
+(source: [Visual Studio Code Documentation](https://code.visualstudio.com/docs/languages/cpp))
 
-### Chapter Overview
+## Chapter Overview
 
-###### ButanoSeriesNav "2","2"
+###### ButanoSeriesNav "1.1","1.1"
 
 ---
 ---

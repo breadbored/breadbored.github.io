@@ -109,15 +109,126 @@ function ButanoSeriesNav({ params, key, post }: { params: string[]; key?: Key | 
   }
   // this series starts at chapter 0
   const startingChapter = 0;
-  const currentChapterNum = parseInt(params[0]) || 0;
-  const chapterRoute = (num: number) => {
-    return `/posts/butano-series-${num}`;
-  };
-  const seriesMap = post.otherInSeries.sort((a, b) => {
-    const aNum = parseInt(a.slug.split('butano-series-')[1]);
-    const bNum = parseInt(b.slug.split('butano-series-')[1]);
-    return aNum - bNum;
-  });
+  const currentChapterNum = params[0] || "0";
+
+  const chapterRoute = useCallback((num: string | number) => {
+    return `/series/butano/${num}`;
+  }, []);
+
+  const seriesMap = post.otherInSeries
+    .sort((a, b) => {
+      const aNum = parseInt(a.slug.split('butano-series-')[1]);
+      const bNum = parseInt(b.slug.split('butano-series-')[1]);
+      return aNum - bNum;
+    })
+    .reduce((acc: (PostType & {
+      subChapters?: PostType[];
+      chapter: string;
+      subChapter: string | null;
+    })[], curr: PostType, i: number, arr: PostType[]) => {
+      let chapter = curr.slug.split('butano-series-')[1]
+      let subChapter: string | null = null;
+
+      if (chapter.includes(".")) {
+        const parts = chapter.split(".");
+        chapter = parts[0];
+        subChapter = parts[1];
+      }
+
+      if (!subChapter) {
+        acc.push({
+          ...curr,
+          subChapters: [],
+          chapter,
+          subChapter,
+        });
+      } else {
+        acc.find((a) => a.chapter === chapter)?.subChapters!.push({
+          ...curr,
+        });
+      }
+
+      return acc;
+    }, []);
+
+  const listItem = useCallback((chapter: (PostType & {
+    subChapters?: PostType[];
+    chapter: string;
+    subChapter: string | null;
+  }), i: number) => {
+    const index = chapter.subChapter ? `${chapter.chapter}.${chapter.subChapter}` : chapter.chapter;
+    const currentChapter = index === currentChapterNum ? true : false;
+
+    if (currentChapter) {
+      return (
+        <li>
+          {chapter.title} - <b>{"you are here"}</b>
+
+          <ol>
+            {chapter.subChapters && chapter.subChapters.length > 0 && chapter.subChapters.map((subChapter, j) => {
+              const subIndex = `${chapter.chapter}.${j + 1}`;
+              const isCurrentSubChapter = subIndex === currentChapterNum ? true : false;
+
+              if (isCurrentSubChapter) {
+                return (
+                  <li key={subIndex}>
+                    {subChapter.title} - <b>{"you are here"}</b>
+                  </li>
+                );
+              }
+
+              return (
+                <li key={subIndex}>
+                  <a
+                    href={chapterRoute(subIndex)}
+                  >
+                    {subChapter.title}
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        </li>
+      );
+    }
+
+    return (
+      <li>
+        <a
+          key={index}
+          href={chapterRoute(index)}
+        >
+          {chapter.title}
+        </a>
+
+        <ol>
+          {chapter.subChapters && chapter.subChapters.length > 0 && chapter.subChapters.map((subChapter, j) => {
+            const subIndex = `${chapter.chapter}.${j + 1}`;
+            const isCurrentSubChapter = subIndex === currentChapterNum ? true : false;
+
+            if (isCurrentSubChapter) {
+              return (
+                <li key={subIndex}>
+                  {subChapter.title} - <b>{"you are here"}</b>
+                </li>
+              );
+            }
+
+            return (
+              <li key={subIndex}>
+                <a
+                  href={chapterRoute(subIndex)}
+                >
+                  {subChapter.title}
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </li>
+    );
+  }, [currentChapterNum, chapterRoute, startingChapter]);
+
   return (
     <ol
       key={key}
@@ -125,27 +236,7 @@ function ButanoSeriesNav({ params, key, post }: { params: string[]; key?: Key | 
       className="chapter-list"
     >
       {Array.from(seriesMap).map((chapter, i) => {
-        const index = i + startingChapter;
-        const currentChapter = index === currentChapterNum ? true : false;
-
-        if (currentChapter) {
-          return (
-            <li>
-              {chapter.title} - <b>{"you are here"}</b>
-            </li>
-          );
-        }
-
-        return (
-          <li>
-            <a
-              key={index}
-              href={chapterRoute(index)}
-            >
-              {chapter.title}
-            </a>
-          </li>
-        );
+        return listItem(chapter, i);
       })}
     </ol>
   )
