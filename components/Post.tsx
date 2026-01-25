@@ -435,7 +435,7 @@ function HeadingRenderer(level: number) {
   };
 }
 
-function CodeRenderer() {
+function CodeRenderer(node?: Element) {
   return (
     props: ClassAttributes<HTMLPreElement | HTMLElement> &
       HTMLAttributes<HTMLPreElement | HTMLElement> &
@@ -447,7 +447,7 @@ function CodeRenderer() {
     var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
 
     useEffect(() => {
-      if (codeRef.current && text.includes("\n")) {
+      if (codeRef.current && node) {
         try {
           hljs.highlightElement(codeRef.current);
         } catch (e) {
@@ -456,12 +456,12 @@ function CodeRenderer() {
       }
     }, [text]);
 
-    if (text.includes("\n")) {
+    if (node) {
       return React.createElement(
         "pre",
         {
           id: `${slug}-pre`,
-          className: "not-prose",
+          className: "not-prose " + (props.className || ""),
           key: props.key,
           onClick: () => {
             posthog.capture('code-click', { property: `${slug}-pre` })
@@ -656,7 +656,7 @@ const Post = ({ post }: { post: PostType }) => {
                 return <CodeComponent {...props} />;
               },
               pre: ({ node, ...props }) => {
-                const CodeComponent = CodeRenderer();
+                const CodeComponent = CodeRenderer(node as unknown as Element);
                 return <CodeComponent {...props} />;
               },
               details: ({ node, ...props }) => {
