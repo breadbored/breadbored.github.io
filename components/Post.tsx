@@ -276,11 +276,35 @@ function HeadingRenderer(level: number) {
       document.getElementById(slug)?.scrollIntoView({ behavior: "smooth" });
     };
 
+    let additionalClassName = "";
+    switch (level) {
+      case 1: {
+        additionalClassName = "text-4xl font-bold mb-6 leading-[3.5rem]";
+        break;
+      }
+      case 2: {
+        additionalClassName = "text-3xl font-bold mb-5";
+        break;
+      }
+      case 3: {
+        additionalClassName = "text-2xl font-bold mb-4";
+        break;
+      }
+      case 4: {
+        additionalClassName = "text-xl font-bold mb-3";
+        break;
+      }
+      case 5: {
+        additionalClassName = "text-lg font-bold mb-2";
+        break;
+      }
+    }
+
     return React.createElement(
       "h" + level,
       {
         id: slug,
-        className: "heading-anchor-wrapper",
+        className: "heading-anchor-wrapper " + additionalClassName,
         key: props.key,
         onClick: () => {
           posthog.capture('link-click', { property: `#${slug}` })
@@ -527,7 +551,7 @@ const Post = ({ post }: { post: PostType }) => {
         {post.chapterHeader && (
           <h1 className="text-2xl font-semibold mb-2">{post.chapterHeader}</h1>
         )}
-        <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+        <h1 className="text-4xl font-bold mb-4 leading-[3.5rem]">{post.title}</h1>
         <div className="mb-8 text-gray-600 pixel-font">{formattedDate}</div>
         <div
           className={`prose max-w-none ${post.align == "right" ? "text-right" : post.align == "left" ? "text-left" : "text-center"}`}
@@ -543,6 +567,29 @@ const Post = ({ post }: { post: PostType }) => {
               pre: ({ node, ...props }) => {
                 const CodeComponent = CodeRenderer();
                 return <CodeComponent {...props} />;
+              },
+              details: ({ node, ...props }) => {
+                const elementName = node?.tagName.toLowerCase() || "span";
+                if (elementName === "details") {
+                  return React.createElement(
+                    elementName,
+                    {
+                      ...props,
+                      style: {
+                        ...props.style,
+                        border: "2px solid #000",
+                        padding: "20px",
+                      }
+                    },
+                    props.children,
+                  );
+                } else {
+                  return React.createElement(
+                    elementName,
+                    { ...props },
+                    props.children,
+                  );
+                }
               },
               h1: HeadingRenderer(1),
               h2: HeadingRenderer(2),

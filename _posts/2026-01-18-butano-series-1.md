@@ -17,30 +17,93 @@ excerpt: In this chapter, we will introduce Butano, a modern C++ high-level engi
   </a>
 </center>
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+While I will be doing all of my development on MacOS and Linux, DevKitPro supports Windows as well. All commands shown in this tutorial will be in bash, so Windows users will need to use the Git-Bash terminal to follow along.
 
-While I will be doing all of my development on MacOS and Linux, DevKitPro supports Windows as well. You can find installation instructions for all three platforms on the [DevKitPro website](https://devkitpro.org/wiki/Getting_Started).
+### Software
 
-#### Software
+#### Package Managers
 
-##### Development Tools
+- Windows: [Chocolatey](https://chocolatey.org/install), a package manager for Windows.
+  - Install by following the instructions on the [Chocolatey installation page](https://chocolatey.org/install).
+- MacOS: [Homebrew](https://brew.sh/), a package manager for MacOS.
+  - Install by running the following command in your terminal:
+  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Linux: Your distribution's package manager (e.g. `apt`, `dnf`, `pacman`, etc.)
 
-- [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
+#### Development Tools
+
+<!-- - [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
   - Once installed, install the `gba-dev` package.
     - Windows:
         This is done through the GUI installer. Choose the `gba-dev` package from the list. If you forgot to install it, you can re-run the installer to add it
     - MacOS / Linux terminal:
       - Most systems: `dkp-pacman -S gba-dev`
       - Some distros using vanilla pacman: `pacman -S gba-dev`
-- [mGBA](https://mgba.io/downloads.html), an emulator for testing our GBA homebrew.
-  - Supports GDB debugging as well for breakpoints and memory inspection.
+- [Make](https://www.gnu.org/software/make/), a build automation tool
+  - Windows: If you installed DevKitPro with the GUI installer, Make should already be included. If you find out it isn't when you run `make`, you can install it via [Chocolatey](https://chocolatey.org/) with `choco install make`, or by installing [Git for Windows](https://gitforwindows.org/) which includes Make in Git-Bash.
+  - MacOS: Included with Xcode Command Line Tools (`xcode-select --install`)
+  - Linux: Install via your package manager, e.g. `sudo apt install build-essential` on Debian-based systems
+- [Python](https://www.python.org/downloads/), for running various scripts
+  - Windows: [Download and install Python](https://www.python.org/downloads/windows/), I am using [3.12](https://www.python.org/downloads/release/python-31212/) for this series
+  - MacOS: Included with the OS, but you can also install the latest version via [Homebrew](https://brew.sh/) with `brew install python`
+  - Linux: Install via your package manager, e.g. `sudo apt install python3` on Debian-based systems
 - `git`, for version control
   - Windows: [Git for Windows](https://gitforwindows.org/)
     - For the remainder of this tutorial, you will be using the Git Bash terminal so that the commands match those shown for MacOS and Linux.
   - MacOS: Install via [Homebrew](https://brew.sh/) with `brew install git`, or download from [git-scm.com](https://git-scm.com/download/mac)
-  - Linux: Install via your package manager, e.g. `sudo apt install git` on Debian-based systems
+  - Linux: Install via your package manager, e.g. `sudo apt install git` on Debian-based systems -->
+
+##### Windows
+
+- [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
+  - Install by following the instructions on the [DevKitPro Getting Started page](https://devkitpro.org/wiki/Getting_Started).
+  - During installation, make sure to select the `gba-dev` package from the list.
+- [Git for Windows](https://gitforwindows.org/), for version control and Git-Bash terminal
+- [Python](https://www.python.org/downloads/windows/), for running various scripts
+  - I am using [3.12](https://www.python.org/downloads/release/python-31212/) for this series
+- [Make](https://www.gnu.org/software/make/), a build automation tool
+  - If you installed DevKitPro with the GUI installer, Make should already be included. If you find out it isn't when you run `make`, you can install it via [Chocolatey](https://chocolatey.org/) with `choco install make`.
+
+##### MacOS
+
+- [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
+  - Install by following the instructions on the [DevKitPro Getting Started page](https://devkitpro.org/wiki/Getting_Started).
+  - After installation of the DevKitPro base system, run `dkp-pacman -S gba-dev` to install the `gba-dev` package.
+- [pyenv](https://github.com/pyenv/pyenv) preferably for a Python version manager, or install Python via [Homebrew](https://brew.sh/)
+  - If using pyenv, install Python 3.12 with `pyenv install 3.12.12` and set it as the global version with `pyenv global 3.12.12`
+  - If using Homebrew, run `brew install python` to install the latest version of Python
+- [Make](https://www.gnu.org/software/make/), a build automation tool
+  - Included with Xcode Command Line Tools (`xcode-select --install`)
+- `git`, for version control
+  - Install via [Homebrew](https://brew.sh/) with `brew install git`
+
+##### Linux
+
+- [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
+  - Install by following the instructions on the [DevKitPro Getting Started page](https://devkitpro.org/wiki/Getting_Started).
+  - After installation of the DevKitPro base system, run `dkp-pacman -S gba-dev` to install the `gba-dev` package.
+    - Some distros using vanilla pacman: `pacman -S gba-dev`
+- [Python](https://www.python.org/downloads/), for running various scripts
+  - Install via your package manager, e.g. `sudo apt install python3` on Debian-based systems
+- [Make](https://www.gnu.org/software/make/), a build automation tool
+  - Install via your package manager, e.g. `sudo apt install build-essential` on Debian-based systems
+- `git`, for version control
+  - Install via your package manager, e.g. `sudo apt install git` on Debian-based systems
+
+##### All Platforms
+
+- [mGBA](https://mgba.io/downloads.html), an emulator for testing our GBA homebrew.
+  - Supports GDB debugging as well for breakpoints and memory inspection.
+
+##### Optional _/_ Alternative Tools
+
+To reduce the clutter of the main instructions, I have placed some optional or alternative tools in this expandable section.
+
+<details>
+
+<summary>If you're interested in alternatives to all these tools, click here!</summary>
 
 Some flavorful alternatives for the experienced reader who wants to explore beyond the scope of this tutorial:
 
@@ -51,6 +114,8 @@ Some flavorful alternatives for the experienced reader who wants to explore beyo
   - [VisualBoyAdvance-M (VBA-M)](https://github.com/visualboyadvance-m/visualboyadvance-m), a popular alternative emulator for GBA homebrew development.
     - It supports debugging with gdb like mGBA, which is very useful
   - [Mesen](https://mesen.ca/), an alternative emulator that supports GBA, has a color mode that more closely matches the original screen, and has a great debugger.
+
+</details>
 
 Finally, you will need a code editor. This is the most highly subjective part of the setup, so I will leave it up to you. 
 
@@ -72,7 +137,7 @@ Editors that I recommend but did not include configurations for:
 |[Visual Studio](https://visualstudio.microsoft.com/)|Powerful IDE with extensive features<br/>Excellent debugging and profiling tools<br/>Strong C++ support|Primarily Windows-focused<br/>Can be resource-intensive|Great for Windows users|
 |[Vim / Neovim](https://neovim.io/)|Extremely lightweight and fast<br/>Highly customizable with plugins<br/>Powerful keyboard-centric editing|Steeper learning curve<br/>Requires configuration for optimal C++ support|Great for those who prefer terminal-based editors|
 
-##### Art Tools
+#### Art Tools
 
 \* What we will be using in this series.
 
@@ -100,18 +165,18 @@ Editors that I recommend but did not include configurations for:
     - "Supports" making GBA music, but the only format it can export that is compatible is VGM, which means you can only make Game Boy / Color music. Luckily, the GBA is backwards compatible with GB/C audio, but you cannot take advantage of the GBA's 2 PCM channels.
       - This could be a misunderstanding on my part; please correct me if I'm wrong!
 
-### Getting the starter repository
+## Getting the starter repository
 
 From here on out, if you are on Windows, "terminal" means the Git-Bash terminal. It is important to use Git-Bash because many commands will not work correctly in Command Prompt or PowerShell.
 
 Open your terminal, navigate to your desired directory, and run the following commands to clone the starter repository and navigate into it:
 
 ```bash
-# Clone the repository and navigate into it
+ Clone the repository and navigate into it
 git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
 cd butano-tutorial-series
 
-# Initialize git submodules, which includes Butano itself and an extension for Fonts
+ Initialize git submodules, which includes Butano itself and an extension for Fonts
 git submodule update --init --recursive
 ```
 
@@ -145,13 +210,13 @@ make run
 
 Once you see the mGBA window pop up with our starter project running, congratulations! Your development environment is set up correctly!
 
-### What's Next?
+## What's Next?
 
 Next we will begin working with assets in Butano. This includes creating and importing sprites, backgrounds, and audio into our project. We will also explore ways to use those assets.
 
-### Chapter Overview
+## Chapter Overview
 
-###### ButanoSeriesNav "1","1"
+##### ButanoSeriesNav "1","1"
 
 ---
 ---
@@ -160,7 +225,7 @@ Next we will begin working with assets in Butano. This includes creating and imp
 
 ---
 
-### Support the Series
+## Support the Series
 
 <center>
   <a href="https://buymeacoffee.com/breadcodes" target="_blank">

@@ -229,6 +229,11 @@ b, strong, em {
   font-family: "Tape Mono", monospace !important;
 }
 
+h1 {
+  font-size: 3em;
+  line-height: 3.5rem;
+}
+
 // Pixel art style focus indicator (default mode)
 body:not(.accessibility-mode) {
   // Only apply focus styles to interactive elements
