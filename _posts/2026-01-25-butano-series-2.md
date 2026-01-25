@@ -193,6 +193,36 @@ while (true) {
 
 Now with a little `make` & `make run`, you should see the blocks gently waving up and down at the bottom of the screen!
 
+#### Manipulating Text Sprites
+
+You may notice the text that still says "Chapter 1" and "Getting Started" at the top of the screen. This is because we haven't modified the text sprites that were created in Chapter 1. Much like our list of block sprites, text is typically stored in a list of sprite pointers, where each character has a pointer in the list.
+
+We can change the text by simply changing the value in the following strings:
+
+```cpp
+bn::string<15> title_message_string = "Getting Started";
+// ...
+bn::vector<bn::sprite_ptr, 15> title_message_sprites;
+// ...
+bn::string<9> subtitle_message_string = "Chapter 1";
+// ...
+bn::vector<bn::sprite_ptr, 9> subtitle_message_sprites;
+```
+
+You may notice the `15` & `9` in the angle brackets (`<` & `>`). This indicates the maximum length of the string and the list of sprites. If you try to set a string longer than this length, you will get an error. You can increase these values if you want to use longer strings. The same applies to the list of sprite pointers for the text sprites. Keep in mind that the GBA has limited memory and a limited number of sprites that can be rendered (128), so using excessively long strings and lists will become problematic.
+
+I will be changing the above lines to the following to reflect that we are now in Chapter 2:
+
+```cpp
+bn::string<7> title_message_string = "Sprites"; // changed from 15 to 7
+// ...
+bn::vector<bn::sprite_ptr, 7> title_message_sprites; // changed from 15 to 7
+// ...
+bn::string<9> subtitle_message_string = "Chapter 2"; // changed from "Chapter 1" to "Chapter 2"
+// ...
+bn::vector<bn::sprite_ptr, 9> subtitle_message_sprites;
+```
+
 ## Conclusion
 
 Congratulations on completing this chapter! You have successfully created and imported a sprite into Butano, and manipulated it in various ways. In the next chapter, we will explore how to handle user input to move the blocks around the screen.
