@@ -1,3 +1,4 @@
+import { Post } from "../types";
 import { getAllPublishedPosts, getAllArchivedPosts } from "../utils/post_parser";
 import fs from 'fs';
 
@@ -68,12 +69,17 @@ async function generateSitemap() {
     // Discover and add series pages
     const seriesPosts = publishedPosts.filter(post => !!post.chapterHeader);
     const seriesSet = new Set<string>();
+    const seriesMap = new Map<string, number[]>();
 
     seriesPosts.forEach(post => {
       // Extract series name from slug pattern: {name}-series-{number}
       const match = post.slug.match(/^(.+)-series-\d+$/);
       if (match) {
         seriesSet.add(match[1]);
+        if (!seriesMap.has(match[1])) {
+          seriesMap.set(match[1], []);
+        }
+        seriesMap.get(match[1])!.push(parseInt(post.slug.split('-series-')[1]));
       }
     });
 
@@ -83,6 +89,16 @@ async function generateSitemap() {
         lastmod: currentDate,
         changefreq: 'monthly',
         priority: 0.7
+      });
+
+      const chapterNumbers = seriesMap.get(seriesSlug) || [];
+      chapterNumbers.forEach(chapNum => {
+        entries.push({
+          loc: `${BASE_URL}/series/${seriesSlug}/${chapNum}/`,
+          lastmod: currentDate,
+          changefreq: 'monthly',
+          priority: 0.6
+        });
       });
     });
 
