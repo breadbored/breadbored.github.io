@@ -89,7 +89,7 @@ This will resolve the error! You'll notice this pattern a lot if you are new to 
 Now, we can create a sprite instance using the sprite item we just created. Below the line where we created the `block_sprite_item`, add the following code:
 
 ```cpp
-bn::sprite_ptr block_sprite = bn::sprite_items::klotski_blocks.create_sprite(0, 0);
+bn::sprite_ptr block_sprite = bn::sprite_items::klotski_blocks.create_sprite(0, 48);
 ```
 
 Oh no! Another error! We know what to do here. We need to include the header file for `bn::sprite_ptr`. Add the following include statement in the usual place at the top of the file:
@@ -98,7 +98,7 @@ Oh no! Another error! We know what to do here. We need to include the header fil
 #include "bn_sprite_ptr.h"
 ```
 
-At this point, we now have a pointer (aka `ptr`) which points to the sprite we created, using our Klotski blocks sprite item. The `create_sprite(0, 0)` function creates the sprite at the coordinates (0, 0) on the screen. In Butano, the origin (0, 0) is at the center of the screen. This is typical for graphics programming. The top left is (-120, -80) and the bottom right is (120, 80) for the GBA's 240x160 resolution.
+At this point, we now have a pointer (aka `ptr`) which points to the sprite we created, using our Klotski blocks sprite item. The `create_sprite(0, 48)` function creates the sprite at the coordinates (0, 48) on the screen. In Butano, the origin (0, 0) is at the center of the screen. This is typical for graphics programming. The top left is (-120, -80) and the bottom right is (120, 80) for the GBA's 240x160 resolution. This means that (0, 48) is centered horizontally and 48 pixels down from the center vertically, so it is at the bottom-center of the screen.
 
 You should now be able to build and then run your code!
 
@@ -107,7 +107,11 @@ make
 make run
 ```
 
-You should now see one of the Klotski blocks in the center of the screen!
+You should now see one of the Klotski blocks in the bottom-center of the screen!
+
+#### Manipulating the Sprite
+
+Now that we have our sprite on the screen, let's manipulate it a bit. We can move it, hide it, and change the frame it is displaying.
 
 ## Chapter Overview
 
