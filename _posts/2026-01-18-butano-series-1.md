@@ -34,27 +34,6 @@ While I will be doing all of my development on MacOS and Linux, DevKitPro suppor
 
 #### Development Tools
 
-<!-- - [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
-  - Once installed, install the `gba-dev` package.
-    - Windows:
-        This is done through the GUI installer. Choose the `gba-dev` package from the list. If you forgot to install it, you can re-run the installer to add it
-    - MacOS / Linux terminal:
-      - Most systems: `dkp-pacman -S gba-dev`
-      - Some distros using vanilla pacman: `pacman -S gba-dev`
-- [Make](https://www.gnu.org/software/make/), a build automation tool
-  - Windows: If you installed DevKitPro with the GUI installer, Make should already be included. If you find out it isn't when you run `make`, you can install it via [Chocolatey](https://chocolatey.org/) with `choco install make`, or by installing [Git for Windows](https://gitforwindows.org/) which includes Make in Git-Bash.
-  - MacOS: Included with Xcode Command Line Tools (`xcode-select --install`)
-  - Linux: Install via your package manager, e.g. `sudo apt install build-essential` on Debian-based systems
-- [Python](https://www.python.org/downloads/), for running various scripts
-  - Windows: [Download and install Python](https://www.python.org/downloads/windows/), I am using [3.12](https://www.python.org/downloads/release/python-31212/) for this series
-  - MacOS: Included with the OS, but you can also install the latest version via [Homebrew](https://brew.sh/) with `brew install python`
-  - Linux: Install via your package manager, e.g. `sudo apt install python3` on Debian-based systems
-- `git`, for version control
-  - Windows: [Git for Windows](https://gitforwindows.org/)
-    - For the remainder of this tutorial, you will be using the Git Bash terminal so that the commands match those shown for MacOS and Linux.
-  - MacOS: Install via [Homebrew](https://brew.sh/) with `brew install git`, or download from [git-scm.com](https://git-scm.com/download/mac)
-  - Linux: Install via your package manager, e.g. `sudo apt install git` on Debian-based systems -->
-
 ##### Windows
 
 - [DevKitPro](https://devkitpro.org/wiki/Getting_Started), our toolchain for building GBA homebrew
@@ -72,8 +51,10 @@ While I will be doing all of my development on MacOS and Linux, DevKitPro suppor
   - Install by following the instructions on the [DevKitPro Getting Started page](https://devkitpro.org/wiki/Getting_Started).
   - After installation of the DevKitPro base system, run `dkp-pacman -S gba-dev` to install the `gba-dev` package.
 - [pyenv](https://github.com/pyenv/pyenv) preferably for a Python version manager, or install Python via [Homebrew](https://brew.sh/)
-  - If using pyenv, install Python 3.12 with `pyenv install 3.12.12` and set it as the global version with `pyenv global 3.12.12`
-  - If using Homebrew, run `brew install python` to install the latest version of Python
+  - If using pyenv:
+    - Install via Homebrew with `brew install pyenv`
+    - install Python 3.12 with `pyenv install 3.12.12` and set it as the global version with `pyenv global 3.12.12`
+  - If installing Python via Homebrew, run `brew install python` to install the latest version of Python
 - [Make](https://www.gnu.org/software/make/), a build automation tool
   - Included with Xcode Command Line Tools (`xcode-select --install`)
 - `git`, for version control
@@ -117,7 +98,9 @@ Some flavorful alternatives for the experienced reader who wants to explore beyo
 
 </details>
 
-Finally, you will need a code editor. This is the most highly subjective part of the setup, so I will leave it up to you. 
+##### Code Editor / IDE
+
+Finally, you will need a code editor. This is the most highly subjective part of the setup, so I will leave it up to you.
 
 If you are a beginner, don't use a basic text editor or an IDE that requires extensive configuration unless you really know what you're doing. Beginners will fall into the trap of simple text editors or misconfigurations, and run into errors they don't know how to debug. IDEs are designed to help you with debugging and code management. Experienced developers may prefer text editors or highly configurable IDEs, but they also know how to debug issues that arise from using them.
 
@@ -127,15 +110,19 @@ I have included configurations for the following editors in the repository:
 |:---:|:---:|:---:|:---:|
 |[Visual Studio Code](https://code.visualstudio.com/)|Supports every OS<br/>Free and open source<br/>Extensive plugin ecosystem<br/>Supports many languages and frameworks<br/>Supports GDB debugging with the right extensions<br/>Integrated git support|Can be resource-intensive with many extensions<br/>Built on Electron and Chromium, which comes with its own set of trade-offs|Popular choice|
 |[Zed](https://zed.dev/)|Free and open source<br/>Fast and modern features<br/>Built on Rust for memory safety<br/>Good language support<br/>Integrated git support|Newer IDE with a smaller ecosystem|I like it a lot. I use it for my job.|
-|Any editor that uses clangd for C++ language server support|Clangd provides smart code analysis, autocompletion, and error checking|Requires configuration to set up clangd and integrate with the editor|Flexible option for advanced users|
 
-Editors that I recommend but did not include configurations for:
+<details>
+
+<summary>Click here to see editors that I recommend but did not include configurations for in the repository</summary>
 
 |**Editor**|**Pros**|**Cons**|**Notes**|
 |:---:|:---:|:---:|:---:|
 |[CLion](https://www.jetbrains.com/clion/)|First-class C++ support with smart code analysis<br/>Integrated debugger<br/>Great refactoring tools|Paid product (free trial and free licenses for students and open source contributors)<br/>More resource-intensive than VS Code|My preferred IDE for C++ development|
 |[Visual Studio](https://visualstudio.microsoft.com/)|Powerful IDE with extensive features<br/>Excellent debugging and profiling tools<br/>Strong C++ support|Primarily Windows-focused<br/>Can be resource-intensive|Great for Windows users|
 |[Vim / Neovim](https://neovim.io/)|Extremely lightweight and fast<br/>Highly customizable with plugins<br/>Powerful keyboard-centric editing|Steeper learning curve<br/>Requires configuration for optimal C++ support|Great for those who prefer terminal-based editors|
+|Any editor that uses clangd for C++ LSP|Clangd provides smart code analysis, autocompletion, and error checking|Requires configuration to set up clangd and integrate with the editor|I actually included a mostly complete config for this|
+
+</details>
 
 #### Art Tools
 
@@ -167,16 +154,16 @@ Editors that I recommend but did not include configurations for:
 
 ## Getting the starter repository
 
-From here on out, if you are on Windows, "terminal" means the Git-Bash terminal. It is important to use Git-Bash because many commands will not work correctly in Command Prompt or PowerShell.
+From here on out, if you are on Windows, "terminal" means the Git-Bash terminal. It is important to use Git-Bash because many commands will not work correctly in Command Prompt or PowerShell. If you are using the terminal in Visual Studio Code, make sure it is set to use Git-Bash as well.
 
 Open your terminal, navigate to your desired directory, and run the following commands to clone the starter repository and navigate into it:
 
 ```bash
- Clone the repository and navigate into it
+# Clone the repository and navigate into it
 git clone https://github.com/breadbored/butano-tutorial-series.git butano-tutorial-series
 cd butano-tutorial-series
 
- Initialize git submodules, which includes Butano itself and an extension for Fonts
+# Initialize git submodules, which includes Butano itself and an extension for Fonts
 git submodule update --init --recursive
 ```
 
