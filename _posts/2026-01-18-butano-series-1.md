@@ -182,7 +182,7 @@ butano-tutorial-series/
 ├─ README.md
 ```
 
-You can follow along with the tutorial series in its entirety by using the `chapter-1-getting-started` directory as your starting point, and work in that directory (or copy that directory elsewhere) for the duration of the series. The other directories are provided for reference. For the purposes of this tutorial, we will be working in the `chapter-1-getting-started` directory.
+You can follow along with the tutorial series in its entirety by using the corresponding chapter directory. For the purposes of this tutorial, we will be working in the `chapter-1-getting-started` directory, and you can reference the other chapters as needed.
 
 ```bash
 cd chapter-1-getting-started
@@ -208,7 +208,7 @@ Next we will begin working with assets in Butano. This includes creating and imp
 
 ## Chapter Overview
 
-##### ButanoSeriesNav "1","1"
+###### ButanoSeriesNav "1","1"
 
 ---
 ---

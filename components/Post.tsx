@@ -304,7 +304,7 @@ function HeadingRenderer(level: number) {
       "h" + level,
       {
         id: slug,
-        className: "heading-anchor-wrapper " + additionalClassName,
+        className: "mt-4 heading-anchor-wrapper " + additionalClassName,
         key: props.key,
         onClick: () => {
           posthog.capture('link-click', { property: `#${slug}` })
