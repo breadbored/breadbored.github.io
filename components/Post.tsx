@@ -442,13 +442,17 @@ function CodeRenderer(node?: Element) {
       ExtraProps,
   ): ReactElement => {
     const codeRef = useRef<HTMLElement>(null);
-    var children = React.Children.toArray(props.children);
-    var text = children.reduce(flatten, "");
-    var slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
+    const children = React.Children.toArray(props.children);
+    const text = children.reduce(flatten, "");
+    const slug = text.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-");
+    const nodeWithProperties = node as unknown as ({ properties?: { className?: string[] } | undefined } | undefined);
 
     useEffect(() => {
-      if (codeRef.current && node) {
+      if (codeRef.current && node && text.includes("\n")) {
         try {
+          codeRef.current.classList.add("hljs");
+          codeRef.current.classList.add(nodeWithProperties?.properties?.className?.join(" ") || "");
+          codeRef.current.classList.add((nodeWithProperties?.properties?.className?.join(" ") || "").replace("language-", ""));
           hljs.highlightElement(codeRef.current);
         } catch (e) {
           console.warn("Syntax highlighting failed:", e);
@@ -456,21 +460,20 @@ function CodeRenderer(node?: Element) {
       }
     }, [text]);
 
-    if (node) {
+    if (node && text.includes("\n")) {
       return React.createElement(
-        "pre",
+        node.tagName,
         {
+          ...props,
           id: `${slug}-pre`,
-          className: "not-prose " + (props.className || ""),
+          // className: "not-prose " + (nodeWithProperties?.properties?.className?.join(" ") || "") + " " + ((nodeWithProperties?.properties?.className?.join(" ") || "").replace("language-", "") || ""),
           key: props.key,
+          ref: codeRef,
           onClick: () => {
             posthog.capture('code-click', { property: `${slug}-pre` })
           },
         },
-        React.createElement("code", {
-          id: slug,
-          ref: codeRef
-        }, props.children),
+        props.children
       );
     }
     return React.createElement(
@@ -652,7 +655,7 @@ const Post = ({ post }: { post: PostType }) => {
             children={post.content}
             components={{
               code: ({ node, ...props }) => {
-                const CodeComponent = CodeRenderer();
+                const CodeComponent = CodeRenderer(node as unknown as Element);
                 return <CodeComponent {...props} />;
               },
               pre: ({ node, ...props }) => {
