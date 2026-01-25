@@ -171,9 +171,14 @@ In this directory you will find:
 
 ```text
 butano-tutorial-series/
-├─ chapter-1-getting-started/   - Our starting point for this series
+├─ butano/
+├─ butano-ext-scripts/
+├─ chapter-1-getting-started/ - Our starting point for this series
+├─ chapter-2-assets/
+├─ chapter-xx-.../
+├─ raw-assets/                - The raw assets used in the series
 ├─ .gitignore
-├─ LICENSE
+├─ LICENSE.md
 ├─ README.md
 ```
 
