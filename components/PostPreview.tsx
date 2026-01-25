@@ -1,46 +1,57 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Post as PostType } from "../types";
 
-const PostPreview = ({ post, type, index, showPreview = true }: { post: PostType, type: "posts" | "archive", index: number, showPreview?: boolean }) => {
+const PostPreview = ({ post, type, index, showPreview = true }: { post: PostType, type: "posts" | "archive" | "drafts", index: number, showPreview?: boolean }) => {
   const date = new Date(post.date);
   date.setDate(date.getDate() + 1);
   date.setHours(0, 0, 0, 0);
+  const isoDate = date.toISOString().split('T')[0];
   const formattedDate = date.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
   });
 
+  const postUrl = `/${post.draft ? "drafts" : type}/${post.slug}`;
+  const isAccessible = !post.draft || type === "drafts";
+
   return (
     <article className="border border-black m-2.5 p-4">
-      <Link href={`/${type}/${post.slug}`} className="block">
-        {post.chapterHeader ? (
-          <>
-            <h2 className="text-xl font-semibold mb-1">
-              {post.superTitle ? `${post.superTitle}:` : ""} {post.chapterHeader}
-            </h2>
-            <h1 className="text-2xl font-bold mb-2">{post.title}</h1>
-          </>
-        ) : (
-          <h1 className="text-2xl font-bold mb-2">{post.title}</h1>
+      <header>
+        {post.chapterHeader && (
+          <p className="text-xl font-semibold mb-1">
+            {post.superTitle ? `${post.superTitle}: ` : ""}{post.chapterHeader}
+          </p>
         )}
-        <div className="mb-4">
-          <p className="text-gray-600">{formattedDate}</p>
-        </div>
-      </Link>
+        <h2 className="text-2xl font-bold mb-2">
+          {isAccessible ? (
+            <Link href={postUrl}>{post.title}</Link>
+          ) : (
+            post.title
+          )}
+        </h2>
+        <time dateTime={isoDate} className="text-gray-600 block mb-4">
+          {formattedDate}
+        </time>
+      </header>
 
-      {showPreview && <div className="prose max-w-none mb-4">{post.excerpt}</div>}
+      {!post.draft && showPreview && post.excerpt && (
+        <p className="prose max-w-none mb-4">{post.excerpt}</p>
+      )}
 
-      <Link href={`/${type}/${post.slug}`} className="block">
-        <Image
-          src="/assets/more.gif"
-          alt="Read more"
-          width={88}
-          height={31}
-          className="inline"
-        />
-      </Link>
+      <footer>
+        {isAccessible ? (
+          <Link
+            href={postUrl}
+            className="block pixel-font-fancy underline"
+            aria-label={`Read full article: ${post.title}`}
+          >
+            Read More
+          </Link>
+        ) : (
+          <p className="block pixel-font">In Progress & Coming Soon</p>
+        )}
+      </footer>
     </article>
   );
 };

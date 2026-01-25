@@ -13,4 +13,5 @@ export type Post = {
   categories: string[];
   skeets: BSkyPost[];
   otherInSeries?: Post[];
+  draft?: boolean;
 };

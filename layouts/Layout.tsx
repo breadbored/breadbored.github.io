@@ -10,7 +10,7 @@ import { FULL_SCREEN_PATHS, LESS_SILLY_PATHS } from "../utils/lesssilly";
 const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { children: React.ReactNode, setAccessibilityMode: (val: boolean) => void, accessibilityMode: boolean }) => {
     const url_path = usePathname();
     const isFullWidth = url_path?.includes("volos-guide-to-monsters") || url_path?.includes("5e");
-    const isWider = url_path?.includes("butano-series-");
+    const isWider = url_path?.includes("butano-series-") || url_path?.includes("/series/butano");
     const silly = !(LESS_SILLY_PATHS.includes(url_path) || LESS_SILLY_PATHS.includes(url_path + '/'));
     const fullscreen = FULL_SCREEN_PATHS.includes(url_path) || FULL_SCREEN_PATHS.includes(url_path + '/');
 
