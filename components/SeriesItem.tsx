@@ -7,8 +7,8 @@ const SeriesItem = ({ series, index, posts }: { series: { slug: string, title: s
   const sortedPosts = posts
     .filter(post => post.superTitle === series.title)
     .sort((a, b) => {
-      const chapterA = a.chapterHeader ? parseInt(a.chapterHeader.replace("Chapter ", "")) : 0;
-      const chapterB = b.chapterHeader ? parseInt(b.chapterHeader.replace("Chapter ", "")) : 0;
+      const chapterA = a.chapterHeader ? parseFloat(a.chapterHeader.replace("Chapter ", "")) : 0;
+      const chapterB = b.chapterHeader ? parseFloat(b.chapterHeader.replace("Chapter ", "")) : 0;
       return chapterA - chapterB;
     });
 
