@@ -31,6 +31,8 @@ Make sure you have the C/C++ extension installed from Microsoft. You can find it
 
 C/C++ IntelliSense is supported natively in Zed Editor. Ensure that your paths match your setup in the `.clangd` file.
 
+The configuration I included in the `.clangd` file is for Linux and macOS. If you're using Windows, you may need to adjust the paths accordingly.
+
 ## Chapter Overview
 
 ###### ButanoSeriesNav "1.1","1.1"
