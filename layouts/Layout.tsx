@@ -41,20 +41,27 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                     {!silly ? (
                         <h3 className="text-xl mb-4"><s>code</s> stuff</h3>
                     ) : (
-                        <h3 className="text-xl mb-4">code stuff</h3>
+                        <h3 className="text-xl mb-4">
+                            <img src="/assets/pixelarticons/svg/debug.svg" alt="Debug Icon" className="inline w-6 h-6 mr-1 mb-1" />
+                            code stuff
+                        </h3>
                     )}
 
                     <nav className="space-x-4 mb-8">
-                        <Link href="/" className="hover:text-blue-600 pixel-font">
+                        <Link href="/" className="hover:text-blue-600 pixel-font hover:fill-blue-600">
+                            <img src="/assets/pixelarticons/svg/home.svg" alt="Home Icon" className="inline w-6 h-6 mr-1 mb-1" />
                             Home
                         </Link>
-                        <Link href="/series" className="hover:text-blue-600 pixel-font">
+                        <Link href="/series" className="hover:text-blue-600 pixel-font hover:fill-blue-600">
+                            <img src="/assets/pixelarticons/svg/book-open.svg" alt="Book Open Icon" className="inline w-6 h-6 mr-1 mb-1" />
                             Series
                         </Link>
-                        <Link href="/about" className="hover:text-blue-600 pixel-font">
+                        <Link href="/about" className="hover:text-blue-600 pixel-font hover:fill-blue-600">
+                            <img src="/assets/pixelarticons/svg/info-box.svg" alt="About Icon" className="inline w-6 h-6 mr-1 mb-1" />
                             About
                         </Link>
-                        <Link href="/archive" className="hover:text-blue-600 pixel-font">
+                        <Link href="/archive" className="hover:text-blue-600 pixel-font hover:fill-blue-600">
+                            <img src="/assets/pixelarticons/svg/archive.svg" alt="Archive Icon" className="inline w-6 h-6 mr-1 mb-1" />
                             Archive
                         </Link>
                     </nav>
@@ -118,6 +125,13 @@ const Layout = ({ children, setAccessibilityMode, accessibilityMode }: { childre
                             height={31}
                             className="inline mx-1"
                         />
+                        {/* <Image
+                            src="/assets/ice-badge.png"
+                            alt="Melt ICE Badge"
+                            width={88}
+                            height={31}
+                            className="inline mx-1"
+                        /> */}
                     </div>
                     <div>
                         <Image
