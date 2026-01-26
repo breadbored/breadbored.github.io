@@ -4,7 +4,7 @@ chapter-header: Chapter 1.1
 super-title: Butano Series
 title: Environment FAQ
 slug: butano-series-1.1
-date: 2026-01-21
+date: 2026-01-25
 categories: ["media", "game boy", "gameboy", "gba", "game boy advance", "gamedev", "butano", "game dev"]
 align: left
 wider: true
